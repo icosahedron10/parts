@@ -1,12 +1,18 @@
 """Cache identity, coalescing, pagination, and local discovery behavior."""
 
 import asyncio
+import json
 
+import httpx
 import pytest
 
 from cnh_parts_agent.catalog.cache import Cache, cache_key
+from cnh_parts_agent.catalog.client import Catalog
 from cnh_parts_agent.catalog.errors import PartsError
+from cnh_parts_agent.catalog.transport import SourceTransport
 from cnh_parts_agent.diagnostics import Diagnostics, current
+from cnh_parts_agent.settings import Settings
+from tests.conftest import FIXTURES
 
 
 async def test_discovery_never_uses_network_and_preserves_dates(catalog):
@@ -36,6 +42,31 @@ async def test_coalescing_and_pagination_share_full_parsed_cache(catalog):
     assert catalog.transport.request_count == 1
     assert diagnostics.cache.count("miss") == 1
     assert len(catalog.cache.locks) == 0
+
+
+async def test_large_search_is_fully_parsed_then_cached_and_paginated(tmp_path):
+    raw = json.loads((FIXTURES / "figure.json").read_bytes())
+    raw["source_display_metadata"] = "x" * (5 * 1024 * 1024)
+    body = json.dumps(raw).encode()
+    settings = Settings(cache_path=tmp_path / "large.sqlite")
+    transport = SourceTransport(
+        settings.user_agent,
+        settings=settings,
+        http_transport=httpx.MockTransport(lambda request: httpx.Response(200, content=body)),
+    )
+    catalog = Catalog(settings, transport=transport)
+    try:
+        discovery = await catalog.execute("search_machines", {"query": "CX350B"})
+        machine = discovery["data"]["machines"][0]["machine_ref"]
+        args = {"machine_ref": machine, "query": "radiator", "mode": "assembly_title", "limit": 1}
+        first = await catalog.execute("search_catalog", args)
+        second = await catalog.execute("search_catalog", {**args, "offset": 1})
+        assert first["total"] == second["total"] == 2
+        assert first["truncated"] and not second["truncated"]
+        assert first["data"]["matches"][0] != second["data"]["matches"][0]
+        assert transport.request_count == 1
+    finally:
+        await catalog.aclose()
 
 
 def test_ttl_and_parser_version(tmp_path):

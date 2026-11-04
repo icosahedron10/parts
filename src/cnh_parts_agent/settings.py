@@ -19,4 +19,6 @@ class Settings(BaseSettings):
     source_connect_timeout_seconds: float = Field(default=10, gt=0, le=60)
     source_read_timeout_seconds: float = Field(default=30, gt=0, le=120)
     source_operation_timeout_seconds: float = Field(default=60, gt=0, le=300)
+    source_max_response_bytes: int = Field(default=32 * 1024 * 1024, ge=1024, le=128 * 1024 * 1024)
     model_timeout_seconds: float = Field(default=60, gt=0, le=180)
+    model_max_output_tokens: int = Field(default=8192, ge=256, le=32768)

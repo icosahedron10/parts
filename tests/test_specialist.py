@@ -138,14 +138,17 @@ async def test_scope_boundary_rejects_before_catalog(catalog, name, args, code):
     assert catalog.transport.request_count == 0
 
 
-async def test_native_provider_receives_strict_schema(catalog):
+async def test_native_provider_receives_strict_schema(catalog, monkeypatch):
     from langchain_openai import ChatOpenAI
+
+    from cnh_parts_agent.agent import model as model_module
 
     requests = []
 
     def respond(request):
         payload = json.loads(request.content)
         requests.append(payload)
+        assert payload["max_output_tokens"] == 8192
         assert payload["text"]["format"]["type"] == "json_schema"
         assert payload["text"]["format"]["strict"] is True
         schema = payload["text"]["format"]["schema"]
@@ -180,13 +183,12 @@ async def test_native_provider_receives_strict_schema(catalog):
         )
 
     async with httpx.AsyncClient(transport=httpx.MockTransport(respond)) as http:
-        model = ChatOpenAI(
-            api_key="offline-only",
-            model="gpt-5.6-luna",
-            use_responses_api=True,
-            http_async_client=http,
-            max_retries=0,
+        monkeypatch.setenv("OPENAI_API_KEY", "offline-only")
+        monkeypatch.setenv("PARTS_MODEL_MAX_OUTPUT_TOKENS", "8192")
+        monkeypatch.setattr(
+            model_module, "ChatOpenAI", lambda **kwargs: ChatOpenAI(http_async_client=http, **kwargs)
         )
+        model = model_module.create_parts_model()
         result = json.loads(
             await make_lookup_parts_tool(catalog=catalog, model=model).ainvoke(
                 {"machine_query": "CX350B", "part_query": "radiator"}

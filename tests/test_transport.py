@@ -84,7 +84,7 @@ async def test_longer_retry_delay_respects_configured_and_call_deadlines(
         await client.aclose()
 
 
-async def test_environment_timeouts_reach_http_and_model_clients(monkeypatch, tmp_path):
+async def test_environment_resource_limits_reach_http_and_model_clients(monkeypatch, tmp_path):
     from cnh_parts_agent.agent import model as model_module
     from cnh_parts_agent.catalog.client import Catalog
 
@@ -94,6 +94,8 @@ async def test_environment_timeouts_reach_http_and_model_clients(monkeypatch, tm
         ("SOURCE_OPERATION_TIMEOUT_SECONDS", "70"),
         ("TIMEOUT_SECONDS", "200"),
         ("MODEL_TIMEOUT_SECONDS", "65"),
+        ("SOURCE_MAX_RESPONSE_BYTES", "16777216"),
+        ("MODEL_MAX_OUTPUT_TOKENS", "12288"),
     ):
         monkeypatch.setenv("PARTS_" + name, value)
     settings = Settings(cache_path=tmp_path / "configured.sqlite")
@@ -109,9 +111,11 @@ async def test_environment_timeouts_reach_http_and_model_clients(monkeypatch, tm
         assert catalog.transport.client.timeout.connect == 11
         assert catalog.transport.client.timeout.read == 35
         assert catalog.transport.operation_timeout_seconds == 70
+        assert catalog.transport.max_response_bytes == 16777216
         assert settings.timeout_seconds == 200
         model_module.create_parts_model()
         assert model_options["timeout"] == 65
+        assert model_options["max_tokens"] == 12288
     finally:
         await catalog.aclose()
 
@@ -166,16 +170,48 @@ async def test_foreign_redirect_is_rejected_before_following():
         await client.aclose()
 
 
-async def test_decoded_size_limit():
-    payload = gzip.compress(b"x" * (4 * 1024 * 1024 + 1))
-    client = transport(
-        lambda request: httpx.Response(200, content=payload, headers={"Content-Encoding": "gzip"}), Clock()
+@pytest.mark.parametrize("extra", [-1, 0, 1])
+async def test_configured_limit_checks_decoded_bytes_and_closes_response(extra):
+    limit = 256 * 1024
+    body = b"x" * (limit + extra)
+    response = httpx.Response(200, content=gzip.compress(body), headers={"Content-Encoding": "gzip"})
+    client = SourceTransport(
+        "offline-tests",
+        settings=Settings(source_max_response_bytes=limit),
+        http_transport=httpx.MockTransport(lambda request: response),
     )
     try:
-        with pytest.raises(PartsError) as error:
-            await client.fetch(URL)
-        assert error.value.code == "source_response_too_large"
+        if extra > 0:
+            with pytest.raises(PartsError) as error:
+                await client.fetch(URL)
+            assert error.value.code == "source_response_too_large"
+            assert f"{limit:,}" in str(error.value)
+        else:
+            assert (await client.fetch(URL)).body == body
+        assert response.is_closed and not client.lock.locked()
     finally:
+        await client.aclose()
+
+
+async def test_default_limit_accepts_large_decoded_response_and_records_actual_bytes():
+    from cnh_parts_agent.diagnostics import Diagnostics, current
+
+    body = b"catalog content " * (400 * 1024)
+    assert len(body) > 4 * 1024 * 1024
+    client = transport(
+        lambda request: httpx.Response(
+            200, content=gzip.compress(body), headers={"Content-Encoding": "gzip"}
+        ),
+        Clock(),
+    )
+    diagnostics = Diagnostics()
+    token = current.set(diagnostics)
+    try:
+        result = await client.fetch(URL)
+        assert result.body == body
+        assert diagnostics.requests[0]["decoded_bytes"] == len(body)
+    finally:
+        current.reset(token)
         await client.aclose()
 
 

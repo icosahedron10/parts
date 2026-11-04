@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-11-04T02:55:46.349549+00:00",
+  "machine_query": "2016 CASE SR210",
+  "query": "cable",
+  "mode": "part_description",
+  "source_max_response_bytes": 33554432,
+  "model_max_output_tokens": 8192,
+  "status": "passed",
+  "parsed_matches": 204,
+  "coverage": {
+    "status": "complete_for_scope",
+    "reason": null
+  },
+  "evidence": [
+    {
+      "source_url": "https://www.mycnhstore.com/us/en/casece/dc/searchInModel/part-description?modelCode=6F7909BA-F6C7-454F-AC12-DF038474C549&paramSearch=cable&regionCode=NA",
+      "observed_at": "2026-11-04T02:55:59.324689+00:00",
+      "content_hash": "sha256:ae4e20044c0843827137931b13f52822300df1bfaf6d4a8b873caec7a5a66973",
+      "parser_version": "cnh-v4"
+    }
+  ],
+  "diagnostics": {
+    "observations": [],
+    "requests": [
+      {
+        "url": "https://www.mycnhstore.com/us/en/casece/dc/searchInModel/part-description?modelCode=6F7909BA-F6C7-454F-AC12-DF038474C549&paramSearch=cable&regionCode=NA",
+        "status": 200,
+        "latency_seconds": 11.859,
+        "decoded_bytes": 5798273
+      }
+    ],
+    "cache": [],
+    "model_usage": [],
+    "handoffs": []
+  }
+}

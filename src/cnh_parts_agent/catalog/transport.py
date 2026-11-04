@@ -61,6 +61,7 @@ class SourceTransport:
     ):
         settings = settings or Settings()
         self.operation_timeout_seconds = settings.source_operation_timeout_seconds
+        self.max_response_bytes = settings.source_max_response_bytes
         self.client = httpx.AsyncClient(
             headers={"User-Agent": user_agent},
             follow_redirects=False,
@@ -137,7 +138,7 @@ class SourceTransport:
             self.next_start = started + 1 + self.jitter()
             self.request_count += 1
             attempts += 1
-            record = {"url": url, "status": None, "latency_seconds": None}
+            record = {"url": url, "status": None, "latency_seconds": None, "decoded_bytes": 0}
             try:
                 async with self.client.stream("GET", url) as response:
                     record["status"] = response.status_code
@@ -171,11 +172,14 @@ class SourceTransport:
                         )
                     body = bytearray()
                     async for chunk in response.aiter_bytes(chunk_size=65536):
-                        body.extend(chunk)
-                        if len(body) > 4 * 1024 * 1024:
+                        record["decoded_bytes"] += len(chunk)
+                        if record["decoded_bytes"] > self.max_response_bytes:
                             raise PartsError(
-                                "source_response_too_large", "Decoded response exceeds 4 MiB.", 502
+                                "source_response_too_large",
+                                f"Decoded response exceeds the configured {self.max_response_bytes:,}-byte limit.",
+                                502,
                             )
+                        body.extend(chunk)
                     raw = bytes(body)
                     return SourceResponse(
                         str(response.url), raw, datetime.now(UTC), "sha256:" + hashlib.sha256(raw).hexdigest()
