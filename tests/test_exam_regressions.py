@@ -2,6 +2,7 @@
 
 import hashlib
 import json
+from datetime import datetime
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -14,6 +15,7 @@ from cnh_parts_agent.agent.tools import PartsTools
 from cnh_parts_agent.catalog import parse
 from cnh_parts_agent.catalog.errors import PartsError
 from cnh_parts_agent.catalog.storefront import CASECE, CASEIH
+from cnh_parts_agent.catalog.transport import SourceResponse
 from cnh_parts_agent.diagnostics import Diagnostics, current
 from evals.harness import run_query
 from tests.scripted_model import ScriptedCatalogModel, ScriptedSupervisorModel
@@ -81,6 +83,52 @@ async def test_pictorial_index_rejection_consumes_budget_without_a_source_reques
     assert catalog.transport.request_count == 0
     request.tool_call["args"]["assembly_ref"] = "a2"
     assert boundary._rejection(request) is None
+
+
+async def test_title_heuristic_cannot_block_an_observed_component_assembly(catalog, monkeypatch):
+    fixtures = Path(__file__).parent / "fixtures/casece-live"
+    metadata = json.loads((fixtures / "manifest.json").read_bytes())["jumper.json"]
+
+    async def fetch(url):
+        return SourceResponse(
+            body=(fixtures / "jumper.json").read_bytes(),
+            url=url,
+            observed_at=datetime.fromisoformat(metadata["observed_at"]),
+            content_hash=metadata["source_content_hash"],
+        )
+
+    monkeypatch.setattr(catalog.transport, "fetch", fetch)
+    client = PartsTools(catalog)
+    query = "2016 CASE SR210"
+    boundary = PartsToolBoundary(
+        machine_query=query, client=client, part_query="starter alternator jumper harness"
+    )
+    for operation, arguments in (
+        ("search_machines", {"query": query}),
+        ("search_catalog", {"query": "jumper", "mode": "part_description"}),
+    ):
+        if operation == "search_catalog":
+            arguments["machine_ref"] = boundary.machine_ref
+        payload = client.encode_references(await client.tool_call(operation, arguments))
+        boundary._record(
+            SimpleNamespace(tool_call={"name": operation, "args": arguments}),
+            ToolMessage(content=json.dumps(payload), tool_call_id=operation),
+        )
+    assert len(boundary.pending_assemblies) == 1
+    requested = next(row for row in payload["data"]["matches"] if "STARTER ALTERNATOR" in row["description"])
+    assert requested["assembly_ref"] not in boundary.pending_assemblies
+    request = SimpleNamespace(
+        tool_call={
+            "name": "get_assembly",
+            "id": "inspect",
+            "args": {"machine_ref": boundary.machine_ref, "assembly_ref": requested["assembly_ref"]},
+        }
+    )
+    assert boundary._rejection(request) is None
+    request.tool_call["args"]["assembly_ref"] = "unobserved"
+    rejected = boundary._rejection(request)
+    assert json.loads(rejected.content)["error"]["code"] == "assembly_inspection_required"
+    assert catalog.transport.request_count == 0
 
 
 class UsageThenFailureParent(ScriptedSupervisorModel):

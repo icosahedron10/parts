@@ -4,8 +4,8 @@ The library, CLI, offline discovery, SQLite cache, bounded shared transport, spe
 
 | Check | Observed result |
 |---|---|
-| Windows offline suite | 232 passed |
-| Linux offline suite (Ubuntu / Python 3.12) | 232 passed |
+| Windows offline suite | 233 passed |
+| Linux offline suite (Ubuntu / Python 3.12) | 233 passed |
 | Ruff | Passed |
 | Frozen benchmark | 400 queries, original hashes verified |
 | Original parser fixtures | All 11 manifest hashes verified |
@@ -27,4 +27,6 @@ Explicit engine designations now remain qualifications in the specialist task in
 
 Local checks ran on Windows and Linux. The same offline checks are configured in GitHub Actions; no hosted CI run is claimed for this local repository. Live catalog calls and paid model runs are explicitly invoked local commands, never CI jobs.
 
-The first full exam retained seven execution failures and every scheduled case in the denominator. Four failures came from serializing valid prose-only handoff citations. The serializer now includes those public citations, with exact round-trip checks against saved handoffs. The shared parser now accepts observed storefront-relative instruction product links while retaining exact part identity and storefront checks (`cnh-v4`). Component lookups reject pictorial navigation indexes before a source request, and guidance switches from an empty assembly-title search to a component-description search. Completed model-response usage is now recorded immediately so a later graph failure does not erase it; earlier reports can undercount usage on failed graphs. All changes have offline regressions. The sixteen-case query-only live regression subset and a fresh full exam remain to be run; no mixed-run score is an acceptance result.
+The first full exam retained seven execution failures and every scheduled case in the denominator. Four failures came from serializing valid prose-only handoff citations. The serializer now includes those public citations, with exact round-trip checks against all 398 saved public handoffs. The shared parser now accepts observed storefront-relative instruction product links while retaining exact part identity and storefront checks (`cnh-v4`). Component lookups reject pictorial navigation indexes before a source request, and guidance switches from an empty assembly-title search to a component-description search. Completed model-response usage is now recorded immediately so a later graph failure does not erase it; earlier reports can undercount usage on failed graphs.
+
+The first sixteen-case regression run recovered 15 references but only six cited assembly contexts. It exposed an additional deterministic scope defect: the sole title-overlap heuristic could block the correct observed electrical assembly because an unrelated harness assembly matched the title. Inspection remains required, but another already observed assembly can now satisfy it; catalog ownership and unknown-reference checks still apply. The captured jumper fixture reproduces this restriction offline. Follow-up regression and full-exam checks remain pending; no mixed-run score is an acceptance result.

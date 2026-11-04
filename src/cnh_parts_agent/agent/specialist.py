@@ -122,7 +122,13 @@ class PartsToolBoundary(AgentMiddleware):
             reason = "observed_part_required"
         elif self.pending_assemblies and name != "get_assembly":
             reason = "assembly_inspection_required"
-        elif self.pending_assemblies and arguments.get("assembly_ref") not in self.pending_assemblies:
+        elif (
+            self.pending_assemblies
+            and arguments.get("assembly_ref") not in self.pending_assemblies
+            # A title heuristic must not exclude an observed assembly whose rows
+            # match the component. PartsTools still validates catalog ownership.
+            and arguments.get("assembly_ref") not in self.assembly_labels
+        ):
             reason = "assembly_inspection_required"
         elif (
             name == "get_assembly"

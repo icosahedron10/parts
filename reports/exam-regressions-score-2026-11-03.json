@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "report_sha256": "ec462fc20d71b34b9e42d54ed065e66fa96d84039d2eec576424d12eb54d51b5",
+  "answers_sha256": "6298c2eac9417e23170b106390489f5acc612a5ee6a10d8c96c07be23f9a62f8",
+  "scorer_sha256": "85eaec2a2de9c176607eb3bde051790294b05e281a91dc88acaeab64f321bc4e",
+  "gate_sha256": "09fc0fd629c2fbc6736dda2222f481af824546b97c0c0d69205bb3e267de787c",
+  "scheduled": 16,
+  "outcomes": {
+    "source_drift_or_extra_claim_review": 3,
+    "wrong_or_unverified_assembly_context": 1,
+    "supported_candidate_semantics_pending": 3,
+    "evidence_gate_failed": 9
+  },
+  "gate_violations": {
+    "part_without_assembly_evidence": 8,
+    "missing_part_assembly_citation": 1
+  },
+  "candidate_recovery_cases": 15,
+  "context_backed_cases": 6,
+  "latency_median_seconds": 12.461,
+  "cache_hit_rate": 0.5769230769230769,
+  "source_requests": 23,
+  "tokens": {
+    "input_tokens": 710722,
+    "output_tokens": 9688,
+    "total_tokens": 720410
+  },
+  "unsupported_handoff_urls": [],
+  "limits": "No automatic correctness verdict. All proposed claims and applicability need semantic review; a bounded key is not a whitelist. Errors and clarifications remain in the denominator.",
+  "cases": [
+    {
+      "id": "Q019.year_between",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "87576643",
+          "87576645"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/engines-cooling-exhaust/radiators/radiator/p/87576643",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/loader-backhoes/naes49loa028n/loader-backhoe-tier-3/engine/radiator-mounting-580n/cn/3627B950-8FBF-E111-9FCE-005056875BD6/E8D06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "87576643"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "87576643"
+      ],
+      "extra_numbers_for_review": [
+        "87576645"
+      ],
+      "answer_conditions_for_review": [
+        "Catalog scope: 580N - LOADER BACKHOE (TIER 3) (04/10 - 01/16)",
+        "Retain the source model qualification; do not recommend 87576645 for 580N based only on catalog co-location.",
+        "Assembly scope: 10.406.04[01] - RADIATOR - MOUNTING (580N)",
+        "580N, 580SN (Without A/C), 580SN WT (Without A/C)",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q022.machine_first",
+      "outcome": "wrong_or_unverified_assembly_context",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "84220643"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/frame-structural/barrel/p/84220643",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/loader-backhoes/naes49loa028n/loader-backhoe-tier-3/hydraulic-systems/cylinder-backhoe-bucket-580n/cn/B57831E4-8ED2-4CFD-A0B6-BC8745F6AE1F/E8D06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "84220643"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: 580N - LOADER BACKHOE (TIER 3) (04/10 - 01/16)",
+        "Assembly scope: 35.738.05 - CYLINDER - BACKHOE BUCKET (580N)",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q025.year_first",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "84323192"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/hydraulics/cylinders/rod/p/84323192",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/loader-backhoes/naes49loa028n/loader-backhoe-tier-3/hydraulic-systems/cylinder-backhoe-bucket-580n/cn/3EBBA0A8-2EA4-4C76-8ABB-8761AA07A7EB/E8D06496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/loader-backhoes/naes49loa028n/loader-backhoe-tier-3/hydraulic-systems/cylinder-backhoe-bucket-580n/cn/B57831E4-8ED2-4CFD-A0B6-BC8745F6AE1F/E8D06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "84323192"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "84323192"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: 580N - LOADER BACKHOE (TIER 3) (04/10 - 01/16)",
+        "Assembly scope: 35.738.05 - CYLINDER - BACKHOE BUCKET (580N)",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q053.year_first",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "47721382",
+          "84599384"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/battery/cn/87821314-DFF6-48A5-889B-0A5D33712E20/6F7909BA-F6C7-454F-AC12-DF038474C549",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/no-battery-disconnect/cn/4CCEB6AD-8493-4319-BE35-F9DA30C9BF50/6F7909BA-F6C7-454F-AC12-DF038474C549",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/no-battery-disconnect/cn/FF252752-92AD-4155-87ED-9DE50F865A60/6F7909BA-F6C7-454F-AC12-DF038474C549"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [
+        "47721382",
+        "84599384"
+      ],
+      "answer_conditions_for_review": [
+        "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+        "Production date between 20-Nov-2014 and 01-Apr-2018; interpret reference year as production year, not purchase or registration year.",
+        "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "(Prod Date) Between 20-Nov-2014 and 01-Apr-2018",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q056.year_first",
+      "outcome": "evidence_gate_failed",
+      "evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "part_without_assembly_evidence",
+            "values": [
+              "47821017"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "47821017"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-4-jun-2015-newer/cn/0FEA970B-18C0-4909-9278-CAD4FC2BAB31/6F7909BA-F6C7-454F-AC12-DF038474C549"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "47821017"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+        "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Starter - Alternator Jumper",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q056.year_between",
+      "outcome": "evidence_gate_failed",
+      "evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "part_without_assembly_evidence",
+            "values": [
+              "47821017"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "47821017"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/electrical/harnesses-wiring/wire-harness/p/47821017",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-4-jun-2015-newer/cn/0FEA970B-18C0-4909-9278-CAD4FC2BAB31/6F7909BA-F6C7-454F-AC12-DF038474C549"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "47821017"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+        "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Starter - Alternator Jumper",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q056.machine_first",
+      "outcome": "evidence_gate_failed",
+      "evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "part_without_assembly_evidence",
+            "values": [
+              "47821017"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "47821017"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-4-jun-2015-newer/cn/0FEA970B-18C0-4909-9278-CAD4FC2BAB31/6F7909BA-F6C7-454F-AC12-DF038474C549"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "47821017"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+        "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Starter - Alternator Jumper",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q056.two_sentences",
+      "outcome": "evidence_gate_failed",
+      "evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "part_without_assembly_evidence",
+            "values": [
+              "47821017"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "47821017"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/electrical/harnesses-wiring/wire-harness/p/47821017",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-4-jun-2015-newer/cn/0FEA970B-18C0-4909-9278-CAD4FC2BAB31/6F7909BA-F6C7-454F-AC12-DF038474C549"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "47821017"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+        "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Starter - Alternator Jumper",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q065.year_first",
+      "outcome": "evidence_gate_failed",
+      "evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "part_without_assembly_evidence",
+            "values": [
+              "84529949"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "84529949"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/electrical/harnesses-wiring/wire-harness/p/84529949",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-3-jun-2015-prior/cn/2B442616-28BE-404F-B279-C3AC11A97459/6F7909BA-F6C7-454F-AC12-DF038474C549",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-4-jun-2015-newer/cn/0FEA970B-18C0-4909-9278-CAD4FC2BAB31/6F7909BA-F6C7-454F-AC12-DF038474C549"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "84529949"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+        "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Fuel Filter Jumper",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q065.year_between",
+      "outcome": "evidence_gate_failed",
+      "evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "part_without_assembly_evidence",
+            "values": [
+              "84529949"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "84529949"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/electrical/harnesses-wiring/wire-harness/p/84529949",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-3-jun-2015-prior/cn/2B442616-28BE-404F-B279-C3AC11A97459/6F7909BA-F6C7-454F-AC12-DF038474C549",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-4-jun-2015-newer/cn/0FEA970B-18C0-4909-9278-CAD4FC2BAB31/6F7909BA-F6C7-454F-AC12-DF038474C549"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "84529949"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+        "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Fuel Filter Jumper",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q065.machine_first",
+      "outcome": "evidence_gate_failed",
+      "evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "part_without_assembly_evidence",
+            "values": [
+              "84529949"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "84529949"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-3-jun-2015-prior/cn/2B442616-28BE-404F-B279-C3AC11A97459/6F7909BA-F6C7-454F-AC12-DF038474C549",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-4-jun-2015-newer/cn/0FEA970B-18C0-4909-9278-CAD4FC2BAB31/6F7909BA-F6C7-454F-AC12-DF038474C549"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "84529949"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+        "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Fuel Filter Jumper",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q065.two_sentences",
+      "outcome": "evidence_gate_failed",
+      "evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "part_without_assembly_evidence",
+            "values": [
+              "84529949"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "84529949"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/electrical/harnesses-wiring/wire-harness/p/84529949",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-3-jun-2015-prior/cn/2B442616-28BE-404F-B279-C3AC11A97459/6F7909BA-F6C7-454F-AC12-DF038474C549",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-4-jun-2015-newer/cn/0FEA970B-18C0-4909-9278-CAD4FC2BAB31/6F7909BA-F6C7-454F-AC12-DF038474C549"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "84529949"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+        "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+        "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+        "Fuel Filter Jumper",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q070.year_first",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "47778650"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/frame-structural/frame/p/47778650",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/lh-track-assy/cn/2AEF2B64-C40D-4B03-AAEE-7C38120DE25D/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/rh-track-assy/cn/90FBC4FB-F868-44F5-8E46-8293C810D527/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "47778650"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "47778650"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: 850M LT - CRAWLER DOZER - TIER 4B (12/16 - 12/23)",
+        "Assembly scope: 48.134.020 - LH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+        "Assembly scope: 48.134.030 - RH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+        "Track",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q070.year_between",
+      "outcome": "evidence_gate_failed",
+      "evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "missing_part_assembly_citation",
+            "values": [
+              "47916239"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "47778650",
+          "47916239"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/frame-structural/frame/p/47778650",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/lh-track-assy/cn/2AEF2B64-C40D-4B03-AAEE-7C38120DE25D/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/rh-track-assy/cn/90FBC4FB-F868-44F5-8E46-8293C810D527/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "47778650"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "47778650"
+      ],
+      "extra_numbers_for_review": [
+        "47916239"
+      ],
+      "answer_conditions_for_review": [
+        "Catalog scope: 850M LT - CRAWLER DOZER - TIER 4B (12/16 - 12/23)",
+        "Assembly scope: 48.134.020 - LH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+        "Assembly scope: 48.134.030 - RH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+        "Track",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q070.machine_first",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "47778650"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/frame-structural/frame/p/47778650",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/lh-track-assy/cn/2AEF2B64-C40D-4B03-AAEE-7C38120DE25D/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/rh-track-assy/cn/90FBC4FB-F868-44F5-8E46-8293C810D527/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "47778650"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "47778650"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Catalog scope: 850M LT - CRAWLER DOZER - TIER 4B (12/16 - 12/23)",
+        "Assembly scope: 48.134.020 - LH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+        "Assembly scope: 48.134.030 - RH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+        "Track",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "Q070.two_sentences",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "47778650",
+          "47916239"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/frame-structural/frame/p/47778650",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/frames-and-ballasting/main-frame-lt/cn/4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/lh-track-assy/cn/2AEF2B64-C40D-4B03-AAEE-7C38120DE25D/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/rh-track-assy/cn/90FBC4FB-F868-44F5-8E46-8293C810D527/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "47778650"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "47778650"
+      ],
+      "extra_numbers_for_review": [
+        "47916239"
+      ],
+      "answer_conditions_for_review": [
+        "Catalog scope: 850M LT - CRAWLER DOZER - TIER 4B (12/16 - 12/23)",
+        "Assembly scope: 48.134.020 - LH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+        "Assembly scope: 48.134.030 - RH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+        "Track",
+        "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    }
+  ]
+}
