@@ -1,0 +1,10 @@
+{
+  "results": [],
+  "pagination": {
+    "pageSize": 500,
+    "currentPage": 0,
+    "sort": "fittability-part-number",
+    "numberOfPages": 0,
+    "totalNumberOfResults": 0
+  }
+}

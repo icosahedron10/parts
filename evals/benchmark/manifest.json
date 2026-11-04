@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "base_dataset_sha256": "2dee258491f615fb519095a93b7abe843da460874eb75b70bc8a14ebda1c6bab",
+  "generator_sha256": "150064f7212d261cbdd7243ec5b77b3fc74fae8b393021a98ff7c7e7ba3644b6",
+  "base_cases": 100,
+  "variants": 400,
+  "styles": [
+    "year_first",
+    "year_between",
+    "machine_first",
+    "two_sentences"
+  ],
+  "measurement_limit": "Correlated paraphrases of exposed facts; not independent or novel holdouts.",
+  "files": {
+    "answers.jsonl": "6298c2eac9417e23170b106390489f5acc612a5ee6a10d8c96c07be23f9a62f8",
+    "lineage.jsonl": "ee9dc0b0b59d2505b0c8c392966851edaaee6feb281afdf8ec622e380af829ed",
+    "queries.jsonl": "15a2d5325e398f324b60357ea08d0e55df0376ed1a0244f1e74f1cfd4584a3e5"
+  }
+}

@@ -1,0 +1,1315 @@
+{
+  "schema_version": 2,
+  "frozen_at": "2026-09-07T12:51:57.725454+00:00",
+  "source_index_sha256": "6428086e3edca29ccf6edc73f3b0638801e563a8ef04af41232a74100bf638ae",
+  "source_record_count": 1339,
+  "purpose": "Known machine model-code resolution: equivalent formatting must retain identical candidate IDs and ordering.",
+  "limits": [
+    "All queries contain an observed model code or a formatting alias of one; no model-free equipment description is evaluated.",
+    "Aliases are deterministic formatting variations of observed codes, not independently sampled user traffic.",
+    "Primary metric is alias candidate-set and candidate-order equivalence to the corresponding canonical query.",
+    "Expected observed candidates independently check whether canonical equivalence is preserving the correct code/constraint policy.",
+    "Exact observed model codes take precedence over broader letter-suffix families in this baseline; family expansion is a separate policy choice.",
+    "850M and TR340 are excluded from query/positive design to preserve existing golden holdouts.",
+    "This is a development evaluation, not an independent test, source-wide coverage measurement, or part-fitment accuracy measurement."
+  ],
+  "excluded_holdout_families": [
+    "850M",
+    "TR340"
+  ],
+  "alias_groups": [
+    {
+      "id": "dozer_1650l",
+      "model": "1650L",
+      "canonical_query": "1650L",
+      "kind": "model_alias",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "7ECB6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "1650L - CRAWLER DOZER TIER 3 (NA/EU) (HYDRO) (10/07 - 04/13)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "1650l"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "1650-l"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "1650 L"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   1650  L  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "trencher_dh4",
+      "model": "DH4",
+      "canonical_query": "DH4",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "FEDA6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DH4 - CASE TRENCHER W/1.8L DIESEL ENGINE (01/79 - 12/88)"
+        },
+        {
+          "catalog_id": "FFDA6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DH4 - CASE TRENCHER W/2.1L ENGINE (01/79 - 12/88)"
+        },
+        {
+          "catalog_id": "00DB6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DH4 - TRENCHER - MITSUBISHI ENGINE (01/82 - 12/88)"
+        },
+        {
+          "catalog_id": "01DB6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DH4 - TRENCHER - STEERING WHEEL SUPPLEMENT (01/79 - 12/88)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "dh4"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "dh-4"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "DH 4"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "D H 4"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   DH  4  "
+        }
+      ],
+      "notes": "DH4B is a distinct observed code, excluded."
+    },
+    {
+      "id": "wheel_loader_1021f",
+      "model": "1021F",
+      "canonical_query": "1021F",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "93C96496-EFBE-E111-9FCE-005056875BD6",
+          "label": "1021F - WHEEL LOADER - TIER 4 (NA) (01/11 - 08/16)"
+        },
+        {
+          "catalog_id": "EACC97E4-A0C2-40C0-B56F-1799FF710F13",
+          "label": "1021F - WHEEL LOADER - TIER 4B (NA) (01/13 - 06/22)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "1021f"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "1021-f"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "1021 F"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   1021  F  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "crawler_excavator_cx350b",
+      "model": "CX350B",
+      "canonical_query": "CX350B",
+      "kind": "model_alias",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "CX350B - CRAWLER EXCAVATOR TIER 3 (NA) (05/08 - 11/18)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "cx350b"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "cx-350-b"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "CX 350 B"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "C X 350 B"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   CX  350  B  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wheeled_excavator_wx140e",
+      "model": "WX140E",
+      "canonical_query": "WX140E",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC2755157",
+          "label": "WX140E - WHEELED EXCAVATORS - STAGE V (09/22 - )"
+        },
+        {
+          "catalog_id": "ABC2755158",
+          "label": "WX140E - WHEELED EXCAVATORS, 2 PIECE BOOM - STAGE V (09/22 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "wx140e"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "wx-140-e"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "WX 140 E"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "W X 140 E"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   WX  140  E  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "compaction_dv23d",
+      "model": "DV23D",
+      "canonical_query": "DV23D",
+      "kind": "model_alias",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "1E536C86-A0B7-4F06-8826-47F720258CA3",
+          "label": "DV23D - DOUBLE DRUM ROLLER T4F (12/18 - 05/19)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "dv23d"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "dv-23-d"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "DV 23 D"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "D V 23 D"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   DV  23  D  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "compact_wheel_loader_121f",
+      "model": "121F",
+      "canonical_query": "121F",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC3083767",
+          "label": "121F - COMPACT WHEEL LOADER STD EVO, ZB - TIER 4 (07/23 - )"
+        },
+        {
+          "catalog_id": "442B121C-21FA-4302-8D71-76628B6D45C1",
+          "label": "121F - COMPACT WHEEL LOADER STD, TC - TIER 4 (06/14 - )"
+        },
+        {
+          "catalog_id": "24A7A181-CCC2-4D5F-A4E6-9E2F63B3E1E1",
+          "label": "121F - COMPACT WHEEL LOADER STD, ZB - TIER 4 (06/14 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "121f"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "121-f"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "121 F"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   121  F  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "skid_steer_sr160",
+      "model": "SR160",
+      "canonical_query": "SR160",
+      "kind": "model_alias",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "C95ACC67-E450-48E1-822C-0B6FD4AD4596",
+          "label": "SR160 - SKID STEER LOADER - TIER 4B (05/13 - 12/19)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "sr160"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "sr-160"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "SR 160"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "S R 160"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   SR  160  "
+        }
+      ],
+      "notes": "SR160B is a distinct observed code, excluded."
+    },
+    {
+      "id": "backhoe_580n",
+      "model": "580N",
+      "canonical_query": "580N",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "32236EBF-DCA3-4B10-A24F-A17AD2521642",
+          "label": "580N - BACKHOE LOADER (LIVERY) - TIER 3 NRC (10/16 - 11/17)"
+        },
+        {
+          "catalog_id": "ADDE9EBF-1BC9-46F3-B7E6-76DBCA346599",
+          "label": "580N - BACKHOE LOADER (LIVERY) - TIER 4B (10/16 - 10/17)"
+        },
+        {
+          "catalog_id": "D5236CC4-72E4-4A99-BB53-FA7E46B681D1",
+          "label": "580N - BACKHOE LOADER - TIER 3 NRC (03/15 - 10/16)"
+        },
+        {
+          "catalog_id": "E5D06496-EFBE-E111-9FCE-005056875BD6",
+          "label": "580N - BACKHOE LOADER - TIER 4A - FROM PIN NCC560000 (03/12 - 04/15)"
+        },
+        {
+          "catalog_id": "DC3C9B09-FE99-44E3-8FED-8B336B594003",
+          "label": "580N - BACKHOE LOADER - TIER 4B (02/15 - 10/16)"
+        },
+        {
+          "catalog_id": "83379D58-6E1F-4D5B-844D-D4EBF071F2F9",
+          "label": "580N - BACKHOE LOADER, 2WD - TIER 3 NRC - MY18 (10/17 - 10/18)"
+        },
+        {
+          "catalog_id": "9B80985B-D840-4994-8C65-2581D58F95D4",
+          "label": "580N - BACKHOE LOADER, 2WD - TIER 3 NRC - MY19 (11/18 - 12/24)"
+        },
+        {
+          "catalog_id": "11EC980A-E106-48C2-97E4-460FA2D94328",
+          "label": "580N - BACKHOE LOADER, 2WD - TIER 4B - MY18 (10/17 - 11/18)"
+        },
+        {
+          "catalog_id": "BBE64402-32E2-4FFE-9EF8-BA38207590D8",
+          "label": "580N - BACKHOE LOADER, 2WD - TIER 4B - MY19 (11/18 - )"
+        },
+        {
+          "catalog_id": "ED31080A-1CF4-40B3-9D1F-06FD64A64546",
+          "label": "580N - BACKHOE LOADER, 4WD - TIER 3 NRC - MY18 (10/17 - 11/18)"
+        },
+        {
+          "catalog_id": "151755D7-F61C-4B9C-AC89-4BA91697DBAF",
+          "label": "580N - BACKHOE LOADER, 4WD - TIER 3 NRC - MY19 (11/18 - )"
+        },
+        {
+          "catalog_id": "8D10F162-3D74-47C5-BB9C-62F23DB5D83D",
+          "label": "580N - BACKHOE LOADER, 4WD - TIER 4B - MY18 (10/17 - 11/18)"
+        },
+        {
+          "catalog_id": "2971C102-4027-4D6C-9660-71B5B664AA39",
+          "label": "580N - BACKHOE LOADER, 4WD - TIER 4B - MY19 (11/18 - )"
+        },
+        {
+          "catalog_id": "E8D06496-EFBE-E111-9FCE-005056875BD6",
+          "label": "580N - LOADER BACKHOE (TIER 3) (04/10 - 01/16)"
+        },
+        {
+          "catalog_id": "E6D06496-EFBE-E111-9FCE-005056875BD6",
+          "label": "580N - LOADER BACKHOE - TIER 3 NRC (03/12 - 04/15)"
+        },
+        {
+          "catalog_id": "B6962534-FC04-42F3-B6FD-D4F2FECFBB65",
+          "label": "580N EP - BACKHOE LOADER (LIVERY) - TIER 4B (10/16 - 11/17)"
+        },
+        {
+          "catalog_id": "C35F418E-F4C8-4B4F-9312-5304FC77CCFC",
+          "label": "580N EP - BACKHOE LOADER - TIER 4B (02/15 - 10/16)"
+        },
+        {
+          "catalog_id": "C6887686-FD5A-44FB-B4F3-83B03888A8F5",
+          "label": "580N EP - BACKHOE LOADER, 2WD - TIER 4B - MY18 (10/17 - 10/18)"
+        },
+        {
+          "catalog_id": "6BEA9CDB-652A-4BB3-817D-683864232410",
+          "label": "580N EP - BACKHOE LOADER, 2WD - TIER 4B - MY19 (11/18 - )"
+        },
+        {
+          "catalog_id": "46154E75-F30C-4B9F-9A0C-ECD007BFEC95",
+          "label": "580N EP - BACKHOE LOADER, 4WD - TIER 4B - MY18 (10/17 - 10/18)"
+        },
+        {
+          "catalog_id": "CAFB3A8E-A633-4CD4-B46B-F086FC0EC69A",
+          "label": "580N EP - BACKHOE LOADER, 4WD - TIER 4B - MY19 (11/18 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "580n"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "580-n"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "580 N"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   580  N  "
+        }
+      ],
+      "notes": "Observed EP variants remain candidates when the option is unspecified."
+    },
+    {
+      "id": "loader_tractor_26b",
+      "model": "26B",
+      "canonical_query": "26B",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "15CD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "26B - BACKHOE (01/65 - 12/75)"
+        },
+        {
+          "catalog_id": "16CD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "26B - LOADER (01/65 - 12/75)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "26b"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "26-b"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "26 B"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   26  B  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "forklift_586h",
+      "model": "586H",
+      "canonical_query": "586H",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "192E48E0-B780-4740-BD6E-5D7B6C106790",
+          "label": "586H - FORKLIFT - LIVERY - TIER 4B (10/16 - 04/26)"
+        },
+        {
+          "catalog_id": "1DD16496-EFBE-E111-9FCE-005056875BD6",
+          "label": "586H - FORKLIFT - TIER 4A (01/12 - 12/14)"
+        },
+        {
+          "catalog_id": "99A66291-E2AE-4D20-8A8B-E764CFBCBE85",
+          "label": "586H - FORKLIFT - TIER 4B (09/14 - 10/16)"
+        },
+        {
+          "catalog_id": "ABC5786397",
+          "label": "586H - ROUGH TERRAIN FORKLIFT (WICHITA BUILT) (04/26 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "586h"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "586-h"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "586 H"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   586  H  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "dump_truck_325",
+      "model": "325",
+      "canonical_query": "325",
+      "kind": "model_alias",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "C8CD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "325 - ARTICULATED TRUCK (06/02 - 10/06)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   325  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "compact_track_loader_420ct",
+      "model": "420CT",
+      "canonical_query": "420CT",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "F4CE6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "420CT - COMPACT TRACK LOADER - BSN N7M455401 (02/06 - 01/08)"
+        },
+        {
+          "catalog_id": "F5CE6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "420CT - COMPACT TRACK LOADER - SERIES 3, ASN N7M455401 (01/08 - 06/10)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "420ct"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "420-ct"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "420 CT"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "420 C T"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   420  CT  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "telehandler_tx1055",
+      "model": "TX1055",
+      "canonical_query": "TX1055",
+      "kind": "model_alias",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "7AE26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "TX1055 - TELEHANDLER (01/08 - 09/14)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "tx1055"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "tx-1055"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "TX 1055"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "T X 1055"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   TX  1055  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "grader_836d",
+      "model": "836D",
+      "canonical_query": "836D",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC3358067",
+          "label": "836D - 4WD MOTOR GRADER - STAGE V (Electro-Hydraulic) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4914898",
+          "label": "836D - 4WD MOTOR GRADER - STAGE V (Electro-Hydraulic, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "ABC3358071",
+          "label": "836D - 4WD MOTOR GRADER - STAGE V (Mechanical) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4915460",
+          "label": "836D - 4WD MOTOR GRADER - STAGE V (Mechanical, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "ABC3358068",
+          "label": "836D - AWD MOTOR GRADER - STAGE V (Electro-Hydraulic) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4914949",
+          "label": "836D - AWD MOTOR GRADER - STAGE V (Electro-Hydraulic, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "ABC3358072",
+          "label": "836D - AWD MOTOR GRADER - STAGE V (Mechanical) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4915481",
+          "label": "836D - AWD MOTOR GRADER - STAGE V (Mechanical, ZF) (03/25 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "836d"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "836-d"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "836 D"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   836  D  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "midi_excavator_cx100e",
+      "model": "CX100E",
+      "canonical_query": "CX100E",
+      "kind": "model_alias",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC4088899",
+          "label": "CX100E - MIDI CRAWLER EXCAVATOR, 2 PIECE BOOM, CAB - STAGE V (04/24 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "cx100e"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "cx-100-e"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "CX 100 E"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "C X 100 E"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   CX  100  E  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mini_excavator_cx25ev",
+      "model": "CX25EV",
+      "canonical_query": "CX25EV",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC3491901",
+          "label": "CX25EV - MINI CRAWLER EXCAVATOR, ELECTRIC, CAB (11/23 - )"
+        },
+        {
+          "catalog_id": "ABC3491903",
+          "label": "CX25EV - MINI CRAWLER EXCAVATOR, ELECTRIC, CANOPY (07/23 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "cx25ev"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "cx-25-ev"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "CX 25 EV"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "C X 25 E V"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   CX  25  EV  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "compact_dozer_loader_dl550",
+      "model": "DL550",
+      "canonical_query": "DL550",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "2CA58507-4119-4A37-977D-099C9B9345E6",
+          "label": "DL550 - MINOTAUR COMPACT DOZER LOADER (10/21 - 03/25)"
+        },
+        {
+          "catalog_id": "ABC4893993",
+          "label": "DL550 - REGULATED (NA) - MY25 (01/25 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "dl550"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "dl-550"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "DL 550"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "D L 550"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   DL  550  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "articulated_loader_sl12",
+      "model": "SL12",
+      "canonical_query": "SL12",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC3450322",
+          "label": "SL12 - SMALL ARTICULATED LOADER (09/23 - )"
+        },
+        {
+          "catalog_id": "ABC3450352",
+          "label": "SL12 TR - SMALL ARTICULATED LOADER (09/23 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "sl12"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "sl-12"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "SL 12"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "S L 12"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   SL  12  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mini_track_loader_tl100",
+      "model": "TL100",
+      "canonical_query": "TL100",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "48E26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "TL100 - CASE TRENCHER (01/76 - 12/88)"
+        },
+        {
+          "catalog_id": "ABC3506179",
+          "label": "TL100 - MINI TRACK LOADER 1000 - STAGE V (09/23 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "tl100"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "tl-100"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "TL 100"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "T L 100"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   TL  100  "
+        }
+      ],
+      "notes": "TL100 names a captured mini track loader and a captured trencher. Both remain without more details."
+    },
+    {
+      "id": "numeric_collision_1000",
+      "model": "1000",
+      "canonical_query": "1000",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "69C96496-EFBE-E111-9FCE-005056875BD6",
+          "label": "1000 - CASE TERRATRAC CRAWLER TRACTOR (S/N 7010001 TO 7100001) (01/61 - 12/62)"
+        },
+        {
+          "catalog_id": "6BC96496-EFBE-E111-9FCE-005056875BD6",
+          "label": "1000 - DAVIS TASKFORCE SUPER TRENCHER (01/72 - 12/81)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   1000  "
+        }
+      ],
+      "notes": "1000 names a captured crawler tractor and a captured trencher. Do not choose an equipment class from its code."
+    },
+    {
+      "id": "short_code_collision_w4",
+      "model": "W4",
+      "canonical_query": "W4",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "EBE26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "W4 - CASE FORKLIFT (01/78 - 12/83)"
+        },
+        {
+          "catalog_id": "ECE26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "W4 - CASE WHEEL LOADER (01/78 - 12/83)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "w4"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "w-4"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "W 4"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   W  4  "
+        }
+      ],
+      "notes": "W4 names a captured forklift and a captured wheel loader. Both remain without more details."
+    },
+    {
+      "id": "named_model_maxi_sneaker",
+      "model": "MAXI-SNEAKER",
+      "canonical_query": "MAXI-SNEAKER",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "72DE6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "MAXI-SNEAKER - SERIES-C TRENCHER (01/93 - 12/99)"
+        },
+        {
+          "catalog_id": "73DE6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "MAXI-SNEAKER - SERIES-C TRENCHER (NORTH AMERICAN HOMOLOGATION) (01/93 - 12/04)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "maxi-sneaker"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "MAXI SNEAKER"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "M A X I S N E A K E R"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   MAXI  SNEAKER  "
+        }
+      ],
+      "notes": "Baseline exact observed prefix policy. MAXI-SNEAKER C and CASE-prefixed cable-layer labels are broader family matches, not in this exact-code expectation."
+    },
+    {
+      "id": "model_without_dash_pt240d",
+      "model": "PT240D",
+      "canonical_query": "PT240D",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "6CE5ED75-3C12-4411-A493-5B7F3D97E1DC",
+          "label": "PT240D - PNEUMATIC TIRE ROLLER TIER 4B (12/19 - 12/23)"
+        },
+        {
+          "catalog_id": "ABC4533754",
+          "label": "PT240D PNEUMATIC TIRE ROLLER - TIRE COMPACTOR - STAGE V - MY24 (09/23 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "pt240d"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "pt-240-d"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "PT 240 D"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "P T 240 D"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   PT  240  D  "
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "base_code_cx350",
+      "model": "CX350",
+      "canonical_query": "CX350",
+      "kind": "model_alias",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "6CDA6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "CX350 - CASE CRAWLER EXCAVATOR (EUROPE) (12/05 - 02/08)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "cx350"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "cx-350"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "CX 350"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "C X 350"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   CX  350  "
+        }
+      ],
+      "notes": "Baseline exact-code policy: observed CX350 EUROPE (2005-2008) exists, so CX350B/C/D are not implicitly selected. All aliases must preserve this policy. A family search would be a separate explicit policy change."
+    },
+    {
+      "id": "variant_code_cx350d",
+      "model": "CX350D",
+      "canonical_query": "CX350D",
+      "kind": "model_alias",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "0F2F29D5-3DA9-43A9-BB25-47100CF3777D",
+          "label": "CX350D LC - LONG CARRIAGE - CRAWLER EXCAVATOR - TIER 4B (NA) (09/14 - )"
+        },
+        {
+          "catalog_id": "112BF536-D3D3-46B0-8F28-0D068425067B",
+          "label": "CX350D LC LR - LONG CARRIAGE - LONG REACH - CRAWLER EXCAVATOR - TIER 4B (NA) (01/19 - 12/24)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "cx350d"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "cx-350-d"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "CX 350 D"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "C X 350 D"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   CX  350  D  "
+        }
+      ],
+      "notes": "Both observed long-carriage and long-reach variants remain without more details."
+    },
+    {
+      "id": "year_compatible_sr160",
+      "model": "SR160",
+      "canonical_query": "SR160 2015",
+      "kind": "model_alias_with_constraints",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "C95ACC67-E450-48E1-822C-0B6FD4AD4596",
+          "label": "SR160 - SKID STEER LOADER - TIER 4B (05/13 - 12/19)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "sr160 2015"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "sr-160 2015"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "SR 160 2015"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "S R 160 2015"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   SR  160   2015"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "year_compatible_cx350b",
+      "model": "CX350B",
+      "canonical_query": "CX350B 2012",
+      "kind": "model_alias_with_constraints",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "CX350B - CRAWLER EXCAVATOR TIER 3 (NA) (05/08 - 11/18)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "cx350b 2012"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "cx-350-b 2012"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "CX 350 B 2012"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "C X 350 B 2012"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   CX  350  B   2012"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "variant_cx350d_long_reach",
+      "model": "CX350D",
+      "canonical_query": "CX350D long reach",
+      "kind": "model_alias_with_constraints",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "112BF536-D3D3-46B0-8F28-0D068425067B",
+          "label": "CX350D LC LR - LONG CARRIAGE - LONG REACH - CRAWLER EXCAVATOR - TIER 4B (NA) (01/19 - 12/24)"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "cx350d long reach"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "cx-350-d long reach"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "CX 350 D long reach"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "C X 350 D long reach"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   CX  350  D   long reach"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "variant_backhoe_drive_tier_year",
+      "model": "580N",
+      "canonical_query": "580N EP 4WD tier 4B MY19",
+      "kind": "model_alias_with_constraints",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "CAFB3A8E-A633-4CD4-B46B-F086FC0EC69A",
+          "label": "580N EP - BACKHOE LOADER, 4WD - TIER 4B - MY19 (11/18 - )"
+        }
+      ],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "580n EP 4WD tier 4B MY19"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "580-n EP 4WD tier 4B MY19"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "580 N EP 4WD tier 4B MY19"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   580  N   EP 4WD tier 4B MY19"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "conflict_cx350b_year",
+      "model": "CX350B",
+      "canonical_query": "CX350B 2025",
+      "kind": "model_alias_with_constraints",
+      "expected_behavior": "no_local_match",
+      "expected_relevant": [],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "cx350b 2025"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "cx-350-b 2025"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "CX 350 B 2025"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "C X 350 B 2025"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   CX  350  B   2025"
+        }
+      ],
+      "notes": "Observed CX350B production ends in 2018; do not substitute a later related code."
+    },
+    {
+      "id": "conflict_base_cx350_year",
+      "model": "CX350",
+      "canonical_query": "CX350 2012",
+      "kind": "model_alias_with_constraints",
+      "expected_behavior": "no_local_match",
+      "expected_relevant": [],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "cx350 2012"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "cx-350 2012"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "CX 350 2012"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "C X 350 2012"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   CX  350   2012"
+        }
+      ],
+      "notes": "Baseline exact-code policy: CX350 production ends in 2008. A 2012 query must not silently broaden to CX350B/C/D."
+    },
+    {
+      "id": "conflict_cx25ev_diesel",
+      "model": "CX25EV",
+      "canonical_query": "CX25EV diesel",
+      "kind": "model_alias_with_constraints",
+      "expected_behavior": "no_local_match",
+      "expected_relevant": [],
+      "aliases": [
+        {
+          "variation": "casefold",
+          "query": "cx25ev diesel"
+        },
+        {
+          "variation": "hyphenated",
+          "query": "cx-25-ev diesel"
+        },
+        {
+          "variation": "token_spaces",
+          "query": "CX 25 EV diesel"
+        },
+        {
+          "variation": "spaced_letters",
+          "query": "C X 25 E V diesel"
+        },
+        {
+          "variation": "brand_whitespace",
+          "query": "  CASE   CX  25  EV   diesel"
+        }
+      ],
+      "notes": "Every captured CX25EV explicitly says electric, conflicting with diesel."
+    }
+  ]
+}

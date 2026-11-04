@@ -1,0 +1,20 @@
+{"id": "Q001.year_first", "query": "I need a radiator for my 2010 CASE CX350B."}
+{"id": "Q003.year_first", "query": "I need a complete standard high-pressure hydraulic pump assembly for my 2010 CASE CX350B."}
+{"id": "Q006.year_first", "query": "I need a radiator cap for my 2010 CASE CX350B."}
+{"id": "Q008.year_first", "query": "I need a hose in the radiator assembly for my 2010 CASE CX350B."}
+{"id": "Q017.year_first", "query": "I need a 52.4 cc equipment hydraulic pump with a 15-tooth spline for my 2011 CASE 580N."}
+{"id": "Q018.year_first", "query": "I need a backhoe bucket cylinder with a 57.2 mm rod and 897.9 mm stroke for my 2011 CASE 580N."}
+{"id": "Q021.year_first", "query": "I need a backhoe bucket cylinder seal kit for a 57.2 mm rod and 82.6 mm bore for my 2011 CASE 580N."}
+{"id": "Q034.year_first", "query": "I need an engine radiator for the standard cooling package for my 2017 CASE 621G."}
+{"id": "Q036.year_first", "query": "I need a 76-bar brake valve for the 4-speed transmission for my 2017 CASE 621G."}
+{"id": "Q041.year_first", "query": "I need a 65 mm by 734 mm by 50 mm oil-cooler foam sealing strip for my 2017 CASE 621G."}
+{"id": "Q050.year_first", "query": "I need a brake-valve pressure switch for the 4-speed transmission for my 2017 CASE 621G."}
+{"id": "Q053.year_first", "query": "I need a positive battery cable for my 2016 CASE SR210."}
+{"id": "Q062.year_first", "query": "I need a wiring-harness retention bracket for my 2016 CASE SR210."}
+{"id": "Q069.year_first", "query": "I need a radiator with an aluminum bar-and-plate core for my 2018 CASE 850M LT."}
+{"id": "Q078.year_first", "query": "I need a double-flange track roller for my 2018 CASE 850M LT."}
+{"id": "Q086.year_first", "query": "I need a standard 36.6 cc hydraulic pump for my 2016 CASE TR340."}
+{"id": "Q094.year_first", "query": "I need a 350.2 mm front idler wheel for my 2016 CASE TR340."}
+{"id": "S018.ambiguous", "query": "I need a radiator for my CASE 580N."}
+{"id": "S019.ambiguous", "query": "I need a radiator for my CASE CX350D."}
+{"id": "S020.no_match", "query": "Find part number ZZZPOCNOEXIST999 for my 2010 CASE CX350B."}

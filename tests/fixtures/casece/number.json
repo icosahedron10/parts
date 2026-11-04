@@ -1,0 +1,49 @@
+{
+  "pagination": {
+    "pageSize": 500,
+    "currentPage": 0,
+    "sort": "fittability-part-number",
+    "numberOfPages": 1,
+    "totalNumberOfResults": 2
+  },
+  "results": [
+    {
+      "partNumber": "KSH1028",
+      "partDescription": "RADIATOR",
+      "usage": "See Figure 02-05",
+      "sectionName": "02 ENGINE",
+      "sectionCode": "6EDA6496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "02-04 - RADIATOR AND CONNECTIONS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-155C41E7-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDY2NDI0fGltYWdlL3BuZ3xhRGhqTDJnMk5pODRPRGs0TXpZd09ETTJNVEkyTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxURTFOVU0wTVVVM0xUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8OTlkNWVlYmJkNWFkNjhhMDU3YWMyZmE0NDU5NmNlMDcyYmZhN2QyMjFmZmUzY2ZmOGE1Njc3NDZmY2E2NjgwYQ",
+      "assemblyCode": "10462E54-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "6EDA6496-EFBE-E111-9FCE-005056875BD6",
+      "serieCode": "NA_E_R_24_CRA_312_CXB",
+      "modelFullName": "CX350B CRAWLER EXCAVATOR TIER 3 (NA) May 2008 Nov 2018",
+      "brandCode": "E",
+      "quantity": null,
+      "partListId": "C09A5DC7-7DC4-E111-9FCE-005056875BD6_10462E54-8FBF-E111-9FCE-005056875BD6_G01_KSH1028",
+      "assemblyUrl": "/amea/heavy-equipment/crawler-excavators/ameaer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator-and-connections/cn/10462E54-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null
+    },
+    {
+      "partNumber": "KSH1028",
+      "partDescription": "RADIATOR",
+      "usage": "Incl. 1 - 46",
+      "sectionName": "02 ENGINE",
+      "sectionCode": "6EDA6496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "02-05 - RADIATOR",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-FB5941E7-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM1MTk1fGltYWdlL3BuZ3xhR0ZtTDJnMU1TODRPRGsxTmpFME16ZzJNakEyTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVWkNOVGswTVVVM0xUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8MDI2OTIwYjE1YjZkNmM2YWRiZjQ5ZTliZDk0YzVlY2E2ZWZkMGI4ZTJiMmZlN2UxZmU5NjFiYmIzMGYwMzQ1MQ",
+      "assemblyCode": "1F4AAC82-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "6EDA6496-EFBE-E111-9FCE-005056875BD6",
+      "serieCode": "NA_E_R_24_CRA_312_CXB",
+      "modelFullName": "CX350B CRAWLER EXCAVATOR TIER 3 (NA) May 2008 Nov 2018",
+      "brandCode": "E",
+      "quantity": null,
+      "partListId": "769C5DC7-7DC4-E111-9FCE-005056875BD6_1F4AAC82-8FBF-E111-9FCE-005056875BD6_G01_KSH1028",
+      "assemblyUrl": "/amea/heavy-equipment/crawler-excavators/ameaer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null
+    }
+  ]
+}

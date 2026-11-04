@@ -1,0 +1,39 @@
+{
+  "pagination": {
+    "pageSize": 500,
+    "currentPage": 0,
+    "sort": "fittability-figure",
+    "numberOfPages": 1,
+    "totalNumberOfResults": 2
+  },
+  "results": [
+    {
+      "serieCode": "NA_E_R_24_CRA_312_CXB",
+      "modelCode": "6EDA6496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "1F4AAC82-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "02-05 - RADIATOR",
+      "functionalGroup": "{\"6EDA6496-EFBE-E111-9FCE-005056875BD6_02_ENGINE\":\"02. ENGINE\"}",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-FB5941E7-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM1MTk1fGltYWdlL3BuZ3xhR0ZtTDJnMU1TODRPRGsxTmpFME16ZzJNakEyTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVWkNOVGswTVVVM0xUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8MDI2OTIwYjE1YjZkNmM2YWRiZjQ5ZTliZDk0YzVlY2E2ZWZkMGI4ZTJiMmZlN2UxZmU5NjFiYmIzMGYwMzQ1MQ",
+      "modelFullName": null,
+      "brandCode": "E",
+      "showNote": null,
+      "functionalGroupCode": "6EDA6496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyUrl": "/amea/heavy-equipment/crawler-excavators/ameaer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "serieCode": "NA_E_R_24_CRA_312_CXB",
+      "modelCode": "6EDA6496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "10462E54-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "02-04 - RADIATOR AND CONNECTIONS",
+      "functionalGroup": "{\"6EDA6496-EFBE-E111-9FCE-005056875BD6_02_ENGINE\":\"02. ENGINE\"}",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-155C41E7-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDY2NDI0fGltYWdlL3BuZ3xhRGhqTDJnMk5pODRPRGs0TXpZd09ETTJNVEkyTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxURTFOVU0wTVVVM0xUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8OTlkNWVlYmJkNWFkNjhhMDU3YWMyZmE0NDU5NmNlMDcyYmZhN2QyMjFmZmUzY2ZmOGE1Njc3NDZmY2E2NjgwYQ",
+      "modelFullName": null,
+      "brandCode": "E",
+      "showNote": null,
+      "functionalGroupCode": "6EDA6496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyUrl": "/amea/heavy-equipment/crawler-excavators/ameaer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator-and-connections/cn/10462E54-8FBF-E111-9FCE-005056875BD6"
+    }
+  ]
+}

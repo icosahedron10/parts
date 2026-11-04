@@ -1,0 +1,13 @@
+{
+  "cases": 25,
+  "families": [
+    "tractor",
+    "combine",
+    "baler"
+  ],
+  "files": {
+    "queries.jsonl": "3426d138731b3a504d8db7fc5db5631f63db3dcc5863dbc0d2914621b1519e06",
+    "answers.jsonl": "71f322d557011ba836585e61aabf3481db371d5fd50ce6e552ee925baa6ba7ce",
+    "lineage.jsonl": "24138f42a0513798036d21e772d11b45b4e0b30371805cae5821078350dd4c87"
+  }
+}

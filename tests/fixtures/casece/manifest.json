@@ -1,0 +1,46 @@
+{
+  "assembly-selected.html": {
+    "bytes": 10507,
+    "sha256": "e0e7ec306cdb55b2b809923574a5f6d22926f51fd94dc32f4a02e483843e6346"
+  },
+  "capped-metadata.json": {
+    "bytes": 551,
+    "sha256": "1118459cb0b9be8eba27c2f139807ca7d1880b44985a92501bab9bd53458af98"
+  },
+  "description.json": {
+    "bytes": 14670,
+    "sha256": "88c2e446bd9ac9e2661e0e162b5b76cb03c4c25d7356554e297d2eb40360ff83"
+  },
+  "empty-alts.html": {
+    "bytes": 570,
+    "sha256": "245a8f0ac2db66a8fbbba5bd5f0d9059fb1fcab418c2683cb3530d6b02c45766"
+  },
+  "figure.json": {
+    "bytes": 2379,
+    "sha256": "043e8c101d9b91cc1ad77416a58c4de00270463a68be93f7f395a49314d47958"
+  },
+  "machines.html": {
+    "bytes": 2813,
+    "sha256": "89c3232a9905b8ae9410333fca9927b79f6d64551ad2211a45c2f9a07155790f"
+  },
+  "model.html": {
+    "bytes": 1148,
+    "sha256": "522967275538a655266e19ad53fc9da4fe27721b841439253206e4206e7cddb6"
+  },
+  "negative.json": {
+    "bytes": 194,
+    "sha256": "03ecf79e1c68f5f5e948c7b8e43df1899b87475b91437d3a98458939735cc69b"
+  },
+  "number.json": {
+    "bytes": 2826,
+    "sha256": "9754249c8c90fca9ee332da10f7ec46e848190e41d683f513d582fb2b3d738f7"
+  },
+  "sub-from.html": {
+    "bytes": 5792,
+    "sha256": "64cc59c2ed1fbab56ebade54153abf20d10ba3d8bed7e772a6bb5423c569d4ad"
+  },
+  "sub-to.html": {
+    "bytes": 5792,
+    "sha256": "eb84eaebe700ebab842089712600a9ed0e6043c6c9c9a016076add0742d92f3e"
+  }
+}

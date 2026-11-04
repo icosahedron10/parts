@@ -1,0 +1,443 @@
+{
+  "results": [
+    {
+      "partNumber": "A190663",
+      "partDescription": "RADIATOR",
+      "usage": "cooling system, Replaces: A184441",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/engines-cooling-exhaust/radiators/radiator/p/A190663"
+      }
+    },
+    {
+      "partNumber": "98369C3",
+      "partDescription": "RADIATOR",
+      "usage": "CORE ASSEMBLY - air conditioning and heater, Includes: Ref. 1A - 3",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "assemblyFullName": "9-144 - AIR CONDITIONING, EVAPORATOR",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-56AFC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI2OTg1fGltYWdlL3BuZ3xhREpsTDJobFpDODRPVE0xT1Rrd016STVNemMwTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUVTJRVVpETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8NWU2YTUyNjkwZDczMzJkN2M1Njk3YTBiYThhZDA4MmFlNzU2Y2E5NzZlZDhhY2IxZjM0NTAyNGEzMGRmMzdmMw",
+      "assemblyCode": "C29C7D55-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/chassis-attachments/air-conditioning-evaporator/cn/C29C7D55-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/heating-cooling/radiator/p/98369C3"
+      }
+    },
+    {
+      "partNumber": "A170241",
+      "partDescription": "RADIATOR CAP",
+      "usage": "CAP, RADIATOR, Filler, 15 psi",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/engines-cooling-exhaust/radiators/radiator-cap/p/A170241"
+      }
+    },
+    {
+      "partNumber": "J918175",
+      "partDescription": "CORE, RADIATOR",
+      "usage": "CORE cooler, oil, Replaces: J906296",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-38 - OIL FILTER AND COOLER, 6T-830 ENGINE, PRIOR TO ENGINE SERIAL NUMBER 44500128",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-20B3C6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI5NzQwfGltYWdlL3BuZ3xhRFppTDJnelpDODRPVEV5TVRBNU9EazFOekV3TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUSXdRak5ETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8MzA1OWYwNjFhYTZhYzgzYzZlNGIyYmUzNjg3OGI5MzRhNjZkZmY3NTFjMDVjOGUyODlkY2MzNzQ5ODZiNTYwOQ",
+      "assemblyCode": "E5010A78-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/oil-filter-and-cooler-6t-830-engine-prior-to-engine-serial-number-44500128/cn/E5010A78-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/engines-cooling-exhaust/radiators/core-radiator/p/J918175"
+      }
+    },
+    {
+      "partNumber": "J918175",
+      "partDescription": "CORE, RADIATOR",
+      "usage": "CORE cooler, oil",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-40 - OIL FILTER AND COOLER, 6T-830 ENGINE, ENGINE SERIAL NUMBER 44500128 AND AFTER",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-CDB2C6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI1NzIwfGltYWdlL3BuZ3xhRFkxTDJobVlpODRPVEl4TVRrd01UQTFNVEU0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVTkVRakpETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ZTlkOTc4MzIwNjBmM2NlNzI4ZmRmMDNkMTMzMWIyNGRhMmJkYmU1NGU2MWZkOWMxZDRiNDZiMDFkNzZhYTk3Mg",
+      "assemblyCode": "3425937A-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/oil-filter-and-cooler-6t-830-engine-engine-serial-number-44500128-and-after/cn/3425937A-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/engines-cooling-exhaust/radiators/core-radiator/p/J918175"
+      }
+    },
+    {
+      "partNumber": "1340708C1",
+      "partDescription": "PLATE",
+      "usage": "PLATE radiator",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/plate/p/1340708C1"
+      }
+    },
+    {
+      "partNumber": "NLS",
+      "partDescription": "NO LONGER SERVICED",
+      "usage": "flat, radiator support",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/cn/no-longer-serviced/p/NLS"
+      }
+    },
+    {
+      "partNumber": "1960764C1",
+      "partDescription": "RADIATOR HOSE 9.50 mm ID x 560.00 mm, SAE 20R3",
+      "usage": "Radiator vent to engine, If used 9.50 mm ID x 560.00 mm, SAE 20R3",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/engines-cooling-exhaust/radiators/radiator-hose/p/1960764C1"
+      }
+    },
+    {
+      "partNumber": "A145743",
+      "partDescription": "MOUNT",
+      "usage": "MOUNT - radiator upper, rubber",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "assemblyFullName": "9-032 - HOOD SUPPORTS, PRIOR TO P.I.N. JJA0019507",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-EFAAC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM4MzA3fGltYWdlL3BuZ3xhR1l5TDJnd05pODRPRGd6TXpBek1UVXpOamswTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVVkdRVUZETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8NjlhMmM4MzdjNDU4YWJjYTBiOGYwNjQwMDYwMzczOGViOTgyOGY5YTFlY2M3YTA3N2I4MDM1MTI4Mjc0YzNhYQ",
+      "assemblyCode": "29BBE05E-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/chassis-attachments/hood-supports-prior-to-pin-jja0019507/cn/29BBE05E-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/mount/p/A145743"
+      }
+    },
+    {
+      "partNumber": "A145743",
+      "partDescription": "MOUNT",
+      "usage": "MOUNT - radiator upper, rubber",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "assemblyFullName": "9-034 - HOOD SUPPORTS, P.I.N. JJA0019507 AND AFTER",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-30ABC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM3NDQ3fGltYWdlL3BuZ3xhR0ZpTDJoa09TODRPRGd3TkRnMk1qRTVPREEyTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUTXdRVUpETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8YTk3N2I0MDQ0YTFmNjlmZGFjYzdmNmMzYjNjYzc1ZWFkYTNmMTE5NjE4NzI4ZWJlNGRjM2RlNThlMmQzNDhhNw",
+      "assemblyCode": "7A439357-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/chassis-attachments/hood-supports-pin-jja0019507-and-after/cn/7A439357-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/mount/p/A145743"
+      }
+    },
+    {
+      "partNumber": "REF",
+      "partDescription": "INSTRUCTION",
+      "usage": "RADIATOR coolant, engine, See Figure 2-02",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-06 - COOLANT RECOVERY SYSTEM",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-91ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM1MDQ3fGltYWdlL3BuZ3xhR1JtTDJnMk5TODRPVE0wT1RNek9ESXpOVEU0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUa3hRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8MzkxMDNhZmJmYjY1M2RlZTg0NTUwYTFkMjBkZTY2NTlmODZiN2UwNzA5OTBkYTJkY2JhYjNlNzExODc2MjU3YQ",
+      "assemblyCode": "E4A36E81-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/coolant-recovery-system/cn/E4A36E81-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/cn/instruction/p/REF"
+      }
+    },
+    {
+      "partNumber": "1968082C1",
+      "partDescription": "SEAL",
+      "usage": "SEAL - hood to radiator corner",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "assemblyFullName": "9-036 - HOOD, UPPER SIDE PANELS, AND UPPER GRILLE",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-47ABC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDU1MTQxfGltYWdlL3BuZ3xhRGRqTDJnelppODRPVE15TnpJeE1qWXlOakl5TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTNRVUpETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8NmQ1YmY4Y2UzYzg1MWEyYmZiOGMzZWMwZGMwZDdmNmQ2Y2E1YzZkMjQ1ZTYwNzM5NWJlZDMzMmZlNjdlNGJlOQ",
+      "assemblyCode": "CE027B5B-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/chassis-attachments/hood-upper-side-panels-and-upper-grille/cn/CE027B5B-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/seal/p/1968082C1"
+      }
+    },
+    {
+      "partNumber": "A141485",
+      "partDescription": "THUMB SCREW 5/16'' - 18 x 5/8''",
+      "usage": "- thumb; (SN Break) Between cooler and radiator",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "assemblyFullName": "5-18 - HYDRAULIC OIL COOLER, PRIOR TO P.I.N. JJA0027701",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-89B2C6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM2MTQwfGltYWdlL3BuZ3xhRFUzTDJneFpDODRPVFEyTmpJeU9Ea3dNREUwTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUZzVRakpETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8OWVjNTg3Y2U4NGVjYzIxZTkyOWMyMjBhN2YxZDQ4Y2JkMGE0NTZjODIyMjlhYTYwZWQxMWQ4Zjk5MDczM2I1Ng",
+      "assemblyCode": "21BE4D6D-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/steering/hydraulic-oil-cooler-prior-to-pin-jja0027701/cn/21BE4D6D-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/hardware/bolts/thumb-screw/p/A141485"
+      }
+    },
+    {
+      "partNumber": "1334477C1",
+      "partDescription": "RADIATOR HOSE 58.00 mm ID x 263.00 mm, SAE 20R4",
+      "usage": "Lower 58.00 mm ID x 263.00 mm, SAE 20R4",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/engines-cooling-exhaust/radiators/radiator-hose/p/1334477C1"
+      }
+    },
+    {
+      "partNumber": "1289072C1",
+      "partDescription": "HOSE 58.00 mm ID x 344.00 mm, SAE 20 R4 CLASS D1",
+      "usage": "RADIATOR HOSE, , Upper 58.00 mm ID x 344.00 mm, SAE 20 R4 CLASS D1",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/engines-cooling-exhaust/radiators/hose/p/1289072C1"
+      }
+    },
+    {
+      "partNumber": "1289473C1",
+      "partDescription": "SEAL",
+      "usage": "radiator, upper right, Replaces: 1289475C2",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/seal/p/1289473C1"
+      }
+    },
+    {
+      "partNumber": "1340707C1",
+      "partDescription": "SUPPORT",
+      "usage": "SUPPORT radiator, Replaces: 1960789C1",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/support/p/1340707C1"
+      }
+    },
+    {
+      "partNumber": "1968024C1",
+      "partDescription": "SEAL",
+      "usage": "radiator, lower support",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/seal/p/1968024C1"
+      }
+    },
+    {
+      "partNumber": "1289476C1",
+      "partDescription": "SEAL",
+      "usage": "radiator, upper left",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/seal/p/1289476C1"
+      }
+    },
+    {
+      "partNumber": "1348509C2",
+      "partDescription": "SEAL",
+      "usage": "radiator, Replaces: 1289474C2 and 1348509C1",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/engines-cooling-exhaust/radiators/seal/p/1348509C2"
+      }
+    },
+    {
+      "partNumber": "1348510C2",
+      "partDescription": "SEAL",
+      "usage": "radiator, Replaces: 1348510C1",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/engines-cooling-exhaust/radiators/seal/p/1348510C2"
+      }
+    },
+    {
+      "partNumber": "1289473C1",
+      "partDescription": "SEAL",
+      "usage": "radiator, lower",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/seal/p/1289473C1"
+      }
+    },
+    {
+      "partNumber": "1342164C1",
+      "partDescription": "SEAL",
+      "usage": "SEAL - hood to radiator, Replaces: 1289471C1",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "assemblyFullName": "9-036 - HOOD, UPPER SIDE PANELS, AND UPPER GRILLE",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-47ABC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDU1MTQxfGltYWdlL3BuZ3xhRGRqTDJnelppODRPVE15TnpJeE1qWXlOakl5TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTNRVUpETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8NmQ1YmY4Y2UzYzg1MWEyYmZiOGMzZWMwZGMwZDdmNmQ2Y2E1YzZkMjQ1ZTYwNzM5NWJlZDMzMmZlNjdlNGJlOQ",
+      "assemblyCode": "CE027B5B-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/chassis-attachments/hood-upper-side-panels-and-upper-grille/cn/CE027B5B-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/seal/p/1342164C1"
+      }
+    },
+    {
+      "partNumber": "1342160C1",
+      "partDescription": "SEAL",
+      "usage": "SEAL - hood to radiator, Replaces: 1289470C1",
+      "sectionCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "assemblyFullName": "9-036 - HOOD, UPPER SIDE PANELS, AND UPPER GRILLE",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-47ABC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDU1MTQxfGltYWdlL3BuZ3xhRGRqTDJnelppODRPVE15TnpJeE1qWXlOakl5TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTNRVUpETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8NmQ1YmY4Y2UzYzg1MWEyYmZiOGMzZWMwZGMwZDdmNmQ2Y2E1YzZkMjQ1ZTYwNzM5NWJlZDMzMmZlNjdlNGJlOQ",
+      "assemblyCode": "CE027B5B-8FBF-E111-9FCE-005056875BD6",
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "modelFullName": "7110 CASE IH MAGNUM TRACTOR (NORTH AMERICA) Oct 1987 Dec 1993",
+      "quantity": null,
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/chassis-attachments/hood-upper-side-panels-and-upper-grille/cn/CE027B5B-8FBF-E111-9FCE-005056875BD6",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/seal/p/1342160C1"
+      }
+    }
+  ],
+  "pagination": {
+    "pageSize": 500,
+    "currentPage": 0,
+    "sort": "fittability-part-description",
+    "numberOfPages": 1,
+    "totalNumberOfResults": 24
+  }
+}

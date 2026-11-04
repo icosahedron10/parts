@@ -1,0 +1,1114 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-07T12:31:02.666829+00:00",
+  "source_index_sha256": "6428086e3edca29ccf6edc73f3b0638801e563a8ef04af41232a74100bf638ae",
+  "source_record_count": 1339,
+  "purpose": "Frozen, manually designed development evaluation of local machine candidate retrieval.",
+  "limits": [
+    "Queries are written from captured labels, not independently sampled user traffic.",
+    "Frozen before neural retrieval outcomes were examined; this is not an untouched test set.",
+    "Expected candidates are catalog-label relevance judgments, not serial-specific fitment.",
+    "Description-only cases usually require clarification and do not identify one machine.",
+    "No part lookup or live-source accuracy is measured.",
+    "850M and TR340 are excluded from query/positive design to preserve existing golden holdouts."
+  ],
+  "excluded_holdout_families": [
+    "850M",
+    "TR340"
+  ],
+  "cases": [
+    {
+      "id": "model_spacing",
+      "query": "CX 350 B",
+      "kind": "exact_model",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "CX350B - CRAWLER EXCAVATOR TIER 3 (NA) (05/08 - 11/18)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "model_telehandler_spacing",
+      "query": "TX 1055",
+      "kind": "exact_model",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "7AE26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "TX1055 - TELEHANDLER (01/08 - 09/14)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "model_suffix_boundary",
+      "query": "SR160",
+      "kind": "exact_model",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "C95ACC67-E450-48E1-822C-0B6FD4AD4596",
+          "label": "SR160 - SKID STEER LOADER - TIER 4B (05/13 - 12/19)"
+        }
+      ],
+      "notes": "SR160B is a distinct model and is not a positive label for SR160."
+    },
+    {
+      "id": "model_electric_mini",
+      "query": "CX15EV",
+      "kind": "exact_model",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC2824551",
+          "label": "CX15EV - MINI CRAWLER EXCAVATOR, ELECTRIC, ROLL-BAR (01/23 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "model_roller",
+      "query": "DV23D",
+      "kind": "exact_model",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "1E536C86-A0B7-4F06-8826-47F720258CA3",
+          "label": "DV23D - DOUBLE DRUM ROLLER T4F (12/18 - 05/19)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "model_electric_loader",
+      "query": "CL36EV",
+      "kind": "exact_model",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC3648427",
+          "label": "CL36EV - COMPACT WHEEL LOADER STD, ELECTRIC, ZB (04/24 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "model_numeric_category_year",
+      "query": "1000 trencher 1975",
+      "kind": "exact_model",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "6BC96496-EFBE-E111-9FCE-005056875BD6",
+          "label": "1000 - DAVIS TASKFORCE SUPER TRENCHER (01/72 - 12/81)"
+        }
+      ],
+      "notes": "The same numeric model also names an observed crawler tractor."
+    },
+    {
+      "id": "model_short_code",
+      "query": "W4 forklift",
+      "kind": "exact_model",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "EBE26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "W4 - CASE FORKLIFT (01/78 - 12/83)"
+        }
+      ],
+      "notes": "W4 also names a wheel loader. The supplied forklift constraint selects the observed forklift label; manually checked before neural outcomes."
+    },
+    {
+      "id": "model_short_code_variants",
+      "query": "DH4 trencher",
+      "kind": "ambiguous_model",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "FEDA6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DH4 - CASE TRENCHER W/1.8L DIESEL ENGINE (01/79 - 12/88)"
+        },
+        {
+          "catalog_id": "FFDA6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DH4 - CASE TRENCHER W/2.1L ENGINE (01/79 - 12/88)"
+        },
+        {
+          "catalog_id": "00DB6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DH4 - TRENCHER - MITSUBISHI ENGINE (01/82 - 12/88)"
+        },
+        {
+          "catalog_id": "01DB6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DH4 - TRENCHER - STEERING WHEEL SUPPLEMENT (01/79 - 12/88)"
+        }
+      ],
+      "notes": "Engine and supplement labels remain separate; DH4B is a different model."
+    },
+    {
+      "id": "model_hyphenated_name",
+      "query": "MAXI-SNEAKER",
+      "kind": "ambiguous_model",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "72DE6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "MAXI-SNEAKER - SERIES-C TRENCHER (01/93 - 12/99)"
+        },
+        {
+          "catalog_id": "73DE6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "MAXI-SNEAKER - SERIES-C TRENCHER (NORTH AMERICAN HOMOLOGATION) (01/93 - 12/04)"
+        },
+        {
+          "catalog_id": "70DE6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "MAXI-SNEAKER C - 25+4XP TRENCHER (01/90 - 12/92)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "model_label_without_separator",
+      "query": "PT240D",
+      "kind": "ambiguous_model",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "6CE5ED75-3C12-4411-A493-5B7F3D97E1DC",
+          "label": "PT240D - PNEUMATIC TIRE ROLLER TIER 4B (12/19 - 12/23)"
+        },
+        {
+          "catalog_id": "ABC4533754",
+          "label": "PT240D PNEUMATIC TIRE ROLLER - TIRE COMPACTOR - STAGE V - MY24 (09/23 - )"
+        }
+      ],
+      "notes": "One observed label has no model/description dash separator."
+    },
+    {
+      "id": "model_paraphrase_railway",
+      "query": "688B railway excavator",
+      "kind": "exact_model",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "94D26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "688B - CASE WHEELED EXCAVATOR - RAIL-ROAD (GERMANY) (08/98 - 12/02)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "variant_electric_cab",
+      "query": "CX25EV cab",
+      "kind": "variant",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC3491901",
+          "label": "CX25EV - MINI CRAWLER EXCAVATOR, ELECTRIC, CAB (11/23 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "variant_electric_canopy",
+      "query": "CX25EV canopy",
+      "kind": "variant",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC3491903",
+          "label": "CX25EV - MINI CRAWLER EXCAVATOR, ELECTRIC, CANOPY (07/23 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "variant_long_reach",
+      "query": "CX210D long reach",
+      "kind": "variant",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "7142AF41-6392-4B77-912F-9ED2D65A667F",
+          "label": "CX210D LC LR - LONG CARRIAGE - LONG REACH - CRAWLER EXCAVATOR - TIER 4B (NA) (08/15 - 07/22)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "variant_narrow_long_carriage",
+      "query": "CX210D narrow long carriage",
+      "kind": "variant",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "B5591455-822B-4F52-94B7-7E231F6A0673",
+          "label": "CX210D NLC - NARROW LONG CARRIAGE - CRAWLER EXCAVATOR - TIER 4B (NA) (04/16 - 11/22)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "variant_backhoe_drive_tier_year",
+      "query": "580N EP 4WD tier 4B MY19",
+      "kind": "variant",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "CAFB3A8E-A633-4CD4-B46B-F086FC0EC69A",
+          "label": "580N EP - BACKHOE LOADER, 4WD - TIER 4B - MY19 (11/18 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "variant_grader_mechanical",
+      "query": "836D 4WD mechanical ZF",
+      "kind": "variant",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC4915460",
+          "label": "836D - 4WD MOTOR GRADER - STAGE V (Mechanical, ZF) (03/25 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "variant_grader_hydraulic",
+      "query": "836D AWD electro-hydraulic ZF",
+      "kind": "variant",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC4914949",
+          "label": "836D - AWD MOTOR GRADER - STAGE V (Electro-Hydraulic, ZF) (03/25 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "year_old_model",
+      "query": "SR160 2015",
+      "kind": "year",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "C95ACC67-E450-48E1-822C-0B6FD4AD4596",
+          "label": "SR160 - SKID STEER LOADER - TIER 4B (05/13 - 12/19)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "year_variant_ambiguity",
+      "query": "CX17D 2024",
+      "kind": "ambiguous_model",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC2461372",
+          "label": "CX17D - MINI CRAWLER EXCAVATOR, CAB - STAGE V (07/22 - )"
+        },
+        {
+          "catalog_id": "ABC2461376",
+          "label": "CX17D - MINI CRAWLER EXCAVATOR, CANOPY - STAGE V (07/22 - )"
+        }
+      ],
+      "notes": "The year cannot choose between cab and canopy; open end remains unknown."
+    },
+    {
+      "id": "underspecified_backhoe",
+      "query": "580N",
+      "kind": "ambiguous_model",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "32236EBF-DCA3-4B10-A24F-A17AD2521642",
+          "label": "580N - BACKHOE LOADER (LIVERY) - TIER 3 NRC (10/16 - 11/17)"
+        },
+        {
+          "catalog_id": "ADDE9EBF-1BC9-46F3-B7E6-76DBCA346599",
+          "label": "580N - BACKHOE LOADER (LIVERY) - TIER 4B (10/16 - 10/17)"
+        },
+        {
+          "catalog_id": "D5236CC4-72E4-4A99-BB53-FA7E46B681D1",
+          "label": "580N - BACKHOE LOADER - TIER 3 NRC (03/15 - 10/16)"
+        },
+        {
+          "catalog_id": "E5D06496-EFBE-E111-9FCE-005056875BD6",
+          "label": "580N - BACKHOE LOADER - TIER 4A - FROM PIN NCC560000 (03/12 - 04/15)"
+        },
+        {
+          "catalog_id": "DC3C9B09-FE99-44E3-8FED-8B336B594003",
+          "label": "580N - BACKHOE LOADER - TIER 4B (02/15 - 10/16)"
+        },
+        {
+          "catalog_id": "83379D58-6E1F-4D5B-844D-D4EBF071F2F9",
+          "label": "580N - BACKHOE LOADER, 2WD - TIER 3 NRC - MY18 (10/17 - 10/18)"
+        },
+        {
+          "catalog_id": "9B80985B-D840-4994-8C65-2581D58F95D4",
+          "label": "580N - BACKHOE LOADER, 2WD - TIER 3 NRC - MY19 (11/18 - 12/24)"
+        },
+        {
+          "catalog_id": "11EC980A-E106-48C2-97E4-460FA2D94328",
+          "label": "580N - BACKHOE LOADER, 2WD - TIER 4B - MY18 (10/17 - 11/18)"
+        },
+        {
+          "catalog_id": "BBE64402-32E2-4FFE-9EF8-BA38207590D8",
+          "label": "580N - BACKHOE LOADER, 2WD - TIER 4B - MY19 (11/18 - )"
+        },
+        {
+          "catalog_id": "ED31080A-1CF4-40B3-9D1F-06FD64A64546",
+          "label": "580N - BACKHOE LOADER, 4WD - TIER 3 NRC - MY18 (10/17 - 11/18)"
+        },
+        {
+          "catalog_id": "151755D7-F61C-4B9C-AC89-4BA91697DBAF",
+          "label": "580N - BACKHOE LOADER, 4WD - TIER 3 NRC - MY19 (11/18 - )"
+        },
+        {
+          "catalog_id": "8D10F162-3D74-47C5-BB9C-62F23DB5D83D",
+          "label": "580N - BACKHOE LOADER, 4WD - TIER 4B - MY18 (10/17 - 11/18)"
+        },
+        {
+          "catalog_id": "2971C102-4027-4D6C-9660-71B5B664AA39",
+          "label": "580N - BACKHOE LOADER, 4WD - TIER 4B - MY19 (11/18 - )"
+        },
+        {
+          "catalog_id": "E8D06496-EFBE-E111-9FCE-005056875BD6",
+          "label": "580N - LOADER BACKHOE (TIER 3) (04/10 - 01/16)"
+        },
+        {
+          "catalog_id": "E6D06496-EFBE-E111-9FCE-005056875BD6",
+          "label": "580N - LOADER BACKHOE - TIER 3 NRC (03/12 - 04/15)"
+        },
+        {
+          "catalog_id": "B6962534-FC04-42F3-B6FD-D4F2FECFBB65",
+          "label": "580N EP - BACKHOE LOADER (LIVERY) - TIER 4B (10/16 - 11/17)"
+        },
+        {
+          "catalog_id": "C35F418E-F4C8-4B4F-9312-5304FC77CCFC",
+          "label": "580N EP - BACKHOE LOADER - TIER 4B (02/15 - 10/16)"
+        },
+        {
+          "catalog_id": "C6887686-FD5A-44FB-B4F3-83B03888A8F5",
+          "label": "580N EP - BACKHOE LOADER, 2WD - TIER 4B - MY18 (10/17 - 10/18)"
+        },
+        {
+          "catalog_id": "6BEA9CDB-652A-4BB3-817D-683864232410",
+          "label": "580N EP - BACKHOE LOADER, 2WD - TIER 4B - MY19 (11/18 - )"
+        },
+        {
+          "catalog_id": "46154E75-F30C-4B9F-9A0C-ECD007BFEC95",
+          "label": "580N EP - BACKHOE LOADER, 4WD - TIER 4B - MY18 (10/17 - 10/18)"
+        },
+        {
+          "catalog_id": "CAFB3A8E-A633-4CD4-B46B-F086FC0EC69A",
+          "label": "580N EP - BACKHOE LOADER, 4WD - TIER 4B - MY19 (11/18 - )"
+        }
+      ],
+      "notes": "An unspecified option may include EP variants; date, drive, tier and serial applicability remain unresolved."
+    },
+    {
+      "id": "description_articulated_hauler",
+      "query": "a truck with an articulated chassis for hauling material",
+      "kind": "description",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "C8CD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "325 - ARTICULATED TRUCK (06/02 - 10/06)"
+        },
+        {
+          "catalog_id": "CECD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "327B - ARTICULATED TRUCK TIER 3 (NA) - N6PG56032 - (01/06 - 12/11)"
+        },
+        {
+          "catalog_id": "DDCD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "330 - ARTICULATED TRUCK (300HP - ZF260) (NORTH AMERICA) (06/02 - 07/06)"
+        },
+        {
+          "catalog_id": "E6CD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "330B - ARTICULATED TRUCK TIER 3 (NA) - N6PG56023 - (09/06 - 11/08)"
+        },
+        {
+          "catalog_id": "E8CD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "335 TIER 2 - ARTICULATED TRUCK (02/05 - 10/06)"
+        },
+        {
+          "catalog_id": "E9CD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "335 TIER 3 - ARTICULATED TRUCK TIER 3 (NA) - SN HHD000510 & HHD000511 & N6PG58015 (02/05 - 10/06)"
+        },
+        {
+          "catalog_id": "EACD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "335B - ARTICULATED TRUCK TIER 3 (EU) (01/06 - 01/08)"
+        },
+        {
+          "catalog_id": "EBCD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "335B - ARTICULATED TRUCK TIER 3 (NA) - SN N6PG58028 - (01/06 - 01/08)"
+        },
+        {
+          "catalog_id": "FCCD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "340 ASN - ARTICULATED TRUCK TIER 3 (NA) - S/N HHD000755 TO 000764 (01/05 - 11/06)"
+        },
+        {
+          "catalog_id": "FBCD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "340 BSN - ARTICULATED TRUCK S/N: UNTIL HHD000754 (01/05 - 11/06)"
+        },
+        {
+          "catalog_id": "0FCE6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "340B NAFTA - ARTICULATED TRUCK TIER 3 (NA) - SN N6PG58018 - (09/06 - 12/08)"
+        }
+      ],
+      "notes": "Category relevance, not a unique catalog identity."
+    },
+    {
+      "id": "description_two_drum_roller",
+      "query": "roller that compacts asphalt with two drums",
+      "kind": "description",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "0B09C637-9B79-4944-8C9D-C03491D7345C",
+          "label": "752EX - DOUBLE DRUM (10/17 - )"
+        },
+        {
+          "catalog_id": "51DB6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DV201 - DOUBLE DRUM VIBRATORY ROLLER (01/01 - 12/05)"
+        },
+        {
+          "catalog_id": "53DB6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DV202 - DOUBLE DRUM VIBRATORY ROLLER (01/04 - 12/05)"
+        },
+        {
+          "catalog_id": "55DB6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DV204 - DOUBLE DRUM VIBRATORY ROLLER (12/02 - 12/11)"
+        },
+        {
+          "catalog_id": "ABC4533750",
+          "label": "DV209D - VIBRATORY ROLLER - DOUBLE DRUM, ASPHALT COMPACTOR - STAGE 5 - MY24 (11/23 - 12/24)"
+        },
+        {
+          "catalog_id": "ABC4533751",
+          "label": "DV210D - VIBRATORY ROLLER - DOUBLE DRUM ASPHALT COMPACTOR - STAGE V - MY24 (11/23 - 12/23)"
+        },
+        {
+          "catalog_id": "1E536C86-A0B7-4F06-8826-47F720258CA3",
+          "label": "DV23D - DOUBLE DRUM ROLLER T4F (12/18 - 05/19)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "description_rubber_tire_roller",
+      "query": "roller on pneumatic rubber tyres",
+      "kind": "description",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "A8DF6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "PT240 - PNEUMATIC TIRE ROLLER TIER 3 (09/09 - 01/19)"
+        },
+        {
+          "catalog_id": "6CE5ED75-3C12-4411-A493-5B7F3D97E1DC",
+          "label": "PT240D - PNEUMATIC TIRE ROLLER TIER 4B (12/19 - 12/23)"
+        },
+        {
+          "catalog_id": "ABC4533754",
+          "label": "PT240D PNEUMATIC TIRE ROLLER - TIRE COMPACTOR - STAGE V - MY24 (09/23 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "description_single_drum_compactor",
+      "query": "soil compactor with one drum",
+      "kind": "description",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "8A10F206-EDC2-4D12-9730-E3549FD84AA3",
+          "label": "SV207E - SINGLE DRUM COMPACTOR - TIER 4B (02/20 - )"
+        },
+        {
+          "catalog_id": "6802036D-DFDA-4FCD-95A0-781BC3F5F7F7",
+          "label": "SV211E - SINGLE DRUM COMPACTOR - TIER 4B (02/20 - )"
+        },
+        {
+          "catalog_id": "2C5D461F-85A8-48D4-82A2-8323746EC2C8",
+          "label": "SV212D - SINGLE DRUM COMPACTOR - TIER 4B (12/17 - 06/20)"
+        },
+        {
+          "catalog_id": "2CBDACC7-D8A5-4132-923E-ECDAAB65F122",
+          "label": "SV213E - SINGLE DRUM COMPACTOR - TIER 4B (02/20 - )"
+        },
+        {
+          "catalog_id": "ABC5002551",
+          "label": "SV214 - SINGLE DRUM COMPACTOR (11/24 - )"
+        },
+        {
+          "catalog_id": "A56381A4-0A24-4FDA-AB69-00DC8E722132",
+          "label": "SV215E - SINGLE DRUM COMPACTOR - TIER 4B (08/21 - 12/23)"
+        },
+        {
+          "catalog_id": "901539DF-60C3-45A1-BCB8-2656FB2FD986",
+          "label": "SV216D - SINGLE DRUM COMPACTOR - TIER 4B (12/17 - 04/21)"
+        },
+        {
+          "catalog_id": "54F89ABE-A24B-4B44-99B1-2C8267FF7851",
+          "label": "SV217E - SINGLE DRUM COMPACTOR - TIER 4B (09/21 - )"
+        },
+        {
+          "catalog_id": "ABC5004048",
+          "label": "SV218 - SINGLE DRUM COMPACTOR (11/24 - 12/24)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "description_telescoping_handler",
+      "query": "material handler with a telescoping boom",
+      "kind": "description",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "62D26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "686G - CASE SERIES-2 TELESCOPIC HANDLER (05/99 - 12/03)"
+        },
+        {
+          "catalog_id": "63D26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "686G - CASE TELESCOPIC HANDLER (06/98 - 12/03)"
+        },
+        {
+          "catalog_id": "64D26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "686GXR - CASE SERIES-2 TELESCOPIC HANDLER (05/99 - 12/03)"
+        },
+        {
+          "catalog_id": "9FD26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "688G - CASE TIER-2 TELESCOPIC HANDLER (05/99 - 12/03)"
+        },
+        {
+          "catalog_id": "A2D26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "689G - CASE TELESCOPIC HANDLER (04/98 - 12/05)"
+        },
+        {
+          "catalog_id": "7AE26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "TX1055 - TELEHANDLER (01/08 - 09/14)"
+        },
+        {
+          "catalog_id": "90E26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "TX742 - TELEHANDLER (07/07 - 12/14)"
+        },
+        {
+          "catalog_id": "91E26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "TX842 - TELEHANDLER (05/06 - 12/15)"
+        },
+        {
+          "catalog_id": "92E26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "TX945 - TELEHANDLER (05/06 - 12/15)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "description_rough_terrain_forks",
+      "query": "rough terrain lifting machine with forks built in Wichita",
+      "kind": "description",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC5786397",
+          "label": "586H - ROUGH TERRAIN FORKLIFT (WICHITA BUILT) (04/26 - )"
+        },
+        {
+          "catalog_id": "ABC5786599",
+          "label": "588H - ROUGH TERRAIN FORKLIFT (WICHITA BUILT) (04/26 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "description_battery_wheel_loader",
+      "query": "small loader on wheels powered by an electric motor",
+      "kind": "description",
+      "expected_behavior": "retrieve_observed_candidate",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC3648427",
+          "label": "CL36EV - COMPACT WHEEL LOADER STD, ELECTRIC, ZB (04/24 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "description_electric_mini_digger",
+      "query": "small digging machine powered by an electric motor",
+      "kind": "description",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "ABC2824551",
+          "label": "CX15EV - MINI CRAWLER EXCAVATOR, ELECTRIC, ROLL-BAR (01/23 - )"
+        },
+        {
+          "catalog_id": "ABC3491901",
+          "label": "CX25EV - MINI CRAWLER EXCAVATOR, ELECTRIC, CAB (11/23 - )"
+        },
+        {
+          "catalog_id": "ABC3491903",
+          "label": "CX25EV - MINI CRAWLER EXCAVATOR, ELECTRIC, CANOPY (07/23 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "description_excavator_wheels",
+      "query": "digging machine that runs on wheels",
+      "kind": "description",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "BBC96496-EFBE-E111-9FCE-005056875BD6",
+          "label": "1085B - CASE CRUZ-AIR WHEELED EXCAVATOR (01/85 - 12/85)"
+        },
+        {
+          "catalog_id": "BCC96496-EFBE-E111-9FCE-005056875BD6",
+          "label": "1085C - CASE CRUZ-AIR WHEELED EXCAVATOR (12/84 - 01/89)"
+        },
+        {
+          "catalog_id": "BEC96496-EFBE-E111-9FCE-005056875BD6",
+          "label": "1086B - CASE CRUZ-AIR WHEELED EXCAVATOR (01/85 - 12/85)"
+        },
+        {
+          "catalog_id": "94D26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "688B - CASE WHEELED EXCAVATOR - RAIL-ROAD (GERMANY) (08/98 - 12/02)"
+        },
+        {
+          "catalog_id": "EDD46496-EFBE-E111-9FCE-005056875BD6",
+          "label": "75P - POCLAIN WHEELED EXCAVATOR (05/75 - 12/83)"
+        },
+        {
+          "catalog_id": "48D56496-EFBE-E111-9FCE-005056875BD6",
+          "label": "788 - CASE WHEELED EXCAVATOR - LOW PROFILE CAB (09/95 - 12/02)"
+        },
+        {
+          "catalog_id": "94E26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "TY45 - POCLAIN WHEELED EXCAVATOR (01/64 - 12/81)"
+        },
+        {
+          "catalog_id": "ABC2755157",
+          "label": "WX140E - WHEELED EXCAVATORS - STAGE V (09/22 - )"
+        },
+        {
+          "catalog_id": "ABC2755158",
+          "label": "WX140E - WHEELED EXCAVATORS, 2 PIECE BOOM - STAGE V (09/22 - )"
+        },
+        {
+          "catalog_id": "ABC2755391",
+          "label": "WX155E SR - WHEELED EXCAVATORS - STAGE V (09/22 - )"
+        },
+        {
+          "catalog_id": "ABC2755392",
+          "label": "WX155E SR - WHEELED EXCAVATORS, 2PIECE BOOM - STAGE V (09/22 - )"
+        },
+        {
+          "catalog_id": "ABC2755395",
+          "label": "WX160E - WHEELED EXCAVATORS - STAGE V (09/22 - )"
+        },
+        {
+          "catalog_id": "ABC2755397",
+          "label": "WX160E - WHEELED EXCAVATORS, 2 PIECE BOOM - STAGE V (09/22 - )"
+        },
+        {
+          "catalog_id": "ABC2755401",
+          "label": "WX175E SR - WHEELED EXCAVATORS, 2 PIECE BOOM - STAGE V (09/22 - )"
+        },
+        {
+          "catalog_id": "ABC2755408",
+          "label": "WX210E - WHEELED EXCAVATORS - STAGE V (01/23 - )"
+        },
+        {
+          "catalog_id": "ABC2755409",
+          "label": "WX210E - WHEELED EXCAVATORS, 2 PIECE BOOM - STAGE V (01/23 - )"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "description_davis_trenching",
+      "query": "Davis machine for digging trenches",
+      "kind": "description",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "6BC96496-EFBE-E111-9FCE-005056875BD6",
+          "label": "1000 - DAVIS TASKFORCE SUPER TRENCHER (01/72 - 12/81)"
+        },
+        {
+          "catalog_id": "45CD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "30 - DAVIS FLEETHOE TRENCHER (01/70 - 12/80)"
+        },
+        {
+          "catalog_id": "B9D26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "70 - DAVIS TRIMLINE TRENCHER (01/77 - 12/80)"
+        },
+        {
+          "catalog_id": "C2D26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "700 - DAVIS TASK FORCE TRENCHER (01/70 - 12/82)"
+        },
+        {
+          "catalog_id": "E3DA6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DAVIS - FLEETLINE 16+4 TRENCHER (01/76 - 12/82)"
+        },
+        {
+          "catalog_id": "E4DA6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "DAVIS - FLEETLINE 25+4 TRENCHER (01/76 - 12/78)"
+        },
+        {
+          "catalog_id": "77DD6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "L55 - DAVIS FLEETLINE 70+4 TRENCHER (01/70 - 12/79)"
+        },
+        {
+          "catalog_id": "37DF6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "N63 - DAVIS MINI-SNEAKER CABLE LAYER (01/78 - 12/88)"
+        },
+        {
+          "catalog_id": "4BDF6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "P-40 - DAVIS LINE LAYER ATTACHMENT (01/81 - 12/88)"
+        },
+        {
+          "catalog_id": "4EDF6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "P-50 - DAVIS LINE LAYER ATTACHMENT (01/81 - 12/88)"
+        },
+        {
+          "catalog_id": "52DF6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "P-60 - DAVIS LINE LAYER ATTACHMENT (01/81 - 12/88)"
+        },
+        {
+          "catalog_id": "4CDF6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "P42 - DAVIS FLEETLINE 30+4 SUPER TRENCHER (01/72 - 12/84)"
+        },
+        {
+          "catalog_id": "4FDF6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "P55 - DAVIS FLEETLINE 70+4 TRENCHER (01/70 - 12/79)"
+        },
+        {
+          "catalog_id": "50DF6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "P57 - DAVIS FLEETLINE 40+4 SUPER TRENCHER (01/72 - 12/86)"
+        },
+        {
+          "catalog_id": "51DF6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "P60 - DAVIS FLEETLINE 30+4 TRENCHER (01/70 - 12/88)"
+        },
+        {
+          "catalog_id": "53DF6496-EFBE-E111-9FCE-005056875BD6",
+          "label": "P63 - DAVIS MINI-SNEAKER CABLE LAYER (01/78 - 12/88)"
+        },
+        {
+          "catalog_id": "EEE06496-EFBE-E111-9FCE-005056875BD6",
+          "label": "S101 - DAVIS FLEETLINE 7+2 TRENCHER (01/75 - 12/76)"
+        },
+        {
+          "catalog_id": "1DE16496-EFBE-E111-9FCE-005056875BD6",
+          "label": "SD100 - DAVIS FLEETLINE 40+4 TRENCHER (01/70 - 12/86)"
+        },
+        {
+          "catalog_id": "1EE26496-EFBE-E111-9FCE-005056875BD6",
+          "label": "T63 - DAVIS MINI-SNEAKER CABLE LAYER (01/78 - 12/86)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "description_road_grading",
+      "query": "road leveling machine with a grading blade",
+      "kind": "description",
+      "expected_behavior": "preserve_ambiguity",
+      "expected_relevant": [
+        {
+          "catalog_id": "13AD9966-829F-4EDA-AF44-0E81713B8772",
+          "label": "836C - 4WD MOTOR GRADER (LIVERY) - TIER 4 (02/17 - )"
+        },
+        {
+          "catalog_id": "ABC2609202",
+          "label": "836C - 4WD MOTOR GRADER ELECTRO-HYDRAULIC - STAGE V (03/23 - )"
+        },
+        {
+          "catalog_id": "6518C7F4-7568-481A-884A-1F44D49082FE",
+          "label": "836C - 4WD MOTOR GRADER MY20 - STAGE V (10/20 - )"
+        },
+        {
+          "catalog_id": "ABC2611311",
+          "label": "836C - 6WD MOTOR GRADER ELECTRO-HYDRAULIC - STAGE V (03/23 - )"
+        },
+        {
+          "catalog_id": "9C9FE59C-6F74-48B1-9DD4-92189EB68B63",
+          "label": "836C AWD - AWD MOTOR GRADER (LIVERY) - TIER 4 (02/17 - )"
+        },
+        {
+          "catalog_id": "9F048609-9024-4222-93DF-B8B2B0A8864C",
+          "label": "836C AWD - AWD MOTOR GRADER MY20 - STAGE V (10/20 - )"
+        },
+        {
+          "catalog_id": "ABC3358067",
+          "label": "836D - 4WD MOTOR GRADER - STAGE V (Electro-Hydraulic) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4914898",
+          "label": "836D - 4WD MOTOR GRADER - STAGE V (Electro-Hydraulic, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "ABC3358071",
+          "label": "836D - 4WD MOTOR GRADER - STAGE V (Mechanical) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4915460",
+          "label": "836D - 4WD MOTOR GRADER - STAGE V (Mechanical, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "ABC3358068",
+          "label": "836D - AWD MOTOR GRADER - STAGE V (Electro-Hydraulic) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4914949",
+          "label": "836D - AWD MOTOR GRADER - STAGE V (Electro-Hydraulic, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "ABC3358072",
+          "label": "836D - AWD MOTOR GRADER - STAGE V (Mechanical) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4915481",
+          "label": "836D - AWD MOTOR GRADER - STAGE V (Mechanical, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "DAD56496-EFBE-E111-9FCE-005056875BD6",
+          "label": "845 - MOTOR GRADER - ASN 020001 (01/02 - 12/03)"
+        },
+        {
+          "catalog_id": "DCD56496-EFBE-E111-9FCE-005056875BD6",
+          "label": "845 - MOTOR GRADER TIER 2- BTW 020101-020187 (03/03 - 12/09)"
+        },
+        {
+          "catalog_id": "DDD56496-EFBE-E111-9FCE-005056875BD6",
+          "label": "845 - MOTOR GRADER TIER I (BR) - ASN N8AF07000 (06/08 - 01/10)"
+        },
+        {
+          "catalog_id": "D8D56496-EFBE-E111-9FCE-005056875BD6",
+          "label": "845 DHP - MOTOR GRADER - TIER 3 (NA) - ASN N7AF03356 (01/07 - 05/11)"
+        },
+        {
+          "catalog_id": "D9D56496-EFBE-E111-9FCE-005056875BD6",
+          "label": "845 DHP - MOTOR GRADER - TIER 3 (NA) - ASN N8AF03592 (01/07 - 05/11)"
+        },
+        {
+          "catalog_id": "B03AF13F-A954-4A90-ADD4-BD14C8FABC9F",
+          "label": "845B - MOTOR GRADER - DIRECT DRIVE - TIER 3 (BR) (01/17 - 08/17)"
+        },
+        {
+          "catalog_id": "295AB958-E588-4DFF-BAB5-78F4DBE03ED2",
+          "label": "845B - MOTOR GRADER - TORQUE CONVERTER - TIER 3 (BR) (01/17 - 06/22)"
+        },
+        {
+          "catalog_id": "E1D56496-EFBE-E111-9FCE-005056875BD6",
+          "label": "845B - MOTOR GRADER TIER 3 (NEW CAB) (12/10 - 03/19)"
+        },
+        {
+          "catalog_id": "1ED240FB-0532-4240-92DC-527963D1EEA2",
+          "label": "856C - 4WD MOTOR GRADER (LIVERY) - TIER 4 (02/17 - )"
+        },
+        {
+          "catalog_id": "ABC2611312",
+          "label": "856C - 4WD MOTOR GRADER ELECTRO-HYDRAULIC - STAGE V (03/23 - )"
+        },
+        {
+          "catalog_id": "A3B12AAD-FC0E-4CD3-B132-354C7B17E5D7",
+          "label": "856C - 4WD MOTOR GRADER MY20 - STAGE V (10/20 - )"
+        },
+        {
+          "catalog_id": "ABC2611313",
+          "label": "856C - 6WD MOTOR GRADER ELECTRO-HYDRAULIC - STAGE V (03/23 - )"
+        },
+        {
+          "catalog_id": "1A8CFD7F-848E-4F80-8147-564E73FD2BA1",
+          "label": "856C AWD - AWD MOTOR GRADER (LIVERY) - TIER 4 (02/17 - )"
+        },
+        {
+          "catalog_id": "532EF13C-C8F3-45F4-B4FC-560AE817003C",
+          "label": "856C AWD - AWD MOTOR GRADER MY20 - STAGE V (10/20 - )"
+        },
+        {
+          "catalog_id": "ABC3358069",
+          "label": "856D - 4WD MOTOR GRADER - STAGE V (Electro-Hydraulic) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4915089",
+          "label": "856D - 4WD MOTOR GRADER - STAGE V (Electro-Hydraulic, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "ABC3358074",
+          "label": "856D - 4WD MOTOR GRADER - STAGE V (Mechanical) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4915483",
+          "label": "856D - 4WD MOTOR GRADER - STAGE V (Mechanical, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "ABC3358070",
+          "label": "856D - AWD MOTOR GRADER - STAGE V (Electro-Hydraulic) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4915212",
+          "label": "856D - AWD MOTOR GRADER - STAGE V (Electro-Hydraulic, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "ABC3358075",
+          "label": "856D - AWD MOTOR GRADER - STAGE V (Mechanical) (03/24 - )"
+        },
+        {
+          "catalog_id": "ABC4915485",
+          "label": "856D - AWD MOTOR GRADER - STAGE V (Mechanical, ZF) (03/25 - )"
+        },
+        {
+          "catalog_id": "36D66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "865 - MOTOR GRADER - ASN 022001 (07/05 - 01/11)"
+        },
+        {
+          "catalog_id": "38D66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "865 - MOTOR GRADER TIER 2 - ASN 022101 (03/03 - 12/09)"
+        },
+        {
+          "catalog_id": "33D66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "865 AWD - MOTOR GRADER TIER 3 (NA) (01/08 - 12/10)"
+        },
+        {
+          "catalog_id": "34D66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "865 DHP - MOTOR GRADER - ASN N5AF04007 (01/03 - 12/08)"
+        },
+        {
+          "catalog_id": "3AD66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "865 VHP - MOTOR GRADER - TIER 3 (NA) - ASN N7AF04232 & N6AF04226 (07/05 - 01/11)"
+        },
+        {
+          "catalog_id": "39D66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "865 VHP - MOTOR GRADER TIER 3 (BR) - ASN N8AF04429 (07/05 - 01/11)"
+        },
+        {
+          "catalog_id": "3BD66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "865 VHP - MOTOR GRADER TIER 3 (NA) - ASN N8AF04429 (07/05 - 01/11)"
+        },
+        {
+          "catalog_id": "822CF0AD-CEB9-4668-87F3-08706CE4AE6C",
+          "label": "865B - MOTOR GRADER - DIRECT DRIVE - TIER 3 (BR) (01/17 - 12/17)"
+        },
+        {
+          "catalog_id": "D7316F92-6437-4BDB-9DC4-65F4CA635C53",
+          "label": "865B - MOTOR GRADER - TORQUE CONVERTER - TIER 3 (BR) (01/17 - 06/22)"
+        },
+        {
+          "catalog_id": "3ED66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "865B - MOTOR GRADER TIER 3 (NEW CAB) (12/10 - 12/22)"
+        },
+        {
+          "catalog_id": "C005FA91-8E93-4510-B351-1ADA589EAD21",
+          "label": "865B AWD - MOTOR GRADER - DIRECT DRIVE - TIER 3 (BR) (01/17 - 06/22)"
+        },
+        {
+          "catalog_id": "3DD66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "865B AWD - MOTOR GRADER TIER 3 (NEW CAB) (10/11 - 04/17)"
+        },
+        {
+          "catalog_id": "7BD66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "885 - MOTOR GRADER - ASN 024001 (01/02 - 12/03)"
+        },
+        {
+          "catalog_id": "7CD66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "885 - MOTOR GRADER TIER 0 - TIER 2 (BR) - ASN N8AF05114 (01/08 - 12/09)"
+        },
+        {
+          "catalog_id": "7DD66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "885 - MOTOR GRADER TIER 2 - BTW 024102-024129 (03/03 - 12/09)"
+        },
+        {
+          "catalog_id": "7ED66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "885 - MOTOR GRADER TIER 3 (BR) - ASN N8AF05110 (07/05 - 01/11)"
+        },
+        {
+          "catalog_id": "7FD66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "885 - MOTOR GRADER TIER 3 (NA) - ASN N7AF05055 (07/05 - 01/11)"
+        },
+        {
+          "catalog_id": "80D66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "885 - MOTOR GRADER TIER 3 (NA) - ASN N8AF05110 (01/08 - 12/10)"
+        },
+        {
+          "catalog_id": "74D66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "885 AWD - MOTOR GRADER TIER 3 (NA) (01/08 - 12/10)"
+        },
+        {
+          "catalog_id": "61698436-8B85-4D65-9ED8-DEF4AA8968A0",
+          "label": "885B - MOTOR GRADER - DIRECT DRIVE - TIER 3 (BR) (01/17 - 12/17)"
+        },
+        {
+          "catalog_id": "BC879031-D5DC-432D-8445-2DD809211D11",
+          "label": "885B - MOTOR GRADER - TORQUE CONVERTER - TIER 3 (BR) (01/17 - 06/22)"
+        },
+        {
+          "catalog_id": "86D66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "885B - MOTOR GRADER TIER 3 (NEW CAB) (03/11 - 04/17)"
+        },
+        {
+          "catalog_id": "98805950-2FDA-4AB9-9813-55B78596E01D",
+          "label": "885B AWD - MOTOR GRADER - DIRECT DRIVE - TIER 3 (BR) (01/17 - 05/22)"
+        },
+        {
+          "catalog_id": "85D66496-EFBE-E111-9FCE-005056875BD6",
+          "label": "885B AWD - MOTOR GRADER TIER 3 (NEW CAB) (01/12 - 05/17)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "conflict_telehandler_year",
+      "query": "TX1055 1960",
+      "kind": "constraint_conflict",
+      "expected_behavior": "no_local_match",
+      "expected_relevant": [],
+      "notes": "Observed TX1055 dates start in 2008; similar models must not replace this explicit model."
+    },
+    {
+      "id": "conflict_excavator_year",
+      "query": "CX350B 2025",
+      "kind": "constraint_conflict",
+      "expected_behavior": "no_local_match",
+      "expected_relevant": [],
+      "notes": "Observed CX350B production ends in 2018; a later related model is not a match."
+    },
+    {
+      "id": "conflict_equipment_class",
+      "query": "CX350B wheel loader",
+      "kind": "constraint_conflict",
+      "expected_behavior": "no_local_match",
+      "expected_relevant": [],
+      "notes": "The observed explicit model is a crawler excavator, conflicting with the equipment constraint."
+    },
+    {
+      "id": "conflict_fuel_type",
+      "query": "CX25EV diesel excavator",
+      "kind": "constraint_conflict",
+      "expected_behavior": "no_local_match",
+      "expected_relevant": [],
+      "notes": "Every observed CX25EV label explicitly says electric, conflicting with diesel."
+    },
+    {
+      "id": "miss_unrelated",
+      "query": "piano sheet music",
+      "kind": "local_miss",
+      "expected_behavior": "no_local_match",
+      "expected_relevant": [],
+      "notes": "Local absence only; no source-wide completeness claim."
+    }
+  ]
+}

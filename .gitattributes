@@ -1,0 +1,4 @@
+*.jsonl -text
+tests/fixtures/** -text
+data/indexes/*.json -text
+evals/benchmark/manifest.json -text

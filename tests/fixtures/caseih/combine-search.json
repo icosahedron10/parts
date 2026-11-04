@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "modelCode": "0DCB6496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "EE419851-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "06-03 - COOLING, RADIATOR AND CONNECTIONS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-A3A17EE6-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE0OTQ3fGltYWdlL3BuZ3xhRFV3TDJoallTODRPVE16TURNeU16WXlNREUwTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVRXpRVEUzUlVVMkxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8Y2IwZTNmYWRhY2RlZjlmYjdjMmUyMDZmMTNlNDMzNTE3OTliYTFiMjk0NTU4ODQ1YTEzNDE2NjMzMGExMDViNg",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "0DCB6496-EFBE-E111-9FCE-005056875BD6_Cool_Cooling",
+      "assemblyUrl": "/amea/harvesting-equipment/axial-rotary-combines/ameaaj09axi0211400series/international-harvester-combine-north-america/cooling/cooling-radiator-and-connections/cn/EE419851-8FBF-E111-9FCE-005056875BD6"
+    }
+  ],
+  "pagination": {
+    "pageSize": 500,
+    "currentPage": 0,
+    "sort": "fittability-figure",
+    "numberOfPages": 1,
+    "totalNumberOfResults": 1
+  }
+}

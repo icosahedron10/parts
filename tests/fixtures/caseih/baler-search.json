@@ -1,0 +1,187 @@
+{
+  "results": [
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "8C7DA36E-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "029 - HYDRAULIC PICKUP LIFT",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-427062E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDEzMzAxN3xpbWFnZS9wbmd8YURSa0wyZzNPUzg0T1RJek5Ua3dPREU1T0Rjd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFF5TnpBMk1rVXlMVGhGUWtZdFJURXhNUzA1UmtORkxUQXdOVEExTmpnM05VSkVOaTV3Ym1jfGU3NTJmMmQyYTA3MzJlNmNhOTkyMjY3YjE1OTczNmY1MzJhYTZmZGYwODMxODRiOTI4MzE5M2YxMmQwYzIzNjE",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_35_HYDRAULIC_SYSTEMS",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/hydraulic-systems/hydraulic-pickup-lift/cn/8C7DA36E-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "4F0EDB58-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "030 - HYDRAULIC CYLINDER, HYDRAULIC PICKUP LIFT",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-FF6F62E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDcxMDk3fGltYWdlL3BuZ3xhR05sTDJnNVlTODRPRGt6T0RBME5UYzJOems0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVWkdOa1kyTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8YjQzMGYzYmM3ZGRmZTlhNzgxMDE1YTBlNmMxMWI3YTdkNGYwMjI2OWU2MmYwY2ZjMWZhODRlMTkxYmJmYmU2MA",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_35_HYDRAULIC_SYSTEMS",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/hydraulic-systems/hydraulic-cylinder-hydraulic-pickup-lift/cn/4F0EDB58-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "8537AC82-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "040 - WIDE PICKUP, FEEDER, FLOTATION & SHIELDS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-722868E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDYyMTU0fGltYWdlL3BuZ3xhREpqTDJnd01DODRPRGs1T0RNeE1qWTNNelU0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUY3lNamcyT0VVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8NTA0MzQzMjE4NzFlZWVhMGU1Mzg5MjcxNzFjY2YzNmY5YTM1OTg0ZDNhNGQ5YjU4ZmU5NmQyYzQ3MTRhYmY2Ng",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-feeder-flotation-shields/cn/8537AC82-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "1848774F-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "041 - WIDE PICKUP, REEL, REEL DRIVE & WINDGUARD",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-132868E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDU3NTIyfGltYWdlL3BuZ3xhREptTDJneFpDODRPVEl5T1RRNU5qRTFOalEyTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxURXpNamcyT0VVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ZGMyYzVmYjZiZDVjNmY2ZTQ5OTNkNDJiOGRmYjFmNjQ5OTIyYTMyNTgzNzFlZWQzZGU2NGY3NDMwMTg1ODMyNA",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-reel-reel-drive-windguard/cn/1848774F-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "375B387F-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "042 - WIDE PICKUP, LIFT CRANK",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-E92768E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDMyOTY2fGltYWdlL3BuZ3xhREl6TDJobU55ODRPRGMzTXpRMk9URTBNek0wTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVVTVNamMyT0VVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8Yjk2MDg4YjIyMGZkNTM0MWQ0MGJlMTRiNTQ4NmU4Y2FjMDhjYjQxOGIyMjk1NTkyOTJjMDBkZDVhNmIyMmM2ZA",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-lift-crank/cn/375B387F-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "010B7B5B-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "043 - WIDE PICKUP, RH DRIVES",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-5D7062E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDEyNzQ4OHxpbWFnZS9wbmd8YURkaEwyZzBaUzg0T1RRM01Ua3lPVEl5TVRReUwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFZFTnpBMk1rVXlMVGhGUWtZdFJURXhNUzA1UmtORkxUQXdOVEExTmpnM05VSkVOaTV3Ym1jfDcyYTlkOTljNDQzMDMyYjM0Mjk1OGNiNzYzMzU5MWFmMjQ3YTY3YWRkYmUxYmYyYTU0ZTAzZDdmOTRlZjFkMzE",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-rh-drives/cn/010B7B5B-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "CAF6C076-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "044 - WIDE PICKUP, LH DRIVES",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-B27062E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE1NTQwN3xpbWFnZS9wbmd8YUdVd0wyaG1PUzg0T1RNeU9ERXpOakF5T0RRMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVUl5TnpBMk1rVXlMVGhGUWtZdFJURXhNUzA1UmtORkxUQXdOVEExTmpnM05VSkVOaTV3Ym1jfGQxNWYyMWE0NTU3MTI5M2ZmZGY3NmQzODU3MTE2N2UyZjViNzQ3OTI5ZTk2ZTA0NjlmOTM0M2FlYjBkMDE1OWQ",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-lh-drives/cn/CAF6C076-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "B49B106C-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "045 - WIDE PICKUP, ROLLER CHAIN",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-EA6F62E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDk5MjU3fGltYWdlL3BuZ3xhREptTDJnd09TODRPVEV6TlRneE9EQXhOVEF5TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVVkJOa1kyTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ZjE0OWIzZWI3YjA0NGUyNDUzNTRhM2RlODkxYWExNTc4MDYwMzViMDk1NWRlZGNiNWVlNzAyOTMyOTg2YjA4ZA",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-roller-chain/cn/B49B106C-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "F98B7D55-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "046 - WIDE PICKUP, FRAME",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-137562E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDk0NzczfGltYWdlL3BuZ3xhRFF3TDJnNU1TODRPVEU1TXpBMk1EUXpOREl5TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxURXpOelUyTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ZTkwZTk2ZmJmZDc4YTczMmVmOWZkZmJmZDM5ZDQzZDdmYTRlZWYxMjQ0NDA2OTY5YzIyZGQyY2EwZjAyYTQ3Yw",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-frame/cn/F98B7D55-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "94E2C076-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "047 - WIDE PICKUP, STUFFER FEEDER",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-B37062E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDEwNzI2MXxpbWFnZS9wbmd8YUdNM0wyaGpOaTg0T1RNd056Z3hNRE0yTlRjMEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVUl6TnpBMk1rVXlMVGhGUWtZdFJURXhNUzA1UmtORkxUQXdOVEExTmpnM05VSkVOaTV3Ym1jfDkzMDE1YmRhZDg1NzdiMTczYTg3YmE4MzYyMzc2MDlkYTRmMzczYjczMTY4NGQ1NWM0OWIyYTcxNzE0Mzk4YjE",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-stuffer-feeder/cn/94E2C076-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "8C9DD55C-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "048 - WIDE PICKUP, JAW CLUTCH",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-797E62E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDg3NTEyfGltYWdlL3BuZ3xhREpqTDJneE9DODRPRGd5TkRVd05UWXpNVEF5TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUYzVOMFUyTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8MzRjMjIzZWI2YTFiODgzMjczOWMyMzFkMDczZjg1MGRiOWRkYWNlYzMyNDZmZDQxZmU1NTM1MDVlMzBhZmQ1NA",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-jaw-clutch/cn/8C9DD55C-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "8D85796F-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "049 - WIDE PICKUP, WINDGUARD",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-587062E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDg2MzA2fGltYWdlL3BuZ3xhRFpsTDJobFppODRPVEkxTVRZM01Ea3hOelF5TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUVTROekEyTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8MWI3YTM4ZGZhNDRiNTA4MmFlYzM0YzNiNWZjZDBhMmUxZGM2OGNhZDg0N2ZkN2M2ZDdhODA1YmNjNGZiMGU1Yw",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-windguard/cn/8D85796F-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "11E80978-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "050 - WIDE PICKUP, REEL, FINGERS, DOUBLE CAM",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-BD7062E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDk4MjUwfGltYWdlL3BuZ3xhR1kxTDJoaFlTODRPVFEyTnpNNU1qZ3hPVFV3TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVSkVOekEyTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8OTU3OWU5OThiN2JhYTEyNmFmYzczYzlhYjA5YmE5MTc4ZjUzNTRiOWFhZGJhZGUyODE1YmJmYjdjMDJkMzc3OQ",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-reel-fingers-double-cam/cn/11E80978-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "884BBE6A-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "051 - WIDE PICKUP, FLOATATION SPRING",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-297262E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDk2NTMzfGltYWdlL3BuZ3xhRFJrTDJobFpDODRPRGMwT1RVeE16YzJPVEkyTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUSTVOekkyTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8MmNlNjYyMzFhOWVjMjRkNTA5MzFkNDA2NjA1NGYzYmFjMmM1YzZiZWI3YmYwM2MzZWM0Yjg1MjMyYTg5ZjAxYQ",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-floatation-spring/cn/884BBE6A-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "2911937A-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "052 - WIDE PICKUP, TIRES & WHEELS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-BA7362E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc2MzkwfGltYWdlL3BuZ3xhREJqTDJoalpTODRPVEkxT0RJME9UUXlNVEV3TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVSkJOek0yTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8NTY3ZTIwNzVjOTNiMTI1ZGU4ZjNlZjk1ODRiZDY5YzY0Y2M2MDNhYjgyNjY5MTY3Y2QyZjhiM2QwYjQ3MTdjNA",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_60_PRODUCT_FEEDING",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-tires-wheels/cn/2911937A-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "69E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "DEBBE746-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "INDEX[10] - PICTORIAL INDEX, WIDE PICKUP, FIG. 040 - 052",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-DA6F62E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDkwNDkxfGltYWdlL3BuZ3xhRFZpTDJoaVlpODRPVE15T1RNeU1Ea3hPVE0wTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVUkJOa1kyTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ZjI2MWQ3OWM2MDE2NGEwYjFmOTliZGFiOGM2MzYyNWY3YjdkOWJlODMzNjQyNTJmZDE5OGMzMDZmNWY3NWJmYQ",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "69E06496-EFBE-E111-9FCE-005056875BD6_00_GENERAL_&_PICTORIAL_INDEX",
+      "assemblyUrl": "/amea/balers/round-balers/ameaad72rou022rbx/case-ih-round-baler/general-pictorial-index/pictorial-index-wide-pickup-fig-040-052/cn/DEBBE746-8FBF-E111-9FCE-005056875BD6"
+    }
+  ],
+  "pagination": {
+    "pageSize": 500,
+    "currentPage": 0,
+    "sort": "fittability-figure",
+    "numberOfPages": 1,
+    "totalNumberOfResults": 16
+  }
+}

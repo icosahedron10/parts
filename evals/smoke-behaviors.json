@@ -1,0 +1,5 @@
+{
+  "S018.ambiguous": "catalog_choice",
+  "S019.ambiguous": "catalog_choice",
+  "S020.no_match": "scoped_no_match"
+}

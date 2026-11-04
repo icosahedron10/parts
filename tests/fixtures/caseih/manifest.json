@@ -1,0 +1,107 @@
+{
+  "sitemap.html": {
+    "bytes": 272926,
+    "sha256": "12b5044f5381a4e5b20ae36cfd527cf3fbe12083d7e9bb79c1a88847126c628a",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/sitemap-equipment",
+    "observed_at": "2026-11-04T00:15:50.898813+00:00",
+    "source_content_hash": "sha256:0fd7acf9fdf04fcb7d230f5454e21b9cee42d8d2d10ca19570175aba133a4fe9"
+  },
+  "series.html": {
+    "bytes": 200194,
+    "sha256": "8bfe28b469dc50c52c167655a3d2651651d3d70a2db8b3f2feaafd54b08400a6",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/cn/NA_A_D_72_ROU_022_RBX",
+    "observed_at": "2026-11-04T00:17:23.889729+00:00",
+    "source_content_hash": "sha256:4affe9d4f418128c0264b8302f4e3a934754604e8fb54dbd0ffad887aae55442"
+  },
+  "tractor-groups.html": {
+    "bytes": 201976,
+    "sha256": "f8665d6d226c1ba21ea4a34cad40511eed6345227d4d0f0e44019e5da98e2714",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/cn/EDD26496-EFBE-E111-9FCE-005056875BD6",
+    "observed_at": "2026-11-04T00:21:56.874972+00:00",
+    "source_content_hash": "sha256:3e2cc09169d63e194035ec3df8fb457a9e6c49cdadad7eff0daf20401c06fcb3"
+  },
+  "tractor-search.json": {
+    "bytes": 2081,
+    "sha256": "5d0588e19d5fce74d8110aded82d252d302b12198e360e24267814e1a6dc11ec",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/dc/searchInModel/figure?modelCode=EDD26496-EFBE-E111-9FCE-005056875BD6&paramSearch=radiator&regionCode=NA",
+    "observed_at": "2026-11-04T00:22:11.334535+00:00",
+    "source_content_hash": "sha256:4c81bccbd4319e587b24b1054cd46e9a80ed1072c41d8642a67c019c62b3ab3b"
+  },
+  "tractor-assembly.html": {
+    "bytes": 474314,
+    "sha256": "aef008943ac9cdcee8cdd3cecd9f69917eb47a8b56be02afa7d67f63d3eed4e0",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6",
+    "observed_at": "2026-11-04T00:23:29.148342+00:00",
+    "source_content_hash": "sha256:ea47c72be8e5a77c94ab8d948887017f9e72ada9c90bbe01708701efcacad263"
+  },
+  "combine-search.json": {
+    "bytes": 1163,
+    "sha256": "6259bf53fa824cba14c0b77557885c7ba58ab1b7024eceb8171fc90ddb58cb53",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/dc/searchInModel/figure?modelCode=0DCB6496-EFBE-E111-9FCE-005056875BD6&paramSearch=radiator&regionCode=NA",
+    "observed_at": "2026-11-04T00:23:31.854502+00:00",
+    "source_content_hash": "sha256:2f1e552c39495d6b8cfa3991595832f42c7a97f675b9a214a4370c3da59c33a5"
+  },
+  "baler-search.json": {
+    "bytes": 15175,
+    "sha256": "37f9813984789880c1bc23533d3b9711af379405d80e45512ccd6838378ed8fe",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/dc/searchInModel/figure?modelCode=69E06496-EFBE-E111-9FCE-005056875BD6&paramSearch=pickup&regionCode=NA",
+    "observed_at": "2026-11-04T00:23:34.709831+00:00",
+    "source_content_hash": "sha256:9c50633c727f3a14791b50715949b25780ed011f48c815ce920e261448f5f1c9"
+  },
+  "combine-assembly.html": {
+    "bytes": 499778,
+    "sha256": "de892137373c3aadac9dd601768a8bb800b0ff75ed0e40dcd72e68b6aa85d127",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cooling/cooling-radiator-and-connections/cn/EE419851-8FBF-E111-9FCE-005056875BD6/0DCB6496-EFBE-E111-9FCE-005056875BD6",
+    "observed_at": "2026-11-04T00:24:03.893038+00:00",
+    "source_content_hash": "sha256:3358c25035ce5f57eb515d56bc7bc1061bca13ad2457dae8b53a331ccaea2a07"
+  },
+  "baler-cylinder.html": {
+    "bytes": 284565,
+    "sha256": "401c8f458a718bd2043816a1a1e96cbc56ad942b3015e6be3bfb249d21cbf0f1",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/hydraulic-systems/hydraulic-cylinder-hydraulic-pickup-lift/cn/4F0EDB58-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6",
+    "observed_at": "2026-11-04T00:24:05.739104+00:00",
+    "source_content_hash": "sha256:ee3242af46498af510f7c896fad4d0988853a2d5fcb1fa7fba6749716c2f322d"
+  },
+  "baler-reel.html": {
+    "bytes": 384531,
+    "sha256": "35494451692e7a6fcb5ff64217721f702fd1173640b3285c58fd356108b37a8f",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-reel-fingers-double-cam/cn/11E80978-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6",
+    "observed_at": "2026-11-04T00:24:08.260766+00:00",
+    "source_content_hash": "sha256:0e146eb2db30f8e837e75ed01a8078864600fd9601902ee00f99d6d9a8a33cbf"
+  },
+  "tractor-fan.html": {
+    "bytes": 305177,
+    "sha256": "aad3bbfaaf320b0f538531f7d8b8332730dd84e2a464b975a5b3e7d7b8bea9e4",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-fan-and-mounting-parts/cn/49612542-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6",
+    "observed_at": "2026-11-04T00:24:10.884740+00:00",
+    "source_content_hash": "sha256:89e81451715a009437cbbfabc84f8d585e7b43ec05c20bef0340289fef9423f1"
+  },
+  "tractor-relationships.html": {
+    "bytes": 50278,
+    "sha256": "9d81f47b2b99fcf8fd5880c9ef52cd357bea422b610e1420aabf6def761b1d48",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/cn/assemblyRemanAltsSubModal?productCode=A190663",
+    "observed_at": "2026-11-04T00:24:41.604915+00:00",
+    "source_content_hash": "sha256:708e369bfcc915ef37b3c064db4682c2cff31e68effc4e0bf12854187320d395"
+  },
+  "tractor-number.json": {
+    "bytes": 1433,
+    "sha256": "ab181087093fcadb5195d2387227b62560f4c9cebc1d91d5db38b1a138b37a68",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/dc/searchInModel/part-number?modelCode=EDD26496-EFBE-E111-9FCE-005056875BD6&paramSearch=A190663&regionCode=NA",
+    "observed_at": "2026-11-04T00:24:44.462779+00:00",
+    "source_content_hash": "sha256:6351f5bdf0fb0fc1c650781edb920d8f6031ae88bbb25af9f3c3124f8d9e9cda"
+  },
+  "tractor-description.json": {
+    "bytes": 30675,
+    "sha256": "52e57738963f76e088925027f7c161a287c0063e8afdc801c0845f9d8508014d",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/dc/searchInModel/part-description?modelCode=EDD26496-EFBE-E111-9FCE-005056875BD6&paramSearch=radiator&regionCode=NA",
+    "observed_at": "2026-11-04T00:24:49.578713+00:00",
+    "source_content_hash": "sha256:9c2afa0f12d3316727958e66ca1368b229001dffb80a2980ab647516b374464e"
+  },
+  "tractor-negative.json": {
+    "bytes": 178,
+    "sha256": "be2674ad22561609b58692c1b2bda723f5bd671df5603c8be836431355aec548",
+    "source_url": "https://www.mycnhstore.com/us/en/caseih/dc/searchInModel/part-number?modelCode=EDD26496-EFBE-E111-9FCE-005056875BD6&paramSearch=ZZZPOCNOEXIST999&regionCode=NA",
+    "observed_at": "2026-11-04T00:24:52.160173+00:00",
+    "source_content_hash": "sha256:8c8f9630aeea0a5cd5b1136cffb02cacad90a80e3607dbbbea4bf65963074ec1"
+  }
+}

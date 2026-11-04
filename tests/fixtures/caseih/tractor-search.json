@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "4C8BBD68-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "2-02 - RADIATOR AND ATTACHING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-45ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc0NTIzfGltYWdlL3BuZ3xhRFl3TDJnd09DODRPVEk0TWprMk5UQXhNamM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUTFRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ODc0NjM5YjI4MTkzYmIxZGU4NzI1MTBlZjgyYjc2MDI3ZmU4NjEzMzRhYTQ4NmVmYTIwMDAwNTdkYmU1OTg2Mw",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6"
+    },
+    {
+      "modelCode": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "49612542-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "2-04 - RADIATOR FAN AND MOUNTING PARTS",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-38ADC6E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDMyMTg4fGltYWdlL3BuZ3xhR0ppTDJnd1pTODRPRGd4TURJM01ESXlPRGM0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUTTRRVVJETmtVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8MGJiNDA1ZmM5MThlYzQ3NjAyNDkzNGY1MTdmYmNhY2QxYWY4OGM5NGFhNzQ5ZmQ0OTI4ZWFmY2U2ZmQzM2VmOA",
+      "modelFullName": null,
+      "showNote": null,
+      "functionalGroupCode": "EDD26496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "assemblyUrl": "/amea/tractors/agricultural/ameaaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-fan-and-mounting-parts/cn/49612542-8FBF-E111-9FCE-005056875BD6"
+    }
+  ],
+  "pagination": {
+    "pageSize": 500,
+    "currentPage": 0,
+    "sort": "fittability-figure",
+    "numberOfPages": 1,
+    "totalNumberOfResults": 2
+  }
+}

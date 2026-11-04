@@ -1,0 +1,924 @@
+{
+  "created_at": "2026-11-04T00:04:30.207111+00:00",
+  "status": "passed",
+  "cold_requests": 2,
+  "warm_requests": 0,
+  "evidence": {
+    "outcome": "ok",
+    "data": {
+      "occurrences": [
+        {
+          "occurrence_id": "eef0d94a1ea3f5f6cfa38cc2b09fc7c9",
+          "part_number": "KSH1028",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "KSH1028",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "0",
+          "description": "RADIATOR; Incl. 1 - 46",
+          "notes": [
+            "Incl. 1 - 46"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/engines-cooling-exhaust/radiators/radiator/p/KSH1028",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "660ffe240bf10572568c1b0ef8df838c",
+          "part_number": "LN002080",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LN002080",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "1",
+          "description": "RADIATOR;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/engines-cooling-exhaust/radiators/radiator/p/LN002080",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "2748b37e084de3750bf063ceed5f55d4",
+          "part_number": "LG005610",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LG005610",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "2",
+          "description": "STRIP-GASKET;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/seals-o-rings/seal-kits/strip-gasket/p/LG005610",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "19db3dff8f1a51d9d275711712ce7aff",
+          "part_number": "LG005620",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LG005620",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "3",
+          "description": "RUBBER BLOCK;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/seals-o-rings/seal-kits/rubber-block/p/LG005620",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "bc28d70016b6f2896601c8f336614545",
+          "part_number": "LR01142",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LR01142",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "4",
+          "description": "RADIATOR CAP;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/caps/radiator-cap/p/LR01142",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "fce6da911119bf608c380d2597640b46",
+          "part_number": "156602A1",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "156602A1",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "5",
+          "description": "COCK;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hydraulics/fittings/cock/p/156602A1",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "4c7130395f5670d2aa591e5c38be1789",
+          "part_number": "LK005320",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LK005320",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "6",
+          "description": "HOSE;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/engines-cooling-exhaust/radiators/hose/p/LK005320",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "92bba502204439cbad74246c21efa160",
+          "part_number": "LA00804",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LA00804",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "7",
+          "description": "CLIP;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/collars/clip/p/LA00804",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "9d61d9fb9fd1a5f4d580f302bc8f6f1b",
+          "part_number": "LT001690",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LT001690",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "8",
+          "description": "FRAME;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/frame-structural/frame/p/LT001690",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "5ef5ee2f7cecf2616a37efd62492d644",
+          "part_number": "LT001560",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LT001560",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": null,
+          "description": "FRAME; Not Shown",
+          "notes": [
+            "Not Shown"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/frame-structural/frame/p/LT001560",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "1687720a022ea743321ea1474e69c5dc",
+          "part_number": "LA010480",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LA010480",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "9",
+          "description": "BOLT; M10 x 1.5 x 50",
+          "notes": [
+            "M10 x 1.5 x 50"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/bolts/bolt/p/LA010480",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "83525ae53d9a39541b56b40e2ef9a37b",
+          "part_number": "LA011260",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LA011260",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "4",
+          "callout": "10",
+          "description": "WASHER;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/washers/washer/p/LA011260",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "3b27fc33961cbba9facac58b59d895b4",
+          "part_number": "LG005630",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LG005630",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "11",
+          "description": "RUBBER BLOCK;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/seals-o-rings/seal-kits/rubber-block/p/LG005630",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "a85d4a7de9801724aa0c33dd1dab1b50",
+          "part_number": "LN002100",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LN002100",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "12",
+          "description": "OIL COOLER;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/engines-cooling-exhaust/misc-engines-cooling-exhaust/oil-cooler/p/LN002100",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "bdff9e2f89944ae3751f794b3cc7c212",
+          "part_number": "LA00792",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LA00792",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "13",
+          "description": "BOLT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/screws/bolt/p/LA00792",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "65247f67753d5243e696f48274747b8e",
+          "part_number": "LA00792",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LA00792",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "14",
+          "description": "BOLT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/screws/bolt/p/LA00792",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "85d9d8f5b9bc9476cf798319f0ea9be8",
+          "part_number": "LW005280",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LW005280",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "15",
+          "description": "SHROUD;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/fenders-hoods-sheet-metal/shroud/p/LW005280",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "10b3b2e66318dbdf0b5a7621ef35da3b",
+          "part_number": "LW004690",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LW004690",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": null,
+          "description": "SHROUD; Not Shown",
+          "notes": [
+            "Not Shown"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/fenders-hoods-sheet-metal/shroud/p/LW004690",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "59ed2247335c29c498733b5b3750b07a",
+          "part_number": "158870A1",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "158870A1",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "6",
+          "callout": "16",
+          "description": "BOLT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/misc-hardware/bolt/p/158870A1",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "22ecce42f31da590f82105fa4ae7f7ae",
+          "part_number": "LS003540",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LS003540",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "17",
+          "description": "SUPPORT; BRACKET",
+          "notes": [
+            "BRACKET"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/fenders-hoods-sheet-metal/support/p/LS003540",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "98ddc4f3734436fbf1fdd21770ab0ff4",
+          "part_number": "158870A1",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "158870A1",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "6",
+          "callout": "18",
+          "description": "BOLT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/misc-hardware/bolt/p/158870A1",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "bfa1fd0e2e290c966f9a154b64c14ffc",
+          "part_number": "LG006280",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LG006280",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "19",
+          "description": "RADIATOR GRILLE; GRILLE, REDIATOR",
+          "notes": [
+            "GRILLE, REDIATOR"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/fenders-hoods-sheet-metal/radiator-grille/p/LG006280",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "d932b4fbeacccd81303e258a2984d10f",
+          "part_number": "156606A1",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "156606A1",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "4",
+          "callout": "20",
+          "description": "BOLT Wing, M6; M6 x 1.0",
+          "notes": [
+            "M6 x 1.0"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/misc-hardware/bolt/p/156606A1",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "38ca077e1eef5e207438ec8df54ada65",
+          "part_number": "LN002110",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LN002110",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "21",
+          "description": "INTERCOOLER; INTERCOOLER",
+          "notes": [
+            "INTERCOOLER"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/engines-cooling-exhaust/case-engine-parts/intercooler/p/LN002110",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "d89dfb91cade9514fa3e1870a0f6b0a6",
+          "part_number": "LA010500",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LA010500",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "4",
+          "callout": "22",
+          "description": "BOLT; M10 x 1.5 x 35",
+          "notes": [
+            "M10 x 1.5 x 35"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/bolts/bolt/p/LA010500",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "cd79a7fbd676115e6b35c4660e42da77",
+          "part_number": "LG006290",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LG006290",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "23",
+          "description": "RADIATOR GRILLE; GRILLE, RADIATOR",
+          "notes": [
+            "GRILLE, RADIATOR"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/fenders-hoods-sheet-metal/radiator-grille/p/LG006290",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "a1fa522f4bfacd8f450e2877d0c04900",
+          "part_number": "156606A1",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "156606A1",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "4",
+          "callout": "24",
+          "description": "BOLT Wing, M6; M6 x 1.0",
+          "notes": [
+            "M6 x 1.0"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/misc-hardware/bolt/p/156606A1",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "47f64a8e3460ede869c972c903be05b8",
+          "part_number": "LS003380",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LS003380",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "25",
+          "description": "SUPPORT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/chassis/support/p/LS003380",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "116a8592de66a29394b4882cfdd6349a",
+          "part_number": "LA00781",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LA00781",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "26",
+          "description": "BOLT; M12 x 1.75 x 25",
+          "notes": [
+            "M12 x 1.75 x 25"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/bolts/bolt/p/LA00781",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "0b0f5ff711ebc22f615ed682c3e1d556",
+          "part_number": "LS003550",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LS003550",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "27",
+          "description": "SUPPORT; BRACKET",
+          "notes": [
+            "BRACKET"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/fenders-hoods-sheet-metal/support/p/LS003550",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "5c06b4254c3074855b57f7c4def21e62",
+          "part_number": "LA00781",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LA00781",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "28",
+          "description": "BOLT; M12 x 1.75 x 25",
+          "notes": [
+            "M12 x 1.75 x 25"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/bolts/bolt/p/LA00781",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "c8d9070f6b60131618d4cf5029739d76",
+          "part_number": "LS003560",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LS003560",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "29",
+          "description": "SUPPORT; BRACKET",
+          "notes": [
+            "BRACKET"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/fenders-hoods-sheet-metal/support/p/LS003560",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "c87ddde5779189350a9af73c1d1c5e8f",
+          "part_number": "158870A1",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "158870A1",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "30",
+          "description": "BOLT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/misc-hardware/bolt/p/158870A1",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "b8ccabbe360fcb5255f55d69ad0357ab",
+          "part_number": "LS003570",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LS003570",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "31",
+          "description": "SUPPORT; BRACKET",
+          "notes": [
+            "BRACKET"
+          ],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/chassis-frame/fenders-hoods-sheet-metal/support/p/LS003570",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "21e7875863c35ef12d3ef7a1ffc6ca64",
+          "part_number": "158870A1",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "158870A1",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "2",
+          "callout": "32",
+          "description": "BOLT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/misc-hardware/bolt/p/158870A1",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "ac2e595d90e9d2c8c828bc40c9254726",
+          "part_number": "LN001760",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LN001760",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "1",
+          "callout": "33",
+          "description": "FUEL COOLER;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/engines-cooling-exhaust/fpt-engine-parts/fuel-cooler/p/LN001760",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "adbe20a1241ce8f86dbcace2d492a4ce",
+          "part_number": "LA00677",
+          "part_ref": {
+            "source_id": "casece-us-en",
+            "kind": "part",
+            "id": "LA00677",
+            "context": null,
+            "path": null
+          },
+          "catalog_quantity": "4",
+          "callout": "34",
+          "description": "BOLT Spcl;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": "https://www.mycnhstore.com/us/en/casece/category/hardware/bolts/bolt/p/LA00677",
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "11eb25dae5a2efa47cd5198c380971b0",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "1",
+          "callout": "35",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "d0120ff0a388eef74129a88ca30cb8bf",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "1",
+          "callout": "36",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "2eb4bd8de0ef9b78f94162b6f044a70a",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "1",
+          "callout": "37",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "6beed34cb00739425d141256d5a5ea40",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "1",
+          "callout": "38",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "7c433d4ea264adddb0ef72041239c7c4",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "1",
+          "callout": "39",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "36bc85de0751b50740923130241c6596",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "1",
+          "callout": "40",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "c7ed619d586351eeeb5edf29101c2f09",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "1",
+          "callout": "41",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "f842a9f0b6f0359b7046e5ef2180e6db",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "1",
+          "callout": "42",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "eca9c1e59a023440062a971a47641306",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "2",
+          "callout": "43",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "4161f5f8f7111091bb8838cb7ea38f06",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "1",
+          "callout": "44",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "203487ee8ac47e523e6bba9cac58a8d2",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "4",
+          "callout": "45",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        },
+        {
+          "occurrence_id": "8c847ecbaf8f5a0e78d0a0199cf1ed51",
+          "part_number": "NSS",
+          "part_ref": null,
+          "catalog_quantity": "2",
+          "callout": "46",
+          "description": "NOT SOLD SEPARAT;",
+          "notes": [],
+          "serial_restrictions": [],
+          "product_url": null,
+          "assembly_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "qualifications": []
+        }
+      ],
+      "metadata": {
+        "diagram_urls": [],
+        "source_pagination": null,
+        "source_notes": []
+      }
+    },
+    "coverage": {
+      "status": "unknown",
+      "reason": "source_does_not_establish_completeness",
+      "scope": null
+    },
+    "total": 49,
+    "truncated": false,
+    "evidence": [
+      {
+        "source_url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+        "observed_at": "2026-11-04T00:04:33.350880Z",
+        "content_hash": "sha256:12b5fcf0295698643b335858c1ecd8fcf16ebe5153c70b6fc57a2b55a47e7712",
+        "parser_version": "cnh-v2"
+      }
+    ]
+  }
+}

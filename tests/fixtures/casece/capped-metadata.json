@@ -1,0 +1,14 @@
+{
+  "url": "https://www.mycnhstore.com/us/en/casece/dc/searchInModel/part-description?modelCode=6EDA6496-EFBE-E111-9FCE-005056875BD6&paramSearch=bolt&regionCode=NA",
+  "observed_at": "2026-09-06T23:27:19.247763+00:00",
+  "content_hash": "sha256:8f233383410aacc20812fecf39062c5d76bd174d29893c1cf591474c9ee6d6b8",
+  "decoded_bytes": 9847255,
+  "source_pagination": {
+    "pageSize": 500,
+    "currentPage": 0,
+    "sort": "fittability-part-description",
+    "numberOfPages": 2,
+    "totalNumberOfResults": 610
+  },
+  "result_count": 500
+}
