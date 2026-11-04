@@ -1,0 +1,139 @@
+{
+  "review_date": "2026-11-03 America/Chicago",
+  "reviewer": "implementation agent; explicit evidence review, not an independent human review",
+  "report_sha256": "4f5ecab45fa77e9fa5c08ccfeb8c6e8654380e0d8178a71f1247c4a10a41c5ca",
+  "reference_recovery": 25,
+  "cited_assembly_support": 25,
+  "semantic_passed": 24,
+  "total": 25,
+  "unsupported_handoff_urls": [],
+  "gate_passed": true,
+  "limits": "Exposed fixture-backed cases, partial catalog coverage, no independent fitment or availability validation. Mechanical flags are retained separately.",
+  "cases": [
+    {
+      "id": "IH001",
+      "passed": true,
+      "review": "A190663 and its radiator occurrence are correct. A184441 is explicitly named in the inspected row note as replaced; the mechanical gate does not treat note-only references as assembly rows, so its flag is retained without changing the answer key."
+    },
+    {
+      "id": "IH002",
+      "passed": true,
+      "review": "A170241, 15 psi, quantity 1 agree with the captured radiator row."
+    },
+    {
+      "id": "IH003",
+      "passed": true,
+      "review": "1334477C1 is the lower hose; 58 mm ID and 263 mm length agree."
+    },
+    {
+      "id": "IH004",
+      "passed": true,
+      "review": "1289072C1 is the upper hose; 58 mm ID and 344 mm length agree. The lower hose is distinguished."
+    },
+    {
+      "id": "IH005",
+      "passed": true,
+      "review": "1340707C1, replacement note and quantity agree. NLS is correctly described as no longer serviced, with no orderable reference."
+    },
+    {
+      "id": "IH006",
+      "passed": true,
+      "review": "L46821 is the rubber mount bushing, quantity 2; no inventory inference."
+    },
+    {
+      "id": "IH007",
+      "passed": true,
+      "review": "A184979 is the 7110/6T-830 fan; the separate 7120 fan is not substituted."
+    },
+    {
+      "id": "IH008",
+      "passed": true,
+      "review": "A184524 preserves the 7110 engine scope and 86 mm thickness, 15 mm ID and 74 mm OD."
+    },
+    {
+      "id": "IH009",
+      "passed": true,
+      "review": "J911567 preserves eight ribs and 1701.8 mm length. The reported 27.92 mm width is copied from the row description; the underlying source note also contains 3.56 mm wording, so the source itself remains a dimensional-review limitation."
+    },
+    {
+      "id": "IH010",
+      "passed": true,
+      "review": "107668C3 is the 1420 radiator, quantity 1 and callout 1."
+    },
+    {
+      "id": "IH011",
+      "passed": true,
+      "review": "530874R1 is the radiator pressure cap, quantity 1 and callout 2."
+    },
+    {
+      "id": "IH012",
+      "passed": true,
+      "review": "86982771 is the radiator drain cock/valve, quantity 1."
+    },
+    {
+      "id": "IH013",
+      "passed": true,
+      "review": "680514R1 is the outlet hose; the separately mentioned 130870C1 tube is correctly distinguished."
+    },
+    {
+      "id": "IH014",
+      "passed": true,
+      "review": "130870C1 is the outlet tube, quantity 1 and callout 7."
+    },
+    {
+      "id": "IH015",
+      "passed": true,
+      "review": "107689C1 is the water-pump inlet hose with the requested 2 inch ID and 4.5 inch length."
+    },
+    {
+      "id": "IH016",
+      "passed": true,
+      "review": "194912C1 is the LH support and its note includes screw and nut."
+    },
+    {
+      "id": "IH017",
+      "passed": true,
+      "review": "146450C1 is the RH support at callout 13; included nut and screw are retained."
+    },
+    {
+      "id": "IH018",
+      "passed": true,
+      "review": "87027465 matches 28.57 mm rod and 76.2 mm stroke; the other cylinder is not treated as dimensionally verified. Production-date/PIN caveat retained."
+    },
+    {
+      "id": "IH019",
+      "passed": true,
+      "review": "798979 remains attached to cylinder 849372. Individual wiper/rod seals are NSS, as stated."
+    },
+    {
+      "id": "IH020",
+      "passed": true,
+      "review": "87030873 remains attached to cylinder 87027465 and its dimensions; no interchangeability claim."
+    },
+    {
+      "id": "IH021",
+      "passed": true,
+      "review": "771598 remains attached to cylinder 849372; alternate rod/cylinder mapping is correctly distinguished."
+    },
+    {
+      "id": "IH022",
+      "passed": true,
+      "review": "87030037 remains attached to cylinder 87027465, callout 7, quantity 1."
+    },
+    {
+      "id": "IH023",
+      "passed": true,
+      "review": "87394242 is premium/standard; economy 87607074 is distinguished. Double-cam callout 12 and related-assembly callout 57 remain separate."
+    },
+    {
+      "id": "IH024",
+      "passed": false,
+      "review": "FAIL: the intended economy tine 87607074 and quantity 48 are correct, but the answer gives callout 57 under the double-cam application. The requested double-cam assembly has callout 12; callout 57 belongs to the separately cited related assembly."
+    },
+    {
+      "id": "IH025",
+      "passed": true,
+      "review": "84350126 preserves 38.1 mm OD, 19 mm width, double-cam callout 7 and quantity 8."
+    }
+  ]
+}

@@ -127,6 +127,23 @@ async def test_runner_rejects_answer_fields_before_inference(tmp_path):
         await run(cases, tmp_path / "run.jsonl")
 
 
+async def test_model_constructor_failure_is_durable(tmp_path, monkeypatch):
+    import importlib
+
+    runner = importlib.import_module("evals.run")
+
+    def unavailable(*args):
+        raise ValueError("Missing provider configuration")
+
+    monkeypatch.setattr(runner, "create_parts_model", unavailable)
+    cases = tmp_path / "cases.jsonl"
+    cases.write_text("".join(json.dumps({"id": str(i), "query": "question"}) + "\n" for i in range(2)))
+    output = tmp_path / "report.jsonl"
+    assert await runner.run(cases, output, live=True) == 1
+    rows = [json.loads(line) for line in output.read_text(encoding="utf-8").splitlines()]
+    assert [row["status"] for row in rows[1:]] == ["error", "not_run"]
+
+
 def test_scorer_requires_inspected_assembly_not_just_product_url():
     gold = {
         "answer": {"parts": [{"part_number": "KSH1028", "assembly_urls": ["https://example.test/assembly"]}]}

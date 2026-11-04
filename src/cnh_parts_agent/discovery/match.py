@@ -186,6 +186,14 @@ def _catalog_model(record: dict) -> str | None:
 
 def _requested_models(query: str, named_models: set[str]) -> set[str]:
     text = query.casefold()
+    # An explicitly introduced engine is a qualification to inspect, not a second
+    # machine catalog identifier. Keep the original wording in the specialist task.
+    text = re.sub(
+        r"(?:\b(?:with|using|powered by|fitted with)\s+|,\s*)(?:an?\s+|the\s+)?"
+        r"(?:[a-z0-9][a-z0-9./-]*\s+engine|engine\s+[a-z0-9][a-z0-9./-]*)\b",
+        " ",
+        text,
+    )
     # These numbers qualify a model; they are not themselves model identifiers.
     text = re.sub(r"\b(?:tier\s*|t)[1-5]\s*[ab]?\b|\bstage\s+(?:[iv]+|[1-5])\b|\bseries\s+\d+\b", " ", text)
     text = re.sub(

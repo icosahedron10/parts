@@ -44,6 +44,9 @@ def test_caseih_navigation_uses_shared_parser():
     "query,prefix",
     [
         ("my 1990 Case IH Magnum 7110 tractor", "7110 -"),
+        ("1990 Case IH Magnum 7110 with the 6T-830 engine", "7110 -"),
+        ("1990 Case IH 7110 with engine 6T-830", "7110 -"),
+        ("1990 Case IH 7110, 6T-830 engine", "7110 -"),
         ("Case IH RBX 451 round baler", "RBX451 -"),
         ("1982 International Harvester 1420 combine", "1420 -"),
         ("Case IH RBX341 silage pack", "RBX341 - SILAGE"),

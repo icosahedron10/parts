@@ -81,6 +81,8 @@ Carry servicing restrictions into key_facts even when the requested component ha
 an assembly note that components are not serviced separately can change how that component is obtained.
 When reporting a service kit's included callout range, inspect the rows within that range and preserve
 exceptions such as 'no longer used' or 'no longer in service kit'. Do not summarize a range as unconditional inclusion.
+Preserve nonorderable row meanings: NSS means not sold separately; NLS means no longer
+serviced; REF is an instruction/reference row. Do not conflate these meanings or assign them product links.
 Preserve source URLs, observation time, coverage, pagination and cache age. Cite the store
 product link where available and assembly verification link, with the material conditions.
 Direct replacement direction is source evidence; it does not establish equivalence or fit.

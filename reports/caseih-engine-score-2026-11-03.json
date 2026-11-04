@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "report_sha256": "4c4bbd22205f6b63e4f630288db58e330c17c1c57ebbd81f43348ece2a99c519",
+  "answers_sha256": "71f322d557011ba836585e61aabf3481db371d5fd50ce6e552ee925baa6ba7ce",
+  "scorer_sha256": "85eaec2a2de9c176607eb3bde051790294b05e281a91dc88acaeab64f321bc4e",
+  "gate_sha256": "09fc0fd629c2fbc6736dda2222f481af824546b97c0c0d69205bb3e267de787c",
+  "scheduled": 2,
+  "outcomes": {
+    "supported_candidate_semantics_pending": 2
+  },
+  "gate_violations": {},
+  "candidate_recovery_cases": 2,
+  "context_backed_cases": 2,
+  "latency_median_seconds": 9.1405,
+  "cache_hit_rate": 1.0,
+  "source_requests": 0,
+  "tokens": {
+    "input_tokens": 30603,
+    "output_tokens": 932,
+    "total_tokens": 31535
+  },
+  "unsupported_handoff_urls": [],
+  "limits": "No automatic correctness verdict. All proposed claims and applicability need semantic review; a bounded key is not a whitelist. Errors and clarifications remain in the denominator.",
+  "cases": [
+    {
+      "id": "IH007",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "A184979"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/radiators/fan/p/A184979",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-fan-and-mounting-parts/cn/49612542-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "A184979"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "A184979"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:24:10.884740+00:00",
+        "Callout 1; catalog quantity 1",
+        "Â engine, 7110 Tractor, 6T-830",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH008",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "A184524"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/hardware/spacers/spacer/p/A184524",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-fan-and-mounting-parts/cn/49612542-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "A184524"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "A184524"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:24:10.884740+00:00",
+        "Callout 2; catalog quantity 1",
+        "Â fan, 7110 Tractor, 6T-830 Engine",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    }
+  ]
+}

@@ -26,9 +26,11 @@ class Clock:
 
 
 @pytest.fixture(autouse=True)
-def offline(request, monkeypatch):
+def offline(request, monkeypatch, tmp_path):
     if request.node.get_closest_marker("live"):
         return
+    # Tests must never open a live runner's cache, including through WSL's filesystem.
+    monkeypatch.setenv("PARTS_CACHE_PATH", str(tmp_path / "default-catalog.sqlite"))
     for name in ("connect", "connect_ex"):
         original = getattr(socket.socket, name)
 

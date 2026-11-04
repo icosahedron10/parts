@@ -68,7 +68,7 @@ async def run(cases, output, *, live=False, model_name=None, limit=None, execute
                     "cache_policy": "shared, not cleared by runner",
                 }
             )
-            model = create_parts_model(settings.model) if live and execute is None else None
+            model = None
             stopped = False
             for case in queries:
                 diagnostics = Diagnostics()
@@ -85,6 +85,12 @@ async def run(cases, output, *, live=False, model_name=None, limit=None, execute
                 }
                 try:
                     if (live or execute is not None) and not stopped:
+                        if execute is None and model is None:
+                            # Constructor failures also get a durable case record and
+                            # leave every subsequent scheduled case in the denominator.
+                            stopped = True
+                            model = create_parts_model(settings.model)
+                            stopped = False
                         response = (
                             await execute(case["query"])
                             if execute

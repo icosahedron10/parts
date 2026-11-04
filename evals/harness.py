@@ -1,6 +1,8 @@
 """Query-only Deep Agents harness with an enforced one-tool boundary."""
 
 import asyncio
+import re
+from urllib.parse import urlsplit
 
 from deepagents import create_deep_agent
 from langchain.agents.middleware import AgentMiddleware
@@ -35,6 +37,19 @@ class LookupOnly(AgentMiddleware):
             raise ValueError("Expected a textual lookup handoff")
         handoff = PartsHandoff.model_validate_json(result.content)
         encoded = encode_handoff_urls(handoff, self.url_handles)
+        # Preserve URL roles lost when a long catalog path becomes an opaque handle.
+        # This derives only from the public handoff, never from private observations.
+        assemblies = [
+            handle
+            for handle, url in self.url_handles.items()
+            if re.search(r"/cn/[^/]+/[^/]+$", urlsplit(url).path)
+        ]
+        if assemblies:
+            encoded.key_facts.append(
+                "Assembly source links in this handoff: "
+                + ", ".join(assemblies)
+                + ". Cite the assembly supporting each reported part in your final answer."
+            )
         return result.model_copy(update={"content": encoded.model_dump_json()})
 
 
