@@ -8,6 +8,7 @@ import pytest
 
 from cnh_parts_agent.catalog.errors import PartsError
 from cnh_parts_agent.catalog.transport import SourceTransport
+from cnh_parts_agent.settings import Settings
 from tests.conftest import Clock
 
 URL = "https://www.mycnhstore.com/us/en/casece/sitemap-equipment"
@@ -42,6 +43,77 @@ async def test_pacing_retries_and_single_inflight():
         assert all(b - a >= 1 for a, b in zip(starts, starts[1:]))
     finally:
         await client.aclose()
+
+
+@pytest.mark.parametrize(
+    "operation_timeout,call_timeout,succeeds", [(60, None, True), (12, None, False), (60, 8, False)]
+)
+async def test_longer_retry_delay_respects_configured_and_call_deadlines(
+    operation_timeout, call_timeout, succeeds
+):
+    clock = Clock()
+    initial = clock.now()
+    starts = []
+
+    def respond(request):
+        starts.append(clock.now())
+        if len(starts) == 1:
+            return httpx.Response(503, headers={"Retry-After": "15"})
+        return httpx.Response(200, content=b"available after cooldown")
+
+    client = SourceTransport(
+        "offline-tests",
+        settings=Settings(source_operation_timeout_seconds=operation_timeout),
+        http_transport=httpx.MockTransport(respond),
+        clock=clock.now,
+        sleep=clock.sleep,
+        jitter=lambda: 0,
+    )
+    try:
+        if succeeds:
+            result = await client.fetch(URL, timeout=call_timeout)
+            assert result.body == b"available after cooldown"
+            assert starts == [initial, initial + 15]
+        else:
+            with pytest.raises(PartsError) as error:
+                await client.fetch(URL, timeout=call_timeout)
+            assert error.value.code == "source_cooldown"
+            assert starts == [initial] and clock.now() == initial
+        assert not client.lock.locked()
+    finally:
+        await client.aclose()
+
+
+async def test_environment_timeouts_reach_http_and_model_clients(monkeypatch, tmp_path):
+    from cnh_parts_agent.agent import model as model_module
+    from cnh_parts_agent.catalog.client import Catalog
+
+    for name, value in (
+        ("SOURCE_CONNECT_TIMEOUT_SECONDS", "11"),
+        ("SOURCE_READ_TIMEOUT_SECONDS", "35"),
+        ("SOURCE_OPERATION_TIMEOUT_SECONDS", "70"),
+        ("TIMEOUT_SECONDS", "200"),
+        ("MODEL_TIMEOUT_SECONDS", "65"),
+    ):
+        monkeypatch.setenv("PARTS_" + name, value)
+    settings = Settings(cache_path=tmp_path / "configured.sqlite")
+    catalog = Catalog(settings)
+    model_options = {}
+
+    def model_factory(**kwargs):
+        model_options.update(kwargs)
+        return object()
+
+    monkeypatch.setattr(model_module, "ChatOpenAI", model_factory)
+    try:
+        assert catalog.transport.client.timeout.connect == 11
+        assert catalog.transport.client.timeout.read == 35
+        assert catalog.transport.operation_timeout_seconds == 70
+        assert settings.timeout_seconds == 200
+        model_module.create_parts_model()
+        assert model_options["timeout"] == 65
+    finally:
+        await catalog.aclose()
 
 
 async def test_retry_after_and_three_denial_circuit():

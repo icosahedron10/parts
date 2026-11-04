@@ -21,7 +21,7 @@ class Catalog:
         self.settings = settings
         self.indexes = load_indexes(settings.index_dir) if indexes is None else indexes
         self.cache = Cache(settings.cache_path)
-        self.transport = transport or SourceTransport(settings.user_agent)
+        self.transport = transport or SourceTransport(settings.user_agent, settings=settings)
 
     def candidates(self, query, brand=None):
         inferred = (

@@ -12,6 +12,7 @@ from pydantic import BaseModel, ConfigDict, Field, ValidationError
 from ..catalog.errors import PartsError
 from ..catalog.models import DATA_MODELS
 from ..diagnostics import current
+from ..settings import DEFAULT_LOOKUP_TIMEOUT_SECONDS
 
 
 class Input(BaseModel):
@@ -67,7 +68,7 @@ DESCRIPTIONS = {
 @dataclass
 class WorkflowBudget:
     max_calls: int = 8
-    timeout_seconds: float = 30
+    timeout_seconds: float = DEFAULT_LOOKUP_TIMEOUT_SECONDS
     calls: int = 0
     started_at: float = field(default_factory=time.monotonic)
 

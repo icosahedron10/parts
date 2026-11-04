@@ -413,6 +413,8 @@ def create_parts_retriever(
                 "machine_query": machine_query,
                 "part_query": part_query,
                 "explicit_user_selected_machine_label": selected_machine_label,
+                "max_tool_calls": client.budget.max_calls,
+                "lookup_timeout_seconds": client.budget.timeout_seconds,
             }
         )
         + "\n"

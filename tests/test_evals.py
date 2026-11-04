@@ -57,6 +57,32 @@ async def test_real_deep_agent_exposes_only_lookup_and_records_evidence(catalog)
     assert any(o["operation"] == "get_assembly" for o in diagnostics.observations)
 
 
+async def test_parent_deadline_accommodates_configured_lookup_and_model_calls(catalog, monkeypatch):
+    import asyncio
+
+    from evals import harness
+
+    catalog.settings.timeout_seconds = 120
+    catalog.settings.model_timeout_seconds = 45
+    original = asyncio.timeout
+    deadlines = []
+
+    def observe_timeout(delay):
+        deadlines.append(delay)
+        return original(delay)
+
+    monkeypatch.setattr(harness.asyncio, "timeout", observe_timeout)
+    response = await run_query(
+        "I need a radiator for my 2010 CASE CX350B.",
+        catalog=catalog,
+        model=ScriptedCatalogModel(),
+        orchestrator_model=ScriptedSupervisorModel(),
+    )
+    assert "KSH1028" in response
+    assert deadlines[0] == 215
+    assert deadlines[1:] and all(0 < deadline <= 120 for deadline in deadlines[1:])
+
+
 class EscapingParent(ObservingParent):
     def _generate(self, *args, **kwargs):
         return ChatResult(

@@ -6,13 +6,14 @@ from ..settings import Settings
 
 
 def create_parts_model(model: str | None = None):
+    settings = Settings()
     return ChatOpenAI(
-        model=model or Settings().model,
+        model=model or settings.model,
         use_responses_api=True,
         reasoning={"effort": "none"},
         max_tokens=1536,
         max_retries=0,
-        timeout=30,
+        timeout=settings.model_timeout_seconds,
         store=False,
         include=["reasoning.encrypted_content"],
     )

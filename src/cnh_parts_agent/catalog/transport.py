@@ -14,6 +14,7 @@ from urllib.parse import urljoin, urlsplit
 import httpx
 
 from ..diagnostics import current
+from ..settings import Settings
 from .errors import PartsError
 
 LOG = logging.getLogger(__name__)
@@ -49,13 +50,26 @@ class SourceResponse:
 
 class SourceTransport:
     def __init__(
-        self, user_agent: str, *, http_transport=None, clock=time.monotonic, sleep=asyncio.sleep, jitter=None
+        self,
+        user_agent: str,
+        *,
+        settings: Settings | None = None,
+        http_transport=None,
+        clock=time.monotonic,
+        sleep=asyncio.sleep,
+        jitter=None,
     ):
+        settings = settings or Settings()
+        self.operation_timeout_seconds = settings.source_operation_timeout_seconds
         self.client = httpx.AsyncClient(
             headers={"User-Agent": user_agent},
             follow_redirects=False,
             trust_env=False,
-            timeout=httpx.Timeout(5, connect=3),
+            timeout=httpx.Timeout(
+                settings.source_read_timeout_seconds,
+                connect=settings.source_connect_timeout_seconds,
+                pool=settings.source_connect_timeout_seconds,
+            ),
             transport=http_transport,
         )
         self.clock, self.sleep = clock, sleep
@@ -87,9 +101,13 @@ class SourceTransport:
                 self.cooldown_until = max(self.cooldown_until, now + 900)
         return self.cooldown_until - now
 
-    async def fetch(self, url: str, *, timeout: float = 10) -> SourceResponse:
+    async def fetch(self, url: str, *, timeout: float | None = None) -> SourceResponse:
         validate_source_url(url)
-        timeout = min(10, timeout)
+        timeout = (
+            self.operation_timeout_seconds
+            if timeout is None
+            else min(self.operation_timeout_seconds, timeout)
+        )
         deadline = self.clock() + timeout
         try:
             async with asyncio.timeout(timeout):

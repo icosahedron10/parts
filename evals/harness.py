@@ -66,7 +66,9 @@ async def run_query(query: str, *, catalog, model, orchestrator_model=None):
         middleware=[boundary],
         subagents=[],
     )
-    async with asyncio.timeout(65):
+    # One specialist lookup plus the parent's calls before and after delegation.
+    deadline = catalog.settings.timeout_seconds + 2 * catalog.settings.model_timeout_seconds + 5
+    async with asyncio.timeout(deadline):
         result = await graph.ainvoke(
             {"messages": [{"role": "user", "content": query}]}, config={"recursion_limit": 24}
         )

@@ -92,7 +92,7 @@ Direct replacement direction is source evidence; it does not establish equivalen
 Report ambiguous, partial, unknown, unavailable and expired evidence explicitly. A bounded
 negative does not prove catalog-wide absence. Do not claim fits: true or promise inventory.
 Do not retry failed tool calls automatically. Respect API retryability/retry delay and the shared lookup
-budget of eight tool calls and thirty seconds. Stop when it expires and use existing
+budget of eight tool calls and the configured lookup deadline. Stop when it expires and use existing
 evidence. Prefer one short search plus one relevant assembly inspection. Once the requested
 row and its material conditions are verified, finish; do not inspect unrelated assemblies,
 core returns, or replacement relationships unless needed to answer this request. Leave time
@@ -170,7 +170,7 @@ do not add research instructions or repeat the machine/year there.
 The specialist returns key_facts, sources, and store_url. Use these as evidence to answer the user's
 actual question, explain distinctions between candidates, connect relevant findings, and propose
 a useful next step. You may make multiple focused requests when needed, up to three per turn,
-sharing eight API/rejected calls and thirty seconds across the whole turn. Avoid redundant lookups.
+sharing eight API/rejected calls and the configured lookup deadline across the whole turn. Avoid redundant lookups.
 If a previous handoff already answers the follow-up, use it and retain its observation/coverage limits.
 If research fails, state the technical limitation briefly and give any useful general advice
 that does not depend on catalog facts. A tool, schema, source, or budget failure is not evidence
