@@ -1,0 +1,867 @@
+{
+  "schema_version": 1,
+  "report_sha256": "11856750f6374ad0a3a14561d058c9964dc1685c61f6d60af81f670d50703e41",
+  "answers_sha256": "71f322d557011ba836585e61aabf3481db371d5fd50ce6e552ee925baa6ba7ce",
+  "scorer_sha256": "97f8488a6dadef9da6a6985b52a1148b2f05cbd81618224a9f2e0e2897eb57e2",
+  "gate_sha256": "281eca532ff6805487a26f06724a47e57763775f074f22994ee60c750fed66cf",
+  "scheduled": 25,
+  "outcomes": {
+    "evidence_gate_failed": 1,
+    "supported_candidate_semantics_pending": 9,
+    "source_drift_or_extra_claim_review": 10,
+    "incomplete_or_clarification_review": 5
+  },
+  "gate_violations": {
+    "part_without_assembly_evidence": 1
+  },
+  "candidate_recovery_cases": 20,
+  "context_backed_cases": 20,
+  "latency_median_seconds": 10.547,
+  "cache_hit_rate": 0.5806451612903226,
+  "source_requests": 32,
+  "tokens": {
+    "input_tokens": 479023,
+    "output_tokens": 12989,
+    "total_tokens": 492012
+  },
+  "unsupported_handoff_urls": [],
+  "limits": "No automatic correctness verdict. All proposed claims and applicability need semantic review; a bounded key is not a whitelist. Errors and clarifications remain in the denominator.",
+  "cases": [
+    {
+      "id": "IH001",
+      "outcome": "evidence_gate_failed",
+      "evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "part_without_assembly_evidence",
+            "values": [
+              "A184441"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "A184441",
+          "A190663"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/radiators/radiator/p/A190663",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "A190663"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "A190663"
+      ],
+      "extra_numbers_for_review": [
+        "A184441"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:23:29.148342+00:00",
+        "Callout 1; catalog quantity 1",
+        "Â cooling system, Replaces: A184441",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH002",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "A170241"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/radiators/radiator-cap/p/A170241",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "A170241"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "A170241"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:23:29.148342+00:00",
+        "Callout 2; catalog quantity 1",
+        "Â CAP, RADIATOR, Filler, 15 psi",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH003",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "1334477C1"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/radiators/radiator-hose/p/1334477C1",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "1334477C1"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "1334477C1"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:23:29.148342+00:00",
+        "Callout 4; catalog quantity 1",
+        "Â Lower 58.00 mm ID x 263.00 mm, SAE 20R4",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH004",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "1289072C1"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/radiators/hose/p/1289072C1",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "1289072C1"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "1289072C1"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:23:29.148342+00:00",
+        "Callout 5; catalog quantity 1",
+        "Â RADIATOR HOSE, , Upper 58.00 mm ID x 344.00 mm, SAE 20 R4 CLASS D1",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH005",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "1340707C1",
+          "NLS"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/chassis-frame/frame-structural/support/p/1340707C1",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "1340707C1"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "1340707C1"
+      ],
+      "extra_numbers_for_review": [
+        "NLS"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:23:29.148342+00:00",
+        "Callout 9; catalog quantity 1",
+        "Â SUPPORT radiator, Replaces: 1960789C1",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH006",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "L46821"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/cab-rops/cab/shock-absorber/p/L46821",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "L46821"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "L46821"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:23:29.148342+00:00",
+        "Callout 11; catalog quantity 2",
+        "Â BUSHING rubber mount",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH007",
+      "outcome": "incomplete_or_clarification_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-fan-and-mounting-parts/cn/49612542-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:24:10.884740+00:00",
+        "Callout 1; catalog quantity 1",
+        "Â engine, 7110 Tractor, 6T-830",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH008",
+      "outcome": "incomplete_or_clarification_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-fan-and-mounting-parts/cn/49612542-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:24:10.884740+00:00",
+        "Callout 2; catalog quantity 1",
+        "Â fan, 7110 Tractor, 6T-830 Engine",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH009",
+      "outcome": "incomplete_or_clarification_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/cn/EDD26496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-fan-and-mounting-parts/cn/49612542-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: tractor",
+        "Observed 2026-11-04T00:24:10.884740+00:00",
+        "Callout 5; catalog quantity 1",
+        "Â Fan, 7110 Tractor, 6T-830 Engine 3.56 mm W x 1701.80 mm L, 8 Ribs",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH010",
+      "outcome": "incomplete_or_clarification_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cn/0DCB6496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cooling/cooling-radiator-and-connections/cn/EE419851-8FBF-E111-9FCE-005056875BD6/0DCB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: combine",
+        "Observed 2026-11-04T00:24:03.893038+00:00",
+        "Callout 1; catalog quantity 1",
+        "Â",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH011",
+      "outcome": "incomplete_or_clarification_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cn/0DCB6496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cooling/cooling-radiator-and-connections/cn/EE419851-8FBF-E111-9FCE-005056875BD6/0DCB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [],
+      "reference_numbers_with_cited_gold_assembly": [],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: combine",
+        "Observed 2026-11-04T00:24:03.893038+00:00",
+        "Callout 2; catalog quantity 1",
+        "Â radiator pressure",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH012",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "86982771"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/radiators/valve/p/86982771",
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cn/0DCB6496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cooling/cooling-radiator-and-connections/cn/EE419851-8FBF-E111-9FCE-005056875BD6/0DCB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "86982771"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "86982771"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: combine",
+        "Observed 2026-11-04T00:24:03.893038+00:00",
+        "Callout 4; catalog quantity 1",
+        "Â COCK, radiator drain",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH013",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "130870C1",
+          "680514R1"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/radiators/hose/p/680514R1",
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cooling/cooling-radiator-and-connections/cn/EE419851-8FBF-E111-9FCE-005056875BD6/0DCB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "680514R1"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "680514R1"
+      ],
+      "extra_numbers_for_review": [
+        "130870C1"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: combine",
+        "Observed 2026-11-04T00:24:03.893038+00:00",
+        "Callout 6; catalog quantity 1",
+        "Â HOSE, radiator outlet",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH014",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "130870C1",
+          "680514R1"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/hydraulics/hose-tube-assemblies/tube/p/130870C1",
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cooling/cooling-radiator-and-connections/cn/EE419851-8FBF-E111-9FCE-005056875BD6/0DCB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "130870C1"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "130870C1"
+      ],
+      "extra_numbers_for_review": [
+        "680514R1"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: combine",
+        "Observed 2026-11-04T00:24:03.893038+00:00",
+        "Callout 7; catalog quantity 1",
+        "Â radiator outlet",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH015",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "107689C1"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/radiators/radiator-hose/p/107689C1",
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cooling/cooling-radiator-and-connections/cn/EE419851-8FBF-E111-9FCE-005056875BD6/0DCB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "107689C1"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "107689C1"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: combine",
+        "Observed 2026-11-04T00:24:03.893038+00:00",
+        "Callout 8; catalog quantity 1",
+        "Â Water Pump Inlet 2.00'' ID x 4.50''",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH016",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "194912C1"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/chassis-frame/frame-structural/support/p/194912C1",
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cooling/cooling-radiator-and-connections/cn/EE419851-8FBF-E111-9FCE-005056875BD6/0DCB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "194912C1"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "194912C1"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: combine",
+        "Observed 2026-11-04T00:24:03.893038+00:00",
+        "Callout 12; catalog quantity 1",
+        "Â radiator LH, Includes: screw and nut",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH017",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "146450C1"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/chassis-frame/frame-structural/support/p/146450C1",
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cooling/cooling-radiator-and-connections/cn/EE419851-8FBF-E111-9FCE-005056875BD6/0DCB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "146450C1"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "146450C1"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: combine",
+        "Observed 2026-11-04T00:24:03.893038+00:00",
+        "Callout 13; catalog quantity 1",
+        "Â radiator RH, Includes: nut and screw",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH018",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "849372",
+          "87027465",
+          "87030037",
+          "87030873"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/hydraulics/cylinders/hydraulic-cylinder/p/87027465",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/hydraulic-systems/hydraulic-cylinder-hydraulic-pickup-lift/cn/4F0EDB58-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "87027465"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "87027465"
+      ],
+      "extra_numbers_for_review": [
+        "849372",
+        "87030037",
+        "87030873"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: baler",
+        "Observed 2026-11-04T00:24:05.739104+00:00",
+        "Callout 1; catalog quantity 1",
+        "Â Pickup Lift",
+        "Manufacturer's Production Date Stamp - (ex. M 02 2003 = M / week / year )",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH019",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "798979",
+          "849372",
+          "87027465",
+          "87030873",
+          "NSS"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/seals-o-rings/seal-kits/seal-kit/p/798979",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/hydraulic-systems/hydraulic-cylinder-hydraulic-pickup-lift/cn/4F0EDB58-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "798979"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "798979"
+      ],
+      "extra_numbers_for_review": [
+        "849372",
+        "87027465",
+        "87030873",
+        "NSS"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: baler",
+        "Observed 2026-11-04T00:24:05.739104+00:00",
+        "Callout 8; catalog quantity 1",
+        "Â Component of 849372 Hydraulic Cylinder",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH020",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "798979",
+          "849372",
+          "87027465",
+          "87030873",
+          "NSS"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/seals-o-rings/seal-kits/seal-kit/p/87030873",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/hydraulic-systems/hydraulic-cylinder-hydraulic-pickup-lift/cn/4F0EDB58-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "87030873"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "87030873"
+      ],
+      "extra_numbers_for_review": [
+        "798979",
+        "849372",
+        "87027465",
+        "NSS"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: baler",
+        "Observed 2026-11-04T00:24:05.739104+00:00",
+        "Callout 8; catalog quantity 1",
+        "Â Component of 87027465 Hydraulic Cylinder",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH021",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "771598",
+          "849372",
+          "87027465",
+          "87030037"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/hydraulics/cylinders/piston-rod/p/771598",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/hydraulic-systems/hydraulic-cylinder-hydraulic-pickup-lift/cn/4F0EDB58-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "771598"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "771598"
+      ],
+      "extra_numbers_for_review": [
+        "849372",
+        "87027465",
+        "87030037"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: baler",
+        "Observed 2026-11-04T00:24:05.739104+00:00",
+        "Callout 7; catalog quantity 1",
+        "Â Piston",
+        "Component of 849372 Hydraulic Cylinder",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH022",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "87027465",
+          "87030037"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/hydraulics/cylinders/piston-rod/p/87030037",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/hydraulic-systems/hydraulic-cylinder-hydraulic-pickup-lift/cn/4F0EDB58-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "87030037"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "87030037"
+      ],
+      "extra_numbers_for_review": [
+        "87027465"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: baler",
+        "Observed 2026-11-04T00:24:05.739104+00:00",
+        "Callout 7; catalog quantity 1",
+        "Â Piston",
+        "Component of 87027465 Hydraulic Cylinder",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH023",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "87394242",
+          "87607074"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/hay-forage/forage-parts/torsion-spring/p/87394242",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-reel-fingers-double-cam/cn/11E80978-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "87394242"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "87394242"
+      ],
+      "extra_numbers_for_review": [
+        "87607074"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: baler",
+        "Observed 2026-11-04T00:24:08.260766+00:00",
+        "Callout 12; catalog quantity 48",
+        "Â Pickup, Curved, Premium, Standard",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH024",
+      "outcome": "source_drift_or_extra_claim_review",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "87394242",
+          "87607074"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/hay-forage/forage-parts/tine/p/87607074",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-reel-fingers-double-cam/cn/11E80978-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-reel-reel-drive-windguard/cn/1848774F-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "87607074"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "87607074"
+      ],
+      "extra_numbers_for_review": [
+        "87394242"
+      ],
+      "answer_conditions_for_review": [
+        "Equipment family: baler",
+        "Observed 2026-11-04T00:24:08.260766+00:00",
+        "Callout 12; catalog quantity 48",
+        "Â Pickup, Curved, Economy, Optional",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    },
+    {
+      "id": "IH025",
+      "outcome": "supported_candidate_semantics_pending",
+      "evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "84350126"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/hay-forage/baler-parts/cam-follower/p/84350126",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-reel-fingers-double-cam/cn/11E80978-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/product-feeding/wide-pickup-reel-reel-drive-windguard/cn/1848774F-8FBF-E111-9FCE-005056875BD6/69E06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      },
+      "mentioned_reference_numbers": [
+        "84350126"
+      ],
+      "reference_numbers_with_cited_gold_assembly": [
+        "84350126"
+      ],
+      "extra_numbers_for_review": [],
+      "answer_conditions_for_review": [
+        "Equipment family: baler",
+        "Observed 2026-11-04T00:24:08.260766+00:00",
+        "Callout 7; catalog quantity 8",
+        "Â",
+        "Catalog evidence does not establish serial-specific fitment, availability, or interchangeability."
+      ],
+      "manual_semantic_review_required": true,
+      "accuracy_pass": null
+    }
+  ]
+}

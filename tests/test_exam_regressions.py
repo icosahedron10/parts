@@ -18,7 +18,22 @@ from cnh_parts_agent.catalog.storefront import CASECE, CASEIH
 from cnh_parts_agent.catalog.transport import SourceResponse
 from cnh_parts_agent.diagnostics import Diagnostics, current
 from evals.harness import run_query
+from scripts.capture_fixture import sanitize
 from tests.scripted_model import ScriptedCatalogModel, ScriptedSupervisorModel
+
+
+def test_fixture_sanitization_preserves_unicode_after_charset_removal():
+    body = (
+        '<html><head><meta charset="UTF-8"></head><body>'
+        '<p data-note="Ø 58 mm">Hose Ø 58 mm — café\u00a0mount</p>'
+        '<input value="private-token"><script>private-token</script></body></html>'
+    ).encode()
+    clean = sanitize(body)
+    assert clean.isascii()
+    assert b"private-token" not in clean and b"<meta" not in clean
+    original, sanitized = parse.document(body).xpath("//p")[0], parse.document(clean).xpath("//p")[0]
+    assert parse.plain(original) == parse.plain(sanitized)
+    assert original.attrib["data-note"] == sanitized.attrib["data-note"]
 
 
 def test_prose_only_citations_round_trip_without_manufacturing_links():

@@ -53,7 +53,9 @@ def sanitize(body: bytes) -> bytes:
         for name in list(node.attrib):
             if name.lower().startswith("on") or any(t in name.lower() for t in ("token", "csrf", "session")):
                 del node.attrib[name]
-    return html.tostring(doc, encoding="utf-8")
+    # Metadata removal also removes charset declarations. ASCII character
+    # references preserve Unicode when the sanitized HTML is parsed again.
+    return html.tostring(doc, encoding="ascii")
 
 
 def save_fixture(directory: Path, name: str, response):

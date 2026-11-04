@@ -1,0 +1,139 @@
+{
+  "review_date": "2026-11-03 America/Chicago",
+  "reviewer": "implementation agent; explicit evidence review, not an independent human review",
+  "report_sha256": "11856750f6374ad0a3a14561d058c9964dc1685c61f6d60af81f670d50703e41",
+  "reference_recovery": 20,
+  "cited_assembly_support": 20,
+  "semantic_passed": 20,
+  "total": 25,
+  "unsupported_handoff_urls": [],
+  "gate_passed": true,
+  "limits": "Exposed fixture-backed cases and partial catalog coverage. Five source-timeout misses remain in the denominator. No independent human, serial-fitment, inventory or interchangeability verification. Historical fixture descriptions retain their original encoding artifacts; live row meanings were reviewed without changing the answer key.",
+  "cases": [
+    {
+      "id": "IH001",
+      "passed": true,
+      "review": "A190663, quantity 1 and replacement direction agree with the inspected radiator row. A184441 occurs in its replacement note; the mechanical note-only reference flag is retained."
+    },
+    {
+      "id": "IH002",
+      "passed": true,
+      "review": "A170241, 15 psi and quantity 1 match the inspected radiator-cap occurrence. The fitment caveat remains."
+    },
+    {
+      "id": "IH003",
+      "passed": true,
+      "review": "1334477C1 is the lower hose, 58 mm ID by 263 mm, callout 4, quantity 1."
+    },
+    {
+      "id": "IH004",
+      "passed": true,
+      "review": "1289072C1 is the upper hose, 58 mm ID by 344 mm, quantity 1."
+    },
+    {
+      "id": "IH005",
+      "passed": true,
+      "review": "1340707C1 and its replacement note agree. The separate flat support is correctly marked NLS, no longer serviced."
+    },
+    {
+      "id": "IH006",
+      "passed": true,
+      "review": "L46821 is the rubber radiator mounting bushing; quantity 2 agrees with the inspected row."
+    },
+    {
+      "id": "IH007",
+      "passed": false,
+      "review": "Unresolved: the fan assembly request timed out. No fan part number was recovered; the error is disclosed."
+    },
+    {
+      "id": "IH008",
+      "passed": false,
+      "review": "Unresolved: the fan assembly and subsequent description search timed out. The response correctly withholds a spacer number."
+    },
+    {
+      "id": "IH009",
+      "passed": false,
+      "review": "Unresolved: the fan assembly timed out, so the eight-rib belt reference was not recovered."
+    },
+    {
+      "id": "IH010",
+      "passed": false,
+      "review": "Unresolved: the combine radiator assembly timed out. The response supplies a scoped technical limitation rather than a part number."
+    },
+    {
+      "id": "IH011",
+      "passed": false,
+      "review": "Unresolved: the combine radiator assembly timed out and no cap number was verified."
+    },
+    {
+      "id": "IH012",
+      "passed": true,
+      "review": "86982771, radiator drain cock, callout 4 and quantity 1 match the inspected combine assembly."
+    },
+    {
+      "id": "IH013",
+      "passed": true,
+      "review": "680514R1 is the outlet hose; the cited assembly also supports distinguishing rigid outlet tube 130870C1."
+    },
+    {
+      "id": "IH014",
+      "passed": true,
+      "review": "130870C1 is the outlet tube, quantity 1; hose 680514R1 is correctly distinguished using the same inspected assembly."
+    },
+    {
+      "id": "IH015",
+      "passed": true,
+      "review": "107689C1 matches the water-pump inlet hose dimensions, callout 8 and quantity 1."
+    },
+    {
+      "id": "IH016",
+      "passed": true,
+      "review": "194912C1 is the LH support, quantity 1, including screw and nut as observed."
+    },
+    {
+      "id": "IH017",
+      "passed": true,
+      "review": "146450C1 is the RH support, quantity 1, including nut and screw as observed."
+    },
+    {
+      "id": "IH018",
+      "passed": true,
+      "review": "87027465 matches the requested pickup-lift cylinder dimensions, callout 1 and quantity 1. Associated kit/rod and NSS component distinctions are supported by the inspected assembly."
+    },
+    {
+      "id": "IH019",
+      "passed": true,
+      "review": "798979 is the kit for cylinder 849372, callout 8, quantity 1. The alternative cylinder and kit are correctly distinguished."
+    },
+    {
+      "id": "IH020",
+      "passed": true,
+      "review": "87030873 is the kit for cylinder 87027465, quantity 1. The production-stamp qualification and different 849372/798979 combination are retained."
+    },
+    {
+      "id": "IH021",
+      "passed": true,
+      "review": "771598 is the piston rod for cylinder 849372, callout 7 and quantity 1; 87030037 belongs to the alternative cylinder."
+    },
+    {
+      "id": "IH022",
+      "passed": true,
+      "review": "87030037 is the rod for cylinder 87027465, callout 7 and quantity 1. Cylinder dimensions and production-stamp caveat remain attached to the cylinder."
+    },
+    {
+      "id": "IH023",
+      "passed": true,
+      "review": "87394242 matches the premium standard curved tine, 186.5 mm, callout 12 and quantity 48 in the inspected double-cam assembly."
+    },
+    {
+      "id": "IH024",
+      "passed": true,
+      "review": "87607074 matches the economy optional curved tine, 186.5 mm and quantity 48. This run inspects the double-cam assembly and does not transplant callout 57 from the related assembly."
+    },
+    {
+      "id": "IH025",
+      "passed": true,
+      "review": "84350126 matches 38.1 mm OD by 19 mm width. Callout 7/quantity 8 and the separate related-assembly callout 43/quantity 4 are both inspected and clearly distinguished."
+    }
+  ]
+}

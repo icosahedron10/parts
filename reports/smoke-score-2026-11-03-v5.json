@@ -1,0 +1,555 @@
+{
+  "passed": 5,
+  "total": 20,
+  "behavior_checks_passed": true,
+  "gate_passed": false,
+  "cases": [
+    {
+      "id": "Q001.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q001.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [
+            "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator-and-connections/cn/10462E54-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+            "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6"
+          ],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: CX350B - CRAWLER EXCAVATOR TIER 3 (NA) (05/08 - 11/18)",
+          "Distinguish the complete assembly at callout 0 from the radiator at callout 1.",
+          "Assembly scope: 02-05 - RADIATOR",
+          "Incl. 1 - 46",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q003.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q003.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: CX350B - CRAWLER EXCAVATOR TIER 3 (NA) (05/08 - 11/18)",
+          "KSJ12240 is the complete assembly; KSJ12240R is remanufactured. The core return number is not a replacement pump.",
+          "Assembly scope: 08-16 - HIGH PRESSURE PUMP (STANDARD)",
+          "Include(s) 1 - 111 And See Figure(s) 08-17 - 08-20",
+          "CX350B TIER 3 (5/08-)",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q006.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q006.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [
+            "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator-and-connections/cn/10462E54-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+            "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6"
+          ],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: CX350B - CRAWLER EXCAVATOR TIER 3 (NA) (05/08 - 11/18)",
+          "Assembly scope: 02-05 - RADIATOR",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q008.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q008.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [
+            "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator-and-connections/cn/10462E54-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+            "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6"
+          ],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: CX350B - CRAWLER EXCAVATOR TIER 3 (NA) (05/08 - 11/18)",
+          "Confirm the hose position against the radiator diagram.",
+          "Assembly scope: 02-05 - RADIATOR",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q017.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q017.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: 580N - LOADER BACKHOE (TIER 3) (04/10 - 01/16)",
+          "Pump components are not serviced separately except through the specified service kits; core return number is not a replacement pump.",
+          "Assembly scope: 35.106.01[05] - PUMP, EQUIPMENT HYDRAULIC",
+          "Component Parts Not Serviced Separately, Except for 87434070 and 87438045 Service Kits, Ref 1 - 17, See Below",
+          "580N TIER 3",
+          "HYDRAULIC PUMP 52.4 CC, 15 tooth spline; Component Parts Not Serviced Separately, Except for 87434070 and 87438045 Service Kits, Ref 1 - 17, See Below",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q018.year_first",
+      "passed": true,
+      "assessment": {
+        "id": "Q018.year_first",
+        "outcome": "source_drift_or_extra_claim_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [
+            "84210934",
+            "84421594C",
+            "84421594R"
+          ],
+          "citations": [
+            "https://www.mycnhstore.com/us/en/casece/category/hydraulics/cylinders/hydraulic-cylinder/p/84210934",
+            "https://www.mycnhstore.com/us/en/casece/na/light-equipment/loader-backhoes/naes49loa028n/loader-backhoe-tier-3/hydraulic-systems/cylinder-backhoe-bucket-580n/cn/3EBBA0A8-2EA4-4C76-8ABB-8761AA07A7EB/E8D06496-EFBE-E111-9FCE-005056875BD6",
+            "https://www.mycnhstore.com/us/en/casece/na/light-equipment/loader-backhoes/naes49loa028n/loader-backhoe-tier-3/hydraulic-systems/cylinder-backhoe-bucket-580n/cn/B57831E4-8ED2-4CFD-A0B6-BC8745F6AE1F/E8D06496-EFBE-E111-9FCE-005056875BD6"
+          ],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [
+          "84210934"
+        ],
+        "reference_numbers_with_cited_gold_assembly": [
+          "84210934"
+        ],
+        "extra_numbers_for_review": [
+          "84421594C",
+          "84421594R"
+        ],
+        "answer_conditions_for_review": [
+          "Catalog scope: 580N - LOADER BACKHOE (TIER 3) (04/10 - 01/16)",
+          "Assembly scope: 35.738.05 - CYLINDER - BACKHOE BUCKET (580N)",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q021.year_first",
+      "passed": true,
+      "assessment": {
+        "id": "Q021.year_first",
+        "outcome": "source_drift_or_extra_claim_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [
+            "1542877C1",
+            "84259224"
+          ],
+          "citations": [
+            "https://www.mycnhstore.com/us/en/casece/category/hydraulics/cylinders/seal-kit/p/84259224",
+            "https://www.mycnhstore.com/us/en/casece/na/light-equipment/loader-backhoes/naes49loa028n/loader-backhoe-tier-3/hydraulic-systems/cylinder-backhoe-bucket-580n/cn/3EBBA0A8-2EA4-4C76-8ABB-8761AA07A7EB/E8D06496-EFBE-E111-9FCE-005056875BD6",
+            "https://www.mycnhstore.com/us/en/casece/na/light-equipment/loader-backhoes/naes49loa028n/loader-backhoe-tier-3/hydraulic-systems/cylinder-backhoe-bucket-580n/cn/B57831E4-8ED2-4CFD-A0B6-BC8745F6AE1F/E8D06496-EFBE-E111-9FCE-005056875BD6"
+          ],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [
+          "84259224"
+        ],
+        "reference_numbers_with_cited_gold_assembly": [
+          "84259224"
+        ],
+        "extra_numbers_for_review": [
+          "1542877C1"
+        ],
+        "answer_conditions_for_review": [
+          "Catalog scope: 580N - LOADER BACKHOE (TIER 3) (04/10 - 01/16)",
+          "Assembly scope: 35.738.05 - CYLINDER - BACKHOE BUCKET (580N)",
+          "Incl 9 - 13, 15 - 17",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q034.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q034.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: 621G - WHEEL LOADER - TIER 4B (NA) (11/16 - 07/18)",
+          "621G - WHEEL LOADER - TIER 4B (NA) (11/16 - 07/18)",
+          "10.400.010 - VAR - 482585, 782454 - COOLER INSTALLATION, STANDARD ; (Var) 04C05BA, 04C05CA, 05C05BA, 05C05CA, 482585023, 482585053, 782454023, 782454053",
+          "Assembly scope: 10.400.010 - VAR - 482585, 782454 - COOLER INSTALLATION, STANDARD ; (Var) 04C05BA, 04C05CA, 05C05BA, 05C05CA, 482585023, 482585053, 782454023, 782454053",
+          "Engine",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q036.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q036.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: 621G - WHEEL LOADER - TIER 4B (NA) (11/16 - 07/18)",
+          "621G - WHEEL LOADER - TIER 4B (NA) (11/16 - 07/18)",
+          "33.202.010[01] - BRAKE VALVE ASSEMBLY, 4 & 5 SPEED ; (Var) 03C03AA, 04C03AA, 04C03CA, 05C03AA, 05C03CA, 424224003, 424224013, 424224023, 424224033, 424224053, 424225003, 47586905, 83C03AA, 83N03AA, 84C03AA, 84N03AA, 85C03AA, 85N03AA",
+          "4-speed configuration; the 5-speed brake valve has a different part number.",
+          "Assembly scope: 33.202.010[01] - BRAKE VALVE ASSEMBLY, 4 & 5 SPEED ; (Var) 03C03AA, 04C03AA, 04C03CA, 05C03AA, 05C03CA, 424224003, 424224013, 424224023, 424224033, 424224053, 424225003, 47586905, 83C03AA, 83N03AA, 84C03AA, 84N03AA, 85C03AA, 85N03AA",
+          "4 Speed, 76 BAR, Incl 2 - 7",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q041.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q041.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: 621G - WHEEL LOADER - TIER 4B (NA) (11/16 - 07/18)",
+          "621G - WHEEL LOADER - TIER 4B (NA) (11/16 - 07/18)",
+          "10.400.010 - VAR - 482585, 782454 - COOLER INSTALLATION, STANDARD ; (Var) 04C05BA, 04C05CA, 05C05BA, 05C05CA, 482585023, 482585053, 782454023, 782454053",
+          "Assembly scope: 10.400.010 - VAR - 482585, 782454 - COOLER INSTALLATION, STANDARD ; (Var) 04C05BA, 04C05CA, 05C05BA, 05C05CA, 482585023, 482585053, 782454023, 782454053",
+          "Oil Cooler Foam",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q050.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q050.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: 621G - WHEEL LOADER - TIER 4B (NA) (11/16 - 07/18)",
+          "621G - WHEEL LOADER - TIER 4B (NA) (11/16 - 07/18)",
+          "33.202.010[01] - BRAKE VALVE ASSEMBLY, 4 & 5 SPEED ; (Var) 03C03AA, 04C03AA, 04C03CA, 05C03AA, 05C03CA, 424224003, 424224013, 424224023, 424224033, 424224053, 424225003, 47586905, 83C03AA, 83N03AA, 84C03AA, 84N03AA, 85C03AA, 85N03AA",
+          "4-speed configuration.",
+          "Assembly scope: 33.202.010[01] - BRAKE VALVE ASSEMBLY, 4 & 5 SPEED ; (Var) 03C03AA, 04C03AA, 04C03CA, 05C03AA, 05C03CA, 424224003, 424224013, 424224023, 424224033, 424224053, 424225003, 47586905, 83C03AA, 83N03AA, 84C03AA, 84N03AA, 85C03AA, 85N03AA",
+          "Sensor Assy (4 Sp), Not Illustrated",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q053.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q053.year_first",
+        "outcome": "source_drift_or_extra_claim_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [
+            "47721382",
+            "84599384"
+          ],
+          "citations": [
+            "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/battery/cn/87821314-DFF6-48A5-889B-0A5D33712E20/6F7909BA-F6C7-454F-AC12-DF038474C549",
+            "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/no-battery-disconnect/cn/4CCEB6AD-8493-4319-BE35-F9DA30C9BF50/6F7909BA-F6C7-454F-AC12-DF038474C549",
+            "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/no-battery-disconnect/cn/FF252752-92AD-4155-87ED-9DE50F865A60/6F7909BA-F6C7-454F-AC12-DF038474C549"
+          ],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [
+          "47721382",
+          "84599384"
+        ],
+        "answer_conditions_for_review": [
+          "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+          "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+          "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+          "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+          "Production date between 20-Nov-2014 and 01-Apr-2018; interpret reference year as production year, not purchase or registration year.",
+          "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+          "(Prod Date) Between 20-Nov-2014 and 01-Apr-2018",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q062.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q062.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+          "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+          "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+          "Engine-electrical configuration dated 4-Jun-2015 and newer.",
+          "The two catalog rows require further machine or replacement-chain confirmation; do not present them as interchangeable.",
+          "Source row 47885596: BRACKET; Harness Retention, Gray",
+          "Source row 51589239: BRACKET HARNESS RETENTIO;",
+          "Assembly scope: 55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+          "Harness Retention, Gray",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q069.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q069.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [
+            "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/engine/radiator-cooler-frame/cn/C5EF9894-68CF-4E19-B45C-C1C917E87351/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+            "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/engine/radiator-cooler-hose-assy/cn/BA83ECCC-1CEB-43D7-9E35-6CD02ECB78C8/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E"
+          ],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: 850M LT - CRAWLER DOZER - TIER 4B (12/16 - 12/23)",
+          "Assembly scope: 10.400.010 - RADIATOR & COOLER, FRAME ; (Var) 12RD00101, 12RD00103, 12RD00110",
+          "Aluminum Bar and Plate Core",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q078.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q078.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: 850M LT - CRAWLER DOZER - TIER 4B (12/16 - 12/23)",
+          "Assembly scope: 48.134.020 - LH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+          "Assembly scope: 48.134.030 - RH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+          "Double Flange",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q086.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q086.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: TR340 - COMPACT TRACK LOADER - TIER 4B (03/15 - 04/17)",
+          "TR340 - COMPACT TRACK LOADER - TIER 4B (03/15 - 04/17)",
+          "35.220.AA[01] - HYDRAULIC PUMP, STANDARD 36CC ; (Var) 107W240C01, 109W240C01, 111W240C01, 112W240C01, 114W240C02, 116W240C02",
+          "Standard hydraulic-pump configuration; assembly title uses 36CC and the pump rows specify 36.6 CC.",
+          "The query does not specify ordinary versus remanufactured supply.",
+          "Source row 84572269: HYDRAULIC PUMP 36.6 CC; Hydraulic",
+          "Source row 84572269R: REMAN-HYD PUMP PUMP, HYD, 36.6CC GEAR CW; Hydraulic",
+          "Assembly scope: 35.220.AA[01] - HYDRAULIC PUMP, STANDARD 36CC ; (Var) 107W240C01, 109W240C01, 111W240C01, 112W240C01, 114W240C02, 116W240C02",
+          "Hydraulic",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "Q094.year_first",
+      "passed": false,
+      "assessment": {
+        "id": "Q094.year_first",
+        "outcome": "incomplete_or_clarification_review",
+        "evidence_gate": {
+          "passed": true,
+          "violations": [],
+          "proposed_part_numbers": [],
+          "citations": [],
+          "semantic_correctness": "not_assessed"
+        },
+        "mentioned_reference_numbers": [],
+        "reference_numbers_with_cited_gold_assembly": [],
+        "extra_numbers_for_review": [],
+        "answer_conditions_for_review": [
+          "Catalog scope: TR340 - COMPACT TRACK LOADER - TIER 4B (03/15 - 04/17)",
+          "TR340 - COMPACT TRACK LOADER - TIER 4B (03/15 - 04/17)",
+          "48.138.AB - TRACK ASSY, UNDERCARRIAGE (20-NOV-2015 & NEWER) ; (Var) 105W002B02, 111W002B01, 112W002B01, 115W002B02, 116W002B02",
+          "Undercarriage configuration dated 20-Nov-2015 and newer.",
+          "Assembly scope: 48.138.AB - TRACK ASSY, UNDERCARRIAGE (20-NOV-2015 & NEWER) ; (Var) 105W002B02, 111W002B01, 112W002B01, 115W002B02, 116W002B02",
+          "Front",
+          "The year is a user-supplied production-year scenario. Marketing model year and serial/PIN fitment are not established."
+        ],
+        "manual_semantic_review_required": true,
+        "accuracy_pass": null
+      }
+    },
+    {
+      "id": "S018.ambiguous",
+      "passed": true,
+      "assessment": {
+        "behavior": "catalog_choice"
+      }
+    },
+    {
+      "id": "S019.ambiguous",
+      "passed": true,
+      "assessment": {
+        "behavior": "catalog_choice"
+      }
+    },
+    {
+      "id": "S020.no_match",
+      "passed": true,
+      "assessment": {
+        "behavior": "scoped_no_match"
+      }
+    }
+  ]
+}

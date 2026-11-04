@@ -2,7 +2,7 @@
 
 A small Python 3.12 library for bounded, cited parts research in US English CNH catalogs. Machine discovery is local; part evidence comes from the storefront or an unexpired SQLite cache. Each lookup returns exactly `key_facts`, `sources`, and `store_url` as validated JSON.
 
-The repository is local by the owner's decision on 2026-11-03. See `reports/MILESTONE-2026-11-03.md` for measured acceptance status. CASE CE ships 1,339 historical catalogs; Case IH ships 23 observed catalogs across three equipment families. Both indexes are partial.
+The repository is local by the owner's decision on 2026-11-03. See the [milestone report](reports/MILESTONE-2026-11-03.md) for measured acceptance status. CASE CE's full-exam thresholds remain unmet; final live checks encountered catalog read timeouts. CASE CE ships 1,339 historical catalogs; Case IH ships 23 observed catalogs across three equipment families. Both indexes are partial.
 
 ```powershell
 uv sync --locked
