@@ -1,0 +1,371 @@
+{
+  "results": [
+    {
+      "partNumber": "47566862",
+      "partDescription": "FRAME",
+      "usage": "Right Frame",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_10_ENGINE",
+      "assemblyFullName": "10.400.010 - RADIATOR & COOLER, FRAME ; (Var) 12RD00101, 12RD00103, 12RD00110",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-C1443320-D414-424E-8733-4A46FD42BAAC.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI0NDg1M3xpbWFnZS9wbmd8YURZMUwyaGxOaTg0T1RVNE9Ua3dNVFUxT0RBMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVU14TkRRek16SXdMVVEwTVRRdE5ESTBSUzA0TnpNekxUUkJORFpHUkRReVFrRkJReTV3Ym1jfDRmYzBjMGMzMjZhZThhZDhmMWFhZmZjYjQzMmExMmI1MGI0NDVkN2E5YWMwOTcwODA5MDdiMGJjZDhlMmNiNWU",
+      "assemblyCode": "C5EF9894-68CF-4E19-B45C-C1C917E87351",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/engine/radiator-cooler-frame/cn/C5EF9894-68CF-4E19-B45C-C1C917E87351",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/frame/p/47566862"
+      }
+    },
+    {
+      "partNumber": "47511096",
+      "partDescription": "FRAME",
+      "usage": "LOWER",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_10_ENGINE",
+      "assemblyFullName": "10.400.010 - RADIATOR & COOLER, FRAME ; (Var) 12RD00101, 12RD00103, 12RD00110",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-C1443320-D414-424E-8733-4A46FD42BAAC.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI0NDg1M3xpbWFnZS9wbmd8YURZMUwyaGxOaTg0T1RVNE9Ua3dNVFUxT0RBMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVU14TkRRek16SXdMVVEwTVRRdE5ESTBSUzA0TnpNekxUUkJORFpHUkRReVFrRkJReTV3Ym1jfDRmYzBjMGMzMjZhZThhZDhmMWFhZmZjYjQzMmExMmI1MGI0NDVkN2E5YWMwOTcwODA5MDdiMGJjZDhlMmNiNWU",
+      "assemblyCode": "C5EF9894-68CF-4E19-B45C-C1C917E87351",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/engine/radiator-cooler-frame/cn/C5EF9894-68CF-4E19-B45C-C1C917E87351",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/frame/p/47511096"
+      }
+    },
+    {
+      "partNumber": "47468145",
+      "partDescription": "FRAME",
+      "usage": "UPPER",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_10_ENGINE",
+      "assemblyFullName": "10.400.010 - RADIATOR & COOLER, FRAME ; (Var) 12RD00101, 12RD00103, 12RD00110",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-C1443320-D414-424E-8733-4A46FD42BAAC.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI0NDg1M3xpbWFnZS9wbmd8YURZMUwyaGxOaTg0T1RVNE9Ua3dNVFUxT0RBMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVU14TkRRek16SXdMVVEwTVRRdE5ESTBSUzA0TnpNekxUUkJORFpHUkRReVFrRkJReTV3Ym1jfDRmYzBjMGMzMjZhZThhZDhmMWFhZmZjYjQzMmExMmI1MGI0NDVkN2E5YWMwOTcwODA5MDdiMGJjZDhlMmNiNWU",
+      "assemblyCode": "C5EF9894-68CF-4E19-B45C-C1C917E87351",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/engine/radiator-cooler-frame/cn/C5EF9894-68CF-4E19-B45C-C1C917E87351",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/frame/p/47468145"
+      }
+    },
+    {
+      "partNumber": "48086148",
+      "partDescription": "FRAME",
+      "usage": "C-Inside, Incl (4) Ref 23",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_86_DOZER",
+      "assemblyFullName": "86.100.010 - FRAME, C AND PITCH LINK NHC103266, AND PRIOR ; (Var) 12RD00101, 12RD00103, 12RD00114 ; (Prod Date) Before 23-May-2017",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-D27D0ECD-BE60-457C-951E-192E3639DBB0.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM1ODUxNnxpbWFnZS9wbmd8YUdVeUwyZ3hZUzg0T1RBd05UVTVORE0zT0RVMEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVVF5TjBRd1JVTkVMVUpGTmpBdE5EVTNReTA1TlRGRkxURTVNa1V6TmpNNVJFSkNNQzV3Ym1jfDA1M2UxNmFlN2RhMTk5MjQxMzM4MzhhNWM3OTY0Y2VkZTJmMmNkMWY3NmNjYjY4M2QyYWRiMTFlOGM2N2UwZDY",
+      "assemblyCode": "75A64295-214B-4C5B-95DB-4CB57AB138E3",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/dozer/frame-c-and-pitch-link-nhc103266-and-prior/cn/75A64295-214B-4C5B-95DB-4CB57AB138E3",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/frame/p/48086148"
+      }
+    },
+    {
+      "partNumber": "48086148",
+      "partDescription": "FRAME",
+      "usage": "C-Inside, Incl (4) Ref 23",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_86_DOZER",
+      "assemblyFullName": "86.100.020 - FRAME C AND PITCH LINK NHC103267, AND AFTER ; (Var) 12RD00101, 12RD00103, 12RD00114 ; (Prod Date) After 24-May-2017",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-5CB52B90-51E8-420E-87F6-9540DC1E6A59.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM1NDYyMHxpbWFnZS9wbmd8YURZMUwyaGxaaTg0T1RJMk9EQTBOemN3T0RRMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFZEUWpVeVFqa3dMVFV4UlRndE5ESXdSUzA0TjBZMkxUazFOREJFUXpGRk5rRTFPUzV3Ym1jfGExODU2MjQ1YTc2N2YzNmI2YWJiZjczMTcyODc5ZDZkODkzYzZhZjZhN2ExMmU2YmMxNDZmNjM1MGRmNDg0OGI",
+      "assemblyCode": "6064A33D-31CF-4C02-84C8-F8496837270B",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/dozer/frame-c-and-pitch-link-nhc103267-and-after/cn/6064A33D-31CF-4C02-84C8-F8496837270B",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/frame/p/48086148"
+      }
+    },
+    {
+      "partNumber": "47480946",
+      "partDescription": "FRAME",
+      "usage": "LEFT",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_10_ENGINE",
+      "assemblyFullName": "10.400.010 - RADIATOR & COOLER, FRAME ; (Var) 12RD00101, 12RD00103, 12RD00110",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-C1443320-D414-424E-8733-4A46FD42BAAC.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI0NDg1M3xpbWFnZS9wbmd8YURZMUwyaGxOaTg0T1RVNE9Ua3dNVFUxT0RBMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVU14TkRRek16SXdMVVEwTVRRdE5ESTBSUzA0TnpNekxUUkJORFpHUkRReVFrRkJReTV3Ym1jfDRmYzBjMGMzMjZhZThhZDhmMWFhZmZjYjQzMmExMmI1MGI0NDVkN2E5YWMwOTcwODA5MDdiMGJjZDhlMmNiNWU",
+      "assemblyCode": "C5EF9894-68CF-4E19-B45C-C1C917E87351",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/engine/radiator-cooler-frame/cn/C5EF9894-68CF-4E19-B45C-C1C917E87351",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/frame/p/47480946"
+      }
+    },
+    {
+      "partNumber": "47916239",
+      "partDescription": "FRAME",
+      "usage": "Main, Power Tan, Long Track",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_39_FRAMES_AND_BALLASTING",
+      "assemblyFullName": "39.100.010 - MAIN FRAME LT ; (Var) 12RD00101, 12RD00105",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-1EA1062E-9571-4F19-B0F8-84C5B433F641.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI5NjYxM3xpbWFnZS9wbmd8YURNekwyaGlOeTg0T0RnM05Ea3hORGt6T1RFNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEZGUVRFd05qSkZMVGsxTnpFdE5FWXhPUzFDTUVZNExUZzBRelZDTkRNelJqWTBNUzV3Ym1jfDZhZTdkYzQzYjgzYzFhZGM5MzIyMmZjODdhMGJjZjAzMGJiNjRjZDYwNjYxNjAxZTZjODA2MjJlZjNlMmQ5ZTA",
+      "assemblyCode": "4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/frames-and-ballasting/main-frame-lt/cn/4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/frame/p/47916239"
+      }
+    },
+    {
+      "partNumber": "47778650",
+      "partDescription": "FRAME",
+      "usage": "Track",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_48_TRACKS_&_TRACK_SUSPENSION",
+      "assemblyFullName": "48.134.020 - LH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-314EF115-7BC7-4CF8-B65A-C94BAA2E6811.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDMzNTI4MnxpbWFnZS9wbmd8YURoaEwyaGlNQzg0T1RZeU16ZzBNRE0xT0Rjd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVE14TkVWR01URTFMVGRDUXpjdE5FTkdPQzFDTmpWQkxVTTVORUpCUVRKRk5qZ3hNUzV3Ym1jfDNkOTUzZWMwYjQ2OTkyOTU3N2YwNTM1NDRhNzZlMzg5Njk4NDQ4MDRkYWI3NDEyMTNlNzY0NmNhZTVkMzliOWE",
+      "assemblyCode": "2AEF2B64-C40D-4B03-AAEE-7C38120DE25D",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/lh-track-assy/cn/2AEF2B64-C40D-4B03-AAEE-7C38120DE25D",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/frame/p/47778650"
+      }
+    },
+    {
+      "partNumber": "47778650",
+      "partDescription": "FRAME",
+      "usage": "Track",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_48_TRACKS_&_TRACK_SUSPENSION",
+      "assemblyFullName": "48.134.030 - RH, TRACK ASSY ; (Var) 12RD00101, 12RD00103",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-8972F15E-2102-4B50-A2EF-8D3CF9DAC38B.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM3NDA0MXxpbWFnZS9wbmd8YURVeUwyZ3lZUzg0T1RZeU5qYzFOVGN5TnpZMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVGc1TnpKR01UVkZMVEl4TURJdE5FSTFNQzFCTWtWR0xUaEVNME5HT1VSQlF6TTRRaTV3Ym1jfDc0MzY0NjcwNmM0MGE4OGJjNWIxNmIzNWE1M2I5ZDNkYTdkYmVhMDFiMjFkYTg5ZTk2ZTQ0ODMzY2RjMWNkYmU",
+      "assemblyCode": "90FBC4FB-F868-44F5-8E46-8293C810D527",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/rh-track-assy/cn/90FBC4FB-F868-44F5-8E46-8293C810D527",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/frame-structural/frame/p/47778650"
+      }
+    },
+    {
+      "partNumber": "48005095",
+      "partDescription": "LH CAB DOOR",
+      "usage": "Frame",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_90_PLATFORM_CAB_BODYWORK_AND_DECALS",
+      "assemblyFullName": "90.154.030 - LH CAB DOOR ; (Var) 11RD0060H, 12RD0060H, 13RD0060H, 14RD0060H, 15RD0060H, 16RD0060H, 17RD0060H, 18RD0060H, 19RD0060H, 20RD0060H, 21RD0060H, 22RD0060H, 23RD0060H, 24RD0060H, 25RD0060H, 26RD0060H, 27RD0060H, 28RD0060H, 29RD0060H, 30RD0060H, 31RD0060H, 32RD0060H",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-6047ABE3-305D-45E9-8789-F92AEC683E06.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE5MjQ2NnxpbWFnZS9wbmd8YURsaEwyZ3dNeTg0T1RJNE1UWTFOREk1TWpjNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFl3TkRkQlFrVXpMVE13TlVRdE5EVkZPUzA0TnpnNUxVWTVNa0ZGUXpZNE0wVXdOaTV3Ym1jfGFlMWY2ZTlkZmRlMmIwMWE3NDQ1OTU1MTRmYjZiY2FmMzJlYTAxOTc5YTA3MDE5OGUwNjVlOGU2OWIxMjliMTg",
+      "assemblyCode": "2BE0F2DD-8D38-4272-AE8E-48080B708006",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra0302000/crawler-dozer-tier-4b/platform-cab-bodywork-and-decals/lh-cab-door/cn/2BE0F2DD-8D38-4272-AE8E-48080B708006",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/lh-cab-door/p/48005095"
+      }
+    },
+    {
+      "partNumber": "48004962",
+      "partDescription": "RH CAB DOOR",
+      "usage": "Frame",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_90_PLATFORM_CAB_BODYWORK_AND_DECALS",
+      "assemblyFullName": "90.154.040 - RH CAB DOOR ; (Var) 11RD0060H, 12RD0060H, 13RD0060H, 14RD0060H, 15RD0060H, 16RD0060H, 17RD0060H, 18RD0060H, 19RD0060H, 20RD0060H, 21RD0060H, 22RD0060H, 23RD0060H, 24RD0060H, 25RD0060H, 26RD0060H, 27RD0060H, 28RD0060H, 29RD0060H, 30RD0060H, 31RD0060H, 32RD0060H",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-55E3F040-2442-4598-80F2-3541D21490AB.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE4OTgyMXxpbWFnZS9wbmd8YUdJMkwyZzFNeTg0T1RRNE1qVTVNekl6T1RNMEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFUxUlROR01EUXdMVEkwTkRJdE5EVTVPQzA0TUVZeUxUTTFOREZFTWpFME9UQkJRaTV3Ym1jfGJjNzQzMGYxZmVjM2IwYTg3YTFjYTdhZGYwNDRlYTA5NDAxYTJkNDQ5ZGU5YWRmOTU5ZjQyM2ViNWE1Nzc2MjY",
+      "assemblyCode": "33B6BCAD-42B4-4F00-8DD8-53B975213494",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra0302000/crawler-dozer-tier-4b/platform-cab-bodywork-and-decals/rh-cab-door/cn/33B6BCAD-42B4-4F00-8DD8-53B975213494",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/rh-cab-door/p/48004962"
+      }
+    },
+    {
+      "partNumber": "47830715",
+      "partDescription": "RUBBER STRIP",
+      "usage": "Frame Dampening",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_39_FRAMES_AND_BALLASTING",
+      "assemblyFullName": "39.100.010 - MAIN FRAME LT ; (Var) 12RD00101, 12RD00105",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-1EA1062E-9571-4F19-B0F8-84C5B433F641.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI5NjYxM3xpbWFnZS9wbmd8YURNekwyaGlOeTg0T0RnM05Ea3hORGt6T1RFNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEZGUVRFd05qSkZMVGsxTnpFdE5FWXhPUzFDTUVZNExUZzBRelZDTkRNelJqWTBNUzV3Ym1jfDZhZTdkYzQzYjgzYzFhZGM5MzIyMmZjODdhMGJjZjAzMGJiNjRjZDYwNjYxNjAxZTZjODA2MjJlZjNlMmQ5ZTA",
+      "assemblyCode": "4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/frames-and-ballasting/main-frame-lt/cn/4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/rubber-strip/p/47830715"
+      }
+    },
+    {
+      "partNumber": "47364881",
+      "partDescription": "RUBBER STRIP",
+      "usage": "Frame Dampening",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_39_FRAMES_AND_BALLASTING",
+      "assemblyFullName": "39.100.010 - MAIN FRAME LT ; (Var) 12RD00101, 12RD00105",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-1EA1062E-9571-4F19-B0F8-84C5B433F641.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI5NjYxM3xpbWFnZS9wbmd8YURNekwyaGlOeTg0T0RnM05Ea3hORGt6T1RFNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEZGUVRFd05qSkZMVGsxTnpFdE5FWXhPUzFDTUVZNExUZzBRelZDTkRNelJqWTBNUzV3Ym1jfDZhZTdkYzQzYjgzYzFhZGM5MzIyMmZjODdhMGJjZjAzMGJiNjRjZDYwNjYxNjAxZTZjODA2MjJlZjNlMmQ5ZTA",
+      "assemblyCode": "4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/frames-and-ballasting/main-frame-lt/cn/4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425",
+      "showNote": null,
+      "product": {
+        "url": "/category/seals-o-rings/seal-kits/rubber-strip/p/47364881"
+      }
+    },
+    {
+      "partNumber": "84539466",
+      "partDescription": "RUBBER STRIP MAT, FUEL TANK, ADHESIVE-BACKED",
+      "usage": "Frame Dampening",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_39_FRAMES_AND_BALLASTING",
+      "assemblyFullName": "39.100.010 - MAIN FRAME LT ; (Var) 12RD00101, 12RD00105",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-1EA1062E-9571-4F19-B0F8-84C5B433F641.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI5NjYxM3xpbWFnZS9wbmd8YURNekwyaGlOeTg0T0RnM05Ea3hORGt6T1RFNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEZGUVRFd05qSkZMVGsxTnpFdE5FWXhPUzFDTUVZNExUZzBRelZDTkRNelJqWTBNUzV3Ym1jfDZhZTdkYzQzYjgzYzFhZGM5MzIyMmZjODdhMGJjZjAzMGJiNjRjZDYwNjYxNjAxZTZjODA2MjJlZjNlMmQ5ZTA",
+      "assemblyCode": "4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/frames-and-ballasting/main-frame-lt/cn/4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/rubber-strip/p/84539466"
+      }
+    },
+    {
+      "partNumber": "51416769",
+      "partDescription": "RUBBER STRIP",
+      "usage": "Frame Dampening",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_39_FRAMES_AND_BALLASTING",
+      "assemblyFullName": "39.100.010 - MAIN FRAME LT ; (Var) 12RD00101, 12RD00105",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-1EA1062E-9571-4F19-B0F8-84C5B433F641.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI5NjYxM3xpbWFnZS9wbmd8YURNekwyaGlOeTg0T0RnM05Ea3hORGt6T1RFNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEZGUVRFd05qSkZMVGsxTnpFdE5FWXhPUzFDTUVZNExUZzBRelZDTkRNelJqWTBNUzV3Ym1jfDZhZTdkYzQzYjgzYzFhZGM5MzIyMmZjODdhMGJjZjAzMGJiNjRjZDYwNjYxNjAxZTZjODA2MjJlZjNlMmQ5ZTA",
+      "assemblyCode": "4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/frames-and-ballasting/main-frame-lt/cn/4C1C1722-0A7C-4A6E-9F3D-E9EBEE8A1425",
+      "showNote": null,
+      "product": {
+        "url": "/category/cab-rops/cab/rubber-strip/p/51416769"
+      }
+    },
+    {
+      "partNumber": "47552677",
+      "partDescription": "HOSE",
+      "usage": "C FRAME PIVOT GREASE",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_71_LUBRICATION_SYSTEM",
+      "assemblyFullName": "71.460.010 - GREASE, HOSE ; (Var) 12RD00101, 12RD00103, 12RD00113",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-ABC1670792-B-D5870023-3E28-4BE4-A9A3-873B855413F7.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE3NDU3MHxpbWFnZS9wbmd8YURnMkwyaGtOeTg1TmpReE1UVTRPVEF4Tnprd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVUZDUXpFMk56QTNPVEpmUWw5RU5UZzNNREF5TXkwelJUSTRMVFJDUlRRdFFUbEJNeTA0TnpOQ09EVTFOREV6UmpjdWNHNW58YzYzMmNmN2MyNzc5ODNmYTlhNTA3YWFiMjRiMDlkY2U4MGRmNGI1MTBiMWM4NjY4NTQzYzJiNmI1ZTBhM2Q3MQ",
+      "assemblyCode": "43EFC017-9745-4268-900B-0288D5E29D88",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/lubrication-system/grease-hose/cn/43EFC017-9745-4268-900B-0288D5E29D88",
+      "showNote": null,
+      "product": {
+        "url": "/category/hydraulics/hose-tube-assemblies/hose/p/47552677"
+      }
+    },
+    {
+      "partNumber": "47567969",
+      "partDescription": "SCREEN",
+      "usage": "Frame W, Side, Right Hand",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_90_PLATFORM_CAB_BODYWORK_AND_DECALS",
+      "assemblyFullName": "90.150.020 - SCREEN, FORESTRY , CANOPY ; (Var) 11RD007SS, 12RD007SS, 13RD007SS, 23RD007SS",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-020B836F-0D27-4C62-96A7-C6DD457DD76D.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDIyMDY5NHxpbWFnZS9wbmd8YUdZd0wyZ3dPUzg0T1RVNE9EYzVNVGN3TlRrd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEF5TUVJNE16WkdMVEJFTWpjdE5FTTJNaTA1TmtFM0xVTTJSRVEwTlRkRVJEYzJSQzV3Ym1jfDUxYzQyOWMzNDAxMTJhZjE0ZTExMjUyNjAzZTgxM2MyZTE0YTRkMjkwOGY0Y2IyMzZjMTVlNjRjNzYyZDE2MGM",
+      "assemblyCode": "D119C565-DA3D-489B-8D7F-D3F5F054F148",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/sa/heavy-equipment/crawler-dozers/saer23cra0031000/crawler-dozer-tier-4b/platform-cab-bodywork-and-decals/screen-forestry-canopy/cn/D119C565-DA3D-489B-8D7F-D3F5F054F148",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/fenders-hoods-sheet-metal/screen/p/47567969"
+      }
+    },
+    {
+      "partNumber": "47567968",
+      "partDescription": "SCREEN",
+      "usage": "Frame W, Side, Left Hand",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_90_PLATFORM_CAB_BODYWORK_AND_DECALS",
+      "assemblyFullName": "90.150.020 - SCREEN, FORESTRY , CANOPY ; (Var) 11RD007SS, 12RD007SS, 13RD007SS, 23RD007SS",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-020B836F-0D27-4C62-96A7-C6DD457DD76D.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDIyMDY5NHxpbWFnZS9wbmd8YUdZd0wyZ3dPUzg0T1RVNE9EYzVNVGN3TlRrd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEF5TUVJNE16WkdMVEJFTWpjdE5FTTJNaTA1TmtFM0xVTTJSRVEwTlRkRVJEYzJSQzV3Ym1jfDUxYzQyOWMzNDAxMTJhZjE0ZTExMjUyNjAzZTgxM2MyZTE0YTRkMjkwOGY0Y2IyMzZjMTVlNjRjNzYyZDE2MGM",
+      "assemblyCode": "D119C565-DA3D-489B-8D7F-D3F5F054F148",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/sa/heavy-equipment/crawler-dozers/saer23cra0031000/crawler-dozer-tier-4b/platform-cab-bodywork-and-decals/screen-forestry-canopy/cn/D119C565-DA3D-489B-8D7F-D3F5F054F148",
+      "showNote": null,
+      "product": {
+        "url": "/category/chassis-frame/fenders-hoods-sheet-metal/screen/p/47567968"
+      }
+    },
+    {
+      "partNumber": "NSS",
+      "partDescription": "NOT SOLD SEPARAT",
+      "usage": "Yoke, Frame, Incl in 5",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_48_TRACKS_&_TRACK_SUSPENSION",
+      "assemblyFullName": "48.134.040 - LH, YOKE, TRACK CHAIN, ADJUSTER ; (Var) 11RD00208, 11RD007DF, 12RD00101, 12RD00103",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-EAED92DC-34BA-4216-BCF4-5E963D630E24.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc5NTQwfGltYWdlL3BuZ3xhRFl6TDJnNE5DODRPRGd5T0RBeU5EVTROalUwTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVVkJSVVE1TWtSRExUTTBRa0V0TkRJeE5pMUNRMFkwTFRWRk9UWXpSRFl6TUVVeU5DNXdibWN8ODhjMDRhNTdiYzM4MGM0ZjMyMjA4MWFiZjRkNTBlMmRmNzdmNDgzNWEzMDYxYmZiYWNhZmZjNjA3ZWNmNGZiMQ",
+      "assemblyCode": "7BA24B3D-1F72-4C20-823E-BC5CB1F55E66",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/lh-yoke-track-chain-adjuster/cn/7BA24B3D-1F72-4C20-823E-BC5CB1F55E66",
+      "showNote": null,
+      "product": {
+        "url": "/cn/not-sold-separat/p/NSS"
+      }
+    },
+    {
+      "partNumber": "NSS",
+      "partDescription": "NOT SOLD SEPARAT",
+      "usage": "Yoke, Frame, Incl in 5",
+      "sectionCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E_48_TRACKS_&_TRACK_SUSPENSION",
+      "assemblyFullName": "48.134.050 - YOKE, RH, TRACK CHAIN, ADJUSTER ; (Var) 11RD00208, 11RD007DF, 12RD00101, 12RD00103",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"D2EFF785-7C6A-44A6-AF62-8E80DF64055C\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2016-12-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-2C41CB07-602D-4188-BC57-F475699A2EBF.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDc2ODIzfGltYWdlL3BuZ3xhRFkyTDJneVppODRPVEkxTWpFMk5UQTFPRGcyTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUSkROREZEUWpBM0xUWXdNa1F0TkRFNE9DMUNRelUzTFVZME56VTJPVGxCTWtWQ1JpNXdibWN8ODQ5OTgxMWI2N2UzODdiZTZkNjFmN2ZiOGFlOTRjMzExNjU5NGM5NzA1Zjc2YjI3NTk1YWUxZjFkNDZhNWJmNQ",
+      "assemblyCode": "8E296882-BA69-4B97-B308-22F1B4432630",
+      "modelCode": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+      "modelFullName": "850M LT CRAWLER DOZER - TIER 4B Dec 2016 Dec 2023",
+      "quantity": null,
+      "assemblyUrl": "/amea/heavy-equipment/crawler-dozers/ameaer23cra133800/crawler-dozer-tier-4b/tracks-track-suspension/yoke-rh-track-chain-adjuster/cn/8E296882-BA69-4B97-B308-22F1B4432630",
+      "showNote": null,
+      "product": {
+        "url": "/cn/not-sold-separat/p/NSS"
+      }
+    }
+  ],
+  "pagination": {
+    "pageSize": 500,
+    "currentPage": 0,
+    "sort": "fittability-part-description",
+    "numberOfPages": 1,
+    "totalNumberOfResults": 20
+  }
+}

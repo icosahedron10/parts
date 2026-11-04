@@ -210,7 +210,7 @@ def assembly_url(model_path: str, row: dict, *, storefront: Storefront = CASECE)
         or parsed.query
         or parsed.fragment
         or (len(parts) != 10)
-        or (parts[1] not in ("amea", "na", "eu"))
+        or (parts[1] not in ("amea", "na", "eu", "sa"))
         or (parts[8] != "cn")
         or (parts[9] != row["assemblyCode"])
     ):

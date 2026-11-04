@@ -55,6 +55,26 @@ def test_instruction_product_does_not_break_a_complete_harness_search(catalog):
     assert all(row["assembly_ref"]["$ref"]["context"] == machine["id"] for row in rows)
 
 
+def test_observed_sa_assembly_suffix_keeps_the_requested_na_catalog(catalog):
+    fixtures = Path(__file__).parent / "fixtures/casece-live"
+    metadata = json.loads((fixtures / "manifest.json").read_bytes())["frame.json"]
+    body = (fixtures / "frame.json").read_bytes()
+    assert hashlib.sha256(body).hexdigest() == metadata["sha256"]
+    assert len(body) == metadata["bytes"]
+    _, record = catalog.candidates("2018 CASE 850M LT", brand="casece")[0]
+    machine = record["machine"]["machine_ref"]["$ref"]
+    rows = parse.search(body, machine["id"], machine["path"], "part-description")["matches"]
+    raw = json.loads(body)
+    assert len(rows) == len(raw["results"])
+    prefix = parse.ORIGIN + machine["path"].rsplit("/cn/", 1)[0] + "/"
+    assert all(row["assembly_url"].startswith(prefix) for row in rows)
+    assert all(row["assembly_url"].endswith("/" + machine["id"]) for row in rows)
+    other_region = next(row for row in raw["results"] if row["assemblyUrl"].startswith("/sa/"))
+    other_region["modelCode"] = "foreign_catalog"
+    with pytest.raises(PartsError):
+        parse.search(json.dumps(raw).encode(), machine["id"], machine["path"], "part-description")
+
+
 @pytest.mark.parametrize("storefront", [CASECE, CASEIH])
 def test_instruction_link_remains_bound_to_the_storefront_and_exact_part(storefront):
     path = "/cn/instruction/p/47550199"

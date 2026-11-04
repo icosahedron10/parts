@@ -5,5 +5,12 @@
     "source_url": "https://www.mycnhstore.com/us/en/casece/dc/searchInModel/part-description?modelCode=6F7909BA-F6C7-454F-AC12-DF038474C549&paramSearch=jumper&regionCode=NA",
     "observed_at": "2026-11-04T01:47:57.650629+00:00",
     "source_content_hash": "sha256:ada9930296398d2d2d326380b3b08ab8892a4d7c3c1dd68797aa610ef86a1681"
+  },
+  "frame.json": {
+    "bytes": 35703,
+    "sha256": "5139f4cf046d7ab99c9211939807e34b052edfcb0e5c440017ede4139ef06126",
+    "source_url": "https://www.mycnhstore.com/us/en/casece/dc/searchInModel/part-description?modelCode=7E53B325-BF8C-4CD5-850B-F41B26DD9D1E&paramSearch=frame&regionCode=NA",
+    "observed_at": "2026-11-04T02:09:58.728379+00:00",
+    "source_content_hash": "sha256:3d604b259588c3386f51bfd54a15ee2daab795d61d50fd951c74456a1df39a5b"
   }
 }
