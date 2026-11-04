@@ -4,8 +4,8 @@ The library, CLI, offline discovery, SQLite cache, bounded shared transport, spe
 
 | Check | Observed result |
 |---|---|
-| Windows offline suite | 226 passed |
-| Linux offline suite (Ubuntu / Python 3.12) | 226 passed |
+| Windows offline suite | 232 passed |
+| Linux offline suite (Ubuntu / Python 3.12) | 232 passed |
 | Ruff | Passed |
 | Frozen benchmark | 400 queries, original hashes verified |
 | Original parser fixtures | All 11 manifest hashes verified |
@@ -13,7 +13,7 @@ The library, CLI, offline discovery, SQLite cache, bounded shared transport, spe
 | Installed wheel outside checkout | Loaded CASE CE 1,339 and Case IH 23 records |
 | Cold/warm CX350B radiator source smoke | 2 cold requests, 0 warm requests |
 | CASE CE 20-case smoke, v4 | 18/20; all ambiguity/no-match checks passed |
-| Full CASE CE exam | Running; thresholds remain unproven |
+| Full CASE CE exam, first run | 356/400 reference recovery, 330/400 cited assembly support; zero unsupported handoff URLs; below 370/335 targets |
 | Case IH 25-case evaluation, v2 | 25/25 reference recovery and cited assembly support; zero unsupported handoff URLs |
 | Case IH explicit evidence review, v2 | 24/25 passed; implementation-agent review, not an independent human review |
 
@@ -26,3 +26,5 @@ Case IH v2 has one retained semantic failure (`IH024`): the part and quantity ar
 Explicit engine designations now remain qualifications in the specialist task instead of becoming a second machine-model constraint. The parent receives citation-role guidance derived only from public handoff URLs. Offline runner tests use isolated temporary caches; a repeated Linux check initially collided with a live Windows cache before that test isolation was fixed. Both platforms subsequently passed all 226 tests.
 
 Local checks ran on Windows and Linux. The same offline checks are configured in GitHub Actions; no hosted CI run is claimed for this local repository. Live catalog calls and paid model runs are explicitly invoked local commands, never CI jobs.
+
+The first full exam retained seven execution failures and every scheduled case in the denominator. Four failures came from serializing valid prose-only handoff citations. The serializer now includes those public citations, with exact round-trip checks against saved handoffs. The shared parser now accepts observed storefront-relative instruction product links while retaining exact part identity and storefront checks (`cnh-v4`). Component lookups reject pictorial navigation indexes before a source request, and guidance switches from an empty assembly-title search to a component-description search. Completed model-response usage is now recorded immediately so a later graph failure does not erase it; earlier reports can undercount usage on failed graphs. All changes have offline regressions. The sixteen-case query-only live regression subset and a fresh full exam remain to be run; no mixed-run score is an acceptance result.

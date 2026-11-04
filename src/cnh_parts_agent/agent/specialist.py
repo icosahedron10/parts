@@ -13,7 +13,7 @@ from langchain.agents.structured_output import ProviderStrategy
 from langchain_core.messages import AIMessage, ToolCall, ToolMessage
 from pydantic import ValidationError
 
-from ..diagnostics import current
+from ..diagnostics import record_model_usage
 from .handoff import PartsHandoff, catalog_choices_handoff, resolve_handoff_urls
 from .prompts import CATALOG_PROMPT
 from .schemas import TOOL_RESPONSE_MODELS
@@ -67,11 +67,11 @@ class PartsToolBoundary(AgentMiddleware):
 
     def wrap_model_call(self, request: Any, handler: Any) -> Any:
         """Expose synchronous model tools allowed by the current catalog-selection and inspection state."""
-        return handler(request.override(tools=self._available_tools(request.tools)))
+        return record_model_usage(handler(request.override(tools=self._available_tools(request.tools))))
 
     async def awrap_model_call(self, request: Any, handler: Any) -> Any:
         """Expose asynchronous model tools allowed by the current catalog-selection and inspection state."""
-        return await handler(request.override(tools=self._available_tools(request.tools)))
+        return record_model_usage(await handler(request.override(tools=self._available_tools(request.tools))))
 
     def _available_tools(self, tools: list[Any]) -> list[Any]:
         # Do not invite calls that the execution boundary would reject. Discovery
@@ -128,6 +128,17 @@ class PartsToolBoundary(AgentMiddleware):
             name == "get_assembly"
             and self.part_query
             and re.search(
+                r"\bPICTORIAL INDEX\b",
+                self.assembly_labels.get(arguments.get("assembly_ref", ""), ""),
+                re.IGNORECASE,
+            )
+            and not re.search(r"\b(?:index|diagram|illustration)\b", self.part_query, re.IGNORECASE)
+        ):
+            reason = "navigation_index_not_parts"
+        elif (
+            name == "get_assembly"
+            and self.part_query
+            and re.search(
                 r"\bDIA KIT\b", self.assembly_labels.get(arguments.get("assembly_ref", ""), ""), re.IGNORECASE
             )
             and not re.search(
@@ -140,7 +151,10 @@ class PartsToolBoundary(AgentMiddleware):
         else:
             return None
         message = (
-            "Inspect a returned assembly matching the requested parent before searching again."
+            "A pictorial index is navigation, not a parts occurrence table. "
+            "Choose a returned service assembly for the requested component while budget remains."
+            if reason == "navigation_index_not_parts"
+            else "Inspect a returned assembly matching the requested parent before searching again."
             if reason == "assembly_inspection_required"
             else "This is a diagnostic/accessory kit, not the requested service component. "
             "Choose a matching service assembly or search its parent system while budget remains. "
@@ -291,12 +305,6 @@ async def retrieve_parts(
         },
         config=config,
     )
-    if (diagnostics := current.get()) is not None:
-        diagnostics.model_usage.extend(
-            message.usage_metadata
-            for message in result["messages"]
-            if isinstance(message, AIMessage) and message.usage_metadata
-        )
     return PartsHandoff.model_validate(result["structured_response"])
 
 

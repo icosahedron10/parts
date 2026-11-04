@@ -14,3 +14,14 @@ class Diagnostics:
 
 
 current: ContextVar[Diagnostics | None] = ContextVar("parts_diagnostics", default=None)
+
+
+def record_model_usage(response):
+    """Retain reported usage immediately, even if a later graph step fails."""
+    if (diagnostics := current.get()) is not None:
+        diagnostics.model_usage.extend(
+            dict(message.usage_metadata)
+            for message in response.result
+            if getattr(message, "usage_metadata", None)
+        )
+    return response

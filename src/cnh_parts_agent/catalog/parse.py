@@ -17,7 +17,7 @@ from cnh_parts_agent.catalog.errors import PartsError
 from cnh_parts_agent.catalog.storefront import CASECE, Storefront
 
 ORIGIN = "https://www.mycnhstore.com"
-PARSER_VERSION = "cnh-v3"
+PARSER_VERSION = "cnh-v4"
 UNSUPPLIED_PARTS = frozenset({"NSS", "NLS", "REF"})
 ID_RE = re.compile("[A-Za-z0-9][A-Za-z0-9_-]{0,255}\\Z")
 GROUP_RE = re.compile("[A-Za-z0-9][A-Za-z0-9_&-]{0,255}\\Z")
@@ -252,7 +252,7 @@ def product_link(value: Any, part_number: str, *, storefront: Storefront = CASEC
         return None
     if not isinstance(value, str):
         fail("The source changed a product URL.")
-    if value.startswith("/category/"):
+    if value.startswith(("/category/", "/cn/instruction/")):
         value = storefront.home_path + value
     url = source_link(value, storefront=storefront)
     if urlsplit(url).path.rsplit("/p/", 1)[-1] != part_number or "/p/" not in urlsplit(url).path:

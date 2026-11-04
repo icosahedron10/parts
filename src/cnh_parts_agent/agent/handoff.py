@@ -133,9 +133,15 @@ def resolve_handoff_urls(handoff: PartsHandoff, url_handles: dict[str, str]) -> 
 
 
 def encode_handoff_urls(handoff: PartsHandoff, url_handles: dict[str, str]) -> PartsHandoff:
-    """Serialize cited handoff URLs as exact handles for a consuming model."""
+    """Serialize URLs from an already validated public handoff for a consuming model."""
     reverse = {url: handle for handle, url in url_handles.items()}
-    for url in [*handoff.sources, *([handoff.store_url] if handoff.store_url else [])]:
+    explicit = [*handoff.sources, *([handoff.store_url] if handoff.store_url else [])]
+    prose = [
+        _url_without_prose_suffix(match.group(), set(explicit))
+        for fact in handoff.key_facts
+        for match in re.finditer(_URL_TOKEN, fact)
+    ]
+    for url in [*explicit, *prose]:
         if url not in reverse:
             handle = f"url_{len(reverse) + 1}"
             reverse[url] = handle
@@ -145,8 +151,6 @@ def encode_handoff_urls(handoff: PartsHandoff, url_handles: dict[str, str]) -> P
     def replace(match):
         token = match.group()
         url = _url_without_prose_suffix(token, set(reverse))
-        if url not in reverse:
-            raise ValueError("Handoff prose URL is missing from its cited sources")
         return reverse[url] + token[len(url) :]
 
     return PartsHandoff(

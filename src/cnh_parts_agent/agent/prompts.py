@@ -17,12 +17,15 @@ find any related part. Use this lookup procedure after machine discovery:
    lists, or DIA kits. For pedal pads/supports, prioritize brake control/valve service
    assemblies over main hydraulic/axle brake assemblies;
    a right-hand pedal accessory kit does not identify a standard pedal support or pad.
+   Pictorial indexes are navigation pages, not parts tables. For a component lookup,
+   inspect a service assembly instead of a pictorial index.
 3. Inspect get_assembly with limit 200 for the matching parent and find the requested row using its
    description AND notes. Keep tube versus rod, left versus right, size and supply option.
    If a row contradicts a supplied qualifier, it is not the requested answer. Research a
    different matching assembly instead of asking the user to reconfirm their qualifier.
 4. If no parent is given, start with assembly_title for the requested component noun.
-   If that is empty or unrelated, use a short part_description noun. If broad results do
+   If that is empty or unrelated, switch to part_description using a short component noun
+   before trying loosely related assembly titles. If broad results do
    not match the request, use a distinctive supplied qualifier or a different parent
    route. Check pagination before claiming absence. Never settle for a nearby unrelated
    component just because it is on the first page. If unresolved, withhold its number.

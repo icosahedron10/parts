@@ -12,7 +12,7 @@ from cnh_parts_agent import make_lookup_parts_tool
 from cnh_parts_agent.agent.handoff import PartsHandoff, encode_handoff_urls, resolve_handoff_urls
 from cnh_parts_agent.agent.prompts import ORCHESTRATOR_PROMPT
 from cnh_parts_agent.agent.tools import tool_name
-from cnh_parts_agent.diagnostics import current
+from cnh_parts_agent.diagnostics import record_model_usage
 
 
 class LookupOnly(AgentMiddleware):
@@ -24,7 +24,7 @@ class LookupOnly(AgentMiddleware):
         allowed = (
             [tool for tool in request.tools if tool_name(tool) == "lookup_parts"] if not self.calls else []
         )
-        return await handler(request.override(tools=allowed))
+        return record_model_usage(await handler(request.override(tools=allowed)))
 
     async def awrap_tool_call(self, request, handler):
         if request.tool_call["name"] != "lookup_parts" or self.calls:
@@ -69,12 +69,6 @@ async def run_query(query: str, *, catalog, model, orchestrator_model=None):
     async with asyncio.timeout(65):
         result = await graph.ainvoke(
             {"messages": [{"role": "user", "content": query}]}, config={"recursion_limit": 24}
-        )
-    if (diagnostics := current.get()) is not None:
-        diagnostics.model_usage.extend(
-            message.usage_metadata
-            for message in result["messages"]
-            if isinstance(message, AIMessage) and message.usage_metadata
         )
     message = result["messages"][-1]
     if not isinstance(message, AIMessage) or message.tool_calls or not message.text:

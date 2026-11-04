@@ -1,0 +1,113 @@
+"""Failures exposed by the full live exam, reproduced without network or answer keys."""
+
+import hashlib
+import json
+from pathlib import Path
+from types import SimpleNamespace
+
+import pytest
+from langchain_core.messages import ToolMessage
+
+from cnh_parts_agent.agent.handoff import PartsHandoff, encode_handoff_urls, resolve_handoff_urls
+from cnh_parts_agent.agent.specialist import PartsToolBoundary
+from cnh_parts_agent.agent.tools import PartsTools
+from cnh_parts_agent.catalog import parse
+from cnh_parts_agent.catalog.errors import PartsError
+from cnh_parts_agent.catalog.storefront import CASECE, CASEIH
+from cnh_parts_agent.diagnostics import Diagnostics, current
+from evals.harness import run_query
+from tests.scripted_model import ScriptedCatalogModel, ScriptedSupervisorModel
+
+
+def test_prose_only_citations_round_trip_without_manufacturing_links():
+    assembly = "https://www.mycnhstore.com/us/en/casece/assembly/(NA)"
+    product = "https://www.mycnhstore.com/us/en/casece/category/radiator/p/KSH1028"
+    handoff = PartsHandoff(
+        key_facts=[f"[Assembly]({assembly}). Product: {product}."], sources=[product], store_url=product
+    )
+    validated = resolve_handoff_urls(handoff, {"url_1": assembly, "url_2": product})
+    parent_handles = {}
+    encoded = encode_handoff_urls(validated, parent_handles)
+    assert "https://" not in encoded.model_dump_json()
+    assert set(parent_handles.values()) == {assembly, product}
+    assert resolve_handoff_urls(encoded, parent_handles) == handoff
+    with pytest.raises(ValueError, match="unobserved"):
+        resolve_handoff_urls(
+            PartsHandoff(key_facts=["url_2/invented"], sources=[], store_url=""), parent_handles
+        )
+
+
+def test_instruction_product_does_not_break_a_complete_harness_search(catalog):
+    fixtures = Path(__file__).parent / "fixtures/casece-live"
+    manifest = json.loads((fixtures / "manifest.json").read_bytes())
+    body = (fixtures / "jumper.json").read_bytes()
+    assert hashlib.sha256(body).hexdigest() == manifest["jumper.json"]["sha256"]
+    assert len(body) == manifest["jumper.json"]["bytes"]
+    _, record = catalog.candidates("2016 CASE SR210", brand="casece")[0]
+    machine = record["machine"]["machine_ref"]["$ref"]
+    result = parse.search(body, machine["id"], machine["path"], "part-description")
+    rows = result["matches"]
+    assert len(rows) == len(json.loads(body)["results"])
+    instruction = next(row for row in rows if row["part_number"] == "47550199")
+    assert instruction["product_url"] == CASECE.home + "/cn/instruction/p/47550199"
+    assert all(row["assembly_ref"]["$ref"]["context"] == machine["id"] for row in rows)
+
+
+@pytest.mark.parametrize("storefront", [CASECE, CASEIH])
+def test_instruction_link_remains_bound_to_the_storefront_and_exact_part(storefront):
+    path = "/cn/instruction/p/47550199"
+    assert parse.product_link(path, "47550199", storefront=storefront) == storefront.home + path
+    for invalid in (
+        path.replace("47550199", "other"),
+        "https://example.test" + path,
+        (CASEIH if storefront == CASECE else CASECE).home + path,
+        "/cn/instruction/../other/p/47550199",
+    ):
+        with pytest.raises(PartsError):
+            parse.product_link(invalid, "47550199", storefront=storefront)
+
+
+async def test_pictorial_index_rejection_consumes_budget_without_a_source_request(catalog):
+    client = PartsTools(catalog)
+    boundary = PartsToolBoundary(client=client, part_query="track frame")
+    boundary.machine_ref = "m1"
+    boundary.assembly_labels = {"a1": "PICTORIAL INDEX TRACK ASSY", "a2": "LH, TRACK ASSY"}
+    request = SimpleNamespace(
+        tool_call={"name": "get_assembly", "args": {"machine_ref": "m1", "assembly_ref": "a1"}, "id": "index"}
+    )
+    rejected = boundary._rejection(request)
+    assert json.loads(rejected.content)["error"]["code"] == "navigation_index_not_parts"
+    assert client.budget.calls == 1
+    assert catalog.transport.request_count == 0
+    request.tool_call["args"]["assembly_ref"] = "a2"
+    assert boundary._rejection(request) is None
+
+
+class UsageThenFailureParent(ScriptedSupervisorModel):
+    def _generate(self, messages, *args, **kwargs):
+        if any(isinstance(message, ToolMessage) for message in messages):
+            raise ValueError("Failure after a completed model response")
+        result = super()._generate(messages, *args, **kwargs)
+        result.generations[0].message.usage_metadata = {
+            "input_tokens": 7,
+            "output_tokens": 3,
+            "total_tokens": 10,
+        }
+        return result
+
+
+async def test_completed_model_usage_survives_a_later_graph_failure(catalog):
+    diagnostics = Diagnostics()
+    token = current.set(diagnostics)
+    try:
+        with pytest.raises(ValueError, match="Failure after"):
+            await run_query(
+                "I need a radiator for my 2010 CASE CX350B.",
+                catalog=catalog,
+                model=ScriptedCatalogModel(),
+                orchestrator_model=UsageThenFailureParent(),
+            )
+    finally:
+        current.reset(token)
+    assert diagnostics.model_usage == [{"input_tokens": 7, "output_tokens": 3, "total_tokens": 10}]
+    assert any(row["operation"] == "get_assembly" for row in diagnostics.observations)

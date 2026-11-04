@@ -1,0 +1,551 @@
+{
+  "results": [
+    {
+      "partNumber": "84529949",
+      "partDescription": "WIRE HARNESS FUEL FILTER JUMPER",
+      "usage": "Fuel Filter Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_55_ELECTRICAL_SYSTEMS",
+      "assemblyFullName": "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-ABC1398591-B-E74D8C22-6EBE-40AB-BE73-75866CF4C834.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDIxMzA0MnxpbWFnZS9wbmd8YUdFMUwyZ3hOUzg1TkRNMU5UZ3lPREkwTkRjNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVUZDUXpFek9UZzFPVEZmUWw5Rk56UkVPRU15TWkwMlJVSkZMVFF3UVVJdFFrVTNNeTAzTlRnMk5rTkdORU00TXpRdWNHNW58MTExOGM5NjVjOTViMjEyNTE4OWMyYzdkOTY0NzYxMDZiZjYzMWNmNTAwZWEyOTRkODk0NDEzNDVlYjhhNTIxOQ",
+      "assemblyCode": "0FEA970B-18C0-4909-9278-CAD4FC2BAB31",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-4-jun-2015-newer/cn/0FEA970B-18C0-4909-9278-CAD4FC2BAB31",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/84529949"
+      }
+    },
+    {
+      "partNumber": "84529949",
+      "partDescription": "WIRE HARNESS FUEL FILTER JUMPER",
+      "usage": "Fuel Filter Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_55_ELECTRICAL_SYSTEMS",
+      "assemblyFullName": "55.302.AV[01] - ENGINE ELECTRICAL, 3-JUN-2015 & PRIOR",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-063DD743-9670-4507-A9FA-8BB80779F084.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM3NzQyOXxpbWFnZS9wbmd8YURCbUwyZzBZeTg0T1RVNE9UUXpNamszTlRZMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEEyTTBSRU56UXpMVGsyTnpBdE5EVXdOeTFCT1VaQkxUaENRamd3TnpjNVJqQTROQzV3Ym1jfDJhODA1ZmZkNzUxNzBkZTVkYjgzNTkyMTIyODczMGNmZTA1ZWNmZGFhZTY3NWZjY2Q0MmZlODlhOTk4YTAwYTU",
+      "assemblyCode": "2B442616-28BE-404F-B279-C3AC11A97459",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-3-jun-2015-prior/cn/2B442616-28BE-404F-B279-C3AC11A97459",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/84529949"
+      }
+    },
+    {
+      "partNumber": "47821017",
+      "partDescription": "WIRE HARNESS STARTER ALTERNATOR JUMPER",
+      "usage": "Starter - Alternator Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_55_ELECTRICAL_SYSTEMS",
+      "assemblyFullName": "55.302.AV - ENGINE ELECTRICAL, 4-JUN-2015 & NEWER",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-ABC1398591-B-E74D8C22-6EBE-40AB-BE73-75866CF4C834.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDIxMzA0MnxpbWFnZS9wbmd8YUdFMUwyZ3hOUzg1TkRNMU5UZ3lPREkwTkRjNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVUZDUXpFek9UZzFPVEZmUWw5Rk56UkVPRU15TWkwMlJVSkZMVFF3UVVJdFFrVTNNeTAzTlRnMk5rTkdORU00TXpRdWNHNW58MTExOGM5NjVjOTViMjEyNTE4OWMyYzdkOTY0NzYxMDZiZjYzMWNmNTAwZWEyOTRkODk0NDEzNDVlYjhhNTIxOQ",
+      "assemblyCode": "0FEA970B-18C0-4909-9278-CAD4FC2BAB31",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-4-jun-2015-newer/cn/0FEA970B-18C0-4909-9278-CAD4FC2BAB31",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/47821017"
+      }
+    },
+    {
+      "partNumber": "47972152",
+      "partDescription": "JUMPER",
+      "usage": "Harness, Wire, Flasher",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[12] - DIA KIT, EU, ROAD LIGHTS CASE MED RADIAL",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-30D5DAEF-E4DA-4935-ADFD-8C5CEE667B69.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDExNzA0MTN8aW1hZ2UvcG5nfGFHRXhMMmhoWXk4NE9UVTROVFk0TURjeE1UazRMM1JsWTJoa2NtRjNhVzVuTFdGemMyVnRZbXg1TFRNd1JEVkVRVVZHTFVVMFJFRXRORGt6TlMxQlJFWkVMVGhETlVORlJUWTJOMEkyT1M1d2JtY3xiYzAzMDhiZWJiYmNjOGQ3Y2UzNGE5MjAyMzljZjVhZDFkZjg5YmU0MWQ4NGUxMGExMjg1YzFmYTNjZTY0Y2Q2",
+      "assemblyCode": "6D98AD46-AF2E-4E5D-9DC9-5252F9C04E11",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-tier-4b/accessories/dia-kit-eu-road-lights-case-med-radial/cn/6D98AD46-AF2E-4E5D-9DC9-5252F9C04E11",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/connectors/jumper/p/47972152"
+      }
+    },
+    {
+      "partNumber": "47567813",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[33] - DIA KIT, TELEMATICS",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-1BFFB25B-D572-40AD-9145-8579166A1AEC.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI3MzQxMXxpbWFnZS9wbmd8YUdOakwyZ3pZUzg0T1RVNU1EUTVNREEzTVRNMEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEZDUmtaQ01qVkNMVVExTnpJdE5EQkJSQzA1TVRRMUxUZzFOemt4TmpaQk1VRkZReTV3Ym1jfGEwNDBjNzVlNTIzZjFmOTBiOTQyODAzNWFiNTNmMDU0NTM2YWNiMTYyZmNmYzZjZmFjMDQxMjAxMjY4ZWJiYjE",
+      "assemblyCode": "4AA01BA0-C821-4BCC-8758-E863E884E0FE",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-telematics/cn/4AA01BA0-C821-4BCC-8758-E863E884E0FE",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/47567813"
+      }
+    },
+    {
+      "partNumber": "84331404",
+      "partDescription": "WIRE CONNECTOR",
+      "usage": "Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.90[08] - DIA KIT, GLASS FRONT DOOR",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-8AC3B21B-00B9-4097-9496-673229C8D230.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI0OTAyfGltYWdlL3BuZ3xhR0U1TDJnMVlTODVNek16TkRrNE9UTTNNemMwTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUaEJRek5DTWpGQ0xUQXdRamt0TkRBNU55MDVORGsyTFRZM016SXlPVU00UkRJek1DNXdibWN8MGQ0MzAyYjEzN2E4YzJjYTllODY2Yjk3MDVmMmMzYjIxMGYzM2I1YzliNzFmNWZiNjljZGRhYTcwYWQ2ZGI1MA",
+      "assemblyCode": "98559F54-086B-4C52-90ED-04EA620EF8C2",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-glass-front-door/cn/98559F54-086B-4C52-90ED-04EA620EF8C2",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/connectors/wire-connector/p/84331404"
+      }
+    },
+    {
+      "partNumber": "84331404",
+      "partDescription": "WIRE CONNECTOR",
+      "usage": "Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_90_PLATFORM_CAB_BODYWORK_AND_DECALS",
+      "assemblyFullName": "90.154.010[01] - GLASS DOOR MOUNTING COMPONENTS (1-FEB-2013 & PRIOR)",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-8F976D6B-D993-4AD0-A04F-B3BDA1C313A3.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDIxNzA5OXxpbWFnZS9wbmd8YUdZeUwyZ3hZeTg0T1RVNE9URXpORFExT1RFNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVGhHT1RjMlJEWkNMVVE1T1RNdE5FRkVNQzFCTURSR0xVSXpRa1JCTVVNek1UTkJNeTV3Ym1jfDU2MzU3NWYwMGFiZmYxZGQxNDE5ZGM4ZmI1ZDRmODhiMjRkYjllNWM0NTcwZTExM2Y3NzYzNGFiM2ViNjRhYzY",
+      "assemblyCode": "D42087A0-6D9C-4B23-8156-8B80A15913A8",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/platform-cab-bodywork-and-decals/glass-door-mounting-components-1-feb-2013-prior/cn/D42087A0-6D9C-4B23-8156-8B80A15913A8",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/connectors/wire-connector/p/84331404"
+      }
+    },
+    {
+      "partNumber": "84331404",
+      "partDescription": "WIRE CONNECTOR",
+      "usage": "Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_90_PLATFORM_CAB_BODYWORK_AND_DECALS",
+      "assemblyFullName": "90.154.010[03] - GLASS DOOR MOUNTING COMPONENTS (2-FEB-2013 & NEWER)",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-6BB0F9BB-365E-447E-A923-EB1AEA3B93A1.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI1Nzk1OHxpbWFnZS9wbmd8YURVMEwyZzFNQzg0T1RVNE9UZzRPREV5TXpFNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFpDUWpCR09VSkNMVE0yTlVVdE5EUTNSUzFCT1RJekxVVkNNVUZGUVROQ09UTkJNUzV3Ym1jfDk1NjBjZWM3Nzc2ZGNkZDRlZDMwNDA3MjA1Y2JmNDBhMDg2MmMwMGQwNWFlOTg4ZDhiZWNiMTBlMTA3Mjc5ZDQ",
+      "assemblyCode": "3FA2D957-8671-444A-BE47-A4E77E4C4F71",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/platform-cab-bodywork-and-decals/glass-door-mounting-components-2-feb-2013-newer/cn/3FA2D957-8671-444A-BE47-A4E77E4C4F71",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/connectors/wire-connector/p/84331404"
+      }
+    },
+    {
+      "partNumber": "47398798",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[01] - DIA KIT, MECHANICAL JUMPER HARNESS (14-SEP-2014 & PRIOR)",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-675A5E0C-A3B7-42DA-93AE-447E84D2303E.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDExMzE5OXxpbWFnZS9wbmd8YURBM0wyZ3dOUzg0T1RVNE5qUXhORE00TnpVd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFkzTlVFMVJUQkRMVUV6UWpjdE5ESkVRUzA1TTBGRkxUUTBOMFU0TkVReU16QXpSUzV3Ym1jfDM5ZWEyYTAxNGNjNzhjMTlkMTE4Y2YwMzY1ZTZjMzVmODg2YjUzNjk2ZWZjZGIxOTg2Mjk5ZjE0NDgxZDUyYTE",
+      "assemblyCode": "B3449F5C-C081-4559-AB23-63D8A9519394",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-mechanical-jumper-harness-14-sep-2014-prior/cn/B3449F5C-C081-4559-AB23-63D8A9519394",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/47398798"
+      }
+    },
+    {
+      "partNumber": "84331404",
+      "partDescription": "WIRE CONNECTOR",
+      "usage": "Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_90_PLATFORM_CAB_BODYWORK_AND_DECALS",
+      "assemblyFullName": "90.154.020[03] - DEMO DOOR MOUNTING COMPONENTS (2-FEB-2013 & NEWER)",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-0405ABE1-AC60-45F5-92A4-61B06F5C4EAE.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDIxMzQ0M3xpbWFnZS9wbmd8YUdRNUwyZ3dOaTg0T1RVNE9UUXlPVEEwTXpVd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEEwTURWQlFrVXhMVUZETmpBdE5EVkdOUzA1TWtFMExUWXhRakEyUmpWRE5FVkJSUzV3Ym1jfGZkOWNhMGM1MGQxMmExNWFhN2RjOWU4OWUyMWMzNGQwZDkzZDA1MDc4ZDlkZTEyNWUxZDVlYzIyNzdkMjg0YTM",
+      "assemblyCode": "9C09FA73-0D09-4854-A41A-A5AF5BCA811F",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/platform-cab-bodywork-and-decals/demo-door-mounting-components-2-feb-2013-newer/cn/9C09FA73-0D09-4854-A41A-A5AF5BCA811F",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/connectors/wire-connector/p/84331404"
+      }
+    },
+    {
+      "partNumber": "84331404",
+      "partDescription": "WIRE CONNECTOR",
+      "usage": "Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_90_PLATFORM_CAB_BODYWORK_AND_DECALS",
+      "assemblyFullName": "90.154.020[01] - DEMO DOOR MOUNTING COMPONENTS (1-FEB-2013 & PRIOR)",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-8FFAC1A3-BE8D-4059-9BA8-3E79C82DC659.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDIxOTU1OHxpbWFnZS9wbmd8YUdGbUwyaGhNQzg0T1RVNU1EY3hNVEkxTlRNMEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVGhHUmtGRE1VRXpMVUpGT0VRdE5EQTFPUzA1UWtFNExUTkZOemxET0RKRVF6WTFPUzV3Ym1jfDQxM2RmMTdkYjMzYWFjYWFmNDcxNGM0MTljNmMzZWZlNmRiMGQ3NzNmNGYwNTg0OGIxNzJlOGQzNDZiYWJlNzg",
+      "assemblyCode": "1A8FD85C-E1B6-4719-916B-F5F1FDF47932",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/platform-cab-bodywork-and-decals/demo-door-mounting-components-1-feb-2013-prior/cn/1A8FD85C-E1B6-4719-916B-F5F1FDF47932",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/connectors/wire-connector/p/84331404"
+      }
+    },
+    {
+      "partNumber": "47929817",
+      "partDescription": "WIRE HARNESS",
+      "usage": "HVAC JUMPER",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.50[02] - DIA KIT, COMPLETE HVAC",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-9EC90F0D-5A58-46E5-86E1-908F3149B906.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI0OTAyfGltYWdlL3BuZ3xhR0ZsTDJnME9DODRPVFU0T1RNd05UVXdPREUwTDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUbEZRemt3UmpCRUxUVkJOVGd0TkRaRk5TMDROa1V4TFRrd09FWXpNVFE1UWprd05pNXdibWN8YWRiYWMwODVmZWRmOWNjMmM3MGM0MmY4OWRkOTc4NDYwODBlYzg4MzA3YTY1NGZhYjdlODVhM2M3NWUyZjdlMg",
+      "assemblyCode": "6FA75C67-62D5-4793-BC5A-03AE7380D025",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-tier-4b/accessories/dia-kit-complete-hvac/cn/6FA75C67-62D5-4793-BC5A-03AE7380D025",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/47929817"
+      }
+    },
+    {
+      "partNumber": "47707240",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Mechanical Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[01] - DIA KIT, MECHANICAL JUMPER HARNESS (15-SEP-2014 & AFTER)",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-40D26C1C-72EB-47D7-B588-6B0E34356B08.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDExNDYxM3xpbWFnZS9wbmd8YUdFeUwyZ3lZeTg1TkRBd016STNNREV5TXpneUwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFF3UkRJMlF6RkRMVGN5UlVJdE5EZEVOeTFDTlRnNExUWkNNRVV6TkRNMU5rSXdPQzV3Ym1jfDcxNWNjNzhhNDQzMTJlMTA2YTA4OGJiODM3YjViY2VmYzZkZTA0NzdkYzhjOTJmOGRkYTBhMmU1MWFhNGUxZmY",
+      "assemblyCode": "61C58FF3-C637-4902-B04C-FBC6AB80A5B6",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-mechanical-jumper-harness-15-sep-2014-after/cn/61C58FF3-C637-4902-B04C-FBC6AB80A5B6",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/47707240"
+      }
+    },
+    {
+      "partNumber": "47398799",
+      "partDescription": "WIRE HARNESS",
+      "usage": "E-H Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[02] - DIA KIT, E-H JUMPER HARNESS",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-3AD2729C-8BEA-4969-8E77-CDCFACAED042.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDEyNTI5M3xpbWFnZS9wbmd8YURJMUwyaGtNeTg0T1RVNE56WXlNVFUyTURZeUwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVE5CUkRJM01qbERMVGhDUlVFdE5EazJPUzA0UlRjM0xVTkVRMFpCUTBGRlJEQTBNaTV3Ym1jfDc0OGQyMjJiMjdiZmU4MDM2ZmQzZmE5NTQ0NGE3OGY3NzY4YmM2MjllYWQ3YzE2OWE3YTQ0ZDgwMWY3ZWQzMDI",
+      "assemblyCode": "82580866-9085-4F6B-AF0A-80B773B8AED0",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-e-h-jumper-harness/cn/82580866-9085-4F6B-AF0A-80B773B8AED0",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/47398799"
+      }
+    },
+    {
+      "partNumber": "87053083",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Starter Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_55_ELECTRICAL_SYSTEMS",
+      "assemblyFullName": "55.302.AV[01] - ENGINE ELECTRICAL, 3-JUN-2015 & PRIOR",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-063DD743-9670-4507-A9FA-8BB80779F084.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDM3NzQyOXxpbWFnZS9wbmd8YURCbUwyZzBZeTg0T1RVNE9UUXpNamszTlRZMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEEyTTBSRU56UXpMVGsyTnpBdE5EVXdOeTFCT1VaQkxUaENRamd3TnpjNVJqQTROQzV3Ym1jfDJhODA1ZmZkNzUxNzBkZTVkYjgzNTkyMTIyODczMGNmZTA1ZWNmZGFhZTY3NWZjY2Q0MmZlODlhOTk4YTAwYTU",
+      "assemblyCode": "2B442616-28BE-404F-B279-C3AC11A97459",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-tier-4b/electrical-systems/engine-electrical-3-jun-2015-prior/cn/2B442616-28BE-404F-B279-C3AC11A97459",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/87053083"
+      }
+    },
+    {
+      "partNumber": "47929817",
+      "partDescription": "WIRE HARNESS",
+      "usage": "HVAC Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_50_CAB_CLIMATE_CONTROL",
+      "assemblyFullName": "50.200.AA - A/C COMPRESSOR MOUNTING",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-ABC1460341-B-A8E65985-3792-4387-A850-E2649DC44012.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDIwNDM2N3xpbWFnZS9wbmd8YURnNUwyaGlPUzg1T0RJeU9UWTBPRGMxTWprMEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVUZDUXpFME5qQXpOREZmUWw5Qk9FVTJOVGs0TlMwek56a3lMVFF6T0RjdFFUZzFNQzFGTWpZME9VUkRORFF3TVRJdWNHNW58OWFiMzNjMDczYTc1NTIxYzdlNjEyYmI3NjZhNjEzZGZlMTFjMTE5ZDJjMzJmNGQ1YmVmYTRmMDY3ZDk0MjU2NA",
+      "assemblyCode": "22519761-FEE4-4D54-9BC9-23F6F447588B",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/cab-climate-control/ac-compressor-mounting/cn/22519761-FEE4-4D54-9BC9-23F6F447588B",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/47929817"
+      }
+    },
+    {
+      "partNumber": "84306340",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Lamp Jumper Front",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_55_ELECTRICAL_SYSTEMS",
+      "assemblyFullName": "55.404.AL[02] - HEAVY DUTY, LIGHT ASSY, 90 DEGREE, LH",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-9F52E95A-92EE-4F34-AE8E-49F19E410232.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE0OTgwOXxpbWFnZS9wbmd8YURaaEwyZzBOeTg0T1RVNE5UQTJOekk1TlRBeUwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVGxHTlRKRk9UVkJMVGt5UlVVdE5FWXpOQzFCUlRoRkxUUTVSakU1UlRReE1ESXpNaTV3Ym1jfGI4MThiOTU4NzZlOGQ3MTRiZjI0MjliNmZiMzZlYThiZjI5ZWVmYTY3Y2FmOTIzOTQ0ZDllOTAyN2IwNzFjMTE",
+      "assemblyCode": "94F33679-B6F5-47C2-8EDE-FA2AFDEA2DE4",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/amea/light-equipment/skid-steer-loaders/ameaes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/heavy-duty-light-assy-90-degree-lh/cn/94F33679-B6F5-47C2-8EDE-FA2AFDEA2DE4",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/84306340"
+      }
+    },
+    {
+      "partNumber": "47820998",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Rear, Road Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[12] - DIA KIT, EU, ROAD LIGHTS CASE MED RADIAL",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-30D5DAEF-E4DA-4935-ADFD-8C5CEE667B69.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDExNzA0MTN8aW1hZ2UvcG5nfGFHRXhMMmhoWXk4NE9UVTROVFk0TURjeE1UazRMM1JsWTJoa2NtRjNhVzVuTFdGemMyVnRZbXg1TFRNd1JEVkVRVVZHTFVVMFJFRXRORGt6TlMxQlJFWkVMVGhETlVORlJUWTJOMEkyT1M1d2JtY3xiYzAzMDhiZWJiYmNjOGQ3Y2UzNGE5MjAyMzljZjVhZDFkZjg5YmU0MWQ4NGUxMGExMjg1YzFmYTNjZTY0Y2Q2",
+      "assemblyCode": "6D98AD46-AF2E-4E5D-9DC9-5252F9C04E11",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-tier-4b/accessories/dia-kit-eu-road-lights-case-med-radial/cn/6D98AD46-AF2E-4E5D-9DC9-5252F9C04E11",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/47820998"
+      }
+    },
+    {
+      "partNumber": "84306340",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Front Lamp Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_55_ELECTRICAL_SYSTEMS",
+      "assemblyFullName": "55.404.AL[03] - STANDARD , LIGHT ASSY, 90 DEGREE, RH",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-0D35028F-B67E-4256-ABEA-48B186EC8C82.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE4NDIyOHxpbWFnZS9wbmd8YURrNEwyZzROUzg1TURNMk1USTFOelkxTmpZeUwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVEJFTXpVd01qaEdMVUkyTjBVdE5ESTFOaTFCUWtWQkxUUTRRakU0TmtWRE9FTTRNaTV3Ym1jfDExZDI0ZTY5ZTA3NDAwZmE5OTkxODdhNDgzYTM5ZWUzMzgwNzBjNTJiYTIzYzA5ZDBiYTJkMDZkMmE0MDg1OGM",
+      "assemblyCode": "9B969CE6-2582-41B3-9295-D4F8A95E0E78",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/amea/light-equipment/skid-steer-loaders/ameaes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/standard-light-assy-90-degree-rh/cn/9B969CE6-2582-41B3-9295-D4F8A95E0E78",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/84306340"
+      }
+    },
+    {
+      "partNumber": "84306340",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Front Lamp Jumper",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_55_ELECTRICAL_SYSTEMS",
+      "assemblyFullName": "55.404.AL[02] - STANDARD , LIGHT ASSY, 90 DEGREE, LH",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-BF41B855-88A3-4854-9270-AB518A05085E.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE0MTg2MnxpbWFnZS9wbmd8YURGakwyZzNNQzg1TURNMU9UVXhNekE0T0RNd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVUpHTkRGQ09EVTFMVGc0UVRNdE5EZzFOQzA1TWpjd0xVRkNOVEU0UVRBMU1EZzFSUzV3Ym1jfGIyM2M4Mzg3ODY1NDBhMjA4Yjg3MmE0MzcwZmFhY2IzN2E0NjM5YjRiZDljNjBiMGIyY2NlM2VlMzc4M2UzZTg",
+      "assemblyCode": "6782FE69-DD79-4313-AEFA-79D1D6BEC939",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/amea/light-equipment/skid-steer-loaders/ameaes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/standard-light-assy-90-degree-lh/cn/6782FE69-DD79-4313-AEFA-79D1D6BEC939",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/84306340"
+      }
+    },
+    {
+      "partNumber": "84306340",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Lamp Jumper Front",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_55_ELECTRICAL_SYSTEMS",
+      "assemblyFullName": "55.404.AL[03] - HEAVY DUTY, LIGHT ASSY, 90 DEGREE, RH",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-3963F84F-88E4-4F08-9E5F-253A7CCE6C73.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE3MDg1MHxpbWFnZS9wbmd8YURKaUwyaG1OUzg0T1RVNE5qZzFOekE0TXpFNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVE01TmpOR09EUkdMVGc0UlRRdE5FWXdPQzA1UlRWR0xUSTFNMEUzUTBORk5rTTNNeTV3Ym1jfGViNmYyMjE3ZjRlMDc4MDdlOTBjMWM5Y2NiZjA1MGVhODVjYWFjNzExZGIwMjNjZDUxZDVhOWFmZGMyM2RlZTY",
+      "assemblyCode": "7824E9C0-A7EE-4649-8E8D-BC194287F34E",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/amea/light-equipment/skid-steer-loaders/ameaes77ski003s-series/skid-steer-loader-tier-4b/electrical-systems/heavy-duty-light-assy-90-degree-rh/cn/7824E9C0-A7EE-4649-8E8D-BC194287F34E",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/84306340"
+      }
+    },
+    {
+      "partNumber": "84262455",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Rear Road Jumper Case",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[10] - DIA KIT, ROAD LIGHTS",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-C988F684-1F8F-4D36-91E8-7776BE1A9C41.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDI2OTE2MnxpbWFnZS9wbmd8YURBM0wyZ3hZaTg0T1RVNU1EQXlNVFE0T0RrMEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVU01T0RoR05qZzBMVEZHT0VZdE5FUXpOaTA1TVVVNExUYzNOelpDUlRGQk9VTTBNUzV3Ym1jfGU3MmE1NGExNDg0NTVhNWQ0MDIxYjg3YWQyMGEzMTE4NjUwMzlhOTQ5NDdjOGUyZTIxZTRiZmNiZjY4MTU5ODQ",
+      "assemblyCode": "01E4A034-0C73-4372-BB93-D643B3CBBE0E",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/amea/light-equipment/skid-steer-loaders/ameaes77ski003s-series/skid-steer-loader-tier-4b/accessories/dia-kit-road-lights/cn/01E4A034-0C73-4372-BB93-D643B3CBBE0E",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/84262455"
+      }
+    },
+    {
+      "partNumber": "47550196",
+      "partDescription": "KIT",
+      "usage": "Mechanical Jumper Harness, Incl 2 - 4",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[01] - DIA KIT, MECHANICAL JUMPER HARNESS (14-SEP-2014 & PRIOR)",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-675A5E0C-A3B7-42DA-93AE-447E84D2303E.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDExMzE5OXxpbWFnZS9wbmd8YURBM0wyZ3dOUzg0T1RVNE5qUXhORE00TnpVd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFkzTlVFMVJUQkRMVUV6UWpjdE5ESkVRUzA1TTBGRkxUUTBOMFU0TkVReU16QXpSUzV3Ym1jfDM5ZWEyYTAxNGNjNzhjMTlkMTE4Y2YwMzY1ZTZjMzVmODg2YjUzNjk2ZWZjZGIxOTg2Mjk5ZjE0NDgxZDUyYTE",
+      "assemblyCode": "B3449F5C-C081-4559-AB23-63D8A9519394",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-mechanical-jumper-harness-14-sep-2014-prior/cn/B3449F5C-C081-4559-AB23-63D8A9519394",
+      "showNote": null,
+      "product": {
+        "url": "/category/construction-kits/skid-steer-kits/kit/p/47550196"
+      }
+    },
+    {
+      "partNumber": "47550198",
+      "partDescription": "KIT",
+      "usage": "E-H Jumper Harness, Incl 2 - 4",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[02] - DIA KIT, E-H JUMPER HARNESS",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-3AD2729C-8BEA-4969-8E77-CDCFACAED042.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDEyNTI5M3xpbWFnZS9wbmd8YURJMUwyaGtNeTg0T1RVNE56WXlNVFUyTURZeUwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVE5CUkRJM01qbERMVGhDUlVFdE5EazJPUzA0UlRjM0xVTkVRMFpCUTBGRlJEQTBNaTV3Ym1jfDc0OGQyMjJiMjdiZmU4MDM2ZmQzZmE5NTQ0NGE3OGY3NzY4YmM2MjllYWQ3YzE2OWE3YTQ0ZDgwMWY3ZWQzMDI",
+      "assemblyCode": "82580866-9085-4F6B-AF0A-80B773B8AED0",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-e-h-jumper-harness/cn/82580866-9085-4F6B-AF0A-80B773B8AED0",
+      "showNote": null,
+      "product": {
+        "url": "/category/attachments-buckets/attachment-bucket-kits/kit/p/47550198"
+      }
+    },
+    {
+      "partNumber": "47707226",
+      "partDescription": "SERVICE KIT",
+      "usage": "Mechanical Jumper Harness, Incl 2 - 4; (SN Break) From NFM402320",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[01] - DIA KIT, MECHANICAL JUMPER HARNESS (15-SEP-2014 & AFTER)",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-40D26C1C-72EB-47D7-B588-6B0E34356B08.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDExNDYxM3xpbWFnZS9wbmd8YUdFeUwyZ3lZeTg1TkRBd016STNNREV5TXpneUwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFF3UkRJMlF6RkRMVGN5UlVJdE5EZEVOeTFDTlRnNExUWkNNRVV6TkRNMU5rSXdPQzV3Ym1jfDcxNWNjNzhhNDQzMTJlMTA2YTA4OGJiODM3YjViY2VmYzZkZTA0NzdkYzhjOTJmOGRkYTBhMmU1MWFhNGUxZmY",
+      "assemblyCode": "61C58FF3-C637-4902-B04C-FBC6AB80A5B6",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-mechanical-jumper-harness-15-sep-2014-after/cn/61C58FF3-C637-4902-B04C-FBC6AB80A5B6",
+      "showNote": null,
+      "product": {
+        "url": "/category/construction-kits/skid-steer-kits/service-kit/p/47707226"
+      }
+    },
+    {
+      "partNumber": "47826978",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Rear Lamp Jumper, 14 Pin Chassis Connector",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_55_ELECTRICAL_SYSTEMS",
+      "assemblyFullName": "55.511.AS - HARNESS, NO TURN SIGNAL LIGHT",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-7AA03741-917E-4004-A6A9-116C80DAE402.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE3ODE5OHxpbWFnZS9wbmd8YURFMkwyZzNZUzg0T1RVNE9UUTJNVGd4TVRVd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVGRCUVRBek56UXhMVGt4TjBVdE5EQXdOQzFCTmtFNUxURXhOa000TUVSQlJUUXdNaTV3Ym1jfGIwNTliMDk1MmJjZWZmY2QyOTcxNDk5NDkxNzc1NzQ5OWJhYmZhMWJhZDIyMzZiMTE3ODFhZjA1N2VhZGNmMDU",
+      "assemblyCode": "FFE3642B-F314-4403-92D2-A679A2CDD2F3",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-tier-4b/electrical-systems/harness-no-turn-signal-light/cn/FFE3642B-F314-4403-92D2-A679A2CDD2F3",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/47826978"
+      }
+    },
+    {
+      "partNumber": "84251331",
+      "partDescription": "WIRE HARNESS",
+      "usage": "Rear Lamp Jumper, 4 Pin Chassis Connector",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_55_ELECTRICAL_SYSTEMS",
+      "assemblyFullName": "55.511.AS - HARNESS, NO TURN SIGNAL LIGHT",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-7AA03741-917E-4004-A6A9-116C80DAE402.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE3ODE5OHxpbWFnZS9wbmd8YURFMkwyZzNZUzg0T1RVNE9UUTJNVGd4TVRVd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVGRCUVRBek56UXhMVGt4TjBVdE5EQXdOQzFCTmtFNUxURXhOa000TUVSQlJUUXdNaTV3Ym1jfGIwNTliMDk1MmJjZWZmY2QyOTcxNDk5NDkxNzc1NzQ5OWJhYmZhMWJhZDIyMzZiMTE3ODFhZjA1N2VhZGNmMDU",
+      "assemblyCode": "FFE3642B-F314-4403-92D2-A679A2CDD2F3",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-tier-4b/electrical-systems/harness-no-turn-signal-light/cn/FFE3642B-F314-4403-92D2-A679A2CDD2F3",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/harnesses-wiring/wire-harness/p/84251331"
+      }
+    },
+    {
+      "partNumber": "47550199",
+      "partDescription": "INSTRUCTION",
+      "usage": "Mechanical Jumper, Sheet",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.55[01] - DIA KIT, MECHANICAL JUMPER HARNESS (14-SEP-2014 & PRIOR)",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-675A5E0C-A3B7-42DA-93AE-447E84D2303E.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDExMzE5OXxpbWFnZS9wbmd8YURBM0wyZ3dOUzg0T1RVNE5qUXhORE00TnpVd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVFkzTlVFMVJUQkRMVUV6UWpjdE5ESkVRUzA1TTBGRkxUUTBOMFU0TkVReU16QXpSUzV3Ym1jfDM5ZWEyYTAxNGNjNzhjMTlkMTE4Y2YwMzY1ZTZjMzVmODg2YjUzNjk2ZWZjZGIxOTg2Mjk5ZjE0NDgxZDUyYTE",
+      "assemblyCode": "B3449F5C-C081-4559-AB23-63D8A9519394",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-mechanical-jumper-harness-14-sep-2014-prior/cn/B3449F5C-C081-4559-AB23-63D8A9519394",
+      "showNote": null,
+      "product": {
+        "url": "/cn/instruction/p/47550199"
+      }
+    },
+    {
+      "partNumber": "84331404",
+      "partDescription": "WIRE CONNECTOR",
+      "usage": "Jumper, Bypass",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.90[17] - DIA KIT, GLASS FRONT DOOR",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-7C452899-B8A0-45FA-BCCB-45E84C141702.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE4NzIzN3xpbWFnZS9wbmd8YUdZM0wyZzJaQzg0T1RVNE56WXdOemM1T0RBMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVGRETkRVeU9EazVMVUk0UVRBdE5EVkdRUzFDUTBOQ0xUUTFSVGcwUXpFME1UY3dNaTV3Ym1jfDZkYWRiOGJlN2NlZGYxNGJlYTZhMjU4OGFiMDVlNjRjZjk1ZWI1MzBkNWM0ZDRhOWRjZWQzMDVjMDNkMDE1MjY",
+      "assemblyCode": "554E2C59-46E4-4699-9A9A-C0974216A5A2",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-glass-front-door/cn/554E2C59-46E4-4699-9A9A-C0974216A5A2",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/connectors/wire-connector/p/84331404"
+      }
+    },
+    {
+      "partNumber": "84331404",
+      "partDescription": "WIRE CONNECTOR",
+      "usage": "Jumper, Bypass",
+      "sectionCode": "6F7909BA-F6C7-454F-AC12-DF038474C549_88_ACCESSORIES",
+      "assemblyFullName": "88.100.90[18] - DIA KIT, DEMO DOOR",
+      "technicalTypes": "{\"AssemblyTechnicalType\":\"[{\\\"serialBreakFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"productionFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"plantProductionStartDate\\\":null,\\\"plantEndSerialCode\\\":null,\\\"technicalTypeId\\\":\\\"9AC88416-6B54-425F-B9F1-CD853DDB8A9F\\\",\\\"plantProductionEndDate\\\":null,\\\"variantFilterDate\\\":\\\"2013-10-01 00:00:00\\\",\\\"isEngineFigure\\\":false,\\\"plantBeginSerialCode\\\":null,\\\"plantName\\\":null,\\\"commercialDescription\\\":null}]\"}",
+      "urlAssemblyImage": "/medias/techdrawing-assembly-BD1A5694-1EA6-4D41-9097-948643797A55.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE5NjM2N3xpbWFnZS9wbmd8YUdJM0wyaGpaaTg0T1RVNE5qWXdNVEUyTlRFd0wzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVUpFTVVFMU5qazBMVEZGUVRZdE5FUTBNUzA1TURrM0xUazBPRFkwTXpjNU4wRTFOUzV3Ym1jfDNkZDVhM2FjZWRjOTE2Y2IyZTRmMjhmMWVjMmU4YjdiODA2ZTIzNmVkOTY0Y2IxZGUwMGI4MDVjOTA0ZjRhNDM",
+      "assemblyCode": "A723EEF2-497E-47AF-B4E8-AD048E00DAFC",
+      "modelCode": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+      "modelFullName": "SR210 SKID STEER LOADER - TIER 4B Oct 2013 Jan 2020",
+      "quantity": null,
+      "assemblyUrl": "/na/light-equipment/skid-steer-loaders/nafs77ski035200series/skid-steer-loader-nrc/accessories/dia-kit-demo-door/cn/A723EEF2-497E-47AF-B4E8-AD048E00DAFC",
+      "showNote": null,
+      "product": {
+        "url": "/category/electrical/connectors/wire-connector/p/84331404"
+      }
+    }
+  ],
+  "pagination": {
+    "pageSize": 500,
+    "currentPage": 0,
+    "sort": "fittability-part-description",
+    "numberOfPages": 1,
+    "totalNumberOfResults": 30
+  }
+}
