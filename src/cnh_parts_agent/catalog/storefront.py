@@ -30,10 +30,14 @@ class Storefront:
 
 CASECE = Storefront("casece", "CASE Construction")
 CASEIH = Storefront("caseih", "Case IH")
-STOREFRONTS = {s.brand: s for s in (CASECE, CASEIH)}
+NEWHOLLANDAG = Storefront("newhollandag", "New Holland Agriculture")
+NEWHOLLANDCE = Storefront("newhollandce", "New Holland Construction")
+STOREFRONTS = {s.brand: s for s in (CASECE, CASEIH, NEWHOLLANDAG, NEWHOLLANDCE)}
 
 
 def get_storefront(brand: str) -> Storefront:
     if brand not in STOREFRONTS:
-        raise PartsError("unsupported_source", "Choose a registered storefront: casece or caseih.")
+        raise PartsError(
+            "unsupported_source", "Choose a registered storefront: " + ", ".join(STOREFRONTS) + "."
+        )
     return STOREFRONTS[brand]

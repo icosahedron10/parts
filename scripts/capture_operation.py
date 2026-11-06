@@ -67,7 +67,7 @@ async def run(args):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--brand", choices=["casece", "caseih"], required=True)
+    parser.add_argument("--brand", choices=["casece", "caseih", "newhollandag", "newhollandce"], required=True)
     parser.add_argument("--machine", required=True)
     parser.add_argument(
         "--operation",

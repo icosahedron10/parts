@@ -99,7 +99,25 @@ class SearchData(StrictModel):
     metadata: Metadata | None = None
 
 
+class AssemblyRoute(StrictModel):
+    assembly_ref: ResourceReference
+    title: str
+    group: str
+    figure: str | None = None
+    observed_path: str | None = None
+    assembly_url: str
+    stale: bool = False
+
+
+class DirectoryData(StrictModel):
+    assemblies: list[AssemblyRoute]
+    metadata: Metadata | None = None
+
+
 class AssemblyData(StrictModel):
+    assembly_ref: ResourceReference | None = None
+    assembly_label: str | None = None
+    referenced_assemblies: list[AssemblyRoute] = Field(default_factory=list)
     occurrences: list[Occurrence]
     metadata: Metadata | None = None
 
@@ -137,6 +155,7 @@ class OpResult(StrictModel, Generic[DataT]):
 DATA_MODELS = {
     "search_machines": MachineData,
     "list_groups": GroupData,
+    "list_assemblies": DirectoryData,
     "search_catalog": SearchData,
     "get_assembly": AssemblyData,
     "get_part_relationships": RelationshipData,
@@ -144,6 +163,7 @@ DATA_MODELS = {
 ROWS = {
     "search_machines": "machines",
     "list_groups": "groups",
+    "list_assemblies": "assemblies",
     "search_catalog": "matches",
     "get_assembly": "occurrences",
     "get_part_relationships": "relationships",

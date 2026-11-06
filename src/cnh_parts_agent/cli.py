@@ -27,7 +27,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--machine", required=True)
     parser.add_argument("--part", required=True)
-    parser.add_argument("--brand", choices=["casece", "caseih"])
+    parser.add_argument("--brand", choices=["casece", "caseih", "newhollandag", "newhollandce"])
     parser.add_argument("--selected-machine-label")
     parser.add_argument("--model")
     args = parser.parse_args()

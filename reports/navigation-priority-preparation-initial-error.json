@@ -1,0 +1,11 @@
+{
+  "scope": "First priority preparation attempt, stopped before publication",
+  "http_attempts": 1,
+  "catalogs": [],
+  "complete_for_requested_catalogs": false,
+  "error": {
+    "type": "PartsError",
+    "message": "The source returned an unsupported or cross-catalog group identifier."
+  },
+  "resolution": "Observed IH 1420 group code _5.1_BRAKES required allowing a dot in a catalog-bound group identifier."
+}

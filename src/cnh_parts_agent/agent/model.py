@@ -10,7 +10,7 @@ def create_parts_model(model: str | None = None):
     return ChatOpenAI(
         model=model or settings.model,
         use_responses_api=True,
-        reasoning={"effort": "none"},
+        reasoning={"effort": settings.reasoning_effort},
         max_tokens=settings.model_max_output_tokens,
         max_retries=0,
         timeout=settings.model_timeout_seconds,

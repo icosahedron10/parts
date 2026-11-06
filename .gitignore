@@ -11,3 +11,7 @@ dist/
 build/
 *.egg-info/
 *.tmp
+
+# Generated experiment archives and presentation outputs stay local.
+/output/
+/reports/jev-*/

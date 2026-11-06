@@ -104,7 +104,7 @@ def test_instruction_link_remains_bound_to_the_storefront_and_exact_part(storefr
             parse.product_link(invalid, "47550199", storefront=storefront)
 
 
-async def test_pictorial_index_rejection_consumes_budget_without_a_source_request(catalog):
+async def test_navigation_index_is_not_blocked_by_title_heuristics(catalog):
     client = PartsTools(catalog)
     boundary = PartsToolBoundary(client=client, part_query="track frame")
     boundary.machine_ref = "m1"
@@ -113,8 +113,8 @@ async def test_pictorial_index_rejection_consumes_budget_without_a_source_reques
         tool_call={"name": "get_assembly", "args": {"machine_ref": "m1", "assembly_ref": "a1"}, "id": "index"}
     )
     rejected = boundary._rejection(request)
-    assert json.loads(rejected.content)["error"]["code"] == "navigation_index_not_parts"
-    assert client.budget.calls == 1
+    assert rejected is None
+    assert client.budget.calls == 0
     assert catalog.transport.request_count == 0
     request.tool_call["args"]["assembly_ref"] = "a2"
     assert boundary._rejection(request) is None
@@ -149,9 +149,7 @@ async def test_title_heuristic_cannot_block_an_observed_component_assembly(catal
             SimpleNamespace(tool_call={"name": operation, "args": arguments}),
             ToolMessage(content=json.dumps(payload), tool_call_id=operation),
         )
-    assert len(boundary.pending_assemblies) == 1
     requested = next(row for row in payload["data"]["matches"] if "STARTER ALTERNATOR" in row["description"])
-    assert requested["assembly_ref"] not in boundary.pending_assemblies
     request = SimpleNamespace(
         tool_call={
             "name": "get_assembly",
@@ -161,8 +159,8 @@ async def test_title_heuristic_cannot_block_an_observed_component_assembly(catal
     )
     assert boundary._rejection(request) is None
     request.tool_call["args"]["assembly_ref"] = "unobserved"
-    rejected = boundary._rejection(request)
-    assert json.loads(rejected.content)["error"]["code"] == "assembly_inspection_required"
+    rejected = await client.tool_call("get_assembly", request.tool_call["args"])
+    assert rejected["error"]["code"] == "unknown_lookup_reference"
     assert catalog.transport.request_count == 0
 
 

@@ -1,0 +1,3420 @@
+{
+  "machine": {
+    "kind": "machine",
+    "id": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+    "context": null,
+    "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/cn/FFD96496-EFBE-E111-9FCE-005056875BD6",
+    "source_id": "casece-us-en"
+  },
+  "coverage": "All storefront groups expanded, no query or serial filter",
+  "groups": [
+    {
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "count": 25,
+      "source": "reports\\toc-snapshots\\FFD96496-EFBE-E111-9FCE-005056875BD6\\group-00.json"
+    },
+    {
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "count": 10,
+      "source": "reports\\toc-snapshots\\FFD96496-EFBE-E111-9FCE-005056875BD6\\group-01.json"
+    },
+    {
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "count": 15,
+      "source": "reports\\toc-snapshots\\FFD96496-EFBE-E111-9FCE-005056875BD6\\group-02.json"
+    },
+    {
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "count": 9,
+      "source": "reports\\toc-snapshots\\FFD96496-EFBE-E111-9FCE-005056875BD6\\group-03.json"
+    },
+    {
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "count": 162,
+      "source": "reports\\toc-snapshots\\FFD96496-EFBE-E111-9FCE-005056875BD6\\group-04.json"
+    },
+    {
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "count": 63,
+      "source": "reports\\toc-snapshots\\FFD96496-EFBE-E111-9FCE-005056875BD6\\group-05.json"
+    },
+    {
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "count": 21,
+      "source": "reports\\toc-snapshots\\FFD96496-EFBE-E111-9FCE-005056875BD6\\group-06.json"
+    },
+    {
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_18_MISCELLANEOUS",
+      "count": 1,
+      "source": "reports\\toc-snapshots\\FFD96496-EFBE-E111-9FCE-005056875BD6\\group-07.json"
+    }
+  ],
+  "entries": [
+    {
+      "title": "02-01 - ENGINE MOUNTING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1C15EF83-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/engine-mounting/cn/1C15EF83-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-02 - AIR CLEANER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5E072360-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/air-cleaner/cn/5E072360-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-03 - EXHAUST SYSTEM - MUFFLER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8B062360-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/exhaust-system-muffler/cn/8B062360-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-04 - RADIATOR - COOLANT RECOVERY SYSTEM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E9F2FB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/radiator-coolant-recovery-system/cn/E9F2FB71-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-05 - RADIATOR ASSEMBLY",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "917B796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/radiator-assembly/cn/917B796F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-06 - WATER PUMP SYSTEM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5FEC2766-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/water-pump-system/cn/5FEC2766-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-07 - FRONT GEAR COVER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3887BA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/front-gear-cover/cn/3887BA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-08 - MANIFOLDS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4BCDCF56-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/manifolds/cn/4BCDCF56-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-09 - TURBOCHARGER SYSTEM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "32A8BA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/turbocharger-system/cn/32A8BA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-10 - TURBOCHARGER ASSY",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B0FA2260-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/turbocharger-assy/cn/B0FA2260-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-11 - WASTEGATE ACTUATOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5EC84D6D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/wastegate-actuator/cn/5EC84D6D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-12 - OIL FILTER - OIL COOLER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6876B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/oil-filter-oil-cooler/cn/6876B87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-13 - OIL PUMP AND OIL PAN",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "10CBCF56-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/oil-pump-and-oil-pan/cn/10CBCF56-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-14 - CYLINDER HEAD COVER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B52D7A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/cylinder-head-cover/cn/B52D7A75-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-15 - CYLINDER HEAD - VALVE MECHANISM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CF7C8663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/cylinder-head-valve-mechanism/cn/CF7C8663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-16 - CYLINDER HEAD -  VALVE MECHANISM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FA358E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/cylinder-head-valve-mechanism/cn/FA358E5D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-17 - CAMSHAFT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4A12F67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/camshaft/cn/4A12F67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-18 - CYLINDER BLOCK",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BFD8E746-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/cylinder-block/cn/BFD8E746-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-19 - OIL FILL ASSY, ENGINE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EF3B7A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/oil-fill-assy-engine/cn/EF3B7A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-20 - CRANKSHAFT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7802DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/crankshaft/cn/7802DD52-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-21 - FLYWHEEL HOUSING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "60BE3E73-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/flywheel-housing/cn/60BE3E73-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-22 - PISTONS - CONNECTING RODS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BEF10978-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/pistons-connecting-rods/cn/BEF10978-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-23 - GASKET KIT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0F9EBA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/gasket-kit/cn/0F9EBA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-24 - GASKET KIT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CEDE2766-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/gasket-kit/cn/CEDE2766-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "02-25 - GASKET KIT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B1094179-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/engine/gasket-kit/cn/B1094179-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "03-01 - FUEL TANK",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3B7EB87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/fuel-system/fuel-tank/cn/3B7EB87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "03-02 - FUEL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1FD9CF56-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/fuel-system/fuel-lines/cn/1FD9CF56-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "03-02B - WATER SEPARATOR, ASSY",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1771EF0F-7EC5-403B-B8CA-A64EAF5912C8",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/fuel-system/water-separator-assy/cn/1771EF0F-7EC5-403B-B8CA-A64EAF5912C8/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "03-03 - THROTTLE CONTROL",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "168DA36E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/fuel-system/throttle-control/cn/168DA36E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "03-04 - FUEL INJECTION SYSTEM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "35798B80-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/fuel-system/fuel-injection-system/cn/35798B80-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "03-05 - FUEL FILTER - PUMP, LIFT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0E9B7D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/fuel-system/fuel-filter-pump-lift/cn/0E9B7D55-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "03-06 - ANEROID AND WASTEGATE SYSTEM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9523937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/fuel-system/aneroid-and-wastegate-system/cn/9523937A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "03-07 - FUEL INJECTION PUMP AND DRIVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4B8FB87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/fuel-system/fuel-injection-pump-and-drive/cn/4B8FB87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "03-08 - FUEL INJECTION - NOZZLE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1D89B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/fuel-system/fuel-injection-nozzle/cn/1D89B87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "03-09 - PUMP, REFUELING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EE6C8B80-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/fuel-system/pump-refueling/cn/EE6C8B80-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-01 - ELECTRICAL - CHASSIS, UPPERSTRUCTURE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DE04F67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/electrical-chassis-upperstructure/cn/DE04F67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-02 - HARNESS, MAIN - CLAMPS AND RETAINERS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F0C7E05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/harness-main-clamps-and-retainers/cn/F0C7E05E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-03 - ELECTRICAL - CAB",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "72AD106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/electrical-cab/cn/72AD106C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-04 - CONVERTER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0054315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/converter/cn/0054315A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-05 - CAB ELECTRICAL - WIPER, WINDSHIELD",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6B8CBA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/cab-electrical-wiper-windshield/cn/6B8CBA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-06 - HORN",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BE327A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/horn/cn/BE327A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-07 - LAMPS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E9608663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/lamps/cn/E9608663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-08 - CONTROLLER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "247FB87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/controller/cn/247FB87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-09 - BATTERY - CABLES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6A429851-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/battery-cables/cn/6A429851-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-10 - MONITOR ASSY - INSTRUMENT PANEL",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0246BE6A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/monitor-assy-instrument-panel/cn/0246BE6A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-11 - WINDSHIELD WASHER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8CF02766-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/windshield-washer/cn/8CF02766-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-12 - ALTERNATOR ASSY",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "01CD3E73-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/alternator-assy/cn/01CD3E73-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-13 - RADIO",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2000DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/radio/cn/2000DD52-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-14 - COLD START SYSTEM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F8ECC076-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/cold-start-system/cn/F8ECC076-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "04-15 - COLD START SYSTEM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "999B7D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/electrical-systems/cold-start-system/cn/999B7D55-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "06-01 - TRACK DRIVE ASSY (DAC0713099 - DAC0713101)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BE2A9357-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/power-train/track-drive-assy-dac0713099-dac0713101/cn/BE2A9357-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "06-01A - TRACK DRIVE ASSY (DAC0713102 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "64054179-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/power-train/track-drive-assy-dac0713102-/cn/64054179-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "06-02 - FINAL DRIVE - GEAR ASSY, REDUCTION",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6020937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/power-train/final-drive-gear-assy-reduction/cn/6020937A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "06-02A - FINAL DRIVE - GEAR ASSY, REDUCTION",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "51FEA58A-D45F-456F-89F3-6839932331DA",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/power-train/final-drive-gear-assy-reduction/cn/51FEA58A-D45F-456F-89F3-6839932331DA/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "06-03 - MOTOR ASSY - TRACK DRIVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "294C8E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/power-train/motor-assy-track-drive/cn/294C8E5D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "06-04 - VALVE ASSY, RELIEF - TRACK DRIVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "664A9851-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/power-train/valve-assy-relief-track-drive/cn/664A9851-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "06-05 - HYDRAULICS - TRACK DRIVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "869B6E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/power-train/hydraulics-track-drive/cn/869B6E81-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "06-06 - HYDRAULICS - TRACK DRIVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D9399357-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/power-train/hydraulics-track-drive/cn/D9399357-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "06-07 - HYDRAULICS - TRAVEL",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2A8FD55C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/power-train/hydraulics-travel/cn/2A8FD55C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-001 - HYDRAULIC RESERVOIR (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4539AC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulic-reservoir-dac0713099-dac0713245/cn/4539AC82-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-002 - HYDRAULIC RESERVOIR (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EF0BF67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulic-reservoir-dac0713246-/cn/EF0BF67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-003 - PUMP COUPLING - MODELS WITHOUT DOZER BLADE (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "821B7B5B-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/pump-coupling-models-without-dozer-blade-dac0713099-dac0713245/cn/821B7B5B-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-004 - PUMP COUPLING - MODELS WITHOUT DOZER BLADE (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A2000A78-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/pump-coupling-models-without-dozer-blade-dac0713246-/cn/A2000A78-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-005 - PUMP COUPLING - MODELS WITH DOZER BLADE (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4BD1DC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/pump-coupling-models-with-dozer-blade-dac0713099-dac0713245/cn/4BD1DC64-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-006 - PUMP COUPLING - MODELS WITH DOZER BLADE (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AB7D8663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/pump-coupling-models-with-dozer-blade-dac0713246-/cn/AB7D8663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-007 - HYDRAULICS - PUMP SUCTION LINE (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "47C4E05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pump-suction-line-dac0713099-dac0713245/cn/47C4E05E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-008 - HYDRAULICS - PUMP SUCTION LINE (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D1562E54-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pump-suction-line-dac0713246-/cn/D1562E54-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-009 - HYDRAULICS - PUMP SUCTION LINE (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DB01DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pump-suction-line-dac0713099-dac0713245/cn/DB01DD52-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-010 - HYDRAULICS - PUMP SUCTION LINE (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BC599851-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pump-suction-line-dac0713246-/cn/BC599851-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-011 - HYDRAULICS - CONTROL VALVE SUPPLY (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "407E7D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-control-valve-supply-dac0713099-dac0713245/cn/407E7D55-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-012 - HYDRAULICS - CONTROL VALVE SUPPLY (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "56F2DC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-control-valve-supply-dac0713246-/cn/56F2DC64-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-013 - HYDRAULICS - RESERVOIR RETURN",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "64778B80-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-reservoir-return/cn/64778B80-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-014 - HYDRAULICS - BYPASS FILTER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2BB86E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-bypass-filter/cn/2BB86E81-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-015 - HYDRAULICS - DRAIN LINE - MODELS WITHOUT LOAD HOLD (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FA1A937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-drain-line-models-without-load-hold-dac0713099-dac0713245/cn/FA1A937A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-016 - HYDRAULICS - DRAIN LINE - MODELS WITHOUT LOAD HOLD (DAC0713246 - DAC0713435)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4D572E54-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-drain-line-models-without-load-hold-dac0713246-dac0713435/cn/4D572E54-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-016A - HYDRAULICS - DRAIN LINE - MODELS WITHOUT LOAD HOLD (DAC0713436 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E4477A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-drain-line-models-without-load-hold-dac0713436-/cn/E4477A75-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-017 - HYDRAULICS - DRAIN LINE - BLADE MODELS WITHOUT LOAD HOLD (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "69319357-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-drain-line-blade-models-without-load-hold-dac0713099-dac0713245/cn/69319357-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-018 - HYDRAULICS - DRAIN LINE - BLADE MODELS WITHOUT LOAD HOLD (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CAEF2766-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-drain-line-blade-models-without-load-hold-dac0713246-/cn/CAEF2766-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-019 - HYDRAULICS - DRAIN LINE - MODELS WITH LOAD HOLD (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "52E9DA58-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-drain-line-models-with-load-hold-dac0713099-dac0713245/cn/52E9DA58-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-020 - HYDRAULICS - DRAIN LINE - MODELS WITH LOAD HOLD (DAC0713246 - DAC0713435)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B802DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-drain-line-models-with-load-hold-dac0713246-dac0713435/cn/B802DD52-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-020A - HYDRAULICS - DRAIN LINE - MODELS WITH LOAD HOLD (DAC0713436 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B906DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-drain-line-models-with-load-hold-dac0713436-/cn/B906DD52-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-021 - HYDRAULICS - DRAIN LINE - BLADE MODELS WITH LOAD HOLD (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6E67774F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-drain-line-blade-models-with-load-hold-dac0713099-dac0713245/cn/6E67774F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-022 - HYDRAULICS - DRAIN LINE - BLADE MODELS WITH LOAD HOLD (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6EDBD84C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-drain-line-blade-models-with-load-hold-dac0713246-/cn/6EDBD84C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-023 - HYDRAULICS - SWING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "81BFE05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-swing/cn/81BFE05E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-024 - HYDRAULICS - BOOM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "07ADE05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-boom/cn/07ADE05E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-025 - HYDRAULICS - BOOM CYLINDER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9AFAC076-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-boom-cylinder/cn/9AFAC076-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-026 - HYDRAULICS - BOOM CYLINDER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D73C7A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-boom-cylinder/cn/D73C7A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-027 - HYDRAULICS - ARM AND BUCKET",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "12366861-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-arm-and-bucket/cn/12366861-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-028 - HYDRAULICS - CYLINDER, ARM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FBD8D84C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-cylinder-arm/cn/FBD8D84C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-029 - HYDRAULICS - CYLINDER, ARM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "95368E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-cylinder-arm/cn/95368E5D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-030 - HYDRAULICS - CYLINDER, ARM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FFD7D84C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-cylinder-arm/cn/FFD7D84C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-031 - HYDRAULICS - BUCKET",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "242D7A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-bucket/cn/242D7A75-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-032 - HYDRAULICS - BUCKET",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "99907D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-bucket/cn/99907D55-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-033 - HYDRAULICS - FREE SWING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C4327A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-free-swing/cn/C4327A75-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-034 - HYDRAULICS - PILOT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8E20B950-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot/cn/8E20B950-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-035 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A5CD264E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/A5CD264E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-036 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "51B76E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/51B76E81-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-037 - HYDRAULICS - PILOT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "98B76E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot/cn/98B76E81-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-038 - HYDRAULICS - PILOT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C7AEE05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot/cn/C7AEE05E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-039 - HYDRAULICS - PILOT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7E4BAC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot/cn/7E4BAC82-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-040 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "51376861-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/51376861-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-041 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6849AC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/6849AC82-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-042 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3047315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/3047315A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-043 - HYDRAULICS - PILOT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D08FB87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot/cn/D08FB87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-044 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "76768B80-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/76768B80-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-045 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "05B33E73-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/05B33E73-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-046 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C2010A78-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/C2010A78-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-047 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "12C14D6D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/12C14D6D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-048 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CD28767B-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/CD28767B-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-049 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "39127B5B-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/39127B5B-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-050 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "73498E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/73498E5D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-051 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "09D8DC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/09D8DC64-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-052 - HYDRAULICS - PILOT CONTROL LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "738DB87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-control-lines/cn/738DB87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-053 - HYDRAULICS - PILOT PRESSURE, RETURN LINES (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "17768663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-pressure-return-lines-dac0713099-dac0713245/cn/17768663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-054 - HYDRAULICS - PILOT PRESSURE, RETURN LINES (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B4E57E69-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-pressure-return-lines-dac0713246-/cn/B4E57E69-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-055 - HYDRAULICS - PILOT PRESSURE, RETURN LINES",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1C9A7D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-pressure-return-lines/cn/1C9A7D55-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-056 - ACCUMULATOR - PILOT PRESSURE, RETURN LINES (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E19F106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/accumulator-pilot-pressure-return-lines-dac0713099-dac0713245/cn/E19F106C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-057 - ACCUMULATOR - PILOT PRESSURE, RETURN LINES (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "74A5106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/accumulator-pilot-pressure-return-lines-dac0713246-/cn/74A5106C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-058 - HYDRAULICS - PILOT PRESSURE, RETURN LINES (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DC83B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-pressure-return-lines-dac0713099-dac0713245/cn/DC83B87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-059 - HYDRAULICS - PILOT PRESSURE, RETURN LINES (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BD142360-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-pressure-return-lines-dac0713246-/cn/BD142360-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-060 - HYDRAULICS - PILOT PRESSURE, RETURN LINES, MODELS WITH DOZER BLADE (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "74162360-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-pressure-return-lines-models-with-dozer-blade-dac0713099-dac0713245/cn/74162360-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-061 - HYDRAULICS - PILOT PRESSURE, RETURN LINES, MODELS WITH DOZER BLADE (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DDC9CF56-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-pressure-return-lines-models-with-dozer-blade-dac0713246-/cn/DDC9CF56-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-062 - HYDRAULICS - PILOT PRESSURE, RETURN LINES, MODELS WITH DOZER BLADE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E0B36E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-pressure-return-lines-models-with-dozer-blade/cn/E0B36E81-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-063 - ACCUMULATOR - PILOT PRESSURE, RETURN LINES, MODELS WITH DOZER BLADE (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3F5DBE6A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/accumulator-pilot-pressure-return-lines-models-with-dozer-blade-dac0713099-dac0713245/cn/3F5DBE6A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-064 - ACCUMULATOR - PILOT PRESSURE, RETURN LINES, MODELS WITH DOZER BLADE (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BF48315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/accumulator-pilot-pressure-return-lines-models-with-dozer-blade-dac0713246-/cn/BF48315A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-065 - HYDRAULICS - PILOT PRESSURE, RETURN LINES, MODELS WITH DOZER BLADE (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FD11F67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-pressure-return-lines-models-with-dozer-blade-dac0713099-dac0713245/cn/FD11F67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-066 - HYDRAULICS - PILOT PRESSURE, RETURN LINES, MODELS WITH DOZER BLADE (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3424F67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-pilot-pressure-return-lines-models-with-dozer-blade-dac0713246-/cn/3424F67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-067 - HYDRAULICS - SINGLE ACTING CIRCUIT/HAMMER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2D13F67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-single-acting-circuithammer/cn/2D13F67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-068 - HYDRAULICS - SINGLE ACTING CIRCUIT/HAMMER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E58AA36E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-single-acting-circuithammer/cn/E58AA36E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-069 - HYDRAULICS - SINGLE ACTING CIRCUIT/HAMMER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "81367A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-single-acting-circuithammer/cn/81367A75-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-070 - HYDRAULICS - AUXILIARY, DOUBLE ACTING CIRCUIT/PEDAL ACTIVATED",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1A45315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-auxiliary-double-acting-circuitpedal-activated/cn/1A45315A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-071 - MANIFOLD - AUXILIARY, DOUBLE ACTING CIRCUIT/PEDAL ACTIVATED",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6E518F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/manifold-auxiliary-double-acting-circuitpedal-activated/cn/6E518F74-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-072 - FILTER ASSY - AUXILIARY, DOUBLE ACTING CIRCUIT/PEDAL ACTIVATED",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "67C9CF56-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/filter-assy-auxiliary-double-acting-circuitpedal-activated/cn/67C9CF56-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-073 - HYDRAULICS - AUXILIARY, DOUBLE ACTING CIRCUIT/PEDAL ACTIVATED",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9882A36E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-auxiliary-double-acting-circuitpedal-activated/cn/9882A36E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-074 - HYDRAULICS - AUXILIARY, DOUBLE ACTING CIRCUIT/PEDAL ACTIVATED",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B9DC2766-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-auxiliary-double-acting-circuitpedal-activated/cn/B9DC2766-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-075 - HYDRAULICS - AUXILIARY, DOUBLE ACTING CIRCUIT/TRIGGER ACTIVATED",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6E4E8E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-auxiliary-double-acting-circuittrigger-activated/cn/6E4E8E5D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-076 - MANIFOLD - AUXILIARY, DOUBLE ACTING CIRCUIT/TRIGGER ACTIVATED",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5DF5FB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/manifold-auxiliary-double-acting-circuittrigger-activated/cn/5DF5FB71-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-077 - HYDRAULICS - UXILIARY, DOUBLE ACTING CIRCUIT/TRIGGER ACTIVATED",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5CAA106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-uxiliary-double-acting-circuittrigger-activated/cn/5CAA106C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-078 - HYDRAULICS - AUXILIARY, DOUBLE ACTING CIRCUIT/TRIGGER ACTIVATED",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "822C7A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-auxiliary-double-acting-circuittrigger-activated/cn/822C7A75-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-079 - HYDRAULICS - AUXILIARY, DOUBLE ACTING CIRCUIT/TRIGGER ACTIVATED",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E5CD2766-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-auxiliary-double-acting-circuittrigger-activated/cn/E5CD2766-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-080 - HYDRAULICS- AUXILIARY ATTACHMENT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5594796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-auxiliary-attachment/cn/5594796F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-081 - HYDRAULICS - AUXILIARY ATTACHMENT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D23B767B-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-auxiliary-attachment/cn/D23B767B-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-082 - HYDRAULICS - THUMB AUXILIARY",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EB25F67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-thumb-auxiliary/cn/EB25F67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-083 - VALVE ASSY, CHECK",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "19396861-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-assy-check/cn/19396861-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-084 - MOUNTING - SWING MOTOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E4426861-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/mounting-swing-motor/cn/E4426861-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-085 - MOTOR ASSY - SWING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CA3F7A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/motor-assy-swing/cn/CA3F7A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-086 - GEAR ASSY, REDUCTION - MOTOR, SWING (P/N 160897A1)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DCAC4D6D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/gear-assy-reduction-motor-swing-pn-160897a1/cn/DCAC4D6D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-086A - GEAR ASSY, REDUCTION - MOTOR,SWING (P/N LN00104)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DD346861-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/gear-assy-reduction-motor-swing-pn-ln00104/cn/DD346861-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-087 - HYDRAULICS - JOINT, SWIVEL CENTER - MODELS WITHOUT DOZER BLADE, P.I.N. DAC0713099 - DAC0713435",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B258315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-joint-swivel-center-models-without-dozer-blade-pin-dac0713099-dac0713435/cn/B258315A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-087A - HYDRAULICS, JOINT, SWIVEL CENTER - MODELS WITHOUT DOZER BLADE, P.I.N. DAC0713436 -",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5F45774F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-joint-swivel-center-models-without-dozer-blade-pin-dac0713436-/cn/5F45774F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-088 - HYDRAULICS - JOINT, SWIVEL CENTERMODELS WITH DOZER BLADE, P.I.N. DAC0713099 - DAC0713435",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3018937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-joint-swivel-centermodels-with-dozer-blade-pin-dac0713099-dac0713435/cn/3018937A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-088A - JOINT, SWIVEL CENTER - MODELS WITH DOZER BLADE, P.I.N. DAC0713436 -",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D9C73E73-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/joint-swivel-center-models-with-dozer-blade-pin-dac0713436-/cn/D9C73E73-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-089 - CONTROL VALVE - SUPPORT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AC57387F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/control-valve-support/cn/AC57387F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-090 - KNJ2852 CONTROL VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9B357A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2852-control-valve/cn/9B357A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-091 - KNJ2852 CONTROL VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "ED90B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2852-control-valve/cn/ED90B87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-092 - KNJ2852 CONTROL VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9C88BA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2852-control-valve/cn/9C88BA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-093 - KNJ2852 CONTROL VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C53C2E54-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2852-control-valve/cn/C53C2E54-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-094 - KNJ2852 CONTROL VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C82D7A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2852-control-valve/cn/C82D7A75-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-094A - KNJ3053 CONTROL VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B3658F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3053-control-valve/cn/B3658F74-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-094B - KNJ3053 CONTROL VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5319937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3053-control-valve/cn/5319937A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-094C - KNJ3053 CONTROL VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C8EFC076-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3053-control-valve/cn/C8EFC076-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-094D - KNJ3053 CONTROL VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "79AB6E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3053-control-valve/cn/79AB6E81-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-094E - KNJ3053 CONTROL VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D191BA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3053-control-valve/cn/D191BA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-095 - VALVE, SOLENOID",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "ACCBE746-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-solenoid/cn/ACCBE746-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-096 - VALVE, SOLENOID",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5E2D767B-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-solenoid/cn/5E2D767B-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-096A - VALVE, SOLENOID",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9AD52766-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-solenoid/cn/9AD52766-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-097 - MANIFOLD ASSY",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EB7E7D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/manifold-assy/cn/EB7E7D55-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-098 - VALVE ASSY - HAND CONTROL",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0899D55C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-assy-hand-control/cn/0899D55C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-099 - VALVE, CONTROL - TRAVEL",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0E698B80-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-control-travel/cn/0E698B80-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-100 - VALVE ASSY - FOOT CONTROL",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A2CCB762-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-assy-foot-control/cn/A2CCB762-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-101 - VALVE, PILOT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0C748B80-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-pilot/cn/0C748B80-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-101A - VALVE ASSY, DIRECTIONAL",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DA82B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-assy-directional/cn/DA82B87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-102 - CYLINDER ASSY - BOOM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2E90BA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/cylinder-assy-boom/cn/2E90BA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-103 - CYLINDER ASSY - BOOM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "90CBB762-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/cylinder-assy-boom/cn/90CBB762-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-104 - CYLINDER ASSY - BOOM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DE49BE6A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/cylinder-assy-boom/cn/DE49BE6A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-105 - CYLINDER ASSY - BOOM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "607C796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/cylinder-assy-boom/cn/607C796F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-106 - CYLINDER ASSY - ARM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1205DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/cylinder-assy-arm/cn/1205DD52-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-107 - CYLINDER ASSY - ARM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F391D55C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/cylinder-assy-arm/cn/F391D55C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-108 - CYLINDER ASSY - BUCKET",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "004EBE6A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/cylinder-assy-bucket/cn/004EBE6A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-109 - VALVE ASSY, RELIEF - FLOW CONTROL",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4F528F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-assy-relief-flow-control/cn/4F528F74-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-110 - VALVE ASSY, RELIEF - CYLINDER, BOOM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BF277A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-assy-relief-cylinder-boom/cn/BF277A75-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-111 - VALVE ASSY, RELIEF - CYLINDER, ARM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AFD2DC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-assy-relief-cylinder-arm/cn/AFD2DC64-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-112 - VALVE, SOLENOID - FREE SWING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BD0BFC71-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-solenoid-free-swing/cn/BD0BFC71-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-113 - HYDRAULICS - BLADE, DOZER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A4EF7E69-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-blade-dozer/cn/A4EF7E69-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-114 - HYDRAULICS - BLADE, DOZER (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5F287A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-blade-dozer-dac0713099-dac0713245/cn/5F287A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-115 - HYDRAULICS - BLADE, DOZER (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "20E8FB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-blade-dozer-dac0713246-/cn/20E8FB71-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-116 - HYDRAULICS - BLADE, DOZER (DAC0713099 - DAC0713245)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1C19937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-blade-dozer-dac0713099-dac0713245/cn/1C19937A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-117 - HYDRAULICS - BLADE, DOZER (DAC0713246 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "59AFE05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/hydraulics-blade-dozer-dac0713246-/cn/59AFE05E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-118 - CYLINDER ASSY - BLADE, DOZER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "60A73E73-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/cylinder-assy-blade-dozer/cn/60A73E73-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-119 - CYLINDER ASSY - BLADE, DOZER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "99074179-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/cylinder-assy-blade-dozer/cn/99074179-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-120 - VALVE, CONTROL - BLADE, DOZER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F22F7A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-control-blade-dozer/cn/F22F7A75-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-121 - VALVE ASSY - REMOTE CONTROL, DOZER BLADE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E84AAC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/valve-assy-remote-control-dozer-blade/cn/E84AAC82-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-122 - KNJ3000 PUMP ASSY, HYDRAULIC",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "39416861-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3000-pump-assy-hydraulic/cn/39416861-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-123 - KNJ3000 PUMP ASSY, HYDRAULIC",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "040CFC71-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3000-pump-assy-hydraulic/cn/040CFC71-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-124 - KNJ3000 PUMP ASSY, HYDRAULIC - PILOT VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "08628663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3000-pump-assy-hydraulic-pilot-valve/cn/08628663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-125 - KNJ3000 PUMP ASSY, HYDRAULIC - REGULATOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4E377A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3000-pump-assy-hydraulic-regulator/cn/4E377A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-126 - KNJ3000 PUMP ASSY, HYDRAULIC - CONTROLLER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C3DE264E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3000-pump-assy-hydraulic-controller/cn/C3DE264E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-127 - KNJ3000 PUMP ASSY, HYDRAULIC - LOW PRESSURE PUMP",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "096E8663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3000-pump-assy-hydraulic-low-pressure-pump/cn/096E8663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-128 - KNJ3000 PUMP ASSY, HYDRAULIC - SOLENOID VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8284BD68-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3000-pump-assy-hydraulic-solenoid-valve/cn/8284BD68-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-129 - KNJ3000 PUMP ASSY, HYDRAULIC - BLOCK",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "453B8E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3000-pump-assy-hydraulic-block/cn/453B8E5D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-130 - KNJ3000 PUMP ASSY, HYDRAULIC - ROTOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F2768B80-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3000-pump-assy-hydraulic-rotor/cn/F2768B80-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-131 - KNJ3000 PUMP ASSY, HYDRAULIC",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "082CB950-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3000-pump-assy-hydraulic/cn/082CB950-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-132 - KNJ3026 PUMP ASSY, HYDRAULIC",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3877796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3026-pump-assy-hydraulic/cn/3877796F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-133 - KNJ3026 PUMP ASSY, HYDRAULIC - LL00091 REGULATOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DAE6C076-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3026-pump-assy-hydraulic-ll00091-regulator/cn/DAE6C076-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-134 - KNJ3026 PUMP ASSY, HYDRAULIC - LL00092 REGULATOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1F31767B-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3026-pump-assy-hydraulic-ll00092-regulator/cn/1F31767B-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-135 - KNJ3026 PUMP ASSY, HYDRAULIC - LOW PRESSURE PUMP",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6D337A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3026-pump-assy-hydraulic-low-pressure-pump/cn/6D337A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-136 - KNJ3026 PUMP ASSY, HYDRAULIC - ROTOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7DF5FB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3026-pump-assy-hydraulic-rotor/cn/7DF5FB71-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-137 - KNJ2977 PUMP ASSY, HYDRAULIC",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F5562E54-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2977-pump-assy-hydraulic/cn/F5562E54-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-138 - KNJ2977 PUMP ASSY, HYDRAULIC",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EC63774F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2977-pump-assy-hydraulic/cn/EC63774F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-139 - KNJ2977 PUMP ASSY, HYDRAULIC - PILOT VALVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BFA2BA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2977-pump-assy-hydraulic-pilot-valve/cn/BFA2BA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-140 - KNJ2977 PUMP ASSY, HYDRAULIC - REGULATOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "615B774F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2977-pump-assy-hydraulic-regulator/cn/615B774F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-141 - KNJ2977 PUMP ASSY, HYDRAULIC - CONTROLLER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A7F54079-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2977-pump-assy-hydraulic-controller/cn/A7F54079-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-142 - KNJ2977 PUMP ASSY, HYDRAULIC - BLOCK",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2AC13E73-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2977-pump-assy-hydraulic-block/cn/2AC13E73-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-143 - KNJ2977 PUMP ASSY, HYDRAULIC - ROTOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C7B63E73-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2977-pump-assy-hydraulic-rotor/cn/C7B63E73-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-144 - KNJ2977 PUMP ASSY, HYDRAULIC - ROTOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EE03FC71-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj2977-pump-assy-hydraulic-rotor/cn/EE03FC71-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-145 - KNJ3023 PUMP ASSY, HYDRAULIC",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5A064179-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3023-pump-assy-hydraulic/cn/5A064179-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-146 - KNJ3023 PUMP ASSY, HYDRAULIC - CONTROL BLOCK",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3E3D9851-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3023-pump-assy-hydraulic-control-block/cn/3E3D9851-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-147 - KNJ3023 PUMP ASSY, HYDRAULIC - LL00089 REGULATOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A0EFFB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3023-pump-assy-hydraulic-ll00089-regulator/cn/A0EFFB71-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-148 - KNJ3023 PUMP ASSY, HYDRAULIC - REGULATOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "02386861-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3023-pump-assy-hydraulic-regulator/cn/02386861-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-149 - KNJ3023 PUMP ASSY, HYDRAULIC - LOW PRESSURE PUMP",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "76368E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3023-pump-assy-hydraulic-low-pressure-pump/cn/76368E5D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "08-150 - KNJ3023 PUMP ASSY, HYDRAULIC - ROTOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C704C176-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/hydraulics/knj3023-pump-assy-hydraulic-rotor/cn/C704C176-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-01 - TURNTABLE BEARING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "69327A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/turntable-bearing/cn/69327A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-02 - TURNTABLE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "65407A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/turntable/cn/65407A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-03 - TURNTABLE - ACCESS COVERS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DA01C176-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/turntable-access-covers/cn/DA01C176-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-04 - GUARD - ENGINE FAN",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "75289357-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/guard-engine-fan/cn/75289357-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-05 - COUNTERWEIGHT - SOUNDPROOFING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A4798663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/counterweight-soundproofing/cn/A4798663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-06 - FRAMES, COVERS - INSULATION",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6C8F106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/frames-covers-insulation/cn/6C8F106C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-07 - ACCESS DOOR - INSULATION",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C64EAC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/access-door-insulation/cn/C64EAC82-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-08 - HOOD, ENGINE - INSULATION",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9E402E54-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/hood-engine-insulation/cn/9E402E54-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-09 - STORAGE BOX - INSULATION (WITHOUT DOZER BLADE)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EE050A78-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/storage-box-insulation-without-dozer-blade/cn/EE050A78-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-10 - STORAGE BOX - INSULATION (WITH DOZER BLADE)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "25D9D84C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/storage-box-insulation-with-dozer-blade/cn/25D9D84C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-11 - CONTROLS - OPERATORS COMPARTMENT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C948767B-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/controls-operators-compartment/cn/C948767B-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-12 - MAT, FLOOR - OPERATORS COMPARTMENT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B67EA36E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/mat-floor-operators-compartment/cn/B67EA36E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-13 - MAT, FLOOR - OPERATORS COMPARTMENT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FACEB762-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/mat-floor-operators-compartment/cn/FACEB762-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-14 - AUXILIARY HYDRAULIC CONTROL",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "66B0106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/auxiliary-hydraulic-control/cn/66B0106C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-15 - CONTROLS - BLADE, DOZER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EBB06E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/controls-blade-dozer/cn/EBB06E81-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-16 - OPERATORS COMPARTMENT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4ECDDC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/operators-compartment/cn/4ECDDC64-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-17 - CONSOLE, CONTROL - OPERATORS COMPARTMENT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D206DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/console-control-operators-compartment/cn/D206DD52-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-18 - SEAT, MOUNTING - SEAT BELTS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D27D796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/seat-mounting-seat-belts/cn/D27D796F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-19 - SEAT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "494C7A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/seat/cn/494C7A75-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-20 - SEAT, LOCKING MECHANISM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1F187B5B-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/seat-locking-mechanism/cn/1F187B5B-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-21 - SEAT, MOUNTING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5737AC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/seat-mounting/cn/5737AC82-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-22 - HAND CONTROL, LEFT-HAND ARM - GREY",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C206F67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/hand-control-left-hand-arm-grey/cn/C206F67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-22A - HAND CONTROL, LEFT-HAND ARM - WHEAT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F8EBDC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/hand-control-left-hand-arm-wheat/cn/F8EBDC64-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-23 - HAND CONTROL, RIGHT-HAND ARM - GREY",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "653C2E54-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/hand-control-right-hand-arm-grey/cn/653C2E54-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-23A - HAND CONTROL, RIGHT-HAND ARM - WHEAT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B2209357-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/hand-control-right-hand-arm-wheat/cn/B2209357-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-24 - DOG CHAIN",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C7BBE05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/dog-chain/cn/C7BBE05E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-25 - AIR CONDITIONING - DUCTS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D8768663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/air-conditioning-ducts/cn/D8768663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-26 - AIR CONDITIONING SYSTEM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AC0CF67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/air-conditioning-system/cn/AC0CF67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-27 - AIR CONDITIONING - EVAPORATOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "558DB87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/air-conditioning-evaporator/cn/558DB87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-28 - AIR CONDITIONING - CONDENSER AND RECEIVER-DRIER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "67F4DC52-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/air-conditioning-condenser-and-receiver-drier/cn/67F4DC52-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-29 - CAB - AIR CONDITIONING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8B4C2E54-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/cab-air-conditioning/cn/8B4C2E54-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-30 - AIR CONDITIONING - CONDENSER AND RECEIVER-DRIER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FDAB106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/air-conditioning-condenser-and-receiver-drier/cn/FDAB106C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-31 - CAB - GLASS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "63FBDC52-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/cab-glass/cn/63FBDC52-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-32 - CAB - DUCTS AND TRIM (P.I.N. DAC0713101 - DAC0713535)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EBFF4079-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/cab-ducts-and-trim-pin-dac0713101-dac0713535/cn/EBFF4079-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-32A - CAB - DUCTS AND TRIM (P.I.N. DAC0713536 -)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CB489851-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/cab-ducts-and-trim-pin-dac0713536-/cn/CB489851-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-33 - CAB - ROOF, OPENABLE WINDOW",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "01EB4079-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/cab-roof-openable-window/cn/01EB4079-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-34 - CAB - WINDOW, FRONT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D7399851-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/cab-window-front/cn/D7399851-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-35 - CAB - WINDOW, REAR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "080AFC71-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/cab-window-rear/cn/080AFC71-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-36 - CAB DOOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7B8FBA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/cab-door/cn/7B8FBA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-37 - CAB - GUARDS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AB1B2360-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/cab-guards/cn/AB1B2360-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-38 - TRANSPORT GUARD - WINDOW, FRONT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9C3C7A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/transport-guard-window-front/cn/9C3C7A67-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-39 - CAB - MIRROR, REAR VIEW",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E8012360-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/cab-mirror-rear-view/cn/E8012360-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-40 - BOOM",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B2D2D84C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/boom/cn/B2D2D84C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-41 - BOOM CYLINDER - MOUNTING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C490796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/boom-cylinder-mounting/cn/C490796F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-42 - ARM, EXCAVATOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BECDB762-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/arm-excavator/cn/BECDB762-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-43 - ARM, EXCAVATOR",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C3E2DC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/arm-excavator/cn/C3E2DC64-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-44 - ARM CYLINDER - MOUNTING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "81342E54-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/arm-cylinder-mounting/cn/81342E54-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-45 - BUCKET CYLINDER - MOUNTING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2CB6E05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/bucket-cylinder-mounting/cn/2CB6E05E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-46 - BUCKET LINKAGE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "18D5CF56-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/bucket-linkage/cn/18D5CF56-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-47 - BUCKET LINKAGE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DF4C315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/bucket-linkage/cn/DF4C315A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-48 - BLADE, DOZER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "777FB87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/blade-dozer/cn/777FB87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-49 - TOOLS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E039BE6A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/tools/cn/E039BE6A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-49[01] - TOOLS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D442774F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/tools/cn/D442774F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-50 - SPARE PARTS KIT",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7E13DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/spare-parts-kit/cn/7E13DD52-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-51 - BUCKETS - ESCO",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "368E796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/buckets-esco/cn/368E796F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-52 - BUCKETS - ESCO",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6F27767B-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/buckets-esco/cn/6F27767B-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-53 - BUCKETS - ESCO",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5537AC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/buckets-esco/cn/5537AC82-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-54 - DECALS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7AE30978-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/decals/cn/7AE30978-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-55 - DECALS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F5688663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/decals/cn/F5688663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-56 - DECALS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "69E84079-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/decals/cn/69E84079-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-57 - DECALS - WARNING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D1EFDA58-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/decals-warning/cn/D1EFDA58-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-58 - DECALS - WARNING",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DAFE4079-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/decals-warning/cn/DAFE4079-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "09-59 - DECALS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EBBEE05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/decals/cn/EBBEE05E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-01 - UNDERCARRIAGE (DAC0713099 - DAC0713101)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BBCB4D6D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/undercarriage-dac0713099-dac0713101/cn/BBCB4D6D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-01A - UNDERCARRIAGE (DAC0713102 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BA4DAC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/undercarriage-dac0713102-/cn/BA4DAC82-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-02 - UNDERCARRIAGE - MODELS WITH DOZER BLADE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AE1BF67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/undercarriage-models-with-dozer-blade/cn/AE1BF67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-03 - UNDERCARRIAGE COVER, LOWER (DAC0713099 - DAC0713101)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9EA7BA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/undercarriage-cover-lower-dac0713099-dac0713101/cn/9EA7BA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-04 - UNDERCARRIAGE COVER, LOWER (DAC0713102 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AD5A9851-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/undercarriage-cover-lower-dac0713102-/cn/AD5A9851-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-05 - 600 MM (23-5/8 IN) TRACK - CHAINS (DAC0713099 - DAC0713101)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C45B8663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/600-mm-23-58-in-track-chains-dac0713099-dac0713101/cn/C45B8663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-05A - 600 MM (23-5/8 IN) TRACK - CHAINS (DAC0713102 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "86F3C076-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/600-mm-23-58-in-track-chains-dac0713102-/cn/86F3C076-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-05B - 700 MM (27-5/8 IN) TRACK - CHAINS (DAC0713099 - DAC0713101)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D57CB87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/700-mm-27-58-in-track-chains-dac0713099-dac0713101/cn/D57CB87C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-05C - 700 MM (27-5/8 IN) TRACK - CHAINS (DAC0713102 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5BBEB762-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/700-mm-27-58-in-track-chains-dac0713102-/cn/5BBEB762-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-05D - 500 MM (19-5/8 IN) TRACK - RUBBER (DAC0713156 - DAC0713349)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FA7EA36E-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/500-mm-19-58-in-track-rubber-dac0713156-dac0713349/cn/FA7EA36E-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-05E - 500 MM (19-5/8 IN) TRACK - RUBBER (DAC0713350 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A26C8663-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/500-mm-19-58-in-track-rubber-dac0713350-/cn/A26C8663-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-06 - HYDRAULICS - TRACK DRIVE",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AF4F315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/hydraulics-track-drive/cn/AF4F315A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-09 - TRACK - IDLER (DAC0713099 - DAC0713101)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DC2EB950-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/track-idler-dac0713099-dac0713101/cn/DC2EB950-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-10 - TRACK - IDLER (DAC0713102 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1BBB6E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/track-idler-dac0713102-/cn/1BBB6E81-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-10[01] - TRACK - IDLER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "74A3BA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/track-idler/cn/74A3BA70-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-11 - TRACK - ADJUSTER (DAC0713099 - DAC0713101)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CFEAFB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/track-adjuster-dac0713099-dac0713101/cn/CFEAFB71-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-11A - TRACK - ADJUSTER (DAC0713102 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7723F67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/track-adjuster-dac0713102-/cn/7723F67D-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-12 - TRACK - ROLLER (DAC0713099 - DAC0713101)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "463F6861-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/track-roller-dac0713099-dac0713101/cn/463F6861-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-12A - TRACK - ROLLER (DAC0713102 - DAC0713240)",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3E97D55C-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/track-roller-dac0713102-dac0713240/cn/3E97D55C-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-13 - TRACK - ROLLER (DAC0713241 - )",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "43024179-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/track-roller-dac0713241-/cn/43024179-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "05-14 - TRACK - ROLLER",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_11_TRACKS-STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6E7A796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/tracks-steering/track-roller/cn/6E7A796F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "20.04[01] - MAINTENANCE PARTS - FILTERS",
+      "group": "FFD96496-EFBE-E111-9FCE-005056875BD6_18_MISCELLANEOUS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D3030E29-1AC1-41F3-B905-7242CB58C42F",
+        "context": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/miscellaneous/maintenance-parts-filters/cn/D3030E29-1AC1-41F3-B905-7242CB58C42F/FFD96496-EFBE-E111-9FCE-005056875BD6"
+      }
+    }
+  ]
+}

@@ -34,7 +34,10 @@ def source_urls(value: Any) -> set[str]:
 
 def answer_urls(text: str, observed: set[str] | None = None) -> set[str]:
     """Extract answer links while removing prose punctuation without truncating observed source URLs."""
-    return {_url_without_prose_suffix(match[0], observed or set()) for match in re.finditer(_URL_TOKEN, text)}
+    return {
+        _url_without_prose_suffix(match[0], observed or set(), text[: match.start()])
+        for match in re.finditer(_URL_TOKEN, text)
+    }
 
 
 def mentions(text: str, number: str) -> bool:

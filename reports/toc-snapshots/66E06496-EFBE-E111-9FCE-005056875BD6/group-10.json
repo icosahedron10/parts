@@ -1,0 +1,51 @@
+{
+  "url": "https://www.mycnhstore.com/us/en/caseih/cn/findAssembly/functionalGroupCode/66E06496-EFBE-E111-9FCE-005056875BD6_68_TYING-WRAPPING/NA_A_D_72_ROU_022_RBX",
+  "observed_at": "2026-11-04T04:15:55.392853+00:00",
+  "content_hash": "sha256:d10c66fab83cabe5819012ba58b7baae5c5b4850dab95255a142e50db1dd1344",
+  "rows": [
+    {
+      "serieCode": "NA_A_D_72_ROU_022_RBX",
+      "modelCode": "66E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "853C7A75-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "015 - ELECTRIC TWINE WRAPPER DRIVE",
+      "functionalGroup": "{\"66E06496-EFBE-E111-9FCE-005056875BD6_68_TYING-WRAPPING\":\"68. TYING-WRAPPING\"}",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-097262E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDg2MTUxfGltYWdlL3BuZ3xhRGcxTDJneU9TODRPVEF3TURrMk9ERTVNak13TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUQTVOekkyTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8ZDAzMjFhNzBmNmJmYzg4YjAzM2QxZWEyOGZjMTViMjAxZDViMDBkZmFhYTY1MzJhZWIyYWM5MDE5MGU4ZTM1Ng",
+      "modelFullName": null,
+      "brandCode": "A",
+      "showNote": null,
+      "functionalGroupCode": "66E06496-EFBE-E111-9FCE-005056875BD6_68_TYING-WRAPPING",
+      "subAssemblyUrl": "015---ELECTRIC-TWINE-WRAPPER-DRIVE",
+      "subFunctionalGroupUrl": "66E06496-EFBE-E111-9FCE-005056875BD6-68-TYING-WRAPPING",
+      "id": "015 ",
+      "name": " ELECTRIC TWINE WRAPPER DRIVE",
+      "numberFoundPerRegions": null,
+      "score": 1.0,
+      "assemblyUrl": "/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/tying-wrapping/electric-twine-wrapper-drive/cn/853C7A75-8FBF-E111-9FCE-005056875BD6",
+      "subsectionCodeList": null,
+      "has3DFlag": null
+    },
+    {
+      "serieCode": "NA_A_D_72_ROU_022_RBX",
+      "modelCode": "66E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "D8E50978-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "016 - ELECTRIC TWINE WRAPPER CONTROL & MAIN WIRE HARNESS",
+      "functionalGroup": "{\"66E06496-EFBE-E111-9FCE-005056875BD6_68_TYING-WRAPPING\":\"68. TYING-WRAPPING\"}",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-CE7162E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDEzMzIxNnxpbWFnZS9wbmd8YURRM0wyaGhZaTg0T1RFNE56WTNOell6TkRnMkwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVU5GTnpFMk1rVXlMVGhGUWtZdFJURXhNUzA1UmtORkxUQXdOVEExTmpnM05VSkVOaTV3Ym1jfDk1ZDEyYjU0ODVhYmE1NTUwY2M1MzI1N2VkZDBiZDdlMGYzMjE0ZTJjMmZjZTc5YTc5ZjAwN2YwNWIyYmI0NDk",
+      "modelFullName": null,
+      "brandCode": "A",
+      "showNote": null,
+      "functionalGroupCode": "66E06496-EFBE-E111-9FCE-005056875BD6_68_TYING-WRAPPING",
+      "subAssemblyUrl": "016---ELECTRIC-TWINE-WRAPPER-CONTROL-%26-MAIN-WIRE-HARNESS",
+      "subFunctionalGroupUrl": "66E06496-EFBE-E111-9FCE-005056875BD6-68-TYING-WRAPPING",
+      "id": "016 ",
+      "name": " ELECTRIC TWINE WRAPPER CONTROL & MAIN WIRE HARNESS",
+      "numberFoundPerRegions": null,
+      "score": 1.0,
+      "assemblyUrl": "/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/tying-wrapping/electric-twine-wrapper-control-main-wire-harness/cn/D8E50978-8FBF-E111-9FCE-005056875BD6",
+      "subsectionCodeList": null,
+      "has3DFlag": null
+    }
+  ]
+}

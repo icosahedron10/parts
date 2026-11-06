@@ -87,9 +87,10 @@ def test_groups_are_bound_to_catalog_and_accept_non_uuid_ids():
     cnh.validate_reference(ref(item_id="catalog_01", path=MODEL_PATH.rsplit("/", 1)[0] + "/catalog_01"))
 
 
-def test_observed_ampersand_group_is_preserved_and_catalog_bound():
+@pytest.mark.parametrize("suffix", ["_05_SERVICE_&_MAINTENANCE", "_5.1_BRAKES"])
+def test_observed_group_punctuation_is_preserved_and_catalog_bound(suffix):
     """Verify observed ampersand group is preserved and catalog bound."""
-    group_id = CATALOG + "_05_SERVICE_&_MAINTENANCE"
+    group_id = CATALOG + suffix
     body = fixture("model.html").replace(
         (CATALOG + "_02_ENGINE").encode(), group_id.replace("&", "&amp;").encode()
     )

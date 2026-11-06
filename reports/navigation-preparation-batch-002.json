@@ -1,0 +1,22 @@
+{
+  "http_attempts": 63,
+  "brands": {
+    "casece": {
+      "discovered_catalogs": 2146,
+      "prepared_catalogs": 7,
+      "incomplete_catalogs": 2139,
+      "sitemap_exhausted": true
+    },
+    "caseih": {
+      "discovered_catalogs": 563,
+      "prepared_catalogs": 1,
+      "incomplete_catalogs": 562,
+      "sitemap_exhausted": false
+    }
+  },
+  "complete": false,
+  "error": {
+    "type": "PartsError",
+    "message": "The source returned an unsupported link path."
+  }
+}

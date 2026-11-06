@@ -1,0 +1,89 @@
+{
+  "index_counts": {
+    "casece": 2146,
+    "caseih": 6311
+  },
+  "http_attempts": 0,
+  "cases": [
+    {
+      "brand": "casece",
+      "query": "2010 CASE CX350B",
+      "candidates": [
+        "CX350B - CRAWLER EXCAVATOR TIER 3 (NA) (05/08 - 11/18)"
+      ]
+    },
+    {
+      "brand": "casece",
+      "query": "2012 CASE CX210B",
+      "candidates": [
+        "CX210B - CRAWLER EXCAVATOR TIER 3 (NA) (01/07 - 01/19)"
+      ]
+    },
+    {
+      "brand": "casece",
+      "query": "1995 CASE 621B",
+      "candidates": [
+        "621B - CASE WHEEL LOADER (NORTH AMERICA) (03/93 - 12/98)"
+      ]
+    },
+    {
+      "brand": "casece",
+      "query": "2005 CASE CX130",
+      "candidates": [
+        "CX130 - CASE CRAWLER EXCAVATOR (NORTH AMERICA) (04/00 - 12/08)"
+      ]
+    },
+    {
+      "brand": "casece",
+      "query": "1985 CASE W20C",
+      "candidates": [
+        "W20C - CASE WHEEL LOADER (NORTH AMERICA) (01/82 - 12/89)"
+      ]
+    },
+    {
+      "brand": "casece",
+      "query": "2016 CASE SR210",
+      "candidates": [
+        "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)"
+      ]
+    },
+    {
+      "brand": "caseih",
+      "query": "1982 IH 1420",
+      "candidates": [
+        "1420 - INTERNATIONAL HARVESTER COMBINE (NORTH AMERICA) (01/81 - 12/82)"
+      ]
+    },
+    {
+      "brand": "caseih",
+      "query": "1986 IH 1470",
+      "candidates": [
+        "1470 - INTERNATIONAL HARVESTER HILLSIDE COMBINE (01/80 - 12/87)"
+      ]
+    },
+    {
+      "brand": "caseih",
+      "query": "1990 Case IH 7110",
+      "candidates": [
+        "7110 - CASE IH MAGNUM TRACTOR (NORTH AMERICA) (10/87 - 12/93)"
+      ]
+    },
+    {
+      "brand": "caseih",
+      "query": "2004 Case IH RBX562",
+      "candidates": [
+        "RBX562 - CASE IH ROUND BALER (09/02 - 07/05)"
+      ]
+    },
+    {
+      "brand": "caseih",
+      "query": "Farmall 110U",
+      "candidates": [
+        "FARMALL 110U - TRACTOR - TIER 4B (11/15 - 09/17)",
+        "FARMALL 110U - TRACTOR - TIER 4B. (10/17 - 12/22)",
+        "FARMALL 110 U - TRACTOR - STAGE V (APAC) (10/21 - )",
+        "FARMALL 110 U - TRACTOR - STAGE V (NA) (10/21 - )"
+      ]
+    }
+  ]
+}

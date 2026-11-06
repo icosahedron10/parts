@@ -80,6 +80,7 @@ class SourceTransport:
         self.cooldown_until = 0.0
         self.denials = deque()
         self.request_count = 0
+        self.request_limit = None
 
     def _cooldown(self, response: httpx.Response) -> float:
         value = response.headers.get("Retry-After", "60")
@@ -134,6 +135,8 @@ class SourceTransport:
             if delay > 0:
                 await self.sleep(delay)
             validate_source_url(url)
+            if self.request_limit is not None and self.request_count >= self.request_limit:
+                raise PartsError("preparation_batch_complete", "Preparation HTTP attempt allowance reached.")
             started = self.clock()
             self.next_start = started + 1 + self.jitter()
             self.request_count += 1

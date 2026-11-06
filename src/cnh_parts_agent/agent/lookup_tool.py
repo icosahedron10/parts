@@ -21,12 +21,12 @@ class PartsLookup(BaseModel):
     part_query: str = Field(
         min_length=1,
         max_length=1000,
-        description="Requested part, preserving size, side, function and other qualifiers.",
+        description="User's component request, including what they want to know (for example, kit contents). Preserve its wording, ambiguous adjectives, size, side, location and supply qualifiers.",
     )
     selected_machine_label: str | None = Field(
         default=None, description="Exact catalog label explicitly chosen by the user."
     )
-    brand: Literal["casece", "caseih"] | None = None
+    brand: Literal["casece", "caseih", "newhollandag", "newhollandce"] | None = None
 
 
 def make_lookup_parts_tool(*, catalog, model):
@@ -39,6 +39,14 @@ def make_lookup_parts_tool(*, catalog, model):
         diagnostics = current.get() or Diagnostics()
         token = current.set(diagnostics)
         client = PartsTools(catalog)
+        diagnostics.lookup_requests.append(
+            {
+                "machine_query": machine_query,
+                "part_query": part_query,
+                "selected_machine_label": selected_machine_label,
+                "brand": brand,
+            }
+        )
         try:
             async with asyncio.timeout(client.budget.remaining_seconds):
                 handoff = await retrieve_parts(
@@ -48,7 +56,8 @@ def make_lookup_parts_tool(*, catalog, model):
                     part_query=part_query,
                     selected_machine_label=selected_machine_label,
                     brand=brand,
-                    config={"recursion_limit": 24},
+                    # Graph steps include middleware and finalization, not just tool actions.
+                    config={"recursion_limit": 4 * client.budget.max_calls + 8},
                 )
             diagnostics.handoffs.append(
                 {"machine_query": machine_query, "part_query": part_query, "handoff": handoff.model_dump()}

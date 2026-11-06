@@ -1,0 +1,29 @@
+{
+  "url": "https://www.mycnhstore.com/us/en/caseih/cn/findAssembly/functionalGroupCode/66E06496-EFBE-E111-9FCE-005056875BD6_00_GENERAL_%26_PICTORIAL_INDEX/NA_A_D_72_ROU_022_RBX",
+  "observed_at": "2026-11-04T04:15:44.190705+00:00",
+  "content_hash": "sha256:6a276e59d56d12f7249f07dd30d6c7d222b7e9e6d38fdc4563b6df3abc6cfd78",
+  "rows": [
+    {
+      "serieCode": "NA_A_D_72_ROU_022_RBX",
+      "modelCode": "66E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "31BBE746-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "INDEX - PICTORIAL INDEX",
+      "functionalGroup": "{\"66E06496-EFBE-E111-9FCE-005056875BD6_00_GENERAL_&_PICTORIAL_INDEX\":\"00. GENERAL & PICTORIAL INDEX\"}",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-D52768E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDYyNDMwfGltYWdlL3BuZ3xhREExTDJnNE5TODRPVFEwTWpZME5qYzFNelU0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVUTFNamMyT0VVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8NTgwNTI3MDAxMGIxYTk5MzIxZDNkZDNlNTA3YzI4NWVjMjA5MjFhMzE1MzU0ZTAwYTFmOTJkM2UyODFhMTk3Zg",
+      "modelFullName": null,
+      "brandCode": "A",
+      "showNote": null,
+      "functionalGroupCode": "66E06496-EFBE-E111-9FCE-005056875BD6_00_GENERAL_&_PICTORIAL_INDEX",
+      "subAssemblyUrl": "INDEX---PICTORIAL-INDEX",
+      "subFunctionalGroupUrl": "66E06496-EFBE-E111-9FCE-005056875BD6-00-GENERAL-%26-PICTORIAL-INDEX",
+      "id": "INDEX ",
+      "name": " PICTORIAL INDEX",
+      "numberFoundPerRegions": null,
+      "score": 1.0,
+      "assemblyUrl": "/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/general-pictorial-index/pictorial-index/cn/31BBE746-8FBF-E111-9FCE-005056875BD6",
+      "subsectionCodeList": null,
+      "has3DFlag": null
+    }
+  ]
+}

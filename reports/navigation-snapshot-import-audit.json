@@ -1,0 +1,44 @@
+{
+  "imported_captures": 6,
+  "site_http_attempts": 0,
+  "storage": "isolated in-memory SQLite",
+  "catalogs": [
+    {
+      "source": "casece-us-en",
+      "catalog": "28DA6496-EFBE-E111-9FCE-005056875BD6",
+      "complete": true,
+      "routes": 275
+    },
+    {
+      "source": "caseih-us-en",
+      "catalog": "66E06496-EFBE-E111-9FCE-005056875BD6",
+      "complete": true,
+      "routes": 26
+    },
+    {
+      "source": "casece-us-en",
+      "catalog": "A5DA6496-EFBE-E111-9FCE-005056875BD6",
+      "complete": true,
+      "routes": 235
+    },
+    {
+      "source": "casece-us-en",
+      "catalog": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+      "complete": true,
+      "routes": 295
+    },
+    {
+      "source": "casece-us-en",
+      "catalog": "D8E26496-EFBE-E111-9FCE-005056875BD6",
+      "complete": true,
+      "routes": 260
+    },
+    {
+      "source": "casece-us-en",
+      "catalog": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+      "complete": true,
+      "routes": 306
+    }
+  ],
+  "limitation": "Original raw group bytes were not retained. Machine-page hashes and structural provenance are validated; saved group hashes are retained but cannot be independently recomputed."
+}

@@ -1,0 +1,90 @@
+{
+  "scope": "Real parent, mocked lookup; no catalog calls",
+  "cases": [
+    {
+      "id": "A1",
+      "query": "On my 2010 CASE CX350B, find the left boom-cylinder seal kit and tell me what it includes.",
+      "arguments": [
+        {
+          "machine_query": "2010 CASE CX350B",
+          "part_query": "find the left boom-cylinder seal kit and tell me what it includes.",
+          "selected_machine_label": null,
+          "brand": "casece"
+        }
+      ],
+      "missing": [],
+      "passed": true
+    },
+    {
+      "id": "A2",
+      "query": "I need the right-hand 12 mm bucket-link bushing for a CASE CX130 built in 2005.",
+      "arguments": [
+        {
+          "machine_query": "CASE CX130 built in 2005",
+          "part_query": "right-hand 12 mm bucket-link bushing",
+          "selected_machine_label": null,
+          "brand": "casece"
+        }
+      ],
+      "missing": [],
+      "passed": true
+    },
+    {
+      "id": "A3",
+      "query": "My CASE 580 Super N Wide Track is a 2016 model. Find the front-left 1/2-inch hydraulic hose.",
+      "arguments": [
+        {
+          "machine_query": "CASE 580 Super N Wide Track 2016 model",
+          "part_query": "Find the front-left 1/2-inch hydraulic hose.",
+          "selected_machine_label": null,
+          "brand": "casece"
+        }
+      ],
+      "missing": [],
+      "passed": true
+    },
+    {
+      "id": "A4",
+      "query": "For my 1992 Case IH 7130, what is included in the windshield-wiper motor assembly?",
+      "arguments": [
+        {
+          "machine_query": "1992 Case IH 7130",
+          "part_query": "what is included in the windshield-wiper motor assembly?",
+          "selected_machine_label": null,
+          "brand": "caseih"
+        }
+      ],
+      "missing": [],
+      "passed": true
+    },
+    {
+      "id": "A5",
+      "query": "Find a 58 mm inside-diameter lower radiator hose for my 1991 IH 7120.",
+      "arguments": [
+        {
+          "machine_query": "1991 IH 7120",
+          "part_query": "58 mm inside-diameter lower radiator hose",
+          "selected_machine_label": null,
+          "brand": "caseih"
+        }
+      ],
+      "missing": [],
+      "passed": true
+    },
+    {
+      "id": "A6",
+      "query": "I have a 2015 CASE SR210. Find the correct right replacement pedal pad, not the complete pedal.",
+      "arguments": [
+        {
+          "machine_query": "2015 CASE SR210",
+          "part_query": "Find the correct right replacement pedal pad, not the complete pedal.",
+          "selected_machine_label": null,
+          "brand": "casece"
+        }
+      ],
+      "missing": [],
+      "passed": true
+    }
+  ],
+  "complete": false
+}

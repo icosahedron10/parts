@@ -1,0 +1,29 @@
+{
+  "url": "https://www.mycnhstore.com/us/en/casece/cn/findAssembly/functionalGroupCode/FFD96496-EFBE-E111-9FCE-005056875BD6_18_MISCELLANEOUS/NA_E_R_24_CRA_308_CX",
+  "observed_at": "2026-11-04T04:16:22.111614+00:00",
+  "content_hash": "sha256:cd0c312ee443790c3a4bb50dff952a41c10a1df62b2a5690822b18e1e76f6bb8",
+  "rows": [
+    {
+      "serieCode": "NA_E_R_24_CRA_308_CX",
+      "modelCode": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "D3030E29-1AC1-41F3-B905-7242CB58C42F",
+      "assemblyFullName": "20.04[01] - MAINTENANCE PARTS - FILTERS",
+      "functionalGroup": "{\"FFD96496-EFBE-E111-9FCE-005056875BD6_18_MISCELLANEOUS\":\"18. MISCELLANEOUS\"}",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-A3E1F12C-D95A-4D04-979A-D22A2B981125.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDMxMTgzMXxpbWFnZS9wbmd8YURkakwyZzRNaTg0T1RFeE56WTFPVFl5TnpneUwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVUV6UlRGR01USkRMVVE1TlVFdE5FUXdOQzA1TnpsQkxVUXlNa0V5UWprNE1URXlOUzV3Ym1jfGUyYTkwMzM1OTBhZGJhNzA4ZDZmMmE1MjY2MGZiNDk1NjMyNThmNWJkNzVkYjA2MTc0Yzk1OTNmZGRhZWYwYWY",
+      "modelFullName": null,
+      "brandCode": "E",
+      "showNote": null,
+      "functionalGroupCode": "FFD96496-EFBE-E111-9FCE-005056875BD6_18_MISCELLANEOUS",
+      "subAssemblyUrl": "20-04%5B01%5D---MAINTENANCE-PARTS---FILTERS",
+      "subFunctionalGroupUrl": "FFD96496-EFBE-E111-9FCE-005056875BD6-18-MISCELLANEOUS",
+      "id": "20.04[01] ",
+      "name": " MAINTENANCE PARTS ",
+      "numberFoundPerRegions": null,
+      "score": 1.0,
+      "assemblyUrl": "/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/miscellaneous/maintenance-parts-filters/cn/D3030E29-1AC1-41F3-B905-7242CB58C42F",
+      "subsectionCodeList": null,
+      "has3DFlag": null
+    }
+  ]
+}

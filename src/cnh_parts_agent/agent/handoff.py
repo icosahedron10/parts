@@ -6,7 +6,10 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from ..catalog.models import MachineData, OpResult
 
-_URL_TOKEN = r"(?<![A-Za-z0-9+.-])[A-Za-z][A-Za-z0-9+.-]*://[^\s<>\"']+"
+_URL_TOKEN = (
+    r"(?<![A-Za-z0-9+.-])[A-Za-z][A-Za-z0-9+.-]*://"
+    r"(?:(?![\]】][,;]?[\[【][A-Za-z][A-Za-z0-9+.-]*://|\)[,;]?\[)[^\s<>\"'`])+"
+)
 
 _LINK_TOKENS = re.compile(_URL_TOKEN + r"|(?<![A-Za-z0-9_])url_[A-Za-z0-9_]*(?![A-Za-z0-9_])")
 
@@ -43,7 +46,7 @@ def catalog_choices_handoff(payload: dict) -> PartsHandoff:
     facts = [
         f"Catalog candidate ({row.machine_ref.source_id}): {row.label}; "
         f"production dates: {row.production_dates or 'not returned'}; "
-        f"qualifications: {'; '.join(row.qualifications) or 'none returned'}."
+        f"qualifications: {'; '.join(row.qualifications) or 'none returned'}; source: {row.source_url}."
         for row in response.data.machines
     ]
     facts.append(
@@ -80,12 +83,27 @@ def validate_url_handles(url_handles: dict[str, str]) -> None:
         raise ValueError("Lookup URL handles must not duplicate the same observed URL")
 
 
-def _url_without_prose_suffix(token: str, observed: set[str]) -> str:
+def _url_without_prose_suffix(token: str, observed: set[str], prefix: str = "") -> str:
     if token in observed:
         return token
     url = token.rstrip(".,;:!?")
-    while url and (url[-1] == "]" or (url[-1] == ")" and url.count(")") > url.count("("))):
-        url = url[:-1].rstrip(".,;:!?")
+    # Emphasis can wrap a whole citation sentence, not just the URL token.
+    paragraph = re.sub(r"`+[^`]*`+", "", prefix.rsplit("\n\n", 1)[-1])
+    markers = []
+    for item in re.findall(r"(?<![\\*])\*{1,3}(?!\*)", paragraph):
+        if markers and markers[-1] == item:
+            markers.pop()
+        else:
+            markers.append(item)
+    marker = markers[-1] if markers else None
+    while url:
+        if url[-1] in ("]", "】") or (url[-1] == ")" and url.count(")") > url.count("(")):
+            url = url[:-1].rstrip(".,;:!?")
+        elif marker and url.endswith(marker):
+            url = url[: -len(marker)].rstrip(".,;:!?")
+            marker = None
+        else:
+            break
     return url
 
 
@@ -113,16 +131,33 @@ def resolve_handoff_urls(handoff: PartsHandoff, url_handles: dict[str, str]) -> 
         if "://" not in token:
             return resolve_field(token)
         # Markdown/prose punctuation is outside the URL; retain balanced URL parentheses.
-        url = _url_without_prose_suffix(token, observed)
+        url = _url_without_prose_suffix(token, observed, match.string[: match.start()])
         resolve_field(url)
         return token
 
     def resolve_fact(fact: str) -> str:
         """Expand fact links and verify that resulting prose preserves exact observed source URLs."""
+        # Validate link destinations as a whole before interpreting surrounding prose.
+        # Balanced parentheses may belong to an observed URL; relative and decorated
+        # destinations must not become accepted merely because they contain a known URL.
+        for opening in re.finditer(r"\]\(", fact):
+            end, depth = opening.end(), 1
+            while end < len(fact) and depth:
+                if fact[end] == "(":
+                    depth += 1
+                elif fact[end] == ")":
+                    depth -= 1
+                end += 1
+            if depth:
+                raise ValueError("Handoff contains an unfinished citation link")
+            destination = fact[opening.end() : end - 1].strip()
+            if destination.startswith("<") and destination.endswith(">"):
+                destination = destination[1:-1]
+            resolve_field(destination)
         resolved = _LINK_TOKENS.sub(resolve_token, fact)
         # Alias suffixes must not manufacture a new URL after a valid token expands.
         for match in re.finditer(_URL_TOKEN, resolved):
-            resolve_field(_url_without_prose_suffix(match.group(), observed))
+            resolve_field(_url_without_prose_suffix(match.group(), observed, resolved[: match.start()]))
         return resolved
 
     return PartsHandoff(
@@ -137,7 +172,7 @@ def encode_handoff_urls(handoff: PartsHandoff, url_handles: dict[str, str]) -> P
     reverse = {url: handle for handle, url in url_handles.items()}
     explicit = [*handoff.sources, *([handoff.store_url] if handoff.store_url else [])]
     prose = [
-        _url_without_prose_suffix(match.group(), set(explicit))
+        _url_without_prose_suffix(match.group(), set(explicit), fact[: match.start()])
         for fact in handoff.key_facts
         for match in re.finditer(_URL_TOKEN, fact)
     ]
@@ -150,7 +185,7 @@ def encode_handoff_urls(handoff: PartsHandoff, url_handles: dict[str, str]) -> P
 
     def replace(match):
         token = match.group()
-        url = _url_without_prose_suffix(token, set(reverse))
+        url = _url_without_prose_suffix(token, set(reverse), match.string[: match.start()])
         return reverse[url] + token[len(url) :]
 
     return PartsHandoff(

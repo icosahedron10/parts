@@ -8,7 +8,16 @@ from typing import Any, Union, get_args, get_origin
 
 from pydantic import BaseModel, create_model
 
-from ..catalog.models import DATA_MODELS, OpResult
+from ..catalog.models import DATA_MODELS, AssemblyRoute, OpResult, StrictModel
+
+
+class ToolAssemblyRoute(StrictModel):
+    """Compact navigation projection; full route provenance stays in host observations."""
+
+    assembly_ref: str
+    title: str
+    stale: bool = False
+
 
 _tool_models = {}
 
@@ -25,6 +34,8 @@ def _tool_annotation(annotation: Any) -> Any:
 
 
 def _tool_response_model(model: type[BaseModel]) -> type[BaseModel]:
+    if model is AssemblyRoute:
+        return ToolAssemblyRoute
     if model not in _tool_models:
         fields: dict[str, Any] = {}
         for name, info in model.model_fields.items():

@@ -1,0 +1,3304 @@
+{
+  "machine": {
+    "kind": "machine",
+    "id": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+    "context": null,
+    "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/cn/D8D16496-EFBE-E111-9FCE-005056875BD6",
+    "source_id": "casece-us-en"
+  },
+  "coverage": "All storefront groups expanded, no query or serial filter",
+  "groups": [
+    {
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "count": 15,
+      "source": "reports\\toc-snapshots\\D8D16496-EFBE-E111-9FCE-005056875BD6\\group-00.json"
+    },
+    {
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "count": 39,
+      "source": "reports\\toc-snapshots\\D8D16496-EFBE-E111-9FCE-005056875BD6\\group-01.json"
+    },
+    {
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "count": 16,
+      "source": "reports\\toc-snapshots\\D8D16496-EFBE-E111-9FCE-005056875BD6\\group-02.json"
+    },
+    {
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "count": 38,
+      "source": "reports\\toc-snapshots\\D8D16496-EFBE-E111-9FCE-005056875BD6\\group-03.json"
+    },
+    {
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "count": 10,
+      "source": "reports\\toc-snapshots\\D8D16496-EFBE-E111-9FCE-005056875BD6\\group-04.json"
+    },
+    {
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "count": 30,
+      "source": "reports\\toc-snapshots\\D8D16496-EFBE-E111-9FCE-005056875BD6\\group-05.json"
+    },
+    {
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "count": 20,
+      "source": "reports\\toc-snapshots\\D8D16496-EFBE-E111-9FCE-005056875BD6\\group-06.json"
+    },
+    {
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "count": 61,
+      "source": "reports\\toc-snapshots\\D8D16496-EFBE-E111-9FCE-005056875BD6\\group-07.json"
+    },
+    {
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "count": 66,
+      "source": "reports\\toc-snapshots\\D8D16496-EFBE-E111-9FCE-005056875BD6\\group-08.json"
+    }
+  ],
+  "entries": [
+    {
+      "title": "1-01 - 621B LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A6CAE05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/621b-loader/cn/A6CAE05E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-02 - LOCATION OF SERIAL AND PRODUCT INDENTIFICATION NUMBERS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FD0DF67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/location-of-serial-and-product-indentification-numbers/cn/FD0DF67D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-04 - GENERAL INFORMATION",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BBE7C076-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/general-information/cn/BBE7C076-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-12 - PICTORIAL INDEX, STEERING AND COOLING HYDRAULIC CIRCUIT",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F6192360-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-steering-and-cooling-hydraulic-circuit/cn/F6192360-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-14 - PICTORIAL INDEX, MAIN BRAKE HYDRAULIC CIRCUIT, BRAKE VALVE SUPPLY AND RETURN",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F2F44079-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-main-brake-hydraulic-circuit-brake-valve-supply-and-return/cn/F2F44079-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-16 - PICTORIAL INDEX, MAIN BRAKE HYDRAULIC CIRCUIT",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "293C9357-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-main-brake-hydraulic-circuit/cn/293C9357-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-18 - PICTORIAL INDEX, BASIC HYDRAULIC CIRCUIT, LOADER CONTROL VALVE SUPPLY AND RETURN LINES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "430E2360-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-basic-hydraulic-circuit-loader-control-valve-supply-and-return-lines/cn/430E2360-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-20 - PICTORIAL INDEX, LOADER HYDRAULIC CIRCUIT - Z-BAR LOADER, TWO SPOOL CONTROL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "56AE2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-loader-hydraulic-circuit-z-bar-loader-two-spool-control-valve/cn/56AE2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-22 - PICTORIAL INDEX, LOADER HYDRAULIC CIRCUIT - Z-BAR LOADER, THREE SPOOL CONTROL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "41AE2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-loader-hydraulic-circuit-z-bar-loader-three-spool-control-valve/cn/41AE2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-24 - PICTORIAL INDEX, LOADER HYDRAULIC CIRCUIT-  Z-BAR LOADER, FOUR SPOOL CONTROL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1A58315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-loader-hydraulic-circuit-z-bar-loader-four-spool-control-valve/cn/1A58315A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-26 - PICTORIAL INDEX, LOADER HYDRAULIC CIRCUIT - XT LOADER, TWO SPOOL CONTROL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AAB02348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-loader-hydraulic-circuit-xt-loader-two-spool-control-valve/cn/AAB02348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-28 - PICTORIAL INDEX, LOADER HYDRAULIC CIRCUIT - XT LOADER, THREE SPOOL CONTROL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "08AF2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-loader-hydraulic-circuit-xt-loader-three-spool-control-valve/cn/08AF2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-30 - PICTORIAL INDEX, LOADER HYDRAULIC CIRCUIT - XT LOADER, FOUR SPOOL CONTROL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "50B02348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-loader-hydraulic-circuit-xt-loader-four-spool-control-valve/cn/50B02348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-32 - PICTORIAL INDEX, COUPLER HYDRAULIC CIRCUIT, XL LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "97296861-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-coupler-hydraulic-circuit-xl-loader/cn/97296861-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "1-34 - PICTORIAL INDEX, RIDE CONTROL HYDRAULIC CIRCUIT, Z-BAR OR XT LOADERS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_00_PICTORIAL_INDEX",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "51AD2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/pictorial-index/pictorial-index-ride-control-hydraulic-circuit-z-bar-or-xt-loaders/cn/51AD2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-02 - ENGINE MOUNT AND RELATED PARTS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C2D52766-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/engine-mount-and-related-parts/cn/C2D52766-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-04 - RADIATOR AND RADIATOR MOUNTING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "360F2360-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/radiator-and-radiator-mounting/cn/360F2360-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-06 - FAN AND FAN BELTS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DB3E315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/fan-and-fan-belts/cn/DB3E315A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-08 - COOLANT RECOVERY SYSTEM",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DB83BD68-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/coolant-recovery-system/cn/DB83BD68-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-10 - AIR CLEANER AND AIR INTAKE PARTS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B1428E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/air-cleaner-and-air-intake-parts/cn/B1428E5D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-12 - AIR CLEANER ASSEMBLY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C0C9E05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/air-cleaner-assembly/cn/C0C9E05E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-14 - MUFFLER AND EXHAUST SYSTEM, PRIOR TO P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8683796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/muffler-and-exhaust-system-prior-to-pin-jee0053350/cn/8683796F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-15A - MUFFLER AND EXHAUST SYSTEM, P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9CE02766-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/muffler-and-exhaust-system-pin-jee0053350-and-after/cn/9CE02766-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-16 - WATER PUMP SYSTEM, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8523F67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/water-pump-system-6t-590-engine-prior-to-loader-pin-jee0053350/cn/8523F67D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-17A - WATER PUMP SYSTEM, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "11ECDC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/water-pump-system-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/11ECDC64-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-18 - FRONT GEAR COVER, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "027E7D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/front-gear-cover-6t-590-engine-prior-to-loader-pin-jee0053350/cn/027E7D55-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-19A - FRONT GEAR COVER, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "211EF67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/front-gear-cover-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/211EF67D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-20 - TURBOCHARGER SYSTEM AND MANIFOLDS, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3267387F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/turbocharger-system-and-manifolds-6t-590-engine-prior-to-loader-pin-jee0053350/cn/3267387F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-21A - TURBOCHARGER SYSTEM & MANIFOLDS, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 & AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "55FD0978-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/turbocharger-system-manifolds-6t-590-emissions-certified-engine-loader-pin-jee0053350-after/cn/55FD0978-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-22 - TURBOCHARGER, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "61F5FB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/turbocharger-6t-590-engine-prior-to-loader-pin-jee0053350/cn/61F5FB71-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-23A - TURBOCHARGER, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "316E8663-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/turbocharger-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/316E8663-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-24 - OIL FILTER AND COOLER, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "07F60978-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/oil-filter-and-cooler-6t-590-engine-prior-to-loader-pin-jee0053350/cn/07F60978-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-25A - OIL FILTER AND COOLER, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "44308E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/oil-filter-and-cooler-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/44308E5D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-26 - OIL PUMP AND OIL PAN, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FAA16E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/oil-pump-and-oil-pan-6t-590-engine-prior-to-loader-pin-jee0053350/cn/FAA16E81-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-27A - OIL PUMP AND OIL PAN, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B30ADD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/oil-pump-and-oil-pan-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/B30ADD52-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-28 - CYLINDER HEAD COVER, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5DB36E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/cylinder-head-cover-6t-590-engine-prior-to-loader-pin-jee0053350/cn/5DB36E81-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-29A - CYLINDER HEAD COVER, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "75578F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/cylinder-head-cover-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/75578F74-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-30 - CYLINDER HEAD AND VALVE MECHANISM, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CE01C176-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/cylinder-head-and-valve-mechanism-6t-590-engine-prior-to-loader-pin-jee0053350/cn/CE01C176-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-31A - CYLINDER HEAD & VALVE MECHANISM, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER PIN JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "260DDD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/cylinder-head-valve-mechanism-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/260DDD52-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-32 - CAMSHAFT, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "28AB106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/camshaft-6t-590-engine-prior-to-loader-pin-jee0053350/cn/28AB106C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-33A - CAMSHAFT, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F023937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/camshaft-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/F023937A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-34 - CYLINDER BLOCK, 6T-590 ENGINE, PRIOR TO P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C35F8663-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/cylinder-block-6t-590-engine-prior-to-pin-jee0053350/cn/C35F8663-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-37A - CYL. BLOCK, 6T-590 EMISSIONS CERT. ENG, LOADER P.I.N. JEE0053350 & AFTER, PRIOR TO ENG. S/N 45534441",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DB89A36E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/cyl-block-6t-590-emissions-cert-eng-loader-pin-jee0053350-after-prior-to-eng-sn-45534441/cn/DB89A36E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-37E - CYL. BLOCK, 6T-590 EMISSIONS CERT. ENG., LOADER P.I.N. JEE0053350 & AFTER, ENG. S/N 45534441 & AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F5AE2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/cyl-block-6t-590-emissions-cert-eng-loader-pin-jee0053350-after-eng-sn-45534441-after/cn/F5AE2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-38 - CRANKSHAFT, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "540DDB58-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/crankshaft-6t-590-engine-prior-to-loader-pin-jee0053350/cn/540DDB58-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-39A - CRANKSHAFT, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350  AND AFTER.",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5311DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/crankshaft-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/5311DD52-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-40 - FLYWHEEL AND HOUSING, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "430F937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/flywheel-and-housing-6t-590-engine-prior-to-loader-pin-jee0053350/cn/430F937A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-41A - FLYWHEEL AND HOUSING, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C1A7106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/flywheel-and-housing-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/C1A7106C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-42 - PISTONS AND CONNECTING RODS, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "58447A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/pistons-and-connecting-rods-6t-590-engine-prior-to-loader-pin-jee0053350/cn/58447A75-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-43A - PISTONS AND CONNECTING RODS, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2F47774F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/pistons-and-connecting-rods-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/2F47774F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-44 - GASKET KITS, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350, VALVE GRIND",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B07FA36E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/gasket-kits-6t-590-engine-prior-to-loader-pin-jee0053350-valve-grind/cn/B07FA36E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-46 - GASKET KIT, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER, VALVE GRIND",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "36337A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/gasket-kit-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after-valve-grind/cn/36337A75-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-48 - GASKET KIT, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350, CYLINDER BLOCK",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6EE64079-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/gasket-kit-6t-590-engine-prior-to-loader-pin-jee0053350-cylinder-block/cn/6EE64079-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "2-50 - GASKET KIT, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER CYLINDER BLOCK",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_02_ENGINE",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AF51387F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/engine/gasket-kit-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after-cylinder-block/cn/AF51387F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-02 - FOOT THROTTLE CONTROL, PRIOR TO P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "67FA7A5B-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/foot-throttle-control-prior-to-pin-jee0053350/cn/67FA7A5B-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-03 - FOOT THROTTLE CONTROL, P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5795106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/foot-throttle-control-pin-jee0053350-and-after/cn/5795106C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-04 - FUEL LINES AND SEDIMENT BOWL, PRIOR TO P.I.N. JEE0041186",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0BE7DC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-lines-and-sediment-bowl-prior-to-pin-jee0041186/cn/0BE7DC64-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-05A - FUEL LINES AND IN-LINE FUEL FILTER, P.I.N. JEE0041186  THROUGH  JEE0053349",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "614D6861-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-lines-and-in-line-fuel-filter-pin-jee0041186-through-jee0053349/cn/614D6861-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-05C - FUEL LINES AND IN-LINE FUEL FILTER, P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9A436861-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-lines-and-in-line-fuel-filter-pin-jee0053350-and-after/cn/9A436861-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-06 - FUEL TANK FILLER AND SENDER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7724A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-tank-filler-and-sender/cn/7724A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-08 - FUEL INJECTION SYSTEM, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "01CAB762-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-injection-system-6t-590-engine-prior-to-loader-pin-jee0053350/cn/01CAB762-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-09 - FUEL INJECTION SYSTEM, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DA5A387F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-injection-system-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/DA5A387F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-10 - FUEL FILTER AND LIFT PUMP, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9F2B9357-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-filter-and-lift-pump-6t-590-engine-prior-to-loader-pin-jee0053350/cn/9F2B9357-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-11A - FUEL FILTER AND LIFT PUMP, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6AECDC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-filter-and-lift-pump-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/6AECDC64-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-11C - ANEROID SYSTEM, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "961C7B5B-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/aneroid-system-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/961C7B5B-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-12 - FUEL INJECTION PUMP AND DRIVE, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3D209357-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-injection-pump-and-drive-6t-590-engine-prior-to-loader-pin-jee0053350/cn/3D209357-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-13A - FUEL INJECTION PUMP AND DRIVE, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9EEAFB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-injection-pump-and-drive-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/9EEAFB71-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-14 - FUEL INJECTION NOZZLE, 6T-590 ENGINE, PRIOR TO LOADER P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3A83BD68-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-injection-nozzle-6t-590-engine-prior-to-loader-pin-jee0053350/cn/3A83BD68-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-15A - FUEL INJECTION NOZZLE, 6T-590 EMISSIONS CERTIFIED ENGINE LOADER P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2CAE4D6D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/fuel-injection-nozzle-6t-590-emissions-certified-engine-loader-pin-jee0053350-and-after/cn/2CAE4D6D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "3-16A - KIT FUEL SENDER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_03_FUEL_SYSTEM",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8A2EEAA8-F1EF-4587-A480-279AF18F7F78",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/fuel-system/kit-fuel-sender/cn/8A2EEAA8-F1EF-4587-A480-279AF18F7F78/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-02 - ALTERNATOR ASSEMBLY, 65 AMPERE, 24 VOLT",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E090796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/alternator-assembly-65-ampere-24-volt/cn/E090796F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-04 - STARTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1AFA7A5B-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/starter/cn/1AFA7A5B-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-06 - INSTRUMENT PANEL AND IGNITION SWITCH",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A3E8DC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/instrument-panel-and-ignition-switch/cn/A3E8DC64-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-07 - COUPLER HARNESS, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2DE7264E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/coupler-harness-xt-loader/cn/2DE7264E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-08 - OPTIONAL GAUGES AND OVERHEAD SWITCHES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EF317A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/optional-gauges-and-overhead-switches/cn/EF317A75-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-10 - FRONT HARNESS, LAMPS AND SWITCHES, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BA22F67D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/front-harness-lamps-and-switches-z-bar-loader/cn/BA22F67D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-12 - FRONT HARNESS, LAMPS AND SWITCHES, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "57D7DC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/front-harness-lamps-and-switches-xt-loader/cn/57D7DC64-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-14 - HARNESS, PEDESTAL, PRIOR TO P.I.N. JEE0052701",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "27789144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/harness-pedestal-prior-to-pin-jee0052701/cn/27789144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-15A - HARNESS, PEDESTAL, P.I.N. JEE0052701 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4B789144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/harness-pedestal-pin-jee0052701-and-after/cn/4B789144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-16 - CAB ROOF HARNESS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D74E387F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/cab-roof-harness/cn/D74E387F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-18 - MAIN CAB HARNESS, TRANSMISSION CONTROL",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "937A9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/main-cab-harness-transmission-control/cn/937A9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-20 - MAIN CAB HARNESS, POWER DISTRIBUTION CENTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AC7D9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/main-cab-harness-power-distribution-center/cn/AC7D9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-22 - CANOPY ROOF HARNESS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AE388E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/canopy-roof-harness/cn/AE388E5D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-24 - MAIN CANOPY HARNESS, TRANSMISSION CONTROL",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1218A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/main-canopy-harness-transmission-control/cn/1218A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-26 - MAIN CANOPY HARNESS, POWER DISTRIBUTION CENTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0D779144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/main-canopy-harness-power-distribution-center/cn/0D779144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-27A - RIDE CONTROL HARNESS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5739767B-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/ride-control-harness/cn/5739767B-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-28 - REAR HARNESS, ENGINE RIGHT-HAND SIDE, PRIOR TO P.I.N. JEE0052701",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "41628663-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/rear-harness-engine-right-hand-side-prior-to-pin-jee0052701/cn/41628663-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-29A - REAR HARNESS, ENGINE RIGHT-HAND SIDE, P.I.N. JEE0052701 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "488D796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/rear-harness-engine-right-hand-side-pin-jee0052701-and-after/cn/488D796F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-30 - REAR HARNESS, ENGINE LEFT-HAND SIDE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5300FC71-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/rear-harness-engine-left-hand-side/cn/5300FC71-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-32 - REAR HARNESS TO RELAY PANEL, PRIOR TO P.I.N. JEE0052701",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AA352E54-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/rear-harness-to-relay-panel-prior-to-pin-jee0052701/cn/AA352E54-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-33A - REAR HARNESS TO RELAY PANEL, P.I.N. JEE0052701 THROUGH JEE0053349",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BDC43E73-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/rear-harness-to-relay-panel-pin-jee0052701-through-jee0053349/cn/BDC43E73-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-33C - REAR HARNESS TO RELAY PANEL, P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A7B74D6D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/rear-harness-to-relay-panel-pin-jee0053350-and-after/cn/A7B74D6D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-34 - AUXILIARY STEERING ELECTRICAL CIRCUIT, PRIOR TO P.I.N. JEE0042310",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "66192360-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/auxiliary-steering-electrical-circuit-prior-to-pin-jee0042310/cn/66192360-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-35A - AUXILIARY STEERING ELECTRICAL CIRCUIT, P.I.N. JEE0042310 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5CB3E05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/auxiliary-steering-electrical-circuit-pin-jee0042310-and-after/cn/5CB3E05E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-36 - AUXILIARY STEERING MOTOR ASSEMBLY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E3377A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/auxiliary-steering-motor-assembly/cn/E3377A67-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-38 - STARTER, BATTERY, AND BATTERY CABLES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CE6A8663-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/starter-battery-and-battery-cables/cn/CE6A8663-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-40 - ALTERNATOR AND MOUNTING PARTS, 65 AMPERE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E57B9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/alternator-and-mounting-parts-65-ampere/cn/E57B9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-42 - FRONT LAMP MOUNTING, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "662CAC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/front-lamp-mounting-z-bar-loader/cn/662CAC82-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-44 - FRONT LAMP MOUNTING, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A8FD7A5B-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/front-lamp-mounting-xt-loader/cn/A8FD7A5B-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-46 - REAR LAMP AND BACKUP ALARM MOUNTING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BB738B80-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/rear-lamp-and-backup-alarm-mounting/cn/BB738B80-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-48 - LAMPS, FRONT AND REAR",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AB9D6E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/lamps-front-and-rear/cn/AB9D6E81-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-50 - TURN SIGNAL, FLASHER, STOP AND TAIL LAMPS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B4B64D6D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/turn-signal-flasher-stop-and-tail-lamps/cn/B4B64D6D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-52 - ROTATING BEACON ASSEMBLY AND MOUNTING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "294E6861-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/rotating-beacon-assembly-and-mounting/cn/294E6861-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-54 - FRONT WIPER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AD7D9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/front-wiper/cn/AD7D9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-56 - CAB REAR WIPER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CCFF2260-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/cab-rear-wiper/cn/CCFF2260-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-58 - CAB BLOWER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "17618F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/cab-blower/cn/17618F74-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-60 - COLD WEATHER STARTING SYSTEM",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "08799144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/cold-weather-starting-system/cn/08799144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "4-62 - RADIO AND MOUNTING PARTS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_04_ELECTRICAL_SYSTEMS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1DECFB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/radio-and-mounting-parts/cn/1DECFB71-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "5-02 - STEERING WHEEL AND COLUMN, INCLUDES TILT LATCH",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2D2B6861-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/steering/steering-wheel-and-column-includes-tilt-latch/cn/2D2B6861-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "5-04 - STEERING CONTROL VALVE ASSEMBLY, L129607",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7C16937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/steering/steering-control-valve-assembly-l129607/cn/7C16937A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "5-05 - STEERING CONTROL VALVE ASSEMBLY, 135604A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C4FADA58-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/steering/steering-control-valve-assembly-135604a1/cn/C4FADA58-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "5-06 - STEERING HYDRAULIC CIRCUIT, STEERING CONTROL VALVE TO PUMP",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "183E7A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/steering/steering-hydraulic-circuit-steering-control-valve-to-pump/cn/183E7A75-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "5-08 - STEERING HYDRAULIC CIRCUIT, STEERING CONTROL VALVE TO CYLINDERS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C047767B-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/steering/steering-hydraulic-circuit-steering-control-valve-to-cylinders/cn/C047767B-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "5-10 - STEERING HYDRAULIC CIRCUIT, RETURN LINE AND COOLER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7C84B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/steering/steering-hydraulic-circuit-return-line-and-cooler/cn/7C84B87C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "5-12 - AUXILIARY STEERING HYDRAULIC CIRCUIT",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "53369851-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/steering/auxiliary-steering-hydraulic-circuit/cn/53369851-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "5-14 - AUXILIARY STEERING PUMP AND MOTOR ASSEMBLY, L116118, 197540A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "56588F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/steering/auxiliary-steering-pump-and-motor-assembly-l116118-197540a1/cn/56588F74-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "5-16 - FLOW CONTROL VALVE, L48888",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E350774F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/steering/flow-control-valve-l48888/cn/E350774F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "5-18 - STEERING CYLINDER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_05_STEERING",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7D297A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/steering/steering-cylinder/cn/7D297A75-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-02 - TRANSMISSION HYDRAULIC CIRCUIT",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4FC06E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-hydraulic-circuit/cn/4FC06E81-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-04 - TRANSMISSION MOUNTING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9C569851-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-mounting/cn/9C569851-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-06 - TRANSMISSION FILL TUBE MOUNTING AND SIGHT GAUGE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8637AC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-fill-tube-mounting-and-sight-gauge/cn/8637AC82-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-08 - TRANSMISSION ASSEMBLY, HOUSING, PRIOR TO P.I.N. JEE0052701",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7CB96E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-housing-prior-to-pin-jee0052701/cn/7CB96E81-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-09 - TRANSMISSION ASSEMBLY, HOUSING, P.I.N. JEE0052701 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E5B26E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-housing-pin-jee0052701-and-after/cn/E5B26E81-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-10 - TRANSMISSION ASSEMBLY, IDLER GEAR, CONVERTER AND COVER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A5F67E69-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-idler-gear-converter-and-cover/cn/A5F67E69-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-12 - TRANSMISSION ASSEMBLY, INPUT GEAR, PUMP AND PUMP OUTPUT SHAFT",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "554C6861-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-input-gear-pump-and-pump-output-shaft/cn/554C6861-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-14 - TRANSMISSION ASSEMBLY, FORWARD AND LOW CLUTCHES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BDE07E69-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-forward-and-low-clutches/cn/BDE07E69-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-16 - TRANSMISSION ASSEMBLY, REVERSE AND SECOND CLUTCHES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "75F7DA58-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-reverse-and-second-clutches/cn/75F7DA58-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-18 - TRANSMISSION ASSEMBLY, THIRD AND FOURTH CLUTCHES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "60D8264E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-third-and-fourth-clutches/cn/60D8264E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-20 - TRANSMISSION ASSEMBLY, OUTPUT SHAFT AND GEAR",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "13E1264E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-output-shaft-and-gear/cn/13E1264E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-22 - TRANSMISSION ASSEMBLY, VALVE PLATES AND HYDRAULICS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "19779144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-valve-plates-and-hydraulics/cn/19779144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-24 - TRANSMISSION ASSEMBLY, CONTROL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "23E72766-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-control-valve/cn/23E72766-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-26 - TRANSMISSION ASSEMBLY, CONTROL VALVE, L129926 TRANSMISSION, PRIOR TO P.I.N. JEE0052701",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8EB14D6D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-control-valve-l129926-transmission-prior-to-pin-jee0052701/cn/8EB14D6D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-27A - TRANSMISSION ASSEMBLY, CONTROL VALVE, 241952A1 TRANSMISSION, P.I.N. JEE0052701 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "76DF7E69-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-control-valve-241952a1-transmission-pin-jee0052701-and-after/cn/76DF7E69-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-28 - TRANSMISSION ASSEMBLY, FORWARD AND LOW CLUTCH PACK",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F43D315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-forward-and-low-clutch-pack/cn/F43D315A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-30 - TRANSMISSION ASSEMBLY, REVERSE AND SECOND CLUTCH PACK",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8177796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-reverse-and-second-clutch-pack/cn/8177796F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-32 - TRANSMISSION ASSEMBLY, THIRD AND FOURTH CLUTCH PACK",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "92D87E69-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/transmission-assembly-third-and-fourth-clutch-pack/cn/92D87E69-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-34 - AXLE ASSEMBLIES AND MOUNTING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0B4C8F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/axle-assemblies-and-mounting/cn/0B4C8F74-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-36 - FRONT AXLE HOUSING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0A0A2360-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/front-axle-housing/cn/0A0A2360-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-38 - FRONT AXLE HUB, DISC BRAKES AND PLANETARY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "25369851-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/front-axle-hub-disc-brakes-and-planetary/cn/25369851-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-42 - FRONT AXLE DIFFERENTIAL CARRIER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E5F07E69-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/front-axle-differential-carrier/cn/E5F07E69-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-44 - FRONT AXLE DIFFERENTIAL",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6A76B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/front-axle-differential/cn/6A76B87C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-46 - REAR AXLE HOUSING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "784E8F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/rear-axle-housing/cn/784E8F74-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-48 - REAR AXLE HUB, DISC BRAKES AND PLANETARY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "65E6C076-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/rear-axle-hub-disc-brakes-and-planetary/cn/65E6C076-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-52 - REAR AXLE DIFFERENTIAL CARRIER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "EA37767B-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/rear-axle-differential-carrier/cn/EA37767B-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-54 - REAR AXLE DIFFERENTIAL",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "03F0C076-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/rear-axle-differential/cn/03F0C076-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-56 - FRONT DRIVE SHAFT AND SUPPORT BEARING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D31C7A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/front-drive-shaft-and-support-bearing/cn/D31C7A67-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-58 - CENTER AND REAR DRIVE SHAFT",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D470B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/center-and-rear-drive-shaft/cn/D470B87C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "6-60 - WHEELS, FOR 17.5 X 25 TIRES, ONE PIECE WHEEL",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_06_POWER_TRAIN",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7824A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/power-train/wheels-for-175-x-25-tires-one-piece-wheel/cn/7824A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-02 - PARKING BRAKE ASSEMBLY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "ACF1DC52-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/parking-brake-assembly/cn/ACF1DC52-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-04 - PARKING BRAKE CONTROLS AND MOUNTING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A04B774F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/parking-brake-controls-and-mounting/cn/A04B774F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-06 - BRAKE PEDALS AND BRAKE SWITCHES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "74318E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/brake-pedals-and-brake-switches/cn/74318E5D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-08 - MAIN BRAKE HYDRAULIC CIRCUIT, RESERVOIR TO PUMP TO ACCUMULATOR VALVE, PRIOR TO P.I.N. JEE0053350",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4BC9B762-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hydraulic-circuit-reservoir-to-pump-to-accumulator-valve-prior-to-pin-jee0053350/cn/4BC9B762-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-09 - MAIN BRAKE HYDRAULIC CIRCUIT, RESERVOIR TO PUMP TO ACCUMULATOR VALVE, P.I.N. JEE0053350 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CCF5C076-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hydraulic-circuit-reservoir-to-pump-to-accumulator-valve-pin-jee0053350-and-after/cn/CCF5C076-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-10 - MAIN BRAKE HYD. CIRCUIT ACCUMU. VALVE TO PRESS. REDUC. VALVE PRESS. PORT, PRIOR TO P.I.N. JEE0051723",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BA769144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hyd-circuit-accumu-valve-to-press-reduc-valve-press-port-prior-to-pin-jee0051723/cn/BA769144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-11A - MAIN BRAKE HYD. CIRCUIT ACCUM. VALVE TO PRESS. REDUC. VALVE PRESS. PORT, P.I.N. JEE0051723 & AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "967C9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hyd-circuit-accum-valve-to-press-reduc-valve-press-port-pin-jee0051723-after/cn/967C9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-12 - MAIN BRAKE HYD. CIRCUIT, ACCUMULATOR VALVE TO PRESSURE REDUCING VALVE, RETURN PORT AND OIL FILTERS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2B789144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hyd-circuit-accumulator-valve-to-pressure-reducing-valve-return-port-and-oil-filters/cn/2B789144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-14 - MAIN BRAKE HYDRAULIC CIRCUIT TUBES AT ACCUMULATOR TO MAIN BRAKE VALVE, PRIOR TO P.I.N. JEE0051723",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A7997D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hydraulic-circuit-tubes-at-accumulator-to-main-brake-valve-prior-to-pin-jee0051723/cn/A7997D55-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-15A - MAIN BRAKE HYDRAULIC CIRCUIT, TUBES AT ACCUMULATOR TO MAIN BRAKE VALVE, P.I.N. JEE0051723 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8D44315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hydraulic-circuit-tubes-at-accumulator-to-main-brake-valve-pin-jee0051723-and-after/cn/8D44315A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-16 - MAIN BRAKE HYDRAULIC CIRCUIT, MAIN BRAKE VALVE TO FRONT AXLE, PRIOR TO P.I.N. JEE0051723",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8919A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hydraulic-circuit-main-brake-valve-to-front-axle-prior-to-pin-jee0051723/cn/8919A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-17A - MAIN BRAKE HYDRAULIC CIRCUIT, MAIN BRAKE VALVE TO FRONT AXLE, P.I.N. JEE0051723 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "54779144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hydraulic-circuit-main-brake-valve-to-front-axle-pin-jee0051723-and-after/cn/54779144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-18 - MAIN BRAKE HYDRAULIC CIRCUIT, MAIN BRAKE VALVE TO REAR AXLE, PRIOR TO P.I.N. JEE0051723",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "09799144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hydraulic-circuit-main-brake-valve-to-rear-axle-prior-to-pin-jee0051723/cn/09799144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-19A - MAIN BRAKE HYDRAULIC CIRCUIT, MAIN BRAKE VALVE TO REAR AXLE, P.I.N. JEE0051723 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4B16A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/main-brake-hydraulic-circuit-main-brake-valve-to-rear-axle-pin-jee0051723-and-after/cn/4B16A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-20 - BRAKE ACCUMULATOR VALVE, L128116",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "29FF7A5B-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/brake-accumulator-valve-l128116/cn/29FF7A5B-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-21A - BRAKE ACCUMULATOR VALVE, 232531A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BAA0106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/brake-accumulator-valve-232531a1/cn/BAA0106C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-22 - BRAKE PUMP, PUMP ASSEMBLY, S515954, 284516A1, 244573A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E799106C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/brake-pump-pump-assembly-s515954-284516a1-244573a1/cn/E799106C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-23A - BRAKE VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B5349851-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/brake-valve/cn/B5349851-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-23C - BRAKE VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FC5CBE6A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/brake-valve/cn/FC5CBE6A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "7-24 - BRAKE ACCUMULATOR, ACCUMULATOR ASSEMBLY, 1978111C1, 128191A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_07_BRAKES",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B83F9357-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/brakes/brake-accumulator-accumulator-assembly-1978111c1-128191a1/cn/B83F9357-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-02 - HYDRAULIC RESERVOIR",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F00E7B5B-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-reservoir/cn/F00E7B5B-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-04 - HYDRAULIC CIRCUIT, RESERVOIR TO PUMP AND LOADER CONTROL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E1559851-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-reservoir-to-pump-and-loader-control-valve/cn/E1559851-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-06 - HYDRAULIC CIRCUIT, LOADER CONTROL VALVE TO FILTER, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AF49AC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-loader-control-valve-to-filter-z-bar-loader/cn/AF49AC82-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-07A - HYDRAULIC CIRCUIT, LOADER CONTROL VALVE TO FILTER, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "550DDB58-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-loader-control-valve-to-filter-xt-loader/cn/550DDB58-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-07E - HYDRAULIC CIRCUIT, NOISE REDUCTION KIT, Z-BAR OR XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "417B9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-noise-reduction-kit-z-bar-or-xt-loader/cn/417B9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-08 - HYDRAULIC CIRCUIT, OIL FILTER TO HYDRAULIC RESERVOIR",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A791BA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-oil-filter-to-hydraulic-reservoir/cn/A791BA70-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-10 - HYDRAULIC CIRCUIT, LOADER LIFT, Z-BAR AND XT LOADERS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7F35315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-loader-lift-z-bar-and-xt-loaders/cn/7F35315A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-12 - HYDRAULIC CIRCUIT, LOADER BUCKET, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2640AC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-loader-bucket-z-bar-loader/cn/2640AC82-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-14 - HYDRAULIC CIRCUIT, LOADER BUCKET, XT LOADER, PRIOR TO P.I.N JEE0041109",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8E7A9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-loader-bucket-xt-loader-prior-to-pin-jee0041109/cn/8E7A9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-15A - HYDRAULIC CIRCUIT, LOADER BUCKET, XT LOADER, P.I.N. JEE0041109 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E6F07E69-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-loader-bucket-xt-loader-pin-jee0041109-and-after/cn/E6F07E69-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-16 - HYDRAULIC CIRCUIT, LOADER AUXILIARY, CONTROL VALVE TO AUXILIARY BUCKET CYLINDERS, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5F7A9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-loader-auxiliary-control-valve-to-auxiliary-bucket-cylinders-z-bar-loader/cn/5F7A9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-18 - HYDRAULIC CIRCUIT, AUXILIARY CYLINDERS TO CLAM BUCKET",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "ABB02348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-auxiliary-cylinders-to-clam-bucket/cn/ABB02348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-20 - HYDRAULIC CIRCUIT, THREE SPOOL VALVE TO AUXILIARY BUCKET COUPLINGS, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "427B9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-three-spool-valve-to-auxiliary-bucket-couplings-xt-loader/cn/427B9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-22 - HYDRAULIC CIRCUIT, FOUR SPOOL VALVE TO AUXILIARY BUCKET COUPLINGS, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6AAD2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-four-spool-valve-to-auxiliary-bucket-couplings-xt-loader/cn/6AAD2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-24 - HYDRAULIC CIRCUIT, COUPLER LOCKING, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "44F70978-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-coupler-locking-xt-loader/cn/44F70978-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-26 - HYDRAULIC CIRCUIT, SOLENOID VALVE TO MALE MASTER COUPLER, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3D16DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/hydraulic-circuit-solenoid-valve-to-male-master-coupler-xt-loader/cn/3D16DD52-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-28 - EQUIPMENT AND STEERING PUMP, L127270",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "56BA3E73-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/equipment-and-steering-pump-l127270/cn/56BA3E73-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-30 - LOADER CONTROL VALVE, TWO SPOOL, Z-BAR LOADER, L123735 VALVE ASSEMBLY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B9ECDC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-control-valve-two-spool-z-bar-loader-l123735-valve-assembly/cn/B9ECDC64-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-31A - LOADER CONTROL VALVE, TWO SPOOL, XT LOADER, 117764A1, 133729A1, 138753A1 VALVE ASSEMBLIES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "41F5DC52-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-control-valve-two-spool-xt-loader-117764a1-133729a1-138753a1-valve-assemblies/cn/41F5DC52-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-32 - LOADER CONTROL VALVE, THREE SPOOL, Z-BAR LOADER, L123678 VALVE ASSEMBLY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "02326861-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-control-valve-three-spool-z-bar-loader-l123678-valve-assembly/cn/02326861-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-33A - LOADER CONTROL VALVE, THREE SPOOL, XT LOADER, 114617A1, 133731A1, 138754A1 VALVE ASSEMBLIES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CA67774F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-control-valve-three-spool-xt-loader-114617a1-133731a1-138754a1-valve-assemblies/cn/CA67774F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-34 - LOADER CONTROL VALVE, FOUR SPOOL, Z-BAR LOADER, L123736 VALVE ASSEMBLY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9313DD52-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-control-valve-four-spool-z-bar-loader-l123736-valve-assembly/cn/9313DD52-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-35A - LOADER CONTROL VALVE, FOUR SPOOL, XT LOADER, 108611A1, 133732A1, 138755A1 VALVE ASSEMBLIES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E81E9357-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-control-valve-four-spool-xt-loader-108611a1-133732a1-138755a1-valve-assemblies/cn/E81E9357-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-36 - LOADER INLET AND OUTLET SECTION, 1978263C1, 120978A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "0D837D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-inlet-and-outlet-section-1978263c1-120978a1/cn/0D837D55-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-38 - LOADER LIFT SECTION, 1978302C1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F7C5E05E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-lift-section-1978302c1/cn/F7C5E05E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-39A - LOADER LIFT SECTION, 125844A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "092E7A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-lift-section-125844a1/cn/092E7A67-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-39C - LOADER LIFT SECTION, 190298A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4221937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-lift-section-190298a1/cn/4221937A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-40 - LOADER BUCKET TILT SECTION, 1978296C1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DAD47E69-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-bucket-tilt-section-1978296c1/cn/DAD47E69-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-42 - LOADER BUCKET TILT SECTION, 120984A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C3E0CF56-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-bucket-tilt-section-120984a1/cn/C3E0CF56-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-44 - LOADER AUXILIARY SECTION, 1978280C1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7DEB0978-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-auxiliary-section-1978280c1/cn/7DEB0978-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-46 - MAIN RELIEF VALVE, AND CIRCUIT RELIEF AND ANTICAVITATION VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "788FBA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/main-relief-valve-and-circuit-relief-and-anticavitation-valve/cn/788FBA70-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-48 - CIRCUIT RELIEF VALVE, 1978297C2",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "155F8F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/circuit-relief-valve-1978297c2/cn/155F8F74-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-49A - CIRCUIT RELIEF VALVE, 121005A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "56F30978-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/circuit-relief-valve-121005a1/cn/56F30978-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-50 - LIFT CYLINDERS, 1343596C1, 1343595C1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8FFEFB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/lift-cylinders-1343596c1-1343595c1/cn/8FFEFB71-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-51A - LIFT CYLINDERS, 280706A1, 280707A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "12887D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/lift-cylinders-280706a1-280707a1/cn/12887D55-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-52 - BUCKET CYLINDER, 1343552C2, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "56257A67-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/bucket-cylinder-1343552c2-z-bar-loader/cn/56257A67-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-53A - BUCKET CYLINDER, 125872A1, Z-BAR LOADER WITH EXTENDED REACH",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "693F9357-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/bucket-cylinder-125872a1-z-bar-loader-with-extended-reach/cn/693F9357-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-54 - BUCKET CYLINDERS, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B6C7B762-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/bucket-cylinders-xt-loader/cn/B6C7B762-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-56 - LOADER AUXILIARY CYLINDER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "63F2DC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/loader-auxiliary-cylinder/cn/63F2DC64-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-58 - MALE MASTER COUPLER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "70BC6E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/male-master-coupler/cn/70BC6E81-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-60 - COUPLER LOCKING SOLENOID VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4B6A8B80-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/coupler-locking-solenoid-valve/cn/4B6A8B80-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-62 - REMOTE LOADER CONTROL CIRCUIT, SINGLE LEVER WITH TWO SPOOL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "63779144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/remote-loader-control-circuit-single-lever-with-two-spool-valve/cn/63779144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-64 - REMOTE LOADER CONTROL CIRCUIT, DUAL LEVER WITH TWO SPOOL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "64779144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/remote-loader-control-circuit-dual-lever-with-two-spool-valve/cn/64779144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-66 - REMOTE LOADER CONTROL CIRCUIT, HOSE SEPARATOR TO TWO SPOOL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "5FB04D6D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/remote-loader-control-circuit-hose-separator-to-two-spool-valve/cn/5FB04D6D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-68 - REMOTE LOADER CONTROL CIRCUIT, TWO LEVERS WITH THREE SPOOL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "677B9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/remote-loader-control-circuit-two-levers-with-three-spool-valve/cn/677B9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-70 - REMOTE LOADER CONTROL CIRCUIT, THREE LEVERS WITH THREE SPOOL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "17789144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/remote-loader-control-circuit-three-levers-with-three-spool-valve/cn/17789144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-72 - REMOTE LOADER CONTROL CIRCUIT, HOSE SEPARATOR TO THREE SPOOL  VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1303DB58-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/remote-loader-control-circuit-hose-separator-to-three-spool-valve/cn/1303DB58-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-74 - REMOTE LOADER CONTROL CIRCUIT, TWO LEVERS WITH FOUR SPOOL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9617A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/remote-loader-control-circuit-two-levers-with-four-spool-valve/cn/9617A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-76 - REMOTE LOADER CONTROL CIRCUIT, HOSE SEPARATOR TO FOUR SPOOL VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2AB56E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/remote-loader-control-circuit-hose-separator-to-four-spool-valve/cn/2AB56E81-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-78 - REMOTE LOADER CONTROL CIRCUIT, RETURN TO HYDRAULIC RESERVOIR AND PRESSURE REDUCING VALVE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "215B8663-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/remote-loader-control-circuit-return-to-hydraulic-reservoir-and-pressure-reducing-valve/cn/215B8663-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-80 - SINGLE LEVER REMOTE CONTROL VALVE, 109508A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "94E9264E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/single-lever-remote-control-valve-109508a1/cn/94E9264E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-84 - DUAL LEVER REMOTE CONTROL VALVE, 109509A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "761E937A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/dual-lever-remote-control-valve-109509a1/cn/761E937A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-88 - AUXILIARY REMOTE CONTROL VALVE, L123917",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CA8CD55C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/auxiliary-remote-control-valve-l123917/cn/CA8CD55C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-90 - AUXILIARY REMOTE CONTROL VALVE, 117919A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "323C9851-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/auxiliary-remote-control-valve-117919a1/cn/323C9851-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-92 - PRESSURE REDUCING VALVE, 108525A1",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A857315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/pressure-reducing-valve-108525a1/cn/A857315A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-94 - RIDE CONTROL HYDRAULIC CIRCUIT, MASTER VALVE TO CAB AND RETURN MANIFOLD",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4F75B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/ride-control-hydraulic-circuit-master-valve-to-cab-and-return-manifold/cn/4F75B87C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-96 - RIDE CONTROL HYDRAULIC CIRCUIT, DIRECTIONAL VALVE TO MASTER VALVE AND ACCUMULATOR",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "319BD55C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/ride-control-hydraulic-circuit-directional-valve-to-master-valve-and-accumulator/cn/319BD55C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-98 - RIDE CONTROL HYDRAULIC CIRCUIT, MASTER AND DIRECTIONAL VALVES TO LIFT TUBES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8E508F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/ride-control-hydraulic-circuit-master-and-directional-valves-to-lift-tubes/cn/8E508F74-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-99 - RIDE CONTROL MASTER DIRECTIONAL VALVE ASSEMBLY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6CF6DC52-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/ride-control-master-directional-valve-assembly/cn/6CF6DC52-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-99A - RIDE CONTROL DIRECTIONAL VALVE ASSEMBLY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A2FAC076-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/ride-control-directional-valve-assembly/cn/A2FAC076-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "8-99B - ACCUMULATOR ASSEMBLY, RIDE CONTROL",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_08_HYDRAULICS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4E509851-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/hydraulics/accumulator-assembly-ride-control/cn/4E509851-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-002 - LOADER BUCKET RETURN-TO-DIG, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9BCED84C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-bucket-return-to-dig-z-bar-loader/cn/9BCED84C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-004 - LOADER BUCKET RETURN-TO-DIG, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AF467A75-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-bucket-return-to-dig-xt-loader/cn/AF467A75-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-006 - LOADER BUCKET HEIGHT CONTROL, AND RETURN-TO-TRANSPORT, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A4E0264E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-bucket-height-control-and-return-to-transport-z-bar-loader/cn/A4E0264E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-008 - LOADER BUCKET HEIGHT CONTROL, AND RETURN-TO-TRANSPORT, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6878B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-bucket-height-control-and-return-to-transport-xt-loader/cn/6878B87C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-010 - LOADER LIFT FRAME, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DC52315A-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-lift-frame-z-bar-loader/cn/DC52315A-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-011A - LOADER LIFT FRAME WITH EXTENDED REACH, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "F6EDFB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-lift-frame-with-extended-reach-z-bar-loader/cn/F6EDFB71-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-012 - LOADER LIFT FRAME AND LINKAGE, XT LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C5328E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-lift-frame-and-linkage-xt-loader/cn/C5328E5D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-016 - LOADER BUCKET AND CUTTING EDGES, 2.25 CUBIC YARD (1.7 CUBIC METER) BUCKET, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C27D9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-bucket-and-cutting-edges-225-cubic-yard-17-cubic-meter-bucket-z-bar-loader/cn/C27D9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-018 - LOADER BUCKETS & CUTTING EDGES, 2.50 (1.9 ) & 2.75 CUBIC YD (2.1 CUBIC METER) BUCKETS, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "A617A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-buckets-cutting-edges-250-19-275-cubic-yd-21-cubic-meter-buckets-z-bar-loader/cn/A617A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-019A - LOADER BUCKETS AND CUTTING EDGES, 2.50 CUBIC YARD (1.9 CUBIC METER) BUCKET, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9117A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-buckets-and-cutting-edges-250-cubic-yard-19-cubic-meter-bucket-z-bar-loader/cn/9117A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-019C - LOADER BUCKETS AND CUTTING EDGES, 2.75 CUBIC YARD (2.1 CUBIC METER) BUCKET, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "362EA045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-buckets-and-cutting-edges-275-cubic-yard-21-cubic-meter-bucket-z-bar-loader/cn/362EA045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-020 - AUXILIARY BUCKET, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "FC0DDB58-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/auxiliary-bucket-z-bar-loader/cn/FC0DDB58-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-021A - LOADER BUCKET TEETH (ESCO), Z-BAR LOADER, 2.25 CUBIC YARD (1.7 CUBIC METER) BUCKET",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7B19A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/loader-bucket-teeth-esco-z-bar-loader-225-cubic-yard-17-cubic-meter-bucket/cn/7B19A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-022 - REAR FRAME AND PIVOT",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "1275796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/rear-frame-and-pivot/cn/1275796F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-024 - COUNTERWEIGHTS, 1500 POUND TOTAL WEIGHT",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C916A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/counterweights-1500-pound-total-weight/cn/C916A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-026 - TRUNNION AND LUBRICATION LINES",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BE8ABA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/trunnion-and-lubrication-lines/cn/BE8ABA70-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-028 - HOOD AND SIDE DOORS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "48D1CF56-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/hood-and-side-doors/cn/48D1CF56-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-030 - RADIATOR GUARD AND GRILLE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "997A9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/radiator-guard-and-grille/cn/997A9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-032 - BATTERY COMPARTMENT COVERS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "395C8F74-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/battery-compartment-covers/cn/395C8F74-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-034 - REAR FENDERS AND STEPS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8B75B87C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/rear-fenders-and-steps/cn/8B75B87C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-036 - FRONT FRAME AND FENDERS, Z-BAR LOADER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "CCFE4079-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/front-frame-and-fenders-z-bar-loader/cn/CCFE4079-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-038 - FRONT FRAME AND FENDERS, XT LOADER, PRIOR TO P.I.N. JEE0041109",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "19378E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/front-frame-and-fenders-xt-loader-prior-to-pin-jee0041109/cn/19378E5D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-039A - FRONT FRAME AND FENDERS, XT LOADER, P.I.N. JEE0041109 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2F897D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/front-frame-and-fenders-xt-loader-pin-jee0041109-and-after/cn/2F897D55-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-040 - SEAT AND MOUNTING PARTS, NON-SUSPENSION SEAT, SEAT MOUNTING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "AAD2264E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/seat-and-mounting-parts-non-suspension-seat-seat-mounting/cn/AAD2264E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-042 - SEAT AND MOUNTING PARTS, SUSPENSION SEAT, SEAT MOUNTING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "93E7264E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/seat-and-mounting-parts-suspension-seat-seat-mounting/cn/93E7264E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-044 - NON-SUSPENSION SEAT, BROWN",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8E396861-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/non-suspension-seat-brown/cn/8E396861-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-044[1] - NON-SUSPENSION SEAT, GRAY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "03B54D6D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/non-suspension-seat-gray/cn/03B54D6D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-046 - SUSPENSION SEATS, BLACK",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3175796F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/suspension-seats-black/cn/3175796F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-048 - SUSPENSION SEATS, BLACK",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "64D9264E-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/suspension-seats-black/cn/64D9264E-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-050 - SUSPENSION SEATS, BLACK",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "D19B7D55-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/suspension-seats-black/cn/D19B7D55-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-051A - SUSPENSION SEATS, GRAY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "333C9851-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/suspension-seats-gray/cn/333C9851-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-051E - SUSPENSION SEATS, GRAY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "BA388E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/suspension-seats-gray/cn/BA388E5D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-051G - SUSPENSION SEATS, GRAY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E0DDDC64-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/suspension-seats-gray/cn/E0DDDC64-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-052 - CAB MOUNTING AND GLASS, TAN",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "65AE2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/cab-mounting-and-glass-tan/cn/65AE2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-053A - CAB MOUNTING AND GLASS, GRAY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3AB02348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/cab-mounting-and-glass-gray/cn/3AB02348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-054 - LOWER CAB AND CANOPY COVERS, PLASTIC COVERS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "32EC0978-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/lower-cab-and-canopy-covers-plastic-covers/cn/32EC0978-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-056 - OUTER MIRROR AND SUN VISOR",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "E8E20978-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/outer-mirror-and-sun-visor/cn/E8E20978-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-058 - CAB INTERIOR, TAN",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8DB22348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/cab-interior-tan/cn/8DB22348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-059A - CAB INTERIOR, GRAY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6BAD2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/cab-interior-gray/cn/6BAD2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-059C - CAB INSULATION, MODELS WITH AIR CONDITIONING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C686BA70-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/cab-insulation-models-with-air-conditioning/cn/C686BA70-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-060 - CONSOLE COVERS AND WRIST SUPPORT, COVERS, TAN",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "42AE2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/console-covers-and-wrist-support-covers-tan/cn/42AE2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-062 - PEDESTAL AND COVERS, PEDESTAL WITH TAN COVERS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9BFFC076-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/pedestal-and-covers-pedestal-with-tan-covers/cn/9BFFC076-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-064 - CAB FILTERS, VENTS, AND LOUVERS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3453387F-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/cab-filters-vents-and-louvers/cn/3453387F-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-066 - RIGHT-HAND CAB WINDOW",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "66AE2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/right-hand-cab-window/cn/66AE2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-068 - CAB DOOR AND MOUNTING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "43AE2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/cab-door-and-mounting/cn/43AE2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-070 - CAB DOOR WINDOW",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "617A9144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/cab-door-window/cn/617A9144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-072 - ROTARY WINDOW LOCK",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "ABE97849-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/rotary-window-lock/cn/ABE97849-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-074 - HEATING AND AIR CONDITIONING PLENUM",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "9D17A045-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/heating-and-air-conditioning-plenum/cn/9D17A045-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-076 - HEATING AND AIR CONDITIONING CORE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "3EE54079-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/heating-and-air-conditioning-core/cn/3EE54079-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-078 - HEATING SYSTEM",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "4DF57E69-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/heating-system/cn/4DF57E69-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-080 - AIR CONDITIONING SYSTEM, COMPRESSOR TO CONDENSER AND EVAPORATOR CORE, PRIOR TO P.I.N. JEE0040380",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "6189D55C-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/air-conditioning-system-compressor-to-condenser-and-evaporator-core-prior-to-pin-jee0040380/cn/6189D55C-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-081C - AIR CONDITIONING SYSTEM, COMPRESSOR TO CONDENSER AND EVAPORATOR CORE, P.I.N. JEE0040380 AND AFTER",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B238AC82-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/air-conditioning-system-compressor-to-condenser-and-evaporator-core-pin-jee0040380-and-after/cn/B238AC82-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-082 - AIR CONDITIONING CONDENSER AND MOUNTING, CONDENSER HARNESS WITH THREE RELAYS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "2BB56E81-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/air-conditioning-condenser-and-mounting-condenser-harness-with-three-relays/cn/2BB56E81-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-084 - AIR CONDITIONING CONDENSER AND MOUNTING, CONDENSER HARNESS WITH THREE RELAYS (CONT'D)",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "DE548E5D-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/air-conditioning-condenser-and-mounting-condenser-harness-with-three-relays-contd/cn/DE548E5D-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-085A - AIR CONDITIONING CONDENSER AND MOUNTING, CONDENSER HARNESS WITH TWO RELAYS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "352F6861-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/air-conditioning-condenser-and-mounting-condenser-harness-with-two-relays/cn/352F6861-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-086 - AIR CONDITIONING COMPRESSOR MOUNTING",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "ADF8FB71-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/air-conditioning-compressor-mounting/cn/ADF8FB71-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-088 - AIR CONDITIONING COMPRESSOR ASSEMBLY, PRIOR TO P.I.N. JEE0040380",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "67B02348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/air-conditioning-compressor-assembly-prior-to-pin-jee0040380/cn/67B02348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-090 - CANOPY, TAN",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "B6F17849-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/canopy-tan/cn/B6F17849-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-091A - CANOPY, GRAY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "68B02348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/canopy-gray/cn/68B02348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-092 - CANOPY WINDSHIELD AND WIPER KIT",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "8D097B5B-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/canopy-windshield-and-wiper-kit/cn/8D097B5B-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-093 - KIT WIPER NOZZLE",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "70FD51B7-CB9D-4F9F-8669-FFC615A3960D",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/kit-wiper-nozzle/cn/70FD51B7-CB9D-4F9F-8669-FFC615A3960D/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-094 - DECALS, BROWN",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "C0D67849-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/decals-brown/cn/C0D67849-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-095A - DECALS, GRAY",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "91B22348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/decals-gray/cn/91B22348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-096 - DECALS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "7C799144-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/decals/cn/7C799144-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-098 - DECALS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "69B02348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/decals/cn/69B02348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    },
+    {
+      "title": "9-100 - DECALS",
+      "group": "D8D16496-EFBE-E111-9FCE-005056875BD6_09_CHASSIS-ATTACHMENTS",
+      "ref": {
+        "source_id": "casece-us-en",
+        "kind": "assembly",
+        "id": "28AE2348-8FBF-E111-9FCE-005056875BD6",
+        "context": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/chassis-attachments/decals/cn/28AE2348-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+      }
+    }
+  ]
+}

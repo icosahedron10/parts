@@ -1,0 +1,450 @@
+{
+  "report_sha256": "83021bdaad0590f648b5c1201f8ae6ab461e0418fc64a9704c09c063baa65b8d",
+  "source_sha256": "2e03926d22800d194b3092014dda295fc920f9c864db0f7e37c846ca64d5d251",
+  "scheduled": 20,
+  "satisfactory": 19,
+  "required": 18,
+  "acceptance_passed": true,
+  "unsupported_part_identifications": 0,
+  "fabricated_urls": 0,
+  "median_seconds": 20.422,
+  "interactive_http_attempts": 6,
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "tokens": {
+    "input_tokens": 968839,
+    "output_tokens": 14854,
+    "total_tokens": 983693
+  },
+  "limits": [
+    "Manual semantic review, not a guarantee of fitment.",
+    "Queries and rubric were frozen before inference, but rerun during development; not an untouched independent accuracy estimate.",
+    "The sole failed case remains failed after the subsequent graph-step fix. Defaults now match this tested model profile; tool argument help text was clarified afterward."
+  ],
+  "cases": [
+    {
+      "id": "N001",
+      "satisfactory": true,
+      "reason": "Lower position is not established by the inspected radiator hose rows; no hose was falsely selected.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/cn/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator-and-connections/cn/10462E54-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/engine/radiator/cn/1F4AAC82-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N002",
+      "satisfactory": true,
+      "reason": "Cab ventilation filter KHR13340 is supported by the ducts assembly; engine filtration remains distinct.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "KHR13340"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/filters/filter-related-parts/cab-filter/p/KHR13340",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/chassis-attachments/air-conditioning-ducts/cn/7D00FC71-8FBF-E111-9FCE-005056875BD6/28DA6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N003",
+      "satisfactory": true,
+      "reason": "A187535 motor is distinguished from the A187672 motor-and-bracket assembly.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "A187535",
+          "A187672"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/electrical/motors/wiper-motor/p/A187535",
+          "https://www.mycnhstore.com/us/en/casece/category/electrical/motors/wiper-motor/p/A187672",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/electrical-systems/cab-rear-wiper/cn/CCFF2260-8FBF-E111-9FCE-005056875BD6/D8D16496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N004",
+      "satisfactory": true,
+      "reason": "Inspected linkage bushings are not presented as spherical-bearing substitutes.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/bucket-linkage/cn/18D5CF56-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/bucket-linkage/cn/DF4C315A-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/cn/FFD96496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N005",
+      "satisfactory": true,
+      "reason": "N8695 and N8469 retain their own actuator applications, quantities and service kits; N9055 air chamber is not substituted.",
+      "mechanical_evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "unobserved_citation",
+            "values": [
+              "https://www.mycnhstore.com/us/en/casece/category/brakes/misc-brakes/hydraulic-cylinder/p/N8469)**",
+              "https://www.mycnhstore.com/us/en/casece/category/brakes/misc-brakes/hydraulic-cylinder/p/N8695)**"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "L107985",
+          "L112959",
+          "L113007",
+          "N6937",
+          "N8469",
+          "N8695",
+          "N8937"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/brakes/misc-brakes/hydraulic-cylinder/p/N8469)**",
+          "https://www.mycnhstore.com/us/en/casece/category/brakes/misc-brakes/hydraulic-cylinder/p/N8695)**",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe018w/case-wheel-loader-north-america/brakes/l107985-and-l112959-brake-actuators/cn/53488E5D-8FBF-E111-9FCE-005056875BD6/D8E26496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe018w/case-wheel-loader-north-america/brakes/l113007-brake-actuator/cn/4D9B6E81-8FBF-E111-9FCE-005056875BD6/D8E26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N006",
+      "satisfactory": true,
+      "reason": "Right and brake-pad function survive the arguments; unresolved pad is not replaced by a complete pedal.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/accessories/dia-kit-foot-controls-t4/cn/C8403004-CD6F-4795-9B38-17FFE0AEA3B4/6F7909BA-F6C7-454F-AC12-DF038474C549",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/hydrostatic-drive/pedal-mounting-foot-controls/cn/490F45B6-A934-4752-A326-22A966627123/6F7909BA-F6C7-454F-AC12-DF038474C549"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N007",
+      "satisfactory": true,
+      "reason": "Engine variants and conditional J934429 alternative remain explicit.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "J908616",
+          "J934429"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/filters/oil-filters/engine-oil-filter/p/J908616",
+          "https://www.mycnhstore.com/us/en/casece/category/filters/oil-filters/engine-oil-filter/p/J934429",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski007uni-loader/case-uni-loader-skid-steer-loader/engine/oil-filter-and-cooler-4-390-emissions-certified-engine/cn/0316EF83-8FBF-E111-9FCE-005056875BD6/C9CB6496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski007uni-loader/case-uni-loader-skid-steer-loader/engine/oil-filter-and-cooler-4-390-engine/cn/C88A796F-8FBF-E111-9FCE-005056875BD6/C9CB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N008",
+      "satisfactory": true,
+      "reason": "Starter replacement direction, complete starter and reman supply variants are source-supported.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "104452A2R",
+          "1987559C1",
+          "86982709",
+          "86982709R",
+          "87350916",
+          "A170746",
+          "AR170746"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/alternators-starters/starters/reman-starter/p/104452A2R",
+          "https://www.mycnhstore.com/us/en/casece/category/alternators-starters/starters/reman-starter/p/86982709R",
+          "https://www.mycnhstore.com/us/en/casece/category/alternators-starters/starters/reman-starter/p/87350916",
+          "https://www.mycnhstore.com/us/en/casece/category/alternators-starters/starters/starter-motor/p/86982709",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski007uni-loader/case-uni-loader-skid-steer-loader-north-america/electrical-systems/starter-assy/cn/1F3A315A-8FBF-E111-9FCE-005056875BD6/D1CB6496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski007uni-loader/case-uni-loader-skid-steer-loader-north-america/electrical-systems/starter-assy/cn/E9638B80-8FBF-E111-9FCE-005056875BD6/D1CB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N009",
+      "satisfactory": true,
+      "reason": "Contents intent retained; included callout quantities are correctly aggregated across repeated part numbers.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "154548A1",
+          "154704A1",
+          "154788A1",
+          "LE013800",
+          "LE013810",
+          "LE013820",
+          "LE013830",
+          "LE013840",
+          "LE013850",
+          "LE013860",
+          "LE013870",
+          "LE013880",
+          "LZ007300"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/hydraulics/cylinders/seal-kit/p/LZ007300",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/hydraulics/cylinder-assy-boom-left-hand-models-with-load-hold/cn/18137B5B-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/hydraulics/cylinder-assy-boom-left-hand-models-without-load-hold/cn/AA19B950-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/hydraulics/cylinder-assy-boom-right-hand-models-with-load-hold/cn/887D7D55-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/hydraulics/cylinder-assy-boom-right-hand-models-without-load-hold/cn/8D4FBE6A-8FBF-E111-9FCE-005056875BD6/6EDA6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N010",
+      "satisfactory": true,
+      "reason": "Both ESCO tooth numbers retain bucket capacities and counts; unsupported third-figure tooth is not invented.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "127558A1",
+          "233794A1"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/casece/category/attachments-buckets/bucket-teeth-parts/bucket-tooth/p/127558A1",
+          "https://www.mycnhstore.com/us/en/casece/category/attachments-buckets/bucket-teeth-parts/bucket-tooth/p/233794A1",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/buckets-esco/cn/368E796F-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/buckets-esco/cn/5537AC82-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/chassis/buckets-esco/cn/6F27767B-8FBF-E111-9FCE-005056875BD6/FFD96496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N011",
+      "satisfactory": false,
+      "reason": "Failed with GraphRecursionError at the old 24-step limit. This remains a failure; subsequent graph-budget fix is unit-tested.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [],
+        "citations": [],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N012",
+      "satisfactory": true,
+      "reason": "Cab motor alternatives retain blower identities and serial ranges.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "109246C94",
+          "117784C5",
+          "1255878C91",
+          "142990C2",
+          "143166C91",
+          "190333A1R"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/electrical/motors/electric-motor/p/117784C5",
+          "https://www.mycnhstore.com/us/en/caseih/category/electrical/motors/electric-motor/p/142990C2",
+          "https://www.mycnhstore.com/us/en/caseih/category/electrical/motors/reman-electric-motor/p/190333A1R",
+          "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-hillside-combine/superstructure/superstructure-cab-blower-assy/cn/C441315A-8FBF-E111-9FCE-005056875BD6/25CB6496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N013",
+      "satisfactory": true,
+      "reason": "Pump kit includes pump/pulley/O-ring, NSS restrictions and the qualified reman servicing note.",
+      "mechanical_evidence_gate": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "part_without_assembly_evidence",
+            "values": [
+              "A77579",
+              "AR77579"
+            ]
+          }
+        ],
+        "proposed_part_numbers": [
+          "A77579",
+          "A77704",
+          "AR77579",
+          "AR77704",
+          "J800976R",
+          "J902089"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/cummins-engine-parts/reman-water-pump/p/J800976R",
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/misc-engines-cooling-exhaust/water-pump/p/A77704",
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/misc-engines-cooling-exhaust/water-pump/p/AR77704",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/water-pump-system-6t-830-engine/cn/D14D8E5D-8FBF-E111-9FCE-005056875BD6/EDD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N014",
+      "satisfactory": true,
+      "reason": "Lower hose dimensions, specification and quantity match the assembly.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "1334477C1"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/radiators/radiator-hose/p/1334477C1",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/radiator-and-attaching-parts/cn/4C8BBD68-8FBF-E111-9FCE-005056875BD6/F2D26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N015",
+      "satisfactory": true,
+      "reason": "Front wiper motor, voltage and quantity match inspected evidence.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "A186256"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/electrical/motors/wiper-motor/p/A186256",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/electrical-systems/windshield-wiper-assembly/cn/AD58BE6A-8FBF-E111-9FCE-005056875BD6/F4D26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N016",
+      "satisfactory": true,
+      "reason": "Thermostat quantity is retained; ambiguous temperature glyph is explicitly qualified.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "J907242"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/engines-cooling-exhaust/radiators/thermostat/p/J907242",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/engine/thermostat-housing-6t-830-engine-6ta-830-engine/cn/18DEDC64-8FBF-E111-9FCE-005056875BD6/F8D26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N017",
+      "satisfactory": true,
+      "reason": "Both air-filter elements retain quantities and the secondary dimensions.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "A171255",
+          "A171256"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/filters/air-filters/air-filter/p/A171255",
+          "https://www.mycnhstore.com/us/en/caseih/category/filters/air-filters/air-filter/p/A171256",
+          "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor/engine/air-cleaner/cn/7A6C387F-8FBF-E111-9FCE-005056875BD6/FCD26496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N018",
+      "satisfactory": true,
+      "reason": "Supported curved/straight/configuration alternatives are presented with their quantities; windguard tine bar is not substituted.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "86551419",
+          "86626599",
+          "87394242",
+          "87607074"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/harvest/misc-harvesting/tine/p/86626599",
+          "https://www.mycnhstore.com/us/en/caseih/category/hay-forage/baler-parts/finger/p/86551419",
+          "https://www.mycnhstore.com/us/en/caseih/category/hay-forage/forage-parts/tine/p/87607074",
+          "https://www.mycnhstore.com/us/en/caseih/category/hay-forage/forage-parts/torsion-spring/p/87394242",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/feeder/15m-dual-cam-wide-pickup/cn/FEC8E746-8FBF-E111-9FCE-005056875BD6/6DE06496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/feeder/18m-dual-cam-wide-pickup-reel/cn/3A00DB58-8FBF-E111-9FCE-005056875BD6/6DE06496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/feeder/18m-single-cam-wide-pickup-reel/cn/C03E6861-8FBF-E111-9FCE-005056875BD6/6DE06496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/feeder/2m-wide-pickup-reel-straight-curved-pickup-tines/cn/48498E5D-8FBF-E111-9FCE-005056875BD6/6DE06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N019",
+      "satisfactory": true,
+      "reason": "Reel and reel-drive bearings are explicitly distinguished, with dimensions, quantities and no interchangeability claim.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "156816C91",
+          "54770"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/bearings-bushings/bearings/ball-bearing/p/54770",
+          "https://www.mycnhstore.com/us/en/caseih/category/bearings-bushings/bearings/bearing-cover/p/156816C91",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/feeder/18m-dual-cam-wide-pickup-reel-drive/cn/389CBA70-8FBF-E111-9FCE-005056875BD6/6EE06496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/feeder/18m-dual-cam-wide-pickup-reel/cn/DE97D55C-8FBF-E111-9FCE-005056875BD6/6EE06496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/feeder/18m-single-cam-wide-pickup-reel/cn/44B3E05E-8FBF-E111-9FCE-005056875BD6/6EE06496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/feeder/2m-wide-pickup-reel-rotor/cn/8FF2DC52-8FBF-E111-9FCE-005056875BD6/6EE06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    },
+    {
+      "id": "N020",
+      "satisfactory": true,
+      "reason": "Contents intent retained; old/new cylinder and kit numbers with AR quantities remain explicit; unknown contents are not inferred.",
+      "mechanical_evidence_gate": {
+        "passed": true,
+        "violations": [],
+        "proposed_part_numbers": [
+          "86586336",
+          "86637318",
+          "87019624",
+          "87025443"
+        ],
+        "citations": [
+          "https://www.mycnhstore.com/us/en/caseih/category/hydraulics/cylinders/seal-kit/p/87025443",
+          "https://www.mycnhstore.com/us/en/caseih/category/seals-o-rings/seal-kits/seal-kit/p/86586336",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/hydraulic-system/hydraulic-cylinder-tailgate-lift-new-style/cn/C8CDE746-8FBF-E111-9FCE-005056875BD6/72E06496-EFBE-E111-9FCE-005056875BD6",
+          "https://www.mycnhstore.com/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/hydraulic-system/hydraulic-cylinder-tailgate-lift-old-style/cn/C9C4E746-8FBF-E111-9FCE-005056875BD6/72E06496-EFBE-E111-9FCE-005056875BD6"
+        ],
+        "semantic_correctness": "not_assessed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "run": "reports\\toc-lookup-tools-2026-11-03.json",
+  "reviewer": "implementation-agent, not independent domain review",
+  "scope": "Six development cases; earlier pilot and interface revisions retained in separate artifacts. Not an untouched benchmark.",
+  "contents_acquisition": {
+    "catalogs": 6,
+    "groups": 56,
+    "titles": 1397,
+    "requests": 62,
+    "coverage": "Every group returned by each catalog page expanded through the same unfiltered array endpoint used by the storefront; no keyword or serial filter."
+  },
+  "cases": [
+    {
+      "id": "H003",
+      "verdict": "pass",
+      "reason": "Preserves two inspected ESCO tooth alternatives and configuration-dependent quantities.",
+      "assembly_count": 306,
+      "inspections": 3
+    },
+    {
+      "id": "H004",
+      "verdict": "pass",
+      "reason": "Follows air-conditioning assembly reference to evaporator and identifies explicit CAB FILTER row KHR13330.",
+      "assembly_count": 275,
+      "inspections": 2
+    },
+    {
+      "id": "H010",
+      "verdict": "pass",
+      "reason": "Identifies inspected seal kit LZ00491 and preserves its inclusion/reference notes.",
+      "assembly_count": 235,
+      "inspections": 1
+    },
+    {
+      "id": "H018",
+      "verdict": "pass",
+      "reason": "Identifies inspected spherical bearing G109152 rather than replacing it with the cylinder.",
+      "assembly_count": 295,
+      "inspections": 1
+    },
+    {
+      "id": "H020",
+      "verdict": "fail",
+      "reason": "Follows treadle-valve reference and falsely equates L73042 with master cylinder. Ignores explicit BRAKE ACTUATOR reference to Figures 7-58 through 7-68. Previously inspected 7-68 establishes N8695.",
+      "assembly_count": 260,
+      "inspections": 2
+    },
+    {
+      "id": "H027",
+      "verdict": "partial",
+      "reason": "Identifies both inspected pickup tine alternatives and their configuration distinctions, but omits catalog quantity 36 required by the frozen review criterion.",
+      "assembly_count": 26,
+      "inspections": 1
+    }
+  ],
+  "summary": {
+    "pass": 4,
+    "partial": 1,
+    "fail": 1,
+    "correct_requested_part_identification": 5,
+    "inspections": 10,
+    "source_requests_in_final_warm_run": 0,
+    "model_calls": 16,
+    "input_tokens": 154903,
+    "output_tokens": 1101
+  }
+}

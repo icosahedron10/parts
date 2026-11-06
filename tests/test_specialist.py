@@ -6,7 +6,7 @@ from types import SimpleNamespace
 
 import httpx
 import pytest
-from langchain_core.messages import AIMessage
+from langchain_core.messages import AIMessage, ToolMessage
 from langchain_core.outputs import ChatGeneration, ChatResult
 
 from cnh_parts_agent import make_lookup_parts_tool
@@ -63,6 +63,103 @@ class SlowModel(ScriptedCatalogModel):
     async def _agenerate(self, *args, **kwargs):
         await asyncio.sleep(10)
         raise AssertionError("Outer deadline should cancel inference")
+
+
+class EightActionModel(ScriptedCatalogModel):
+    emitted_tools: int = 0
+
+    def _generate(self, messages, *args, **kwargs):
+        if self.emitted_tools == 8:
+            return ChatResult(
+                generations=[
+                    ChatGeneration(
+                        message=AIMessage(
+                            content='{"key_facts":["No identification established."],"sources":[],"store_url":""}'
+                        )
+                    )
+                ]
+            )
+        discovery = next(m for m in messages if isinstance(m, ToolMessage) and m.name == "search_machines")
+        machine = json.loads(discovery.content)["data"]["machines"][0]["machine_ref"]
+        self.emitted_tools += 1
+        return ChatResult(
+            generations=[
+                ChatGeneration(
+                    message=AIMessage(
+                        content="",
+                        tool_calls=[
+                            {
+                                "name": "search_catalog",
+                                "id": f"budget_{self.emitted_tools}",
+                                "args": {
+                                    "machine_ref": machine,
+                                    "query": "radiator",
+                                    "mode": "part_description",
+                                },
+                            }
+                        ],
+                    )
+                )
+            ]
+        )
+
+
+async def test_all_eight_actions_leave_graph_steps_for_finalization(catalog):
+    model = EightActionModel()
+    result = json.loads(
+        await make_lookup_parts_tool(catalog=catalog, model=model).ainvoke(
+            {"machine_query": "CX350B", "part_query": "radiator"}
+        )
+    )
+    assert result["key_facts"] == ["No identification established."]
+    assert model.emitted_tools == 8
+    assert catalog.transport.request_count == 1
+
+
+class InvalidCompletionModel(ScriptedCatalogModel):
+    failures: int = 1
+    final_attempts: int = 0
+    emitted_tools: int = 0
+    invalid_schema: bool = False
+
+    def _generate(self, *args, **kwargs):
+        result = super()._generate(*args, **kwargs)
+        message = result.generations[0].message
+        if message.tool_calls:
+            self.emitted_tools += len(message.tool_calls)
+        else:
+            self.final_attempts += 1
+            message.usage_metadata = {"input_tokens": 10, "output_tokens": 5, "total_tokens": 15}
+            if self.final_attempts <= self.failures:
+                message.content = '{"key_facts":42}' if self.invalid_schema else message.content * 2
+        return result
+
+
+@pytest.mark.parametrize("failures,invalid_schema,attempts", [(1, False, 2), (3, False, 2), (1, True, 1)])
+async def test_malformed_json_retry_preserves_tools_cost_and_failure_bound(
+    catalog, failures, invalid_schema, attempts
+):
+    from langchain.agents.structured_output import StructuredOutputValidationError
+
+    model = InvalidCompletionModel(failures=failures, invalid_schema=invalid_schema)
+    diagnostics = Diagnostics()
+    token = current.set(diagnostics)
+    try:
+        operation = make_lookup_parts_tool(catalog=catalog, model=model).ainvoke(
+            {"machine_query": "CX350B", "part_query": "radiator"}
+        )
+        if failures == 1 and not invalid_schema:
+            result = json.loads(await operation)
+            assert "KSH1028" in " ".join(result["key_facts"])
+        else:
+            with pytest.raises(StructuredOutputValidationError):
+                await operation
+    finally:
+        current.reset(token)
+    assert model.final_attempts == attempts
+    assert model.emitted_tools == 2  # Search and assembly inspection are not replayed.
+    assert len(diagnostics.model_errors) == min(failures, attempts)
+    assert sum(row["total_tokens"] for row in diagnostics.model_usage) == attempts * 15
 
 
 async def test_deadline_includes_inference(catalog):
@@ -124,14 +221,12 @@ async def test_handles_do_not_cross_lookups(catalog):
         ),
         ("get_part_relationships", {"part_ref": "p1"}, "observed_part_required"),
         ("search_machines", {"query": "CX350B"}, "machine_selection_locked"),
-        ("get_assembly", {"machine_ref": "m1", "assembly_ref": "a2"}, "assembly_inspection_required"),
     ],
 )
 async def test_scope_boundary_rejects_before_catalog(catalog, name, args, code):
     client = PartsTools(catalog)
     boundary = PartsToolBoundary(machine_query="CX350B", client=client, part_query="radiator")
     boundary.machine_ref = "m1"
-    boundary.pending_assemblies = {"a1"}
     response = boundary._rejection(SimpleNamespace(tool_call={"name": name, "args": args, "id": "x"}))
     assert json.loads(response.content)["error"]["code"] == code
     assert client.budget.calls == 1

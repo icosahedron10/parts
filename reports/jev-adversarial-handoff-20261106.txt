@@ -1,0 +1,98 @@
+You are taking over the Jev catalog-navigation experiment in:
+C:\Users\madse\Documents\parts-again
+
+Your task is an adversarial simplification and generality pass. Determine which additions improve the system broadly, which overfit the examples we used, which should run only when needed, and which can be removed. Make and validate the smallest improvements justified by evidence. Do not assume either that the current design is optimal or that fewer steps are automatically better.
+
+The product direction is settled: after resolving a machine to a catalog, Jev chooses among observed navigation options, and a reader LLM examines the selected guide's cleaned HTML for part evidence. Keep this on-demand approach. This is not a request for another bulk scraper, a new agent framework, or a model-selection exercise.
+
+CURRENT IMPLEMENTATION AND EVIDENCE
+
+Read these files, resolving paths relative to the workspace above:
+- src/cnh_parts_agent/agent/jev_navigation.py
+- src/cnh_parts_agent/agent/jev_applicability.py
+- src/cnh_parts_agent/catalog/reader_html.py
+- scripts/jev_iterate.py
+- scripts/jev_fresh_sample.py
+- scripts/score_jev_iterations.py
+- scripts/score_jev_fresh_sample.py
+- tests/test_jev_navigation.py, test_jev_applicability.py, test_jev_iteration_cache.py, test_jev_sampling.py
+- reports/jev-iterations-20261105/stage-notes.json
+- reports/jev-iterations-20261105/comparison.json
+- reports/jev-iterations-20261105/14-fresh40-20261106/score.json
+- reports/jev-iterations-20261105/14-fresh40-20261106/manifest.json
+
+Case folders retain requests, responses, usage, source HTML, candidate audits and navigation traces. Saved code snapshots and hashes identify what actually ran. The repository contains substantial pre-existing dirty work: inspect it and preserve unrelated changes. Keep new experiments in new directories; do not rewrite prior results or frozen benchmark data.
+
+Models: Jev jev-1.14.0 for decisions; gpt-6.1-terra with high reasoning for planning, reading and auditing. Keep these fixed during initial ablations. Existing credentials are configured locally; never print them.
+
+Development progression on the same 20 cases:
+- Cleaned HTML, single-guide baseline: 11 full passes.
+- Backtracking: 16.
+- Cross-references: still 16.
+- Stricter source-row selection, filtering and candidate audit: 18.
+- Planning brief / replanning: still 18.
+- Production-date handling: 19.
+- Native catalog-search fallback: 20.
+- Fresh model repeat: 20.
+- Scope clarification, unconfirmed leads and source-error recovery retained 20.
+
+A separate 20-case sample scored 19 passes and one partial, twice. The latest fresh 40 scored 38 passes, one partial, one miss; 37 matched the reference set exactly, while one additional pass included an explicitly supported remanufactured alternative. It cost $0.6944 in estimated API usage, made 247 model calls without inference replay, and had median/p95 lookup times of 21.5/39.1 seconds. There were zero execution errors and zero source-field discrepancies. These are historical benchmark cases sharing machines and guides, not independent production-wide accuracy estimates.
+
+Important cases to inspect, not hardcode:
+- Q023.two_sentences: falsely equated radiator wrapper housing 87719412 with the requested shroud. The catalog separately lists shroud 87559003. The second model audit accepted the error.
+- Q008.two_sentences: returned seven real hoses from Radiator and Connections, asked for position, and stopped before following the radiator reference to the detailed guide containing LK005320.
+- Q018.year_between: correctly included reman cylinder 84421594R alongside ordinary 84210934. The source explicitly states the relationship; the frozen reference set is not exhaustive.
+- Q062.machine_first: a valid harness bracket in a different subassembly; asking which harness/location is necessary.
+- Original Farmall 35C clutch-pedal return spring: MT40011959 is a plausible source-backed spring at diagram item 8, but the HTML does not establish return function. The final answer correctly keeps it unconfirmed.
+
+QUESTIONS TO CHALLENGE
+
+Prioritize these hypotheses using both existing traces and controlled ablations:
+
+1. Always-on planning: does the initial Terra brief earn its cost? Compare no initial planner, planner only after a failed read, and current behavior. Assess replanning separately. The earlier flat score does not prove the planner has no value, but it is a strong ablation target.
+
+2. The second Terra audit: how often does it change the outcome, rescue an error, reject a valid answer, or merely agree? Compare always-on, conditional and absent audits while retaining deterministic source binding. It failed to catch the wrapper/shroud confusion; do not assume a second pass provides independent assurance.
+
+3. Context volume and output fields: compare full history with a compact record of inspected guides, failed hypotheses, useful references and unresolved constraints. Investigate repeated source text and generated fields such as Candidate.notes, which are sent to the auditor but replaced by source notes in final findings. Distinguish useful context from duplicate prose and logging that never reaches the decision model.
+
+4. Search orchestration: does a separate query-planning call help enough? Can an existing brief supply useful queries? Is triggering native search after exactly two failed inspections sensible across cases, especially when an inspection is an empty index? Test simpler or conditional approaches without adding another layer of agents.
+
+5. Heavy-handed candidate restrictions: do categorical wording and example-specific prompt instructions reject legitimate synonyms, component functions established by context, explicit requests for cores, actual radiator cores versus core-return deposits, or valid reman alternatives? Examine exact-quote correction costs and false rejections. Preserve source binding even if you simplify the evidence format.
+
+6. Applicability and uncertainty: test explicit build year versus model/registration year, missing years, midyear changes, unfamiliar date notation, multiple revisions, and parent/component scope. Does the narrow date parser overreach or give a misleading sense of coverage? Does the possible-candidate / clarification path prevent overclaiming without becoming an excuse to stop prematurely or ask needless questions?
+
+7. Navigation and rare paths: check cross-reference ranges and formats, references outside the current group, index pages, cycles, shuffled menus, distractors, duplicate/blank callouts, and large menus. Examine whether group-return mechanics, menu tournaments and rarely used recovery code are necessary or can be simpler. A rare guard can still be valuable; weigh the consequence of its absence as well as its frequency.
+
+ABLATION DISCIPLINE
+
+- First inventory each addition: lines/branches it owns, trigger frequency, input/output tokens, latency, changed decisions, and demonstrated benefits or failures. Separate runtime logic and model calls from evaluation-only reporting infrastructure.
+- Decouple features before comparing them. In this code, strict=False changes several things at once; it is not an audit-only ablation. The planning flag also controls a group-cycling guard; switching it off would otherwise confound the planner comparison. Inspect other flag interactions.
+- Preserve an unchanged control and freeze the case list, source snapshots, prompts, settings, grading rubric and code hashes for each experiment. Change one behavior at a time initially, then check interactions among promising simplifications.
+- Use exact-request replays for cheap controlled screening, clearly marked as replays. Never reuse a response after changing its prompt, schema, inputs or model. Confirm the strongest variants and the control with fresh model calls; repeat close or inconsistent outcomes before attributing a difference to the change.
+- Do not count reference-number presence as semantic accuracy. Review requested component identity, assembly scope, qualifiers, extra candidates, missed valid candidates and unsupported assertions. Report exact reference match, reference recovery and semantic review separately. Keep failures and abstentions in the denominator.
+- Include false negatives and unnecessary clarifications, not just wrong answers. Returning an unconfirmed basket of parts for every question is not success.
+
+BUILD A CHALLENGE SET AND PROTECT A HOLDOUT
+
+There are 100 base cases with four paraphrases each in the 400-query benchmark. This Jev experiment has used 80 distinct base cases. Verify this from the manifests; another wording of an already used family is not fresh.
+
+Before tuning, freeze the remaining 20 base cases as a final holdout. Keep their answer keys out of inference and do not inspect their results until the candidate implementation is frozen. The current sampler checks that lookup code matches stage 13, so freeze inputs before editing; retain those inputs unchanged in the ablation harness. Once a holdout result is inspected or used for a fix, call subsequent runs regression tests rather than fresh validation.
+
+For development, use a balanced subset of known cases plus a compact, separately labeled adversarial set with minimal contrasting pairs. Include both valid and invalid synonyms, assembly versus component, new/reman/core distinctions, side/dimension/variant contrasts, ambiguous and absent evidence, conditional fitment, misleading titles, and recoverable source failures. Where feasible, obtain genuine catalog evidence outside the familiar cooling/hydraulic assemblies or machines. Clearly label synthetic fixture mutations; do not present invented catalog facts as live evidence. Freeze expected behavior before running variants.
+
+Work efficiently: mine existing traces first, screen the highest-priority hypotheses with small paired runs, and spend fresh calls on the promising variants and final holdout. Track API usage and cost throughout. Do not run the full 400-case evaluation or begin a bulk crawl as part of this task.
+
+INVARIANTS AND DELIVERABLES
+
+Keep part identity tied to observed source rows, preserve callouts/quantities and meaningful applicability conditions, validate catalog ownership and URLs, treat source text as data, retain explicit source failures, and keep navigation bounded. These are required behaviors; their current implementation and any redundant machinery are open to simplification. Do not relax evidence standards just to increase the pass rate.
+
+Prefer clear procedural code. Do not add classes that merely wrap functions, a generic framework, or part-number/machine-ID/test-ID exceptions. Avoid a growing blacklist of phrases learned from individual failures. Preserve the distinction between confirmed matches, useful unconfirmed leads, and a failed search.
+
+Deliver:
+- A feature-by-feature keep/remove/conditional/simplify recommendation with observed frequency, causal evidence, regression risks and costs. Mark inconclusive results honestly.
+- A paired-results table showing quality, false positives, false negatives, clarifications, guides/model calls, tokens, latency and estimated API cost.
+- The smallest justified code/prompt changes, relevant tests, and immutable before/after traces.
+- Untouched-holdout results and a candid statement of what the sample cannot establish.
+- A clear account of whether the wrapper/shroud and early-stopping weaknesses improved without damaging legitimate synonyms or useful ambiguity handling.
+
+The goal is a leaner, more general and well-evidenced lookup agent. Retain a feature if the evidence justifies it; do not manufacture deletions to make the exercise look successful.

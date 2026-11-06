@@ -1,0 +1,13 @@
+{
+  "phase": "paused_by_owner",
+  "paused_at": "2026-11-05T18:53:25.344700+00:00",
+  "interrupted_batch": 196,
+  "last_finalized_batch": 195,
+  "next_unused_batch": 197,
+  "reason": "Owner requested stop work for now; workers stopped and heartbeat deleted.",
+  "checkpoints_preserved": true,
+  "interrupted_batch_http_attempts_known_lower_bound": 0,
+  "interrupted_batch_http_attempts_upper_bound": 250,
+  "traffic_note": "Batch 196 had no final report or request checkpoint lines when stopped. In-flight requests, if any, are not accounted for; do not claim exact traffic.",
+  "resume_note": "Preparation only; do not restart terra-sampled-work.py from its evaluation entry point. Resume SQLite checkpoints under a new batch number only when owner requests."
+}

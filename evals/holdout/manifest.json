@@ -1,0 +1,11 @@
+{
+  "authored_date": "2026-11-03",
+  "count": 50,
+  "target": "direct lookup_parts specialist; no orchestrator",
+  "method": "Manually authored general user intents and machine labels; no answer keys or prior response records used in authoring. Rubric fixed before first inference. No gold part numbers.",
+  "holdout_limit": "New query holdout, not model/catalog-disjoint; existing shared cache retained. Becomes a regression set if used for tuning.",
+  "files": {
+    "queries.jsonl": "2a37e3eec6745f531d13ec5f8384b4f867d2653217e3f2b19bef5b29bfe7a19c",
+    "rubric.jsonl": "c553441a392bcf1138df4fe3ee3c61b2ab00e41acd4b79dd65e32bf58aeba312"
+  }
+}

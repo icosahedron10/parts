@@ -14,6 +14,14 @@ from evals.run import run
 from tests.scripted_model import ScriptedCatalogModel, ScriptedSupervisorModel
 
 
+def test_evidence_urls_preserve_markdown_context_without_accepting_changed_targets():
+    from evals.evidence import answer_urls
+
+    url = "https://www.mycnhstore.com/us/en/casece/p/156602A1"
+    assert answer_urls(f"**[{156602}A1]({url})**", {url}) == {url}
+    assert answer_urls(f"**[part]({url}/invented)**", {url}) == {url + "/invented"}
+
+
 def test_terminated_run_recovery_keeps_every_scheduled_case(tmp_path):
     from evals.recover import recover
 
@@ -153,6 +161,86 @@ async def test_runner_rejects_answer_fields_before_inference(tmp_path):
         await run(cases, tmp_path / "run.jsonl")
 
 
+@pytest.mark.parametrize(
+    "message,stops",
+    [
+        ("You have no credits remaining.", True),
+        ("Error code: insufficient_quota", True),
+        ("Rate limit reached; retry later", False),
+    ],
+)
+async def test_runner_stops_on_exhausted_credits_but_not_transient_throttling(tmp_path, message, stops):
+    class OpenAIRateLimitError(Exception):
+        pass
+
+    cases = tmp_path / "questions.jsonl"
+    cases.write_text("".join(json.dumps({"id": str(i), "query": str(i)}) + "\n" for i in range(3)))
+    calls = []
+
+    async def execute(query):
+        calls.append(query)
+        if query == "0":
+            raise OpenAIRateLimitError(message)
+        return "answer"
+
+    output = tmp_path / "run.jsonl"
+    assert await run(cases, output, execute=execute) == 1
+    rows = [json.loads(line) for line in output.read_text().splitlines()][1:]
+    assert [row["status"] for row in rows] == ["error", *(["not_run"] * 2 if stops else ["received"] * 2)]
+    assert len(calls) == (1 if stops else 3)
+
+
+async def test_direct_runner_bypasses_parent_and_preserves_lookup_arguments(tmp_path, monkeypatch):
+    import importlib
+
+    runner = importlib.import_module("evals.run")
+    lookup = {
+        "machine_query": "CASE 580K",
+        "part_query": "water pump",
+        "brand": "casece",
+        "selected_machine_label": "explicit user choice",
+    }
+    seen = []
+
+    class RecordingTool:
+        async def ainvoke(self, args):
+            seen.append(args)
+            return '{"key_facts": ["recorded"], "sources": [], "store_url": ""}'
+
+    async def forbidden_parent(*args, **kwargs):
+        raise AssertionError("Direct evaluation must never invoke the parent")
+
+    monkeypatch.setattr(runner, "run_query", forbidden_parent)
+    monkeypatch.setattr(runner, "create_parts_model", lambda *args: object())
+    monkeypatch.setattr(runner, "make_lookup_parts_tool", lambda **kwargs: RecordingTool())
+    cases = tmp_path / "cases.jsonl"
+    cases.write_text(json.dumps({"id": "H001", "query": "user question", "lookup": lookup}))
+    output = tmp_path / "direct.jsonl"
+    assert await run(cases, output, direct=True, live=True) == 0
+    rows = [json.loads(line) for line in output.read_text().splitlines()]
+    assert rows[0]["target"] == "specialist"
+    assert seen == [lookup]
+    assert rows[1]["lookup"] == lookup
+    assert rows[1]["status"] == "received"
+
+
+async def test_direct_runner_rejects_hidden_gold_before_opening_report(tmp_path):
+    cases = tmp_path / "cases.jsonl"
+    cases.write_text(
+        json.dumps(
+            {
+                "id": "H001",
+                "query": "question",
+                "lookup": {"machine_query": "CASE 1840", "part_query": "filter", "answer": "secret gold"},
+            }
+        )
+    )
+    output = tmp_path / "direct.jsonl"
+    with pytest.raises(ValueError, match="Extra inputs"):
+        await run(cases, output, direct=True)
+    assert not output.exists()
+
+
 async def test_model_constructor_failure_is_durable(tmp_path, monkeypatch):
     import importlib
 
@@ -185,3 +273,38 @@ def test_scorer_requires_inspected_assembly_not_just_product_url():
     assert result["mentioned_reference_numbers"] == ["KSH1028"]
     assert result["reference_numbers_with_cited_gold_assembly"] == []
     assert result["accuracy_pass"] is None
+
+
+async def test_sample_schedule_is_reproducible_and_paced(tmp_path, monkeypatch):
+    from evals import run as runner
+
+    pool = [{"id": str(i), "query": f"question {i}"} for i in range(30)]
+    source = tmp_path / "queries.jsonl"
+    source.write_text("\n".join(json.dumps(q) for q in pool), encoding="utf-8")
+    pauses = []
+
+    async def sleep(seconds):
+        pauses.append(seconds)
+
+    async def execute(query):
+        return "No identification."
+
+    monkeypatch.setattr(runner.asyncio, "sleep", sleep)
+    monkeypatch.setenv("PARTS_CACHE_PATH", str(tmp_path / "cache.sqlite"))
+    schedules = []
+    for number in range(2):
+        output = tmp_path / f"run{number}.jsonl"
+        assert (
+            await run(
+                source, output, execute=execute, sample_size=20, seed=77, interval_min=30, interval_max=90
+            )
+            == 0
+        )
+        rows = [json.loads(line) for line in output.read_text().splitlines()]
+        schedules.append(rows[0]["scheduled_cases"])
+        assert len(rows[1:]) == 20
+        assert len({row["id"] for row in rows[1:]}) == 20
+    assert schedules[0] == schedules[1]
+    assert len(pauses) == 38 and all(30 <= value <= 90 for value in pauses)
+    with pytest.raises(ValueError, match="Sample"):
+        await run(source, tmp_path / "invalid.jsonl", sample_size=31)

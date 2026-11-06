@@ -1,4 +1,4 @@
-"""Five narrow tools and lookup-owned budgets, reference handles, and observations."""
+"""Narrow tools and lookup-owned budgets, reference handles, and observations."""
 
 import asyncio
 import json
@@ -26,11 +26,17 @@ class Pagination(Input):
 
 class MachineSearch(Pagination):
     query: str = Field(min_length=1, max_length=200)
-    brand: Literal["casece", "caseih"] | None = None
+    brand: Literal["casece", "caseih", "newhollandag", "newhollandce"] | None = None
 
 
 class Groups(Input):
     machine_ref: str
+
+
+class AssemblyList(Pagination):
+    machine_ref: str
+    group_ref: str | None = None
+    query: str | None = None
 
 
 class CatalogSearch(Pagination):
@@ -51,6 +57,7 @@ class Relationships(Input):
 TOOL_REQUEST_MODELS = {
     "search_machines": MachineSearch,
     "list_groups": Groups,
+    "list_assemblies": AssemblyList,
     "search_catalog": CatalogSearch,
     "get_assembly": Assembly,
     "get_part_relationships": Relationships,
@@ -58,7 +65,8 @@ TOOL_REQUEST_MODELS = {
 OPERATIONS = tuple(DATA_MODELS)
 DESCRIPTIONS = {
     "search_machines": "Find observed catalogs locally. Preserve the user's year, make, model and variants.",
-    "list_groups": "List the selected machine's catalog groups.",
+    "list_assemblies": "Browse dated local assembly titles by group or title substring, with pagination. No site requests.",
+    "list_groups": "List locally prepared groups. Empty local coverage requires targeted search, not a live directory crawl.",
     "search_catalog": "Locate parts or assemblies inside the selected catalog; inspect assembly rows before concluding.",
     "get_assembly": "Inspect assembly occurrences, part numbers, quantities, notes and product links.",
     "get_part_relationships": "Read displayed direct substitutions for an already observed part; not interchangeability.",
@@ -88,6 +96,11 @@ class PartsTools:
         self.budget = budget or WorkflowBudget(catalog.settings.max_calls, catalog.settings.timeout_seconds)
         self.observations = []
         self.handles = {}
+        self.memo = {}
+        self.source_observations = {}
+        self.failed_observations = {}
+        self.observation_locks = {}
+        self.host_loading = False
 
     def encode_references(self, value, field=""):
         if isinstance(value, dict):
@@ -122,29 +135,67 @@ class PartsTools:
 
     def reject_tool(self, operation, code, message):
         try:
-            self.budget.consume()
+            if not self.host_loading:
+                self.budget.consume()
             result = PartsError(code, message).payload()
         except PartsError as exc:
             result = exc.payload()
-        self.record({"operation": operation, "response": result})
+        self.record({"operation": operation, "response": result, "host_action": self.host_loading})
         return result
 
     async def tool_call(self, operation, arguments):
         decoded = arguments
         try:
-            self.budget.consume()
+            if not self.host_loading:
+                self.budget.consume()
             if operation not in TOOL_REQUEST_MODELS:
-                raise PartsError("unsupported_operation", "Choose one of the five catalog tools.")
+                raise PartsError("unsupported_operation", "Choose a supported catalog tool.")
             try:
                 args = TOOL_REQUEST_MODELS[operation].model_validate(arguments).model_dump()
             except ValidationError:
                 raise PartsError("invalid_input", "Arguments do not match the tool schema.") from None
             decoded = self.resolve_handles(args)
+            if operation == "list_assemblies":
+                group = decoded.pop("group_ref", None)
+                if group is not None:
+                    machine = decoded["machine_ref"]
+                    if (
+                        group["kind"] != "group"
+                        or group["context"] != machine["id"]
+                        or group["source_id"] != machine["source_id"]
+                    ):
+                        raise PartsError("invalid_reference", "Choose a group from the selected catalog.")
+                    decoded["group"] = group["id"]
+            key = json.dumps([operation, decoded], sort_keys=True)
+            observation_key = json.dumps(
+                [operation, {k: v for k, v in decoded.items() if k not in {"limit", "offset"}}],
+                sort_keys=True,
+            )
             async with asyncio.timeout(self.budget.remaining_seconds):
-                result = await self.catalog.execute(operation, decoded)
+                async with self.observation_locks.setdefault(observation_key, asyncio.Lock()):
+                    if observation_key in self.failed_observations:
+                        result = self.failed_observations[observation_key]
+                    else:
+                        if key not in self.memo:
+                            try:
+                                self.memo[key] = await self.catalog.execute(
+                                    operation, decoded, observations=self.source_observations
+                                )
+                            except PartsError as exc:
+                                result = exc.payload()
+                                self.failed_observations[observation_key] = result
+                                self.memo[key] = result
+                        result = self.memo[key]
         except PartsError as exc:
             result = exc.payload()
-        self.record({"operation": operation, "arguments": decoded, "response": result})
+        self.record(
+            {
+                "operation": operation,
+                "arguments": decoded,
+                "response": result,
+                "host_action": self.host_loading,
+            }
+        )
         return result
 
 
@@ -154,12 +205,23 @@ def tool_name(tool):
 
 def create_langchain_tools(client: PartsTools, *, url_handles: dict):
     by_url = {}
+    by_occurrence = {}
 
     def encode(value, field=""):
         if isinstance(value, dict):
-            return {key: encode(item, key) for key, item in value.items()}
+            if "observed_path" in value and "assembly_ref" in value:
+                return {
+                    "assembly_ref": value["assembly_ref"],
+                    "title": value["title"],
+                    **({"stale": True} if value["stale"] else {}),
+                }
+            return {key: encode(item, key) for key, item in value.items() if key != "observed_path"}
         if isinstance(value, list):
             return [encode(item, field) for item in value]
+        if field == "occurrence_id":
+            if value not in by_occurrence:
+                by_occurrence[value] = "row_" + str(len(by_occurrence) + 1)
+            return by_occurrence[value]
         if field in {"source_url", "assembly_url", "product_url", "diagram_urls"} and value:
             if value not in by_url:
                 handle = "url_" + str(len(by_url) + 1)

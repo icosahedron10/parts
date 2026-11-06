@@ -11,6 +11,11 @@ class Diagnostics:
     cache: list[str] = field(default_factory=list)
     model_usage: list[dict] = field(default_factory=list)
     handoffs: list[dict] = field(default_factory=list)
+    model_completions: list[str] = field(default_factory=list)
+    model_errors: list[dict] = field(default_factory=list)
+    boundary_errors: list[dict] = field(default_factory=list)
+    lookup_requests: list[dict] = field(default_factory=list)
+    parent_completions: list[dict] = field(default_factory=list)
 
 
 current: ContextVar[Diagnostics | None] = ContextVar("parts_diagnostics", default=None)

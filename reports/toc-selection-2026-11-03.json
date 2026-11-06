@@ -1,0 +1,855 @@
+{
+  "scope": "Incomplete cached title lists, query-biased development cases; not a full TOC benchmark",
+  "model": "gpt-5.6-luna",
+  "prompt": "Choose up to three assemblies to inspect for the user's requested part, in priority order. You have the machine name and a list of its catalog assembly titles. Use your understanding of the part's function and where it belongs. Return only IDs from the supplied list and a brief reason. An assembly choice is a place to look, not proof that the part is present.",
+  "cnh_requests": 0,
+  "cases": [
+    {
+      "id": "H003",
+      "input": {
+        "machine": "CASE CX130",
+        "part": "bucket teeth",
+        "assemblies": [
+          {
+            "id": "1",
+            "title": "02-01 - ENGINE MOUNTING"
+          },
+          {
+            "id": "2",
+            "title": "02-02 - AIR CLEANER"
+          },
+          {
+            "id": "3",
+            "title": "02-05 - RADIATOR ASSEMBLY"
+          },
+          {
+            "id": "4",
+            "title": "02-12 - OIL FILTER - OIL COOLER"
+          },
+          {
+            "id": "5",
+            "title": "02-14 - CYLINDER HEAD COVER"
+          },
+          {
+            "id": "6",
+            "title": "02-15 - CYLINDER HEAD - VALVE MECHANISM"
+          },
+          {
+            "id": "7",
+            "title": "02-16 - CYLINDER HEAD - VALVE MECHANISM"
+          },
+          {
+            "id": "8",
+            "title": "02-19 - OIL FILL ASSY, ENGINE"
+          },
+          {
+            "id": "9",
+            "title": "03-05 - FUEL FILTER - PUMP, LIFT"
+          },
+          {
+            "id": "10",
+            "title": "03-09 - PUMP, REFUELING"
+          },
+          {
+            "id": "11",
+            "title": "04-01 - ELECTRICAL - CHASSIS, UPPERSTRUCTURE"
+          },
+          {
+            "id": "12",
+            "title": "04-15 - COLD START SYSTEM"
+          },
+          {
+            "id": "13",
+            "title": "08-014 - HYDRAULICS - BYPASS FILTER"
+          },
+          {
+            "id": "14",
+            "title": "08-027 - HYDRAULICS - ARM AND BUCKET"
+          },
+          {
+            "id": "15",
+            "title": "08-031 - HYDRAULICS - BUCKET"
+          },
+          {
+            "id": "16",
+            "title": "08-032 - HYDRAULICS - BUCKET"
+          },
+          {
+            "id": "17",
+            "title": "08-072 - FILTER ASSY - AUXILIARY, DOUBLE ACTING CIRCUIT/PEDAL ACTIVATED"
+          },
+          {
+            "id": "18",
+            "title": "08-108 - CYLINDER ASSY - BUCKET"
+          },
+          {
+            "id": "19",
+            "title": "09-04 - GUARD - ENGINE FAN"
+          },
+          {
+            "id": "20",
+            "title": "09-08 - HOOD, ENGINE - INSULATION"
+          },
+          {
+            "id": "21",
+            "title": "09-45 - BUCKET CYLINDER - MOUNTING"
+          },
+          {
+            "id": "22",
+            "title": "09-46 - BUCKET LINKAGE"
+          },
+          {
+            "id": "23",
+            "title": "09-47 - BUCKET LINKAGE"
+          },
+          {
+            "id": "24",
+            "title": "09-51 - BUCKETS - ESCO"
+          },
+          {
+            "id": "25",
+            "title": "09-52 - BUCKETS - ESCO"
+          },
+          {
+            "id": "26",
+            "title": "09-53 - BUCKETS - ESCO"
+          },
+          {
+            "id": "27",
+            "title": "20.04[01] - MAINTENANCE PARTS - FILTERS"
+          }
+        ]
+      },
+      "title_count": 27,
+      "selected": [
+        {
+          "id": "368E796F-8FBF-E111-9FCE-005056875BD6",
+          "title": "09-51 - BUCKETS - ESCO"
+        },
+        {
+          "id": "6F27767B-8FBF-E111-9FCE-005056875BD6",
+          "title": "09-52 - BUCKETS - ESCO"
+        },
+        {
+          "id": "5537AC82-8FBF-E111-9FCE-005056875BD6",
+          "title": "09-53 - BUCKETS - ESCO"
+        }
+      ],
+      "reason": "Bucket teeth are components of the bucket, and these assemblies specifically cover ESCO buckets. Inspect the listed bucket assemblies in order.",
+      "targets": [
+        {
+          "id": "368E796F-8FBF-E111-9FCE-005056875BD6",
+          "title": "09-51 - BUCKETS - ESCO"
+        },
+        {
+          "id": "6F27767B-8FBF-E111-9FCE-005056875BD6",
+          "title": "09-52 - BUCKETS - ESCO"
+        }
+      ],
+      "top1": true,
+      "top3": true,
+      "usage": {
+        "input_tokens": 764,
+        "output_tokens": 46,
+        "total_tokens": 810,
+        "input_token_details": {
+          "cache_creation": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 0
+        }
+      }
+    },
+    {
+      "id": "H004",
+      "input": {
+        "machine": "CASE CX210B",
+        "part": "cab air filter",
+        "assemblies": [
+          {
+            "id": "1",
+            "title": "00-005 - MAINTENANCE, SERVICE KIT (1000H)"
+          },
+          {
+            "id": "2",
+            "title": "00-01 - FILTERS AND CAPACITIES"
+          },
+          {
+            "id": "3",
+            "title": "02-01 - ENGINE MOUNTING - ENGINE"
+          },
+          {
+            "id": "4",
+            "title": "02-03 - AIR CLEANER - WITHOUT NOISE REDUCTION COVERS"
+          },
+          {
+            "id": "5",
+            "title": "02-03A - AIR CLEANER - WITH NOISE REDUCTION COVERS"
+          },
+          {
+            "id": "6",
+            "title": "03-010 - FUEL SYSTEM - FUEL FILTER"
+          },
+          {
+            "id": "7",
+            "title": "03-07 - FUEL FILTER"
+          },
+          {
+            "id": "8",
+            "title": "04-01 - ELECTRICAL ACCESSORIES - ENGINE"
+          },
+          {
+            "id": "9",
+            "title": "04-02 - ELECTRICAL ACCESSORIES - ENGINE"
+          },
+          {
+            "id": "10",
+            "title": "04-06 - HARNESS, MAIN - RELAY PANEL"
+          },
+          {
+            "id": "11",
+            "title": "04-07 - ELECTRICAL - CAB"
+          },
+          {
+            "id": "12",
+            "title": "04-10 - CAB ELECTRICAL - WIPER, WINDSHIELD"
+          },
+          {
+            "id": "13",
+            "title": "04-14 - BATTERY - CABLES"
+          },
+          {
+            "id": "14",
+            "title": "06-01 - TRAVEL MOTOR & REDUCTION GEAR, ASSY"
+          },
+          {
+            "id": "15",
+            "title": "06-02 - MOTOR ASSY - GEAR ASSY, REDUCTION"
+          },
+          {
+            "id": "16",
+            "title": "06-03 - MOTOR ASSY - TRACK DRIVE"
+          },
+          {
+            "id": "17",
+            "title": "06-04 - MOTOR ASSY - TRAVEL, INLET AND OUTLET"
+          },
+          {
+            "id": "18",
+            "title": "08-52 - MOUNTING - SWING MOTOR"
+          },
+          {
+            "id": "19",
+            "title": "08-53 - MOTOR ASSY - SWING"
+          },
+          {
+            "id": "20",
+            "title": "08-53[01] - GEAR ASSY, REDUCTION MOTOR, SWING"
+          },
+          {
+            "id": "21",
+            "title": "08-54 - MOTOR ASSY, SWING (KRC10260)"
+          },
+          {
+            "id": "22",
+            "title": "08-54[01] - GEAR ASSY, REDUCTION MOTOR, SWING (LN001820)"
+          },
+          {
+            "id": "23",
+            "title": "09-14 - OPERATORS COMPARTMENT - CAB REAR PANELS"
+          },
+          {
+            "id": "24",
+            "title": "09-24 - CAB - AIR CONDITIONING"
+          },
+          {
+            "id": "25",
+            "title": "09-26 - CAB - GLASS - INSTRUMENT PANEL"
+          },
+          {
+            "id": "26",
+            "title": "09-26[01] - CAB GLASS"
+          },
+          {
+            "id": "27",
+            "title": "09-27 - CAB - WINDSHIELD - OPENING ROOF - SUN VISOR"
+          },
+          {
+            "id": "28",
+            "title": "09-27[01] - CAB, WINDOW, FRONT"
+          },
+          {
+            "id": "29",
+            "title": "09-27[02] - CAB - ROOF, OPENABLE WINDOW"
+          },
+          {
+            "id": "30",
+            "title": "09-28 - CAB - REAR WINDOW - HANDLE - WINDSHIELD WASHER"
+          },
+          {
+            "id": "31",
+            "title": "09-29 - CAB - CAB DOOR"
+          },
+          {
+            "id": "32",
+            "title": "09-30 - CAB - METAL HATCH"
+          },
+          {
+            "id": "33",
+            "title": "09-31 - CAB - MIRROR, REAR VIEW"
+          },
+          {
+            "id": "34",
+            "title": "09-32 - GUARD, BRUSH - CAB BRUSH SCREEN"
+          },
+          {
+            "id": "35",
+            "title": "09-33 - GUARD, BRUSH - CAB FRONT GRILLE"
+          }
+        ]
+      },
+      "title_count": 35,
+      "selected": [
+        {
+          "id": "EA678B80-8FBF-E111-9FCE-005056875BD6",
+          "title": "09-24 - CAB - AIR CONDITIONING"
+        },
+        {
+          "id": "F003FC71-8FBF-E111-9FCE-005056875BD6",
+          "title": "00-01 - FILTERS AND CAPACITIES"
+        }
+      ],
+      "reason": "The cab air filter is most likely part of the cab HVAC/air-conditioning assembly (09-24), with the filters and capacities assembly (00-01) as a secondary lookup.",
+      "targets": [
+        {
+          "id": "EA678B80-8FBF-E111-9FCE-005056875BD6",
+          "title": "09-24 - CAB - AIR CONDITIONING"
+        }
+      ],
+      "top1": true,
+      "top3": true,
+      "usage": {
+        "input_tokens": 1008,
+        "output_tokens": 56,
+        "total_tokens": 1064,
+        "input_token_details": {
+          "cache_creation": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 0
+        }
+      }
+    },
+    {
+      "id": "H010",
+      "input": {
+        "machine": "2005 CASE CX80",
+        "part": "swing motor seal kit",
+        "assemblies": [
+          {
+            "id": "1",
+            "title": "03-13 - FUEL INJECTION PUMP, COMPONENTS"
+          },
+          {
+            "id": "2",
+            "title": "06-02 - MOTOR ASSY - GEAR ASSY, REDUCTION"
+          },
+          {
+            "id": "3",
+            "title": "06-03 - MOTOR ASSY - TRAVEL, INLET AND OUTLET"
+          },
+          {
+            "id": "4",
+            "title": "06-04 - VALVE ASSY, RELIEF - MOTOR, HYDRAULIC"
+          },
+          {
+            "id": "5",
+            "title": "08-59 - PUMP ASSY, HYDRAULIC - DRIVE"
+          },
+          {
+            "id": "6",
+            "title": "08-63 - MOUNTING - SWING MOTOR"
+          },
+          {
+            "id": "7",
+            "title": "08-64 - GEAR ASSY, REDUCTION - MOTOR, SWING"
+          },
+          {
+            "id": "8",
+            "title": "08-65 - MOTOR ASSY - SWING"
+          },
+          {
+            "id": "9",
+            "title": "08-66 - MOTOR ASSY, SWING - VALVE ASSY, RELIEF"
+          },
+          {
+            "id": "10",
+            "title": "08-75 - CONTROL VALVE (KAJ5076) 7 OF 8"
+          },
+          {
+            "id": "11",
+            "title": "08-90 - CYLINDER ASSY, STANDARD BOOM - MODELS WITHOUT LOAD HOLD"
+          },
+          {
+            "id": "12",
+            "title": "08-91 - CYLINDER ASSY, STANDARD BOOM - MODELS WITH LOAD HOLD"
+          },
+          {
+            "id": "13",
+            "title": "08-91A - CYLINDER ASSY - BOOM SWING"
+          },
+          {
+            "id": "14",
+            "title": "08-92 - CYLINDER ASSY, STANDARD ARM - MODELS WITHOUT LOAD HOLD"
+          },
+          {
+            "id": "15",
+            "title": "08-93 - CYLINDER ASSY, STANDARD ARM - MODELS WITH LOAD HOLD"
+          },
+          {
+            "id": "16",
+            "title": "08-94 - CYLINDER ASSY, BUCKET - STANDARD BOOM"
+          },
+          {
+            "id": "17",
+            "title": "08-95 - CYLINDER ASSY, DOZER BLADE - MODELS WITHOUT LOAD HOLD"
+          },
+          {
+            "id": "18",
+            "title": "08-96 - CYLINDER ASSY, DOZER BLADE - MODELS WITH LOAD HOLD"
+          },
+          {
+            "id": "19",
+            "title": "08-97 - VALVE ASSY, RELIEF - BOOM AND ARM CYLINDER ASSYS"
+          },
+          {
+            "id": "20",
+            "title": "09-39 - MIRROR, REAR VIEW - RIGHT HAND"
+          },
+          {
+            "id": "21",
+            "title": "09-40 - MIRROR, REAR VIEW"
+          },
+          {
+            "id": "22",
+            "title": "09-62 - QUICK HITCH - HYDRAULIC - MULTI-FIT"
+          }
+        ]
+      },
+      "title_count": 22,
+      "selected": [
+        {
+          "id": "9745315A-8FBF-E111-9FCE-005056875BD6",
+          "title": "08-65 - MOTOR ASSY - SWING"
+        },
+        {
+          "id": "5D456861-8FBF-E111-9FCE-005056875BD6",
+          "title": "08-66 - MOTOR ASSY, SWING - VALVE ASSY, RELIEF"
+        },
+        {
+          "id": "CC40BE6A-8FBF-E111-9FCE-005056875BD6",
+          "title": "08-64 - GEAR ASSY, REDUCTION - MOTOR, SWING"
+        }
+      ],
+      "reason": "The swing motor seal kit is most likely listed within the swing motor assembly, its relief-valve assembly, or the associated swing motor reduction gear assembly.",
+      "targets": [
+        {
+          "id": "9745315A-8FBF-E111-9FCE-005056875BD6",
+          "title": "08-65 - MOTOR ASSY - SWING"
+        }
+      ],
+      "top1": true,
+      "top3": true,
+      "usage": {
+        "input_tokens": 763,
+        "output_tokens": 51,
+        "total_tokens": 814,
+        "input_token_details": {
+          "cache_creation": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 0
+        }
+      }
+    },
+    {
+      "id": "H018",
+      "input": {
+        "machine": "CASE 621B",
+        "part": "steering cylinder ball joint",
+        "assemblies": [
+          {
+            "id": "1",
+            "title": "3-02 - FOOT THROTTLE CONTROL, PRIOR TO P.I.N. JEE0053350"
+          },
+          {
+            "id": "2",
+            "title": "3-03 - FOOT THROTTLE CONTROL, P.I.N. JEE0053350 AND AFTER"
+          },
+          {
+            "id": "3",
+            "title": "3-13A - FUEL INJECTION PUMP AND DRIVE, 6T-590 EMISSIONS CERTIFIED ENGINE, LOADER P.I.N. JEE0053350 AND AFTER"
+          },
+          {
+            "id": "4",
+            "title": "4-14 - HARNESS, PEDESTAL, PRIOR TO P.I.N. JEE0052701"
+          },
+          {
+            "id": "5",
+            "title": "4-15A - HARNESS, PEDESTAL, P.I.N. JEE0052701 AND AFTER"
+          },
+          {
+            "id": "6",
+            "title": "4-32 - REAR HARNESS TO RELAY PANEL, PRIOR TO P.I.N. JEE0052701"
+          },
+          {
+            "id": "7",
+            "title": "4-33A - REAR HARNESS TO RELAY PANEL, P.I.N. JEE0052701 THROUGH JEE0053349"
+          },
+          {
+            "id": "8",
+            "title": "4-33C - REAR HARNESS TO RELAY PANEL, P.I.N. JEE0053350 AND AFTER"
+          },
+          {
+            "id": "9",
+            "title": "4-34 - AUXILIARY STEERING ELECTRICAL CIRCUIT, PRIOR TO P.I.N. JEE0042310"
+          },
+          {
+            "id": "10",
+            "title": "4-35A - AUXILIARY STEERING ELECTRICAL CIRCUIT, P.I.N. JEE0042310 AND AFTER"
+          },
+          {
+            "id": "11",
+            "title": "4-36 - AUXILIARY STEERING MOTOR ASSEMBLY"
+          },
+          {
+            "id": "12",
+            "title": "4-54 - FRONT WIPER"
+          },
+          {
+            "id": "13",
+            "title": "4-56 - CAB REAR WIPER"
+          },
+          {
+            "id": "14",
+            "title": "5-02 - STEERING WHEEL AND COLUMN, INCLUDES TILT LATCH"
+          },
+          {
+            "id": "15",
+            "title": "5-04 - STEERING CONTROL VALVE ASSEMBLY, L129607"
+          },
+          {
+            "id": "16",
+            "title": "5-05 - STEERING CONTROL VALVE ASSEMBLY, 135604A1"
+          },
+          {
+            "id": "17",
+            "title": "5-06 - STEERING HYDRAULIC CIRCUIT, STEERING CONTROL VALVE TO PUMP"
+          },
+          {
+            "id": "18",
+            "title": "5-08 - STEERING HYDRAULIC CIRCUIT, STEERING CONTROL VALVE TO CYLINDERS"
+          },
+          {
+            "id": "19",
+            "title": "5-10 - STEERING HYDRAULIC CIRCUIT, RETURN LINE AND COOLER"
+          },
+          {
+            "id": "20",
+            "title": "5-12 - AUXILIARY STEERING HYDRAULIC CIRCUIT"
+          },
+          {
+            "id": "21",
+            "title": "5-14 - AUXILIARY STEERING PUMP AND MOTOR ASSEMBLY, L116118, 197540A1"
+          },
+          {
+            "id": "22",
+            "title": "5-18 - STEERING CYLINDER"
+          },
+          {
+            "id": "23",
+            "title": "8-04 - HYDRAULIC CIRCUIT, RESERVOIR TO PUMP AND LOADER CONTROL VALVE"
+          },
+          {
+            "id": "24",
+            "title": "8-28 - EQUIPMENT AND STEERING PUMP, L127270"
+          },
+          {
+            "id": "25",
+            "title": "9-052 - CAB MOUNTING AND GLASS, TAN"
+          },
+          {
+            "id": "26",
+            "title": "9-053A - CAB MOUNTING AND GLASS, GRAY"
+          },
+          {
+            "id": "27",
+            "title": "9-062 - PEDESTAL AND COVERS, PEDESTAL WITH TAN COVERS"
+          },
+          {
+            "id": "28",
+            "title": "9-092 - CANOPY WINDSHIELD AND WIPER KIT"
+          }
+        ]
+      },
+      "title_count": 28,
+      "selected": [
+        {
+          "id": "7D297A75-8FBF-E111-9FCE-005056875BD6",
+          "title": "5-18 - STEERING CYLINDER"
+        },
+        {
+          "id": "C047767B-8FBF-E111-9FCE-005056875BD6",
+          "title": "5-08 - STEERING HYDRAULIC CIRCUIT, STEERING CONTROL VALVE TO CYLINDERS"
+        },
+        {
+          "id": "183E7A75-8FBF-E111-9FCE-005056875BD6",
+          "title": "5-06 - STEERING HYDRAULIC CIRCUIT, STEERING CONTROL VALVE TO PUMP"
+        }
+      ],
+      "reason": "The steering cylinder assembly is the primary location for its ball joint; the steering hydraulic circuit to cylinders and upstream steering hydraulic circuit are secondary places to inspect for the joint or its connections.",
+      "targets": [
+        {
+          "id": "7D297A75-8FBF-E111-9FCE-005056875BD6",
+          "title": "5-18 - STEERING CYLINDER"
+        },
+        {
+          "id": "C047767B-8FBF-E111-9FCE-005056875BD6",
+          "title": "5-08 - STEERING HYDRAULIC CIRCUIT, STEERING CONTROL VALVE TO CYLINDERS"
+        }
+      ],
+      "top1": true,
+      "top3": true,
+      "usage": {
+        "input_tokens": 1032,
+        "output_tokens": 57,
+        "total_tokens": 1089,
+        "input_token_details": {
+          "cache_creation": 1029,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 0
+        }
+      }
+    },
+    {
+      "id": "H020",
+      "input": {
+        "machine": "CASE W20C",
+        "part": "brake master cylinder",
+        "assemblies": [
+          {
+            "id": "1",
+            "title": "4-044 - ELEC. CIRCUIT, ENGINE HARNESS TO ALTERNATOR & TRANSMISSION USED ON W20C P.I.N. 9155766 AND AFTER"
+          },
+          {
+            "id": "2",
+            "title": "6-02 - TRANSMISSION CONTROL PARTS, SHIFT LEVER"
+          },
+          {
+            "id": "3",
+            "title": "6-04 - TRANSMISSION CONTROL PARTS, CABLE AND CABLE MOUNTING"
+          },
+          {
+            "id": "4",
+            "title": "6-06 - TRANSMISSION HYDRAULIC CIRCUIT WITH HORIZONTAL FILTER"
+          },
+          {
+            "id": "5",
+            "title": "6-08 - G100001 HORIZONTAL TRANSMISSION OIL FILTER"
+          },
+          {
+            "id": "6",
+            "title": "6-10 - TRANSMISSION HYDRAULIC CIRCUIT WITH VERTICAL FILTER"
+          },
+          {
+            "id": "7",
+            "title": "6-12 - TRANSMISSION AND TRANSMISSION MOUNTS"
+          },
+          {
+            "id": "8",
+            "title": "6-14 - TRANSMISSION, FRONT COVER, INPUT SHAFT, AND TORQUE CONVERTER"
+          },
+          {
+            "id": "9",
+            "title": "6-18 - TRANSMISSION, TORQUE CONVERTER HOUSING, GEARS, AND TRANSMISSION HOUSING"
+          },
+          {
+            "id": "10",
+            "title": "6-22 - TRANSMISSION, TURBINE DRIVEN GEARS, FREEWHEEL UNITS, AND FRONT COVERS"
+          },
+          {
+            "id": "11",
+            "title": "6-24 - TRANSMISSION, REVERSE CLUTCH AND PLANETARY"
+          },
+          {
+            "id": "12",
+            "title": "6-26 - TRANSMISSION, FORWARD CLUTCH AND PLANETARY"
+          },
+          {
+            "id": "13",
+            "title": "6-28 - TRANSMISSION, HIGH RANGE CLUTCH AND TRANSFER GEAR"
+          },
+          {
+            "id": "14",
+            "title": "6-30 - TRANSMISSION, AXLE OUTPUT SHAFT AND PARKING BRAKE"
+          },
+          {
+            "id": "15",
+            "title": "6-32 - TRANSMISSION, CHARGING PUMP"
+          },
+          {
+            "id": "16",
+            "title": "6-34 - TRANSMISSION, TRANSMISSION CONTROL VALVE"
+          },
+          {
+            "id": "17",
+            "title": "6-36 - TRANSMISSION, TRANSMISSION OVERHAUL KIT"
+          },
+          {
+            "id": "18",
+            "title": "6-40 - FRONT AND REAR AXLE DRIVE SHAFTS TRANSMISSION END"
+          },
+          {
+            "id": "19",
+            "title": "7-36 - BRAKE SYSTEM, RESERVOIR TO TREADLES AND MASTER CYLINDERS"
+          },
+          {
+            "id": "20",
+            "title": "7-42 - W20C BRAKE SYSTEM, BRAKE ACTUATORS TO WHEEL CYLINDERS"
+          },
+          {
+            "id": "21",
+            "title": "7-50 - BRAKE SYSTEM, PARKING BRAKE VALVE, ACTUATOR, AND CLUTCH CUTOUT"
+          },
+          {
+            "id": "22",
+            "title": "7-54 - L73042 TREADLE AND BRAKE VALVE"
+          },
+          {
+            "id": "23",
+            "title": "7-58 - L107985 AND L112959 BRAKE ACTUATORS"
+          },
+          {
+            "id": "24",
+            "title": "7-68 - L113007 BRAKE ACTUATOR"
+          },
+          {
+            "id": "25",
+            "title": "7-70 - L48127 PARKING BRAKE ACTUATOR"
+          },
+          {
+            "id": "26",
+            "title": "7-72 - L61187 PARKING BRAKE ACTUATOR"
+          }
+        ]
+      },
+      "title_count": 26,
+      "selected": [
+        {
+          "id": "C88C7D55-8FBF-E111-9FCE-005056875BD6",
+          "title": "7-36 - BRAKE SYSTEM, RESERVOIR TO TREADLES AND MASTER CYLINDERS"
+        }
+      ],
+      "reason": "The brake master cylinder is specifically covered by assembly 7-36, titled \u201cBrake System, Reservoir to Treadles and Master Cylinders.\u201d",
+      "targets": [
+        {
+          "id": "4D9B6E81-8FBF-E111-9FCE-005056875BD6",
+          "title": "7-68 - L113007 BRAKE ACTUATOR"
+        }
+      ],
+      "top1": false,
+      "top3": false,
+      "usage": {
+        "input_tokens": 925,
+        "output_tokens": 46,
+        "total_tokens": 971,
+        "input_token_details": {
+          "cache_creation": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 0
+        }
+      }
+    },
+    {
+      "id": "H027",
+      "input": {
+        "machine": "Case IH RBX441",
+        "part": "pickup tooth",
+        "assemblies": [
+          {
+            "id": "1",
+            "title": "002 - MAIN DRIVE GEARBOX, 540 RPM"
+          },
+          {
+            "id": "2",
+            "title": "007 - PICKUP"
+          },
+          {
+            "id": "3",
+            "title": "008 - PICKUP WHEEL, RH, STANDARD"
+          },
+          {
+            "id": "4",
+            "title": "009 - PICKUP WHEEL, LH, OPTIONAL"
+          },
+          {
+            "id": "5",
+            "title": "016 - ELECTRIC TWINE WRAPPER CONTROL & MAIN WIRE HARNESS"
+          },
+          {
+            "id": "6",
+            "title": "023 - FOUR TINE BAR TO SIX TINE BAR PICKUP CONVERSION KIT"
+          }
+        ]
+      },
+      "title_count": 6,
+      "selected": [
+        {
+          "id": "7EF50978-8FBF-E111-9FCE-005056875BD6",
+          "title": "007 - PICKUP"
+        },
+        {
+          "id": "1D49774F-8FBF-E111-9FCE-005056875BD6",
+          "title": "023 - FOUR TINE BAR TO SIX TINE BAR PICKUP CONVERSION KIT"
+        },
+        {
+          "id": "97FBC076-8FBF-E111-9FCE-005056875BD6",
+          "title": "008 - PICKUP WHEEL, RH, STANDARD"
+        }
+      ],
+      "reason": "The pickup tooth is primarily part of the PICKUP assembly; the pickup conversion kit may contain or relate to tine/tooth components, and the RH pickup wheel assembly is another likely location for pickup tooth hardware.",
+      "targets": [
+        {
+          "id": "7EF50978-8FBF-E111-9FCE-005056875BD6",
+          "title": "007 - PICKUP"
+        }
+      ],
+      "top1": true,
+      "top3": true,
+      "usage": {
+        "input_tokens": 287,
+        "output_tokens": 62,
+        "total_tokens": 349,
+        "input_token_details": {
+          "cache_creation": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 0
+        }
+      }
+    }
+  ],
+  "summary": {
+    "cases": 6,
+    "top1": 5,
+    "top3": 5
+  }
+}

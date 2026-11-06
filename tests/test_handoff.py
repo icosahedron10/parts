@@ -21,6 +21,61 @@ def test_parent_handoff_serialization_preserves_exact_urls_in_prose():
 URL = "https://www.mycnhstore.com/us/en/casece/na/catalog"
 
 
+@pytest.mark.parametrize(
+    "fact",
+    [
+        "**url_1**",
+        "(*url_1*).",
+        "**(url_1)**",
+        "**[source](url_1)**",
+        "**[source](url_1).**",
+        "[url_1][url_2]",
+        "[url_1],[url_2]",
+        "【url_1】【url_2】",
+        "*(Assembly: url_1; product: url_2)*",
+        "**Source url_1.**",
+        "[assembly](url_1)[product](url_2)",
+        "[assembly](<url_1>)",
+    ],
+)
+def test_markdown_citations_round_trip_without_changing_links(fact):
+    mapping = {"url_1": URL, "url_2": URL + "/other"}
+    candidate = PartsHandoff(key_facts=[fact], sources=list(mapping), store_url="")
+    restored = resolve_handoff_urls(candidate, mapping)
+    assert restored.key_facts == [fact.replace("url_1", URL).replace("url_2", URL + "/other")]
+    assert resolve_handoff_urls(restored, mapping) == restored
+    handles = {}
+    assert resolve_handoff_urls(encode_handoff_urls(restored, handles), handles) == restored
+
+
+@pytest.mark.parametrize(
+    "fact",
+    [
+        "url_1*invented",
+        "**url_1/invented**",
+        "url_1**",
+        "[url_1[invented]]",
+        "*[source](url_1*)",
+        "[source](/invented)",
+        "[source](**url_1**)",
+    ],
+)
+def test_markdown_cannot_hide_changed_urls(fact):
+    with pytest.raises(ValueError):
+        resolve_handoff_urls(PartsHandoff(key_facts=[fact], sources=[], store_url=""), {"url_1": URL})
+
+
+def test_inline_code_delimits_observed_urls_without_relaxing_identity():
+    candidate = PartsHandoff(key_facts=["Source `url_1`."], sources=["url_1"], store_url="")
+    resolved = resolve_handoff_urls(candidate, {"url_1": URL})
+    assert resolved.key_facts == [f"Source `{URL}`."]
+    assert resolve_handoff_urls(resolved, {"url_1": URL}) == resolved
+    with pytest.raises(ValueError):
+        resolve_handoff_urls(
+            PartsHandoff(key_facts=["`url_1/invented`"], sources=[], store_url=""), {"url_1": URL}
+        )
+
+
 def test_resolver_restores_urls_and_fact_tokens_without_mutation_or_substring_replacement():
     """Verify resolver restores urls and fact tokens without mutation or substring replacement."""
     mapping = {"url_1": URL, "url_2": URL + "/p/KSH1028"}

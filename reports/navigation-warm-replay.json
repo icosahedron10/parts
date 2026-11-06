@@ -1,0 +1,8 @@
+{
+  "scope": "Replay unique successful get_assembly calls from navigation-parent-20-high; no model inference. Network forbidden to expose any missing cache entry.",
+  "unique_calls": 57,
+  "http_attempts": 0,
+  "original_evidence_dates_and_hashes_preserved": true,
+  "occurrences_unchanged": true,
+  "median_data_call_seconds": 0.0014962999848648906
+}

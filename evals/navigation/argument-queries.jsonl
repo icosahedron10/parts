@@ -1,0 +1,6 @@
+{"id": "A1", "query": "On my 2010 CASE CX350B, find the left boom-cylinder seal kit and tell me what it includes.", "machine": ["2010", "CX350B"], "part": ["left", "boom", "seal", "kit", "include"]}
+{"id": "A2", "query": "I need the right-hand 12 mm bucket-link bushing for a CASE CX130 built in 2005.", "machine": ["2005", "CX130"], "part": ["right", "12 mm", "bucket", "bushing"]}
+{"id": "A3", "query": "My CASE 580 Super N Wide Track is a 2016 model. Find the front-left 1/2-inch hydraulic hose.", "machine": ["2016", "580", "Super N", "Wide Track"], "part": ["front", "left", "1/2", "hydraulic", "hose"]}
+{"id": "A4", "query": "For my 1992 Case IH 7130, what is included in the windshield-wiper motor assembly?", "machine": ["1992", "7130"], "part": ["include", "windshield", "wiper", "motor", "assembly"]}
+{"id": "A5", "query": "Find a 58 mm inside-diameter lower radiator hose for my 1991 IH 7120.", "machine": ["1991", "7120"], "part": ["58 mm", "inside", "diameter", "lower", "radiator", "hose"]}
+{"id": "A6", "query": "I have a 2015 CASE SR210. Find the correct right replacement pedal pad, not the complete pedal.", "machine": ["2015", "SR210"], "part": ["correct", "right", "replacement", "pedal", "pad", "not", "complete"]}

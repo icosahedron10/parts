@@ -1,0 +1,17 @@
+{
+  "observed_route": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra042poclain/casepoclain-crawler-excavator-sn-9501-after/general//cn/6C107B5B-8FBF-E111-9FCE-005056875BD6/1ED76496-EFBE-E111-9FCE-005056875BD6",
+  "purpose": "Check source-provided empty assembly slug without guessing a repair",
+  "url": "https://www.mycnhstore.com/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra042poclain/casepoclain-crawler-excavator-sn-9501-after/general//cn/6C107B5B-8FBF-E111-9FCE-005056875BD6/1ED76496-EFBE-E111-9FCE-005056875BD6",
+  "content_hash": "sha256:b7bb347d1b9c1b8886cc61f0a159bb2c45b7cefcab6f89dadf0ee1502d25ebaf",
+  "observed_at": "2026-11-04T11:11:28.744465+00:00",
+  "bytes": 193571,
+  "title": [
+    "\n\t\t. | CASE Construction | MyCNH US Store"
+  ],
+  "http_attempts": 1,
+  "checkpoint_resume": {
+    "recovered_catalog_complete": true,
+    "assembly_routes": 413,
+    "empty_slug_routes": 3
+  }
+}

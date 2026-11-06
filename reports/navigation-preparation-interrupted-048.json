@@ -1,0 +1,8 @@
+{
+  "http_attempts": 185,
+  "http_attempts_are_lower_bound": true,
+  "upper_bound": 250,
+  "reason": "Stopping the owning batch-loop shell terminated its child before final accounting. Last durable checkpoint logged attempt 185; any in-flight attempt is not recoverable. All completed checkpoint responses retained.",
+  "batch": 48,
+  "resumed_report": "navigation-preparation-batch-048.json"
+}

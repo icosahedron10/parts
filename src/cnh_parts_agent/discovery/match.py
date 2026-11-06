@@ -1,12 +1,13 @@
 """Observed model constraints and deterministic lexical ranking, entirely offline."""
 
 import re
+from functools import lru_cache
 from urllib.parse import unquote, urlsplit
 
 from rapidfuzz.fuzz import token_set_ratio
 
 STOP_WORDS = set(
-    "i have a an the my our case machine model need for from built in year of and with looking".split()
+    "i have a an the my our case ih machine model need for from built in year of and with looking".split()
 )
 
 CONCEPTS = {
@@ -44,7 +45,7 @@ def normalize(value: str) -> str:
         ),
         value,
     )
-    return " ".join(re.findall(r"[a-z0-9]+", value))
+    return " ".join(re.findall(r"[a-z0-9]+(?:\.[0-9]+)*", value))
 
 
 def features(value: str) -> set[str]:
@@ -122,9 +123,9 @@ VARIANT_ALIASES = {
     "silage": ("silage", "silage pack"),
 }
 
-MODEL_CODE = re.compile(r"(?:[a-z]{1,10}\d+[a-z0-9]*|\d+[a-z][a-z0-9]*|\d+)\Z")
+MODEL_CODE = re.compile(r"(?:[a-z]{1,10}\d+(?:\.\d+)?[a-z0-9]*|\d+[a-z][a-z0-9]*|\d+)\Z")
 
-MODEL_PARTS = re.compile(r"([a-z]*)(\d+)([a-z0-9]*)\Z")
+MODEL_PARTS = re.compile(r"([a-z]*)(\d+(?:\.\d+)?)([a-z0-9]*)\Z")
 
 
 def _category(record: dict) -> str:
@@ -153,7 +154,7 @@ def _requirements(text: str) -> set[str]:
     for concept, aliases in VARIANT_ALIASES.items():
         if any(re.search(r"\b" + re.escape(normalize(alias)) + r"\b", normalized) for alias in aliases):
             result.add("variant:" + concept)
-    for match in re.finditer(r"\b(?:tier\s*|t)([1-5])\s*([ab]?)\b", normalized):
+    for match in re.finditer(r"\b(?:tier\s*|t)([1-5])\s*([ab]?)\b(?!\.\d)", normalized):
         result.add("tier:" + match[1])
         if match[2]:
             result.add("tier:" + match[1] + match[2])
@@ -195,7 +196,9 @@ def _requested_models(query: str, named_models: set[str]) -> set[str]:
         text,
     )
     # These numbers qualify a model; they are not themselves model identifiers.
-    text = re.sub(r"\b(?:tier\s*|t)[1-5]\s*[ab]?\b|\bstage\s+(?:[iv]+|[1-5])\b|\bseries\s+\d+\b", " ", text)
+    text = re.sub(
+        r"\b(?:tier\s*|t)[1-5]\s*[ab]?\b(?!\.\d)|\bstage\s+(?:[iv]+|[1-5])\b|\bseries\s+\d+\b", " ", text
+    )
     text = re.sub(
         r"\b(?:s\s*/\s*n|serial(?:\s+number)?)\s*[:#]?\s*\d+(?:\s*(?:to|through|-)\s*\d+)?", " ", text
     )
@@ -237,11 +240,14 @@ def _model_matches(candidate: str | None, requested: str) -> bool:
     )
 
 
-def _compile_model_aliases(model_codes: set[str]) -> tuple[re.Pattern[str], dict[str, str]]:
+@lru_cache(maxsize=8)
+def _compile_model_aliases(model_codes: frozenset[str]) -> tuple[re.Pattern[str], dict[str, str]]:
     """Compile spelling aliases only for identifiers observed in this snapshot."""
-    aliases = {re.sub(r"[\s-]+", "", code): code for code in model_codes}
-    if len(aliases) != len(model_codes):
-        raise ValueError("Observed model identifiers have conflicting canonical spellings")
+    aliases = {}
+    for code in sorted(model_codes, key=lambda value: (len(value), value)):
+        # Expanded storefronts contain both FARMALL 110 U and FARMALL 110U.
+        # Share spelling normalization, but retain every catalog as a candidate.
+        aliases.setdefault(re.sub(r"[\s-]+", "", code), code)
     alternatives = [
         r"[\s-]*".join(re.escape(character) for character in compact)
         for compact in sorted(aliases, key=lambda value: (-len(value), value))
@@ -256,7 +262,11 @@ def _compile_model_aliases(model_codes: set[str]) -> tuple[re.Pattern[str], dict
 
 def _canonical_query(query: str, model_pattern: re.Pattern[str], aliases: dict[str, str]) -> str:
     value = model_pattern.sub(lambda match: aliases[re.sub(r"[\s-]+", "", match[0])], query.casefold())
-    value = re.sub(r"\b(?:case\s+ih|case\s+construction|casece|caseih|case)\b[\s-]*", "", value)
+    value = re.sub(
+        r"\b(?:case\s+ih|case\s+construction|casece|caseih|case|new\s*holland(?:ag|ce)?(?:\s+(?:agriculture|construction))?|nh)\b[\s-]*",
+        "",
+        value,
+    )
     # Preserve dates, variant punctuation and words around the matched model.
     # The same text feeds model constraints and lexical ordering.
     return " ".join(value.split())
@@ -283,7 +293,8 @@ def prepare(records):
 
 def match(prepared, query):
     models = {p["model"] for p in prepared if p["model"]}
-    pattern, aliases = _compile_model_aliases(models)
+    pattern, aliases = _compile_model_aliases(frozenset(models))
+    models = set(aliases.values())
     query = _canonical_query(query, pattern, aliases)
     requirements = _requirements(query)
     requested = _requested_models(query, {m for m in models if not MODEL_CODE.fullmatch(m)})
@@ -295,10 +306,11 @@ def match(prepared, query):
     matches = []
     for item in prepared:
         row = item["record"]["machine"]
+        model_identity = aliases.get(re.sub(r"[\s-]+", "", item["model"] or ""))
         if (
             requirements <= item["requirements"]
             and all(
-                item["model"] == model if model in exact else _model_matches(item["model"], model)
+                model_identity == model if model in exact else _model_matches(model_identity, model)
                 for model in requested
             )
             and not (diesel and item["fuels"] == {"electric"})

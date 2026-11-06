@@ -12,7 +12,7 @@ from cnh_parts_agent import make_lookup_parts_tool
 from cnh_parts_agent.agent.handoff import PartsHandoff, encode_handoff_urls, resolve_handoff_urls
 from cnh_parts_agent.agent.prompts import ORCHESTRATOR_PROMPT
 from cnh_parts_agent.agent.tools import tool_name
-from cnh_parts_agent.diagnostics import record_model_usage
+from cnh_parts_agent.diagnostics import current, record_model_usage
 
 
 class LookupOnly(AgentMiddleware):
@@ -75,6 +75,8 @@ async def run_query(query: str, *, catalog, model, orchestrator_model=None):
     message = result["messages"][-1]
     if not isinstance(message, AIMessage) or message.tool_calls or not message.text:
         raise ValueError("Orchestrator did not return a final textual answer")
+    if (diagnostics := current.get()) is not None:
+        diagnostics.parent_completions.append({"text": message.text, "url_handles": boundary.url_handles})
     return resolve_handoff_urls(
         PartsHandoff(key_facts=[message.text], sources=[], store_url=""), boundary.url_handles
     ).key_facts[0]

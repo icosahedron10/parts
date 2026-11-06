@@ -164,7 +164,7 @@ async def run(args):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--brand", required=True, choices=["casece", "caseih"])
+    parser.add_argument("--brand", required=True, choices=["casece", "caseih", "newhollandag", "newhollandce"])
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--checkpoint", type=Path, required=True)
     parser.add_argument("--max-requests", type=int, default=250)

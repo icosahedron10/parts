@@ -1,0 +1,74 @@
+{
+  "http_attempts": 250,
+  "brands": {
+    "casece": {
+      "discovered_catalogs": 2146,
+      "prepared_catalogs": 1708,
+      "incomplete_catalogs": 438,
+      "sitemap_exhausted": true,
+      "series_total_mismatches": [
+        {
+          "url": "https://www.mycnhstore.com/us/en/casece/na/light-equipment/loader-backhoes/naes49loa034sn/cn/NA_E_S_49_LOA_034_SN",
+          "displayed_total": 44,
+          "unique_catalogs": 43
+        },
+        {
+          "url": "https://www.mycnhstore.com/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/cn/NA_E_S_77_SKI_003_S-SERIES",
+          "displayed_total": 35,
+          "unique_catalogs": 34
+        }
+      ]
+    },
+    "caseih": {
+      "discovered_catalogs": 6311,
+      "prepared_catalogs": 11,
+      "incomplete_catalogs": 6300,
+      "sitemap_exhausted": true,
+      "series_total_mismatches": [
+        {
+          "url": "https://www.mycnhstore.com/us/en/caseih/na/crop-production-equipment/tillage/naab85til051tandemdischarrow/cn/NA_A_B_85_TIL_051_TANDEM_DISC_HARROW",
+          "displayed_total": 98,
+          "unique_catalogs": 96
+        },
+        {
+          "url": "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi184af/cn/NA_A_J_09_AXI_184_AF",
+          "displayed_total": 165,
+          "unique_catalogs": 164
+        },
+        {
+          "url": "https://www.mycnhstore.com/us/en/caseih/na/harvesting-equipment/headers/naaj40hea0653000seriesgrainhead/cn/NA_A_J_40_HEA_065_3000_SERIES_GRAIN_HEAD",
+          "displayed_total": 40,
+          "unique_catalogs": 39
+        },
+        {
+          "url": "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr046maxxum/cn/NA_A_A_01_AGR_046_MAXXUM",
+          "displayed_total": 108,
+          "unique_catalogs": 101
+        },
+        {
+          "url": "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr089under100hp/cn/NA_A_A_01_AGR_089_UNDER_100_HP",
+          "displayed_total": 140,
+          "unique_catalogs": 139
+        },
+        {
+          "url": "https://www.mycnhstore.com/us/en/caseih/na/tractors/agricultural/naaa01agr100magnumafsconnect/cn/NA_A_A_01_AGR_100_MAGNUM_AFS_CONNECT",
+          "displayed_total": 33,
+          "unique_catalogs": 32
+        },
+        {
+          "url": "https://www.mycnhstore.com/us/en/caseih/na/tractors/compact/naaa17com352dxd/cn/NA_A_A_17_COM_352_DXD",
+          "displayed_total": 32,
+          "unique_catalogs": 31
+        }
+      ]
+    }
+  },
+  "complete": false,
+  "request_interval_seconds": [
+    1,
+    1.25
+  ],
+  "stopped": "batch request allowance reached; rerun to resume",
+  "reused_checkpoint_responses": 731,
+  "scope": "Observed sitemap routes and retained historical catalogs; not CNH-wide completeness"
+}

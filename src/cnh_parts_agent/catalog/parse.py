@@ -20,9 +20,9 @@ ORIGIN = "https://www.mycnhstore.com"
 PARSER_VERSION = "cnh-v4"
 UNSUPPLIED_PARTS = frozenset({"NSS", "NLS", "REF"})
 ID_RE = re.compile("[A-Za-z0-9][A-Za-z0-9_-]{0,255}\\Z")
-GROUP_RE = re.compile("[A-Za-z0-9][A-Za-z0-9_&-]{0,255}\\Z")
+GROUP_RE = re.compile("[A-Za-z0-9][A-Za-z0-9_.&-]{0,255}\\Z")
 PART_RE = re.compile("[A-Za-z0-9][A-Za-z0-9._/+() -]{0,119}\\Z")
-SEGMENT_RE = re.compile("[A-Za-z0-9](?:[A-Za-z0-9_.+-]|%26)*\\Z")
+SEGMENT_RE = re.compile("[A-Za-z0-9-](?:[A-Za-z0-9_.+-]|%26)*\\Z")
 DATE_RE = re.compile("\\((\\d{2}/\\d{2}\\s*-\\s*(?:\\d{2}/\\d{2})?)\\)")
 
 
@@ -40,7 +40,7 @@ def identifier(value: Any, *, part: bool = False) -> str:
 
 
 def group_identifier(value: Any, catalog_id: str) -> str:
-    """Group names contain observed ampersands; they are never URL path IDs."""
+    """Group names contain observed ampersands and figure-number dots; never URL path IDs."""
     identifier(catalog_id)
     if (
         not isinstance(value, str)
@@ -121,7 +121,21 @@ def source_link(value: str, *, asset: bool = False, storefront: Storefront = CAS
     if not valid or not parsed.path.startswith(prefix):
         fail("The source link is outside the approved origin and market.")
     segments = parsed.path.strip("/").split("/")
-    if any((segment in (".", "..") or not SEGMENT_RE.fullmatch(segment) for segment in segments)):
+    # Some observed assembly names are just '.', yielding an empty slug. Keep
+    # that exact route; allow no empty segments outside this assembly position.
+    empty_assembly_slug = (
+        not asset
+        and len(segments) == 13
+        and segments[3] == "na"
+        and segments[10] == "cn"
+        and ID_RE.fullmatch(segments[11])
+        and ID_RE.fullmatch(segments[12])
+    )
+    if any(
+        segment in (".", "..")
+        or (not SEGMENT_RE.fullmatch(segment) and not (empty_assembly_slug and i == 9 and segment == ""))
+        for i, segment in enumerate(segments)
+    ):
         fail("The source returned an unsupported link path.")
     return urlunsplit(("https", "www.mycnhstore.com", parsed.path, parsed.query, ""))
 

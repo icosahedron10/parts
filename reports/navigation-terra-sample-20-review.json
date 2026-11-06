@@ -1,0 +1,142 @@
+{
+  "report_sha256": "9200c0a85dfee071f1d1d648a901045355ebf3468dd89540b6823391b853ebac",
+  "model": "gpt-6.1-terra",
+  "sample_size": 20,
+  "seed": 202611041,
+  "review_method": "Manual comparison of all responses and split arguments with recorded assembly occurrences and relationship evidence; no live requests or model calls.",
+  "supported_part_identification_cases": 20,
+  "qualifier_fidelity_cases": 20,
+  "unsupported_part_identifications": 0,
+  "fabricated_url_targets": 0,
+  "presentation_issue_cases": [
+    "Q059.year_between"
+  ],
+  "original_scorer_false_positives": [
+    "Q007.machine_first",
+    "Q058.year_between",
+    "Q040.two_sentences"
+  ],
+  "limits": "Spot check of previously exposed frozen questions, including paraphrases of shared base cases; not independent general accuracy, expanded-brand coverage, serial fitment confirmation, or full-400 threshold evidence.",
+  "cases": [
+    {
+      "id": "Q100.two_sentences",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "84389261 Services 1; no invented kit contents."
+    },
+    {
+      "id": "Q062.year_first",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "47846376 qty 1 in four inspected figures; date/control distinctions retained."
+    },
+    {
+      "id": "Q007.machine_first",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "156602A1 qty 1 radiator cock; original gate false positive from bold Markdown."
+    },
+    {
+      "id": "Q050.two_sentences",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "84324215 four-speed sensor separate from valve included callouts 2–7."
+    },
+    {
+      "id": "Q058.year_between",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "N14103 qty 1 front lip seal in both figures; original gate false positive from bold Markdown."
+    },
+    {
+      "id": "Q063.machine_first",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "218-5155 includes 237-6006; front qty 3 and rear qty 4 correctly separated."
+    },
+    {
+      "id": "Q094.machine_first",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "47620836 350.2 mm front idler; newer figure distinguished from earlier 350 mm listing."
+    },
+    {
+      "id": "Q074.two_sentences",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "47566862 right frame qty 1; LT suffix retained."
+    },
+    {
+      "id": "Q059.year_first",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "Both bracket candidates retained without inventing a replacement relationship not inspected in this case."
+    },
+    {
+      "id": "Q021.two_sentences",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "84259224 57.2 mm rod/82.6 mm bore; callouts 9–13 and 15–17 with 14 excluded."
+    },
+    {
+      "id": "Q055.two_sentences",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "47920944 gray radial F5 angle verified in inspected assembly, qty 1."
+    },
+    {
+      "id": "Q025.year_first",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "84323192 rod dimensions 57.2 x 1137.4 and qty 1 preserved."
+    },
+    {
+      "id": "Q040.year_first",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "84361305 boot callout 3 included by both valve inclusion ranges."
+    },
+    {
+      "id": "Q094.year_between",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "47620836 350.2 mm front idler; date qualification retained."
+    },
+    {
+      "id": "Q005.two_sentences",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "KSJ12240R reman pump distinct from core KSJ12240C; inspected standard and auxiliary coupling evidence."
+    },
+    {
+      "id": "Q078.two_sentences",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "47950633 double-flange roller qty 3 in each side figure."
+    },
+    {
+      "id": "Q069.machine_first",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "47468048 aluminum bar-and-plate radiator qty 1."
+    },
+    {
+      "id": "Q040.two_sentences",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "84361305 boot supported; original gate false positive from bold Markdown."
+    },
+    {
+      "id": "Q027.two_sentences",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "219-1 1/8-27 NPTF nipple qty 2 in both cylinder figures."
+    },
+    {
+      "id": "Q059.year_between",
+      "supported_identification": true,
+      "qualifiers_preserved": true,
+      "review": "47872135 -> 51648930 direction verified in both relationship responses; final second relationship citation has malformed Markdown, but exact observed target."
+    }
+  ]
+}

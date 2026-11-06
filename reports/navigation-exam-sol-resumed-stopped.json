@@ -1,0 +1,8 @@
+{
+  "status": "stopped",
+  "reason": "Owner objected to unapproved expensive model switch; evaluation process terminated and follow-up automation deleted.",
+  "recorded_cases": 96,
+  "report": "navigation-exam-sol-resumed.jsonl",
+  "remaining_cases": "not executed; original report preserved",
+  "default_restored": "gpt-5.6-luna/high"
+}

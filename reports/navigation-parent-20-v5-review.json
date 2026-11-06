@@ -1,0 +1,116 @@
+{
+  "report_sha256": "83cb99b75b9e689911a4510521b43dd3181e9c6c6bd6db643acade2c802dc6bf",
+  "scheduled": 20,
+  "satisfactory": 15,
+  "required": 18,
+  "acceptance_passed": false,
+  "unsupported_component_proposals": [
+    "N018"
+  ],
+  "fabricated_urls": 0,
+  "median_seconds": 20.211,
+  "interactive_http_attempts": 14,
+  "review_basis": "Manual review of split arguments, delivered responses and inspected evidence; original errors remain failures. Unrequested kit-number mentions without claims about contents are not treated as kit-contents answers.",
+  "cases": [
+    {
+      "id": "N001",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N002",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N003",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N004",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N005",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N006",
+      "satisfactory": false,
+      "reason": "Provider returned malformed JSON; no answer delivered."
+    },
+    {
+      "id": "N007",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N008",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N009",
+      "satisfactory": false,
+      "reason": "Parent dropped the request for kit contents. Answer incorrectly said included-item quantities were unavailable, although inspected rows supplied them."
+    },
+    {
+      "id": "N010",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N011",
+      "satisfactory": false,
+      "reason": "Provider returned malformed JSON; no answer delivered."
+    },
+    {
+      "id": "N012",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N013",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N014",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N015",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N016",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N017",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N018",
+      "satisfactory": false,
+      "reason": "Presented windguard tine bar 87033640 alongside pickup tines without establishing that it serves the requested component function."
+    },
+    {
+      "id": "N019",
+      "satisfactory": true,
+      "reason": "Requested finding or evidence-supported ambiguity retained with inspected assembly support."
+    },
+    {
+      "id": "N020",
+      "satisfactory": false,
+      "reason": "Parent dropped the request for included contents from the split arguments, even though the eventual answer appropriately acknowledged missing kit itemization."
+    }
+  ]
+}

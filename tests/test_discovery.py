@@ -53,3 +53,16 @@ def test_invalid_or_duplicate_index_fails(indexes):
     snapshot["records"].append(snapshot["records"][0])
     with pytest.raises(ValueError, match="Duplicate"):
         validate_index(snapshot)
+
+
+def test_expanded_named_model_spacing_preserves_all_catalog_choices(indexes):
+    from cnh_parts_agent.discovery.match import prepare
+
+    records = [copy.deepcopy(indexes["caseih"]["records"][0]) for _ in range(2)]
+    for i, (record, label) in enumerate(zip(records, ("FARMALL 110 U", "FARMALL 110U"), strict=True)):
+        record["machine"]["label"] = label + " - TRACTOR"
+        record["machine"]["machine_ref"]["$ref"]["id"] = f"fixture-{i}"
+    prepared = prepare(records)
+    for query in ("Farmall 110U", "Farmall 110 U", "Case IH Farmall 110U"):
+        assert set(identities(match(prepared, query))) == {"fixture-0", "fixture-1"}
+    assert match(prepared, "Farmall 110V") == []

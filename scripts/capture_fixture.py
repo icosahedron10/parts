@@ -91,7 +91,7 @@ async def run(args):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--brand", required=True, choices=["casece", "caseih"])
+    parser.add_argument("--brand", required=True, choices=["casece", "caseih", "newhollandag", "newhollandce"])
     parser.add_argument("--url", required=True)
     parser.add_argument("--directory", type=Path, required=True)
     parser.add_argument("--name", required=True)

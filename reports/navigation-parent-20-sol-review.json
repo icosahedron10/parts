@@ -1,0 +1,115 @@
+{
+  "report_sha256": "612482fd42d9dee82219334207d095198c5f6ea8ac61c7d9855273f364461982",
+  "scheduled": 20,
+  "satisfactory": 17,
+  "required": 18,
+  "acceptance_passed": false,
+  "unsupported_component_proposals": [],
+  "fabricated_urls": 0,
+  "median_seconds": 19.546999999999997,
+  "interactive_http_attempts": 9,
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "cases": [
+    {
+      "id": "N001",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N002",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N003",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N004",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N005",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N006",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N007",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N008",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N009",
+      "satisfactory": false,
+      "reason": "Valid kit-contents completion rejected by citation punctuation decoder; unchanged replay passes after the fix, but original outcome remains failed."
+    },
+    {
+      "id": "N010",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N011",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N012",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N013",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N014",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N015",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N016",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N017",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    },
+    {
+      "id": "N018",
+      "satisfactory": false,
+      "reason": "Parent hid inspected, supported tine alternatives and returned only a clarification question."
+    },
+    {
+      "id": "N019",
+      "satisfactory": false,
+      "reason": "Parent hid inspected bearing numbers and dimensions and returned only a clarification question."
+    },
+    {
+      "id": "N020",
+      "satisfactory": true,
+      "reason": "Supported finding or appropriately qualified evidence gap; supplied constraints retained."
+    }
+  ]
+}

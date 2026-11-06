@@ -1,0 +1,13 @@
+{
+  "frozen_before_inference": true,
+  "authored_local_date": "2026-11-03",
+  "count": 20,
+  "target": "parent",
+  "threshold": 18,
+  "unsupported_identifications_allowed": 0,
+  "fabricated_urls_allowed": 0,
+  "files": {
+    "queries.jsonl": "38f1852ed915b730a088b0a6281f655b709e9e5cc470bae565f3926a0fa863d5",
+    "rubric.jsonl": "656f717ba3cf445fd7e2cd475c944febc245b39aa3488a2db4fa8b9a1d107911"
+  }
+}

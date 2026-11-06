@@ -1,0 +1,43 @@
+{
+  "purpose": "Post-run offline diagnosis; not a rescore or added holdout case",
+  "probes": [
+    {
+      "query": "IH 1420",
+      "normalized": "ih1420",
+      "candidate_labels": []
+    },
+    {
+      "query": "1420",
+      "normalized": "1420",
+      "candidate_labels": [
+        "1420 - INTERNATIONAL HARVESTER COMBINE (NORTH AMERICA) (01/81 - 12/82)"
+      ]
+    },
+    {
+      "query": "Case IH 1420",
+      "normalized": "case ih1420",
+      "candidate_labels": [
+        "1420 - INTERNATIONAL HARVESTER COMBINE (NORTH AMERICA) (01/81 - 12/82)"
+      ]
+    },
+    {
+      "query": "IH 1470",
+      "normalized": "ih1470",
+      "candidate_labels": []
+    },
+    {
+      "query": "1470",
+      "normalized": "1470",
+      "candidate_labels": [
+        "1470 - INTERNATIONAL HARVESTER HILLSIDE COMBINE (01/80 - 12/87)"
+      ]
+    },
+    {
+      "query": "Case IH 1470",
+      "normalized": "case ih1470",
+      "candidate_labels": [
+        "1470 - INTERNATIONAL HARVESTER HILLSIDE COMBINE (01/80 - 12/87)"
+      ]
+    }
+  ]
+}

@@ -3,48 +3,34 @@
 from __future__ import annotations
 
 import json
-import re
 from typing import Any
 
 from langchain.agents import create_agent
 from langchain.agents.middleware import AgentMiddleware, after_agent, before_agent, before_model
 from langchain.agents.middleware.types import ToolCallRequest
-from langchain.agents.structured_output import ProviderStrategy
-from langchain_core.messages import AIMessage, ToolCall, ToolMessage
+from langchain.agents.structured_output import ProviderStrategy, StructuredOutputValidationError
+from langchain_core.messages import AIMessage, HumanMessage, ToolCall, ToolMessage
 from pydantic import ValidationError
 
-from ..diagnostics import record_model_usage
+from ..catalog import navigation
+from ..diagnostics import current, record_model_usage
 from .handoff import PartsHandoff, catalog_choices_handoff, resolve_handoff_urls
 from .prompts import CATALOG_PROMPT
 from .schemas import TOOL_RESPONSE_MODELS
 from .tools import OPERATIONS, TOOL_REQUEST_MODELS, PartsTools, create_langchain_tools, tool_name
 
 
-def plausible_service_assembly(label: str, part_query: str) -> bool:
-    """Recognize explicit parent-system overlap without guessing part identity."""
-
-    def words(text: str) -> set[str]:
-        """Normalize component words for the bounded assembly-title overlap check."""
-        return set(re.findall(r"[a-z]+", text.casefold().replace("cylinders", "cylinder")))
-
-    requested, assembly = words(part_query), words(label)
-    if "dia kit" in label.casefold() or "index" in assembly or "stocking" in assembly:
-        return False
-    parents = {"radiator", "cylinder", "pump", "brake", "cooler", "harness", "track"}
-    if not (requested & assembly & parents):
-        return False
-    if "cylinder" in requested:
-        for function in ("lift", "bucket", "boom", "steering"):
-            if function in requested and function not in assembly:
-                return False
-    if "pump" in requested:
-        for function in ("hydraulic", "hydrostatic"):
-            if function in requested and function not in assembly:
-                return False
-    return True
+def record_invalid_completion(error: StructuredOutputValidationError) -> bool:
+    """Record failed generation cost and raw output; only malformed JSON is retryable."""
+    message = error.ai_message
+    if (diagnostics := current.get()) is not None:
+        diagnostics.model_errors.append({"type": type(error).__name__, "content": message.content})
+        if message.usage_metadata:
+            diagnostics.model_usage.append(dict(message.usage_metadata))
+    return isinstance(error.source.__cause__, json.JSONDecodeError)
 
 
-# Specialist middleware controls tool visibility, catalog selection, and pending assembly inspection.
+# Specialist middleware controls tool visibility and observed catalog scope.
 class PartsToolBoundary(AgentMiddleware):
     """Enforce tools and observed catalog scope independently of model text."""
 
@@ -63,15 +49,26 @@ class PartsToolBoundary(AgentMiddleware):
         self.client = client
         self.part_query = part_query
         self.assembly_labels: dict[str, str] = {}
-        self.pending_assemblies: set[str] = set()
 
     def wrap_model_call(self, request: Any, handler: Any) -> Any:
         """Expose synchronous model tools allowed by the current catalog-selection and inspection state."""
-        return record_model_usage(handler(request.override(tools=self._available_tools(request.tools))))
+        request = request.override(tools=self._available_tools(request.tools))
+        for attempt in range(2):
+            try:
+                return record_model_usage(handler(request))
+            except StructuredOutputValidationError as error:
+                if not record_invalid_completion(error) or attempt:
+                    raise
 
     async def awrap_model_call(self, request: Any, handler: Any) -> Any:
         """Expose asynchronous model tools allowed by the current catalog-selection and inspection state."""
-        return record_model_usage(await handler(request.override(tools=self._available_tools(request.tools))))
+        request = request.override(tools=self._available_tools(request.tools))
+        for attempt in range(2):
+            try:
+                return record_model_usage(await handler(request))
+            except StructuredOutputValidationError as error:
+                if not record_invalid_completion(error) or attempt:
+                    raise
 
     def _available_tools(self, tools: list[Any]) -> list[Any]:
         # Do not invite calls that the execution boundary would reject. Discovery
@@ -80,13 +77,9 @@ class PartsToolBoundary(AgentMiddleware):
             self.client and self.client.budget.calls >= self.client.budget.max_calls
         ):
             return []
-        if self.pending_assemblies:
-            # Search hits are not verified occurrences. Inspect a plausible
-            # returned parent before spending the remaining budget searching again.
-            return [tool for tool in tools if tool_name(tool) == "get_assembly"]
         allowed = set() if self.machine_ref is not None else {"search_machines"}
         if self.machine_ref is not None:
-            allowed.update({"list_groups", "search_catalog", "get_assembly"})
+            allowed.update({"list_groups", "list_assemblies", "search_catalog", "get_assembly"})
         if self.part_refs:
             allowed.add("get_part_relationships")
         return [tool for tool in tools if tool_name(tool) in allowed]
@@ -114,60 +107,15 @@ class PartsToolBoundary(AgentMiddleware):
             reason = "machine_query_changed"
         elif self.awaiting_selection:
             reason = "machine_selection_required"
-        elif name in {"list_groups", "search_catalog", "get_assembly"} and (
+        elif name in {"list_groups", "list_assemblies", "search_catalog", "get_assembly"} and (
             self.machine_ref is None or arguments.get("machine_ref") != self.machine_ref
         ):
             reason = "machine_selection_required"
         elif name == "get_part_relationships" and arguments.get("part_ref") not in self.part_refs:
             reason = "observed_part_required"
-        elif self.pending_assemblies and name != "get_assembly":
-            reason = "assembly_inspection_required"
-        elif (
-            self.pending_assemblies
-            and arguments.get("assembly_ref") not in self.pending_assemblies
-            # A title heuristic must not exclude an observed assembly whose rows
-            # match the component. PartsTools still validates catalog ownership.
-            and arguments.get("assembly_ref") not in self.assembly_labels
-        ):
-            reason = "assembly_inspection_required"
-        elif (
-            name == "get_assembly"
-            and self.part_query
-            and re.search(
-                r"\bPICTORIAL INDEX\b",
-                self.assembly_labels.get(arguments.get("assembly_ref", ""), ""),
-                re.IGNORECASE,
-            )
-            and not re.search(r"\b(?:index|diagram|illustration)\b", self.part_query, re.IGNORECASE)
-        ):
-            reason = "navigation_index_not_parts"
-        elif (
-            name == "get_assembly"
-            and self.part_query
-            and re.search(
-                r"\bDIA KIT\b", self.assembly_labels.get(arguments.get("assembly_ref", ""), ""), re.IGNORECASE
-            )
-            and not re.search(
-                r"\b(?:diagnostic|accessory|dia)\b|(?<!seal )(?<!repair )(?<!rebuild )\bkit\b",
-                self.part_query,
-                re.IGNORECASE,
-            )
-        ):
-            reason = "assembly_scope_conflict"
         else:
             return None
-        message = (
-            "A pictorial index is navigation, not a parts occurrence table. "
-            "Choose a returned service assembly for the requested component while budget remains."
-            if reason == "navigation_index_not_parts"
-            else "Inspect a returned assembly matching the requested parent before searching again."
-            if reason == "assembly_inspection_required"
-            else "This is a diagnostic/accessory kit, not the requested service component. "
-            "Choose a matching service assembly or search its parent system while budget remains. "
-            "This is a scope check, not a source outage or a request for machine details."
-            if reason == "assembly_scope_conflict"
-            else "Return clarification to the host."
-        )
+        message = "Use observed references within the selected catalog, or return clarification to the host."
         payload = (
             self.client.reject_tool(name, reason, message)
             if self.client
@@ -186,11 +134,7 @@ class PartsToolBoundary(AgentMiddleware):
             self.machine_ref = None
             self.part_refs.clear()
             self.assembly_labels.clear()
-            self.pending_assemblies.clear()
             self.awaiting_selection = False
-        elif operation == "get_assembly":
-            # A source failure must not trap the model in an automatic retry.
-            self.pending_assemblies.clear()
         if not isinstance(result, ToolMessage) or result.status == "error":
             return result
         try:
@@ -201,6 +145,8 @@ class PartsToolBoundary(AgentMiddleware):
                 return result
             TOOL_RESPONSE_MODELS[operation].model_validate(payload)
         except (ValueError, TypeError, ValidationError):
+            if (diagnostics := current.get()) is not None:
+                diagnostics.boundary_errors.append({"operation": operation, "code": "invalid_tool_response"})
             return ToolMessage(
                 content=json.dumps({"error": {"code": "invalid_tool_response", "retryable": False}}),
                 name=operation,
@@ -222,16 +168,6 @@ class PartsToolBoundary(AgentMiddleware):
                         if row.get("assembly_ref") and row.get("assembly_label")
                     }
                 )
-                if operation == "search_catalog" and self.part_query:
-                    plausible = {
-                        row["assembly_ref"]
-                        for row in rows
-                        if row.get("assembly_ref")
-                        and plausible_service_assembly(row.get("assembly_label") or "", self.part_query)
-                    }
-                    # Broad parent overlap across several assemblies is ambiguous;
-                    # keep refinement available rather than forcing an arbitrary one.
-                    self.pending_assemblies = plausible if len(plausible) == 1 else set()
         if request.tool_call["name"] == "search_machines" and isinstance(result, ToolMessage):
             if isinstance(result.content, str):
                 if "error" not in payload:
@@ -348,8 +284,55 @@ def create_parts_retriever(
             """Invoke the discovery tool using the middleware-validated tool-call request."""
             return await discovery_tool.ainvoke(request.tool_call)
 
-        response = await boundary.awrap_tool_call(request, execute)
-        return {"messages": [AIMessage(content="", tool_calls=[call]), response]}
+        client.host_loading = True
+        try:
+            response = await boundary.awrap_tool_call(request, execute)
+            messages = [AIMessage(content="", tool_calls=[call]), response]
+            if boundary.machine_ref is not None:
+                machine = client.handles[boundary.machine_ref]
+                directory = navigation.read(client.catalog.cache.connection, machine)
+                if directory:
+                    # Compact titles are routing data, not evidence of part identity.
+                    entries = directory["entries"]
+                    compact = {
+                        "machine_ref": boundary.machine_ref,
+                        "coverage": "complete directory" if directory["complete"] else "partial directory",
+                        "assembly_count": len(entries),
+                        "observed_at": sorted({e["observed_at"] for e in directory["evidence"]}),
+                    }
+                    if len(entries) <= 400:
+                        compact["assemblies"] = [
+                            {
+                                "assembly_ref": client.encode_references(e["assembly_ref"], "assembly_ref"),
+                                "title": e["title"],
+                                **({"stale": True} if e["stale"] else {}),
+                            }
+                            for e in entries
+                        ]
+                    else:
+                        compact["groups"] = [
+                            {
+                                "group_ref": client.encode_references(g["group_ref"], "group_ref"),
+                                "title": g["label"],
+                            }
+                            for g in directory["groups"]
+                        ]
+                    messages.append(
+                        HumanMessage(
+                            content="Host local navigation (dated source data): " + json.dumps(compact)
+                        )
+                    )
+                else:
+                    messages.append(
+                        HumanMessage(
+                            content="Host local navigation: no stored directory for "
+                            + boundary.machine_ref
+                            + ". Use targeted search_catalog fallback."
+                        )
+                    )
+            return {"messages": messages}
+        finally:
+            client.host_loading = False
 
     @before_model(can_jump_to=["end"])
     def clarify_catalog(state: Any, runtime: Any) -> dict[str, Any] | None:
@@ -379,15 +362,34 @@ def create_parts_retriever(
     @after_agent
     def resolve_sources(state: Any, runtime: Any) -> dict[str, Any]:
         """Validate the structured handoff and restore exact observed source URLs from child-local handles."""
-        handoff = resolve_handoff_urls(PartsHandoff.model_validate(state["structured_response"]), url_handles)
+        candidate = PartsHandoff.model_validate(state["structured_response"])
+        if (diagnostics := current.get()) is not None:
+            diagnostics.model_completions.append(candidate.model_dump_json())
+        handoff = resolve_handoff_urls(candidate, url_handles)
         products = {
             row.get("product_url")
             for observation in client.observations
-            for row in observation["response"].get("data", {}).get("matches", [])
-            + observation["response"].get("data", {}).get("occurrences", [])
+            if observation["operation"] == "get_assembly"
+            for row in observation["response"].get("data", {}).get("occurrences", [])
+            if row.get("assembly_url") in handoff.sources
         }
         if handoff.store_url and handoff.store_url not in products:
-            raise ValueError("store_url must be an observed product URL")
+            raise ValueError("store_url must be an observed product URL from a cited inspected assembly")
+        search_products = {
+            row.get("product_url")
+            for observation in client.observations
+            if observation["operation"] == "search_catalog"
+            for row in observation["response"].get("data", {}).get("matches", [])
+            if row.get("product_url")
+        }
+        relationship_sources = {
+            item["source_url"]
+            for observation in client.observations
+            if observation["operation"] == "get_part_relationships"
+            for item in observation["response"].get("evidence", [])
+        }
+        if set(handoff.sources) & (search_products - products - relationship_sources):
+            raise ValueError("Product citations require a cited inspected assembly or observed relationship")
         final = state["messages"][-1]
         if not isinstance(final, AIMessage) or final.tool_calls:
             raise ValueError("The specialist did not finish with a structured handoff")

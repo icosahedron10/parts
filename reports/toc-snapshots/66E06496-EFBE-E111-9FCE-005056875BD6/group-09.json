@@ -1,0 +1,51 @@
+{
+  "url": "https://www.mycnhstore.com/us/en/caseih/cn/findAssembly/functionalGroupCode/66E06496-EFBE-E111-9FCE-005056875BD6_62_PRESSING_-_BALE_FORMATION/NA_A_D_72_ROU_022_RBX",
+  "observed_at": "2026-11-04T04:15:54.567657+00:00",
+  "content_hash": "sha256:bb46a46be084a83c8972c50912c1c079d17aded68620929522c61b73fffde5a9",
+  "rows": [
+    {
+      "serieCode": "NA_A_D_72_ROU_022_RBX",
+      "modelCode": "66E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "A5539851-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "012 - TAILGATE SPRING",
+      "functionalGroup": "{\"66E06496-EFBE-E111-9FCE-005056875BD6_62_PRESSING_-_BALE_FORMATION\":\"62. PRESSING - BALE FORMATION\"}",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-C47162E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDYzMjE0fGltYWdlL3BuZ3xhRFZsTDJneU5pODRPRGs1TkRFMk5UVTFOVFV3TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxVTTBOekUyTWtVeUxUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8MjVjMWI3ZDU1ZDI1NzFkYjc5NjM1YzA4ZjQ4N2U3YzMyYjg2MWQ3ODY1ZDhlYWYxYTI2YmEyYWNhNDliOTNkNQ",
+      "modelFullName": null,
+      "brandCode": "A",
+      "showNote": null,
+      "functionalGroupCode": "66E06496-EFBE-E111-9FCE-005056875BD6_62_PRESSING_-_BALE_FORMATION",
+      "subAssemblyUrl": "012---TAILGATE-SPRING",
+      "subFunctionalGroupUrl": "66E06496-EFBE-E111-9FCE-005056875BD6-62-PRESSING---BALE-FORMATION",
+      "id": "012 ",
+      "name": " TAILGATE SPRING",
+      "numberFoundPerRegions": null,
+      "score": 1.0,
+      "assemblyUrl": "/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/pressing-bale-formation/tailgate-spring/cn/A5539851-8FBF-E111-9FCE-005056875BD6",
+      "subsectionCodeList": null,
+      "has3DFlag": null
+    },
+    {
+      "serieCode": "NA_A_D_72_ROU_022_RBX",
+      "modelCode": "66E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "672CAC82-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "013 - TAILGATE",
+      "functionalGroup": "{\"66E06496-EFBE-E111-9FCE-005056875BD6_62_PRESSING_-_BALE_FORMATION\":\"62. PRESSING - BALE FORMATION\"}",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-E57162E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDEzOTgzNXxpbWFnZS9wbmd8YURneEwyaGlNaTg0T0RjMU5qTTRPRGd5TXpNMEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVVUxTnpFMk1rVXlMVGhGUWtZdFJURXhNUzA1UmtORkxUQXdOVEExTmpnM05VSkVOaTV3Ym1jfDVhNmU0NjMwOTZiZmI1ODE0MmRmY2NjZWZkNDM0Y2EzMGY0NTBkZDFkNjYwM2EzYzNmNmFlZDEwNjBkZmI4YjI",
+      "modelFullName": null,
+      "brandCode": "A",
+      "showNote": null,
+      "functionalGroupCode": "66E06496-EFBE-E111-9FCE-005056875BD6_62_PRESSING_-_BALE_FORMATION",
+      "subAssemblyUrl": "013---TAILGATE",
+      "subFunctionalGroupUrl": "66E06496-EFBE-E111-9FCE-005056875BD6-62-PRESSING---BALE-FORMATION",
+      "id": "013 ",
+      "name": " TAILGATE",
+      "numberFoundPerRegions": null,
+      "score": 1.0,
+      "assemblyUrl": "/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/pressing-bale-formation/tailgate/cn/672CAC82-8FBF-E111-9FCE-005056875BD6",
+      "subsectionCodeList": null,
+      "has3DFlag": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.mycnhstore.com/us/en/caseih/cn/findAssembly/functionalGroupCode/66E06496-EFBE-E111-9FCE-005056875BD6_90_PLATFORM_CAB_BODYWORK_AND_DECALS/NA_A_D_72_ROU_022_RBX",
+  "observed_at": "2026-11-04T04:15:58.902111+00:00",
+  "content_hash": "sha256:548d2b1ec234edd5cb3d8c752d02adf60699e35d9fa34d46d466451d1a4689ab",
+  "rows": [
+    {
+      "serieCode": "NA_A_D_72_ROU_022_RBX",
+      "modelCode": "66E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "9D1E7A67-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "014 - SHIELDING",
+      "functionalGroup": "{\"66E06496-EFBE-E111-9FCE-005056875BD6_90_PLATFORM_CAB_BODYWORK_AND_DECALS\":\"90. PLATFORM, CAB, BODYWORK AND DECALS\"}",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-846E62E2-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDE4NzM3NnxpbWFnZS9wbmd8YURVNUwyZzFaUzg0T0RneE9UTTRNekF3T1RVNEwzUmxZMmhrY21GM2FXNW5MV0Z6YzJWdFlteDVMVGcwTmtVMk1rVXlMVGhGUWtZdFJURXhNUzA1UmtORkxUQXdOVEExTmpnM05VSkVOaTV3Ym1jfGUxYzY1ZTYyMWE5MzFkY2ZkNzFjNmUxM2VjMzlhNDU5MTc3MWJjYjlhMDFmNTA5MmU3NjhmM2U0MjQ4ODA5NzA",
+      "modelFullName": null,
+      "brandCode": "A",
+      "showNote": null,
+      "functionalGroupCode": "66E06496-EFBE-E111-9FCE-005056875BD6_90_PLATFORM_CAB_BODYWORK_AND_DECALS",
+      "subAssemblyUrl": "014---SHIELDING",
+      "subFunctionalGroupUrl": "66E06496-EFBE-E111-9FCE-005056875BD6-90-PLATFORM-CAB-BODYWORK-AND-DECALS",
+      "id": "014 ",
+      "name": " SHIELDING",
+      "numberFoundPerRegions": null,
+      "score": 1.0,
+      "assemblyUrl": "/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/platform-cab-bodywork-and-decals/shielding/cn/9D1E7A67-8FBF-E111-9FCE-005056875BD6",
+      "subsectionCodeList": null,
+      "has3DFlag": null
+    },
+    {
+      "serieCode": "NA_A_D_72_ROU_022_RBX",
+      "modelCode": "66E06496-EFBE-E111-9FCE-005056875BD6",
+      "assemblyCode": "C4C73E73-8FBF-E111-9FCE-005056875BD6",
+      "assemblyFullName": "022 - DECALS",
+      "functionalGroup": "{\"66E06496-EFBE-E111-9FCE-005056875BD6_90_PLATFORM_CAB_BODYWORK_AND_DECALS\":\"90. PLATFORM, CAB, BODYWORK AND DECALS\"}",
+      "technicalTypes": null,
+      "urlAssemblyImage": "/medias/techdrawing-assembly-402E68E4-8EBF-E111-9FCE-005056875BD6.png?context=bWFzdGVyfGRyYXdpbmdzLW1lZGlhfDY3MTY4fGltYWdlL3BuZ3xhR1JsTDJnd1ppODRPVEUwTWpVeE5qUTBPVFU0TDNSbFkyaGtjbUYzYVc1bkxXRnpjMlZ0WW14NUxUUXdNa1UyT0VVMExUaEZRa1l0UlRFeE1TMDVSa05GTFRBd05UQTFOamczTlVKRU5pNXdibWN8MmU4NWIyYzYwMTA3YmQ4OGZjYjMxYTRkN2FiOTc4NGI5YWQzOWRmMDBkNDA3MDg3ZWViODllYWM0YTAwMWI2NQ",
+      "modelFullName": null,
+      "brandCode": "A",
+      "showNote": null,
+      "functionalGroupCode": "66E06496-EFBE-E111-9FCE-005056875BD6_90_PLATFORM_CAB_BODYWORK_AND_DECALS",
+      "subAssemblyUrl": "022---DECALS",
+      "subFunctionalGroupUrl": "66E06496-EFBE-E111-9FCE-005056875BD6-90-PLATFORM-CAB-BODYWORK-AND-DECALS",
+      "id": "022 ",
+      "name": " DECALS",
+      "numberFoundPerRegions": null,
+      "score": 1.0,
+      "assemblyUrl": "/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/platform-cab-bodywork-and-decals/decals/cn/C4C73E73-8FBF-E111-9FCE-005056875BD6",
+      "subsectionCodeList": null,
+      "has3DFlag": null
+    }
+  ]
+}

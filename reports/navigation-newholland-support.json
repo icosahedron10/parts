@@ -1,0 +1,42 @@
+{
+  "storefronts": [
+    "newhollandag",
+    "newhollandce"
+  ],
+  "route_evidence": {
+    "url": "https://www.mycnhstore.com/us/en/casece/sitemap-equipment",
+    "observed_at": "2026-11-04T04:57:08.359558+00:00",
+    "content_hash": "sha256:317c53cfce8e9f2bf86b48f61242f94411fa5953531435cade9f2a9d4877acbf"
+  },
+  "observed_links": [
+    "/us/en/newhollandag/",
+    "/us/en/newhollandce/"
+  ],
+  "queue_order": [
+    "casece",
+    "caseih",
+    "newhollandag",
+    "newhollandce"
+  ],
+  "new_holland_state": "queued_after_caseih",
+  "live_new_holland_validation": "pending first queued collection; no concurrent probe transport launched",
+  "http_requests_for_support_work": 0,
+  "paid_model_calls": 0,
+  "batch_attempt_limit": 250,
+  "request_interval_seconds": [
+    1,
+    1.25
+  ],
+  "batch_pause_seconds": [
+    120,
+    300
+  ],
+  "collection_script": "scripts/prepare_navigation.py",
+  "validation": {
+    "full_suite_passed": 309,
+    "additional_transport_tests_passed": 2,
+    "new_holland_focused_tests_passed": 7,
+    "lint": "passed",
+    "fixtures": "Namespace-adapted CASE fixtures test common contracts; not claimed as live New Holland captures."
+  }
+}

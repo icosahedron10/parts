@@ -1,0 +1,93 @@
+{
+  "goal_complete": false,
+  "model_evaluation_blocker": null,
+  "requirements": [
+    {
+      "requirement": "Local observed navigation, atomic publication, checkpoints and stale-route repair",
+      "status": "verified",
+      "evidence": "src/cnh_parts_agent/catalog/navigation.py; scripts/prepare_navigation.py; tests/test_navigation.py"
+    },
+    {
+      "requirement": "Six retained contents captures",
+      "status": "verified",
+      "evidence": "reports/navigation-snapshot-import-audit.json: six imported into isolated SQLite, zero HTTP; raw group hash limitation retained"
+    },
+    {
+      "requirement": "Both storefront sitemap discovery queues",
+      "status": "verified",
+      "evidence": "reports/navigation-preparation-batch-005.json: 2146 CASE CE and 6311 Case IH discovered; both sitemap queues exhausted"
+    },
+    {
+      "requirement": "Prepare discovered catalog directories until exhausted or source failure requiring intervention",
+      "status": "in_progress",
+      "evidence": "Resumable foreground preparation; batch 46 parser rejection fixed after exact source URL verification; reports/navigation-coverage.json remains partial"
+    },
+    {
+      "requirement": "Deterministic machine resolution; frozen 180 candidate sets and 147 alias orderings",
+      "status": "verified",
+      "evidence": "tests/test_discovery.py and frozen fixture; full offline suite 302 passed"
+    },
+    {
+      "requirement": "Expanded-index behavior separate from bundled frozen indexes",
+      "status": "verified",
+      "evidence": "reports/navigation-expanded-discovery.json; bundled wheel retains 1339/23 catalogs"
+    },
+    {
+      "requirement": "Compact local directories, 400 threshold, 200-row browsing and scoped handles",
+      "status": "verified",
+      "evidence": "agent/specialist.py, agent/tools.py, tests/test_navigation.py"
+    },
+    {
+      "requirement": "Eight specialist actions, host loading free, 180-second deadline, repeated observation memo",
+      "status": "verified",
+      "evidence": "tests/test_specialist.py and tests/test_navigation.py, including eight-action finalization regression"
+    },
+    {
+      "requirement": "30-day configurable positive TTL, one-hour empty TTL, old timestamps/expiry retained",
+      "status": "verified",
+      "evidence": "settings.py, catalog/client.py and cache-expiry regressions"
+    },
+    {
+      "requirement": "Controlled one-cold/zero-warm lookup and zero-network local browsing",
+      "status": "verified",
+      "evidence": "tests/test_navigation.py; 57 unique live cached assembly replays also made zero HTTP attempts"
+    },
+    {
+      "requirement": "Parent qualifier fidelity with explicit dimensions and model variants",
+      "status": "verified",
+      "evidence": "reports/navigation-parent-argument-fidelity.json: all six captured argument sets preserve requested qualifiers"
+    },
+    {
+      "requirement": "Known hard cases and figure-following, including seal-kit inclusion exceptions",
+      "status": "partial",
+      "evidence": "20-case semantic review covers filters, linkage, master cylinders, teeth/tines and kit contents; final-profile direct difficult-case run remains pending"
+    },
+    {
+      "requirement": "Frozen expanded-brand 20-case acceptance >=18 and no unsupported identifications/URLs",
+      "status": "verified",
+      "evidence": "reports/navigation-parent-20-sol-v2-review.json: 19/20, zero unsupported identifications or fabricated URLs; original graph-limit failure retained"
+    },
+    {
+      "requirement": "Complete frozen-scope 400-case comparison >=370 recovery and >=335 cited context",
+      "status": "superseded_by_owner",
+      "evidence": "20-case Terra sample reviewed; historical 400-case thresholds not claimed"
+    },
+    {
+      "requirement": "Separate preparation/interactive traffic and cold/warm cost accounting",
+      "status": "partial",
+      "evidence": "Recorded separately in preparation batch reports, coverage audit, completed 20-case reports and warm replay; complete 400-case traffic comparison pending"
+    },
+    {
+      "requirement": "Integration documentation, no added service/scheduler/full parts crawl",
+      "status": "verified",
+      "evidence": "README.md, .env.example; one paced foreground preparation command, on-demand parts only"
+    },
+    {
+      "requirement": "New Holland Agriculture and Construction support and queued catalog preparation after Case IH",
+      "status": "in_progress",
+      "evidence": "reports/navigation-newholland-support.json; tests/test_newholland.py; New Holland collection queued, coverage unknown"
+    }
+  ],
+  "evaluation_policy": "Owner replaced routine full-400 requirement with random 20-case Terra sample on 2026-11-04",
+  "terra_sample_review": "navigation-terra-sample-20-review.json"
+}

@@ -1,0 +1,90 @@
+{
+  "source_sha256": "c4d51ba9de9490d2253d9b5f676ebd71a08293f91570f3fc4c3fbbff4f056cd3",
+  "offline_tests": {
+    "passed": 302,
+    "failed": 0
+  },
+  "lint": "passed",
+  "wheel_build": "passed",
+  "wheel_bundled_catalogs": {
+    "casece": 1339,
+    "caseih": 23
+  },
+  "frozen_exam_integrity": "passed",
+  "frozen_discovery": {
+    "candidate_sets": 180,
+    "alias_order_comparisons": 147,
+    "preserved": true
+  },
+  "controlled_prepared_single_assembly_requests": {
+    "cold": 1,
+    "warm": 0,
+    "local_navigation": 0
+  },
+  "live_acceptance": {
+    "new_parent_cases": "19/20 satisfactory; see navigation-parent-20-sol-v2-review.json",
+    "frozen_400": {
+      "status": "Stopped by owner for cost; routine policy superseded by 20-case sampling, thresholds not demonstrated",
+      "record_statuses": {
+        "received": 26,
+        "error": 109,
+        "not_run": 265
+      },
+      "candidate_recovery": 26,
+      "cited_context": 26,
+      "required_recovery": 370,
+      "required_cited_context": 335,
+      "complete_comparison": false,
+      "report": "navigation-exam-sol.jsonl",
+      "score": "navigation-exam-sol-quota-interrupted-score.json",
+      "replacement_report": "navigation-exam-sol-resumed.jsonl"
+    },
+    "terra_sample_20": {
+      "review": "navigation-terra-sample-20-review.json",
+      "score": "navigation-terra-sample-20-score-v2.json",
+      "supported_identifications": 20,
+      "qualifier_fidelity": 20,
+      "presentation_issues": 1
+    }
+  },
+  "preparation": "incomplete; CASE, Case IH, New Holland Agriculture and New Holland Construction scope; see navigation-coverage.json",
+  "citation_replay": {
+    "report": "navigation-parent-20-v4.jsonl",
+    "unchanged_parent_completions_now_valid": [
+      "N001",
+      "N005",
+      "N011",
+      "N014",
+      "N017"
+    ],
+    "original_failed_statuses_preserved": true
+  },
+  "notes": [
+    "Replay validates serialization only, not answer correctness.",
+    "Frozen new cases have been rerun during development; they are regression cases, not an untouched independent accuracy estimate."
+  ],
+  "model_profile": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium"
+  },
+  "argument_fidelity": {
+    "status": "verified",
+    "passed": 6,
+    "total": 6,
+    "report": "navigation-parent-argument-fidelity.json",
+    "scope": "Real parent model, public schema, mocked lookup to capture arguments; zero site requests"
+  },
+  "quota_failure_behavior": "Evaluation runner now stops on explicit exhausted-credit errors while retaining all scheduled cases; transient rate limiting is not classified as exhausted credit.",
+  "empty_slug_routes": {
+    "status": "verified",
+    "evidence": "navigation-empty-slug-source-check.json and test_observed_empty_assembly_slug_is_preserved_and_scoped",
+    "note": "Exact observed empty assembly-name segment loads a CNH page; accepted only in scoped assembly route position. Prior live model reports predate this parser change."
+  },
+  "current_model_profile": {
+    "model": "gpt-6.1-terra",
+    "reasoning_effort": "high",
+    "owner_authorized": true
+  },
+  "evaluation_policy": "Routine 20-case sample; no additional paid evaluation or model change without approval",
+  "new_holland_support": "reports/navigation-newholland-support.json"
+}

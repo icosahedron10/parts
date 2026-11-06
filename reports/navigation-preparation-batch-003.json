@@ -1,0 +1,19 @@
+{
+  "http_attempts": 250,
+  "brands": {
+    "casece": {
+      "discovered_catalogs": 2146,
+      "prepared_catalogs": 7,
+      "incomplete_catalogs": 2139,
+      "sitemap_exhausted": true
+    },
+    "caseih": {
+      "discovered_catalogs": 3327,
+      "prepared_catalogs": 1,
+      "incomplete_catalogs": 3326,
+      "sitemap_exhausted": false
+    }
+  },
+  "complete": false,
+  "stopped": "batch request allowance reached; rerun to resume"
+}

@@ -1,0 +1,250 @@
+{
+  "scope": "Evaluation catalogs prepared first; global navigation remains partial",
+  "catalogs": [
+    {
+      "label": "1420 - INTERNATIONAL HARVESTER COMBINE (NORTH AMERICA) (01/81 - 12/82)",
+      "machine": {
+        "kind": "machine",
+        "id": "0DCB6496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-combine-north-america/cn/0DCB6496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "caseih-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "W20C - CASE WHEEL LOADER (NORTH AMERICA) (01/82 - 12/89)",
+      "machine": {
+        "kind": "machine",
+        "id": "D8E26496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe018w/case-wheel-loader-north-america/cn/D8E26496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": true
+    },
+    {
+      "label": "1470 - INTERNATIONAL HARVESTER HILLSIDE COMBINE (01/80 - 12/87)",
+      "machine": {
+        "kind": "machine",
+        "id": "25CB6496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/caseih/na/harvesting-equipment/axial-rotary-combines/naaj09axi0211400series/international-harvester-hillside-combine/cn/25CB6496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "caseih-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "7110 - CASE IH MAGNUM TRACTOR (NORTH AMERICA) (10/87 - 12/93)",
+      "machine": {
+        "kind": "machine",
+        "id": "EDD26496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/cn/EDD26496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "caseih-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "7140 - CASE IH MAGNUM TRACTOR (NORTH AMERICA) (10/87 - 12/93)",
+      "machine": {
+        "kind": "machine",
+        "id": "F8D26496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/cn/F8D26496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "caseih-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "7120 - CASE IH MAGNUM TRACTOR (NORTH AMERICA) (10/87 - 12/93)",
+      "machine": {
+        "kind": "machine",
+        "id": "F2D26496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/cn/F2D26496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "caseih-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "7150 - CASE IH MAGNUM TRACTOR (01/87 - 12/93)",
+      "machine": {
+        "kind": "machine",
+        "id": "FCD26496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor/cn/FCD26496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "caseih-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "1845C - CASE UNI-LOADER SKID STEER LOADER (NORTH AMERICA) (01/85 - 12/95)",
+      "machine": {
+        "kind": "machine",
+        "id": "D1CB6496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski007uni-loader/case-uni-loader-skid-steer-loader-north-america/cn/D1CB6496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "7130 - CASE IH MAGNUM TRACTOR (NORTH AMERICA) (10/87 - 12/93)",
+      "machine": {
+        "kind": "machine",
+        "id": "F4D26496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/caseih/na/tractors/agricultural/naaa01agr100magnum7100series/case-ih-magnum-tractor-north-america/cn/F4D26496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "caseih-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "621B - CASE WHEEL LOADER (NORTH AMERICA) (03/93 - 12/98)",
+      "machine": {
+        "kind": "machine",
+        "id": "D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04021b/case-wheel-loader-north-america/cn/D8D16496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": true
+    },
+    {
+      "label": "1840 - CASE UNI-LOADER SKID STEER LOADER (01/89 - 12/01)",
+      "machine": {
+        "kind": "machine",
+        "id": "C9CB6496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski007uni-loader/case-uni-loader-skid-steer-loader/cn/C9CB6496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "RBX462 - CASE IH ROUND BALER (01/03 - 12/05)",
+      "machine": {
+        "kind": "machine",
+        "id": "6DE06496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/cn/6DE06496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "caseih-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "RBX562 - CASE IH ROUND BALER (09/02 - 07/05)",
+      "machine": {
+        "kind": "machine",
+        "id": "72E06496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/cn/72E06496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "caseih-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "CX130 - CASE CRAWLER EXCAVATOR (NORTH AMERICA) (04/00 - 12/08)",
+      "machine": {
+        "kind": "machine",
+        "id": "FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra308cx/case-crawler-excavator-north-america/cn/FFD96496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": true
+    },
+    {
+      "label": "RBX463 - CASE IH ROUND BALER (09/05 - 07/07)",
+      "machine": {
+        "kind": "machine",
+        "id": "6EE06496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/caseih/na/balers/round-balers/naad72rou022rbx/case-ih-round-baler/cn/6EE06496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "caseih-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "CX350B - CRAWLER EXCAVATOR TIER 3 (NA) (05/08 - 11/18)",
+      "machine": {
+        "kind": "machine",
+        "id": "6EDA6496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/cn/6EDA6496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "580N - LOADER BACKHOE (TIER 3) (04/10 - 01/16)",
+      "machine": {
+        "kind": "machine",
+        "id": "E8D06496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/casece/na/light-equipment/loader-backhoes/naes49loa028n/loader-backhoe-tier-3/cn/E8D06496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "CX210B - CRAWLER EXCAVATOR TIER 3 (NA) (01/07 - 01/19)",
+      "machine": {
+        "kind": "machine",
+        "id": "28DA6496-EFBE-E111-9FCE-005056875BD6",
+        "context": null,
+        "path": "/us/en/casece/na/heavy-equipment/crawler-excavators/naer24cra312cxb/crawler-excavator-tier-3-na/cn/28DA6496-EFBE-E111-9FCE-005056875BD6",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": true
+    },
+    {
+      "label": "SR210 - SKID STEER LOADER - TIER 4B (10/13 - 01/20)",
+      "machine": {
+        "kind": "machine",
+        "id": "6F7909BA-F6C7-454F-AC12-DF038474C549",
+        "context": null,
+        "path": "/us/en/casece/na/light-equipment/skid-steer-loaders/naes77ski003s-series/skid-steer-loader-tier-4b/cn/6F7909BA-F6C7-454F-AC12-DF038474C549",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "TR340 - COMPACT TRACK LOADER - TIER 4B (03/15 - 04/17)",
+      "machine": {
+        "kind": "machine",
+        "id": "70783C13-7670-4C0D-BC3A-870F79D7FA11",
+        "context": null,
+        "path": "/us/en/casece/na/light-equipment/compact-track-loaders/naes18com003s-series/compact-track-loader-tier-4b/cn/70783C13-7670-4C0D-BC3A-870F79D7FA11",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "621G - WHEEL LOADER - TIER 4B (NA) (11/16 - 07/18)",
+      "machine": {
+        "kind": "machine",
+        "id": "4D9FA0AD-AAC4-4ABA-8A38-115098A9B7B9",
+        "context": null,
+        "path": "/us/en/casece/na/heavy-equipment/wheel-loaders/naer90whe04521g/wheel-loader-tier-4b-na/cn/4D9FA0AD-AAC4-4ABA-8A38-115098A9B7B9",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": false
+    },
+    {
+      "label": "850M LT - CRAWLER DOZER - TIER 4B (12/16 - 12/23)",
+      "machine": {
+        "kind": "machine",
+        "id": "7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+        "context": null,
+        "path": "/us/en/casece/na/heavy-equipment/crawler-dozers/naer23cra133800/crawler-dozer-tier-4b/cn/7E53B325-BF8C-4CD5-850B-F41B26DD9D1E",
+        "source_id": "casece-us-en"
+      },
+      "reused_complete_directory": false
+    }
+  ],
+  "http_attempts": 254,
+  "complete_for_requested_catalogs": true,
+  "batch_size": 250
+}
